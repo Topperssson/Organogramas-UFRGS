@@ -1,0 +1,447 @@
+{
+  "app": "trajetoria_eca_ufrgs",
+  "version": "2.0.0",
+  "exportedAt": "2026-10-10T01:51:29.263Z",
+  "currentFdc": 2,
+  "baseYear": "2023",
+  "basePeriod": "1",
+  "columnNames": {
+    "1": "2023/1",
+    "2": "2023/2",
+    "3": "2024/1",
+    "4": "2024/2",
+    "5": "2025/1",
+    "6": "2025/2",
+    "7": "2026/1",
+    "8": "2026/2",
+    "9": "2027/1",
+    "10": "2027/2",
+    "11": "2028/1",
+    "12": "2028/2",
+    "13": "2029/1",
+    "14": "2029/2",
+    "15": "2030/1",
+    "16": "2030/2",
+    "17": "2031/1",
+    "18": "2031/2",
+    "19": "2032/1",
+    "20": "2032/2"
+  },
+  "allocations": {
+    "INF01202": {
+      "semester": 1,
+      "completed": true,
+      "hasOverflow": false
+    },
+    "MAT01353": {
+      "semester": 1,
+      "completed": true,
+      "hasOverflow": false
+    },
+    "FIS01181": {
+      "semester": 2,
+      "completed": true,
+      "hasOverflow": false
+    },
+    "ARQ03317": {
+      "semester": 1,
+      "completed": true,
+      "hasOverflow": false
+    },
+    "CCA99001": {
+      "semester": 1,
+      "completed": true,
+      "hasOverflow": false
+    },
+    "QUI01009": {
+      "semester": 1,
+      "completed": true,
+      "hasOverflow": false
+    },
+    "MAT01355": {
+      "semester": 3,
+      "completed": true,
+      "hasOverflow": false
+    },
+    "MAT01354": {
+      "semester": 3,
+      "completed": true,
+      "hasOverflow": false
+    },
+    "ARQ03319": {
+      "semester": 2,
+      "completed": true,
+      "hasOverflow": false
+    },
+    "FIS01182": {
+      "semester": 5,
+      "completed": true,
+      "hasOverflow": false
+    },
+    "ENG03041": {
+      "semester": 4,
+      "completed": true,
+      "hasOverflow": false
+    },
+    "INF01057": {
+      "semester": 2,
+      "completed": true,
+      "hasOverflow": false
+    },
+    "ENG10001": {
+      "semester": 8,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "MAT01167": {
+      "semester": 7,
+      "completed": true,
+      "hasOverflow": false
+    },
+    "FIS01183": {
+      "semester": 6,
+      "completed": true,
+      "hasOverflow": false
+    },
+    "ENG03043": {
+      "semester": 3,
+      "completed": true,
+      "hasOverflow": false
+    },
+    "ENG03042": {
+      "semester": 6,
+      "completed": true,
+      "hasOverflow": false
+    },
+    "MAT02219": {
+      "semester": 5,
+      "completed": true,
+      "hasOverflow": false
+    },
+    "ENG10042": {
+      "semester": 5,
+      "completed": true,
+      "hasOverflow": false
+    },
+    "MAT01169": {
+      "semester": 8,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "ENG10002": {
+      "semester": 9,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "ENG10043": {
+      "semester": 6,
+      "completed": true,
+      "hasOverflow": false
+    },
+    "MAT01168": {
+      "semester": 8,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "ENG03092": {
+      "semester": 7,
+      "completed": true,
+      "hasOverflow": false
+    },
+    "ENG03316": {
+      "semester": 7,
+      "completed": true,
+      "hasOverflow": false
+    },
+    "ENG03044": {
+      "semester": 9,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "ENG10044": {
+      "semester": 10,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "ENG10003": {
+      "semester": 10,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "ENG03004": {
+      "semester": 9,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "ENG10017": {
+      "semester": 10,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "ENG07086": {
+      "semester": 9,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "ENG03380": {
+      "semester": null,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "ENG10026": {
+      "semester": 9,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "ENG10047": {
+      "semester": 10,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "ENG10022": {
+      "semester": 11,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "ENG10045": {
+      "semester": 11,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "ENG07069": {
+      "semester": 10,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "ENG10023": {
+      "semester": 8,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "ENG10004": {
+      "semester": 11,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "ENG10049": {
+      "semester": 12,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "ENG10005": {
+      "semester": 12,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "ENG04475": {
+      "semester": 11,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "ENG03021": {
+      "semester": 9,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "ENG10048": {
+      "semester": 9,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "ENG10018": {
+      "semester": 12,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "ENG03027": {
+      "semester": 11,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "INF01017": {
+      "semester": null,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "INF01037": {
+      "semester": null,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "ENG10051": {
+      "semester": null,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "ADM01135": {
+      "semester": null,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "INF01126": {
+      "semester": null,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "ENG07043": {
+      "semester": null,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "ENG10052": {
+      "semester": null,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "EDU03071": {
+      "semester": 3,
+      "completed": true,
+      "hasOverflow": false
+    },
+    "ENG09023": {
+      "semester": null,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "CCA99008": {
+      "semester": null,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "CCA99009": {
+      "semester": null,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "CCA99010": {
+      "semester": null,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "ENG10054": {
+      "semester": null,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "ENG10055": {
+      "semester": null,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "CCA99011": {
+      "semester": null,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "CCA99005": {
+      "semester": null,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "CCA99006": {
+      "semester": null,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "CCA99007": {
+      "semester": null,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "ENG03046": {
+      "semester": null,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "ENG03045": {
+      "semester": 10,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "ENG10027": {
+      "semester": null,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "ENG03386": {
+      "semester": 10,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "ENG07042": {
+      "semester": 13,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "ENG10019": {
+      "semester": 12,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "ENG03387": {
+      "semester": 10,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "ENG07087": {
+      "semester": 14,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "CCA99004": {
+      "semester": 13,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "ENG10050": {
+      "semester": null,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "ENG10046": {
+      "semester": null,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "ENG03047": {
+      "semester": null,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "ENG10021": {
+      "semester": 10,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "CCA99002": {
+      "semester": 13,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "ENG03010": {
+      "semester": 11,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "ENG03048": {
+      "semester": 11,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "CCA99003": {
+      "semester": 14,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "ENG07012": {
+      "semester": null,
+      "completed": false,
+      "hasOverflow": false
+    },
+    "ENG07062": {
+      "semester": null,
+      "completed": false,
+      "hasOverflow": false
+    }
+  }
+}

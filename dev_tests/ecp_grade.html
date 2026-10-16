@@ -1,0 +1,2062 @@
+<style>
+	#maskCarregandoUFRGS {
+		position:absolute;
+		left:0;
+		top:0;
+		z-index:9000;
+		background-color:#000;
+		display:none;
+	}
+
+	.windowCarregandoUFRGS {
+		position:absolute;
+		border: 3px solid #17497B;
+		left:0;
+		top:0;
+		display:none;
+		z-index:9999;
+		padding:10px;
+		background-color:#ffffff;
+	}
+</style>
+	
+	
+<script type="text/javascript">
+
+	function mostraCarregandoUFRGS()
+	{
+		var maskCarregandoUFRGSHeight = $(document).height();
+		var maskCarregandoUFRGSWidth = $(window).width();
+
+		$('#maskCarregandoUFRGS').css({'width':maskCarregandoUFRGSWidth,'height':maskCarregandoUFRGSHeight});
+
+		$('#maskCarregandoUFRGS').fadeIn(300);
+		$('#maskCarregandoUFRGS').fadeTo("fast",0.8);
+
+		var winH = $(window).height();
+		var winW = $(window).width();
+
+		$('#dialogCarregandoUFRGS').css('top',  window.pageYOffset + 100 - ($('#dialogCarregandoUFRGS').height()/2));
+		$('#dialogCarregandoUFRGS').css('left', window.pageXOffset + (winW/2) - ($('#dialogCarregandoUFRGS').width()/2));
+		
+		$('#dialogCarregandoUFRGS').fadeIn(300);
+	}
+
+	function ocultaCarregandoUFRGS()
+	{
+		$('#maskCarregandoUFRGS').hide();
+		$('.windowCarregandoUFRGS').hide();
+	}
+
+</script>
+
+<div id="maskCarregandoUFRGS"></div>
+		
+<div id="dialogCarregandoUFRGS" class="windowCarregandoUFRGS">
+	<img src="/Design/visual_ufrgs/bigLoader.gif" />
+</div>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+    <link href="/Design/simples.css" rel="stylesheet" type="text/css" />
+    <link href="/Design/tabela.css" rel="stylesheet" type="text/css" />
+    <link href="/Design/texto.css" rel="stylesheet" type="text/css" />
+    <link href="/Design/formulario.css" rel="stylesheet" type="text/css" />
+    
+    <link href="resources/css/curriculo.css" rel="stylesheet" type="text/css" />
+
+    <link href="/funcoes/jquery/css/jquery-ui-1.8.16.custom.css" rel="stylesheet" type="text/css" />
+
+    <script src="/funcoes/jquery/jquery-1.6.4.min.js" type="text/javascript"></script>
+    <script src="/funcoes/jquery/jquery-ui-1.8.16.custom.min.js" type="text/javascript"></script>
+
+    <title>UFRGS :: Curr�culo UFRGS</title>
+
+</head>
+    <script type="text/javascript">
+   
+
+/*
+* Exibe o fieldset de ajuda sobre um elemento
+*/
+    
+    function config_ajuda(sNome, sTitle)
+    {
+        sIdHelper = 'help' + sNome;
+        $( "#"+sIdHelper).dialog({
+            height: 320,
+            width: 500,
+            modal: true,
+            title: sTitle
+        });
+    }
+    
+/*
+ * Essa fun��o exibe uma msg numa das divs do topo da p�gina,
+ */
+    
+        function exibeAlerta(sMsgExibida)
+        {
+            if(sMsgExibida != "")
+            {
+                $('#divAlerta').dialog("destroy");
+                $('#divAlerta').html(sMsgExibida);
+                $('#divAlerta').dialog({
+                    modal: true,
+                    width: 350,
+                    height: 250,
+                    title: 'Aten��o',
+                    close: function(event, ui)
+                    {
+                        $("#divAlerta").dialog("destroy");
+                    },
+                    buttons: [
+                        {
+                            text: 'Ok',
+                            click: function(){ $("#divAlerta").dialog("destroy");}
+                        }]                            
+                });
+            }
+        }    
+        
+        function alteraValorTopo(sValor)
+        {
+            $('#infoExibida').html(sValor);
+        }
+        
+        var _Plone = '_Plone';
+    </script>  
+<body>
+    <form id="formPeriodo" action="plone.php" method="get" >
+        
+            
+        <div class="divTopo">
+            <div id="logo" style="height: 40px;">
+                <img style="margin:4px; height: 44px;" src="resources/images/logo.gif" />
+            </div>
+
+            <div class="divInfoTop" id="infoExibida">
+                <label id="infoExibida">&nbsp;</label>
+            </div>
+
+            <label><b>Per�odo Letivo</b>: <select name="periodo" onchange="mostraCarregandoUFRGS(); $('#formPeriodo').submit();"><option value='2026022'  selected = "selected" >2026/2</option><option value='2026012' >2026/1</option><option value='2025022' >2025/2</option><option value='2025012' >2025/1</option><option value='2024022' >2024/2</option><option value='2024012' >2024/1</option><option value='2023022' >2023/2</option><option value='2023012' >2023/1</option><option value='2022022' >2022/2</option><option value='2022012' >2022/1</option><option value='2021022' >2021/2</option><option value='2021012' >2021/1</option><option value='2020022' >2020/2</option><option value='2020012' >2020/1</option><option value='2019022' >2019/2</option><option value='2019012' >2019/1</option><option value='2018022' >2018/2</option><option value='2018012' >2018/1</option><option value='2017022' >2017/2</option><option value='2017012' >2017/1</option><option value='2016022' >2016/2</option><option value='2016012' >2016/1</option><option value='2015022' >2015/2</option><option value='2015012' >2015/1</option><option value='2014022' >2014/2</option><option value='2014012' >2014/1</option><option value='2013022' >2013/2</option><option value='2013012' >2013/1</option><option value='2012022' >2012/2</option><option value='2012012' >2012/1</option><option value='2011022' >2011/2</option><option value='2011012' >2011/1</option><option value='2010022' >2010/2</option><option value='2010012' >2010/1</option><option value='2009022' >2009/2</option><option value='2009012' >2009/1</option><option value='2008022' >2008/2</option><option value='2008012' >2008/1</option><option value='2007022' >2007/2</option><option value='2007012' >2007/1</option><option value='2006022' >2006/2</option><option value='2006012' >2006/1</option><option value='2005022' >2005/2</option><option value='2005012' >2005/1</option><option value='2004022' >2004/2</option><option value='2004012' >2004/1</option><option value='2003022' >2003/2</option><option value='2003012' >2003/1</option><option value='2002022' >2002/2</option><option value='2002012' >2002/1</option><option value='2001022' >2001/2</option><option value='2001012' >2001/1</option><option value='2000022' >2000/2</option><option value='2000012' >2000/1</option><option value='1999022' >1999/2</option><option value='1999012' >1999/1</option></select></label>
+
+        </div>
+        <input type="hidden" name="r" value="grade" />
+        <input type="hidden" name="curriculo" value="207" />
+        <input type="hidden" name="curso" value="318" />
+        <input type="hidden" name="habilitacao" value="72" />
+    </form>
+    
+    <div style="padding-top:67px;">
+        
+        
+    <link href="resources/css/grade.css" rel="stylesheet" type="text/css" />
+
+    <script src="resources/javascript/grade/config.js?svn_version=145" type="text/javascript"></script>   
+    <script src="resources/javascript/grade/menu.js?svn_version=145" type="text/javascript"></script>    
+    <script src="resources/javascript/grade/grade.js?svn_version=145" type="text/javascript"></script>    
+   
+    <script language="javascript">
+		
+        var _bPaginaCompleta    = false;
+        
+            
+        var _sAcessoRelatorio = 'r';
+        alteraValorTopo('< 207 - ENGENHARIA DE COMPUTA��O - 2026/1 >');    
+        
+                    
+            
+        var _iCodHabilitacao = 72;
+        var _iCodCurriculo   = 207;
+        var _iPeriodoLetivo  = 2026022;
+		
+    </script>
+
+
+<!-- DIV que cont�m todas as atividades manipuladas   -->
+   
+    <img src="resources/images/ajuda.gif" class="imageHelper" onclick="config_ajuda('Grade', 'Legendas da Grade');" title="Legendas da Grade"/>    
+    
+    <div id="divGrade" class="divGrade dashedClass">
+        
+    
+
+<div id="helpPreRequisito" style="display:none" >
+    <p class="parag">
+        Para adicionar pr�-requisitos de uma atividade, tenha a atividade selecionada e clique em '<b>Adicionar Pr�-Requisito</b>'.
+    </p>
+    <p class="parag">
+        Ap�s isso, clique em cada uma das atividades que far�o parte do pr�-requisito <b>e/ou</b> preencha os campos. Lembre-se que todas as
+        atividades devem ser de uma etapa <b>menor</b> a atividade selecionada.
+    </p>    
+    <p class="parag">
+        Ap�s informar todas as atividades <b>e/ou</b> cr�ditos necess�rios, clique em '<b>Salvar</b>'.
+    </p>
+    <br/>
+    <p class="parag">
+        Para <i>editar</i> um grupo de pr�-requisitos, escolha um dos grupos da atividade selecionada e clique em  '<b>Alterar Pr�-Requisito</b>'. 
+        As atividades que fazem parte do grupo ser�o marcadas, e basta proceder como na cria��o de um novo grupo.
+    </p>
+</div>
+
+<div id="helpGrupoAlternativa" style="display:none" >
+    <p class="parag">
+        Para adicionar um grupo de alternativas clique em '<b>Adicionar Grupo de Alternativas</b>' e clique em todas as atividades que far�o parte do <i>Grupo</i>. 
+        Todas as atividades devem pertencer a mesma etapa.
+    </p>
+    <p class="parag">
+        Ap�s isso preencha os campos, e clique em '<b>Salvar</b>'.
+    </p>    
+    <br/>
+    <p class="parag">
+        Para <i>editar</i> um grupo de alternativas, selecione um dos grupos cadastrados no curr�culo e clique em '<b>Alterar Grupo de Alternativas</b>'. 
+        Todas as atividades que fazem parte do grupo ser�o destacadas e basta proceder como na cria��o de um novo grupo.
+    </p>
+</div>
+
+<div id="helpLiberadora" style="display:none" >
+    <p class="parag">
+        Para adicionar um grupo de liberadoras, tenha uma atividade selecionada e lique em '<b>Adicionar Grupo Liberador</b>'.
+    </p>
+    <p class="parag">
+        Na tela que surgir�, voc� pode buscar qualquer atividade que n�o fa�a parte do curr�culo (especificando ou n�o a validade da mesma), ou
+        poder� informar um <i>per�odo de ingresso no curso</i> que libera o aluno da atividade selecionada.
+    </p>
+    <p class="parag">
+        Ap�s completar todos os dados, clique em '<b>Salvar</b>' para salvar o grupo de liberadora.
+    </p>
+    <br/>
+    <p class="parag">
+        Caso deseje <i>editar</i> um grupo liberador j� cadastrado para uma atividade, basta selecionar um dos grupos existentes e clicar em 
+        '<b>Alterar Grupo Liberador</b>' e seguir o processo semelhante ao da inser��o.
+    </p>
+    
+</div>
+
+<div id="helpAdicionar" style="display:none" >
+    <p class="parag">
+        Ao clicar em <i>Adicionar/Remover Atividades da Grade</i> voc� ser� redirecionado para uma outra grade.
+    </p>
+    <p class="parag">
+        Nesta grade voc� ser� capaz de adicionar e remover atividades da grade de forma mais �gil.
+    </p>    
+</div>
+
+
+<style>
+    .legenda-grade
+    {
+        margin-left:20px; 
+        font-size: 13px;
+    }
+</style>
+
+<div id="helpGrade" style="display:none" >
+    <table style="margin-left:30px;">
+        <tr>
+            <td>
+                <div class="ativCargaCarater1 divListaAtivCarga"> </div>
+            </td>
+            <td>
+                <label class="legenda-grade">Atividades Obrigat�rias</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="ativCargaCarater2 divListaAtivCarga"> </div>
+            </td>
+            <td>
+                <label class="legenda-grade">Atividades Alternativas</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="ativCargaCarater3 divListaAtivCarga"> </div>
+            </td>
+            <td>
+                <label class="legenda-grade">Atividades Eletivas</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="ativCargaCarater4 divListaAtivCarga"> </div>
+            </td>
+            <td>
+                <label class="legenda-grade">Atividades Adicionais</label>
+            </td>
+        </tr>
+    </table>
+    <p class="parag">
+        <b>Destacar na grade </b> - Defini se, a partir de uma Atividade selecionada, ser�o destacados os seus pr�-requisitos ou o Grupo de alternativa a que pode pertencer.<BR><BR>
+        <b>P</b> - Atividade possui um ou mais pr�-requisitos.<BR>
+        <b>L</b> - Atividade possui uma ou mais Libera��es.<BR>
+        <b>A</b> - Atividade faz parte de um Grupo de Alternativa.<BR>
+    </p>
+</div>
+            <label class="labelEtapa" style="width:95px; top: 5px; left:10px;">Etapa 1</label>
+  
+            <div class="divDivisoria" style="height: 555; top: 5px; left:107px;"></div>            
+
+            <label class="labelEtapa" style="width:95px; top: 5px; left:107px;">Etapa 2</label>
+  
+            <div class="divDivisoria" style="height: 555; top: 5px; left:204px;"></div>            
+
+            <label class="labelEtapa" style="width:95px; top: 5px; left:204px;">Etapa 3</label>
+  
+            <div class="divDivisoria" style="height: 555; top: 5px; left:301px;"></div>            
+
+            <label class="labelEtapa" style="width:95px; top: 5px; left:301px;">Etapa 4</label>
+  
+            <div class="divDivisoria" style="height: 555; top: 5px; left:398px;"></div>            
+
+            <label class="labelEtapa" style="width:95px; top: 5px; left:398px;">Etapa 5</label>
+  
+            <div class="divDivisoria" style="height: 555; top: 5px; left:495px;"></div>            
+
+            <label class="labelEtapa" style="width:95px; top: 5px; left:495px;">Etapa 6</label>
+  
+            <div class="divDivisoria" style="height: 555; top: 5px; left:592px;"></div>            
+
+            <label class="labelEtapa" style="width:95px; top: 5px; left:592px;">Etapa 7</label>
+  
+            <div class="divDivisoria" style="height: 555; top: 5px; left:786px;"></div>            
+
+            <label class="labelEtapa" style="width:190px; top: 5px; left:786px;">Etapa 8</label>
+  
+            <div class="divDivisoria" style="height: 555; top: 5px; left:980px;"></div>            
+
+            <label class="labelEtapa" style="width:190px; top: 5px; left:980px;">Etapa 9</label>
+  
+            <div class="divDivisoria" style="height: 555; top: 5px; left:1174px;"></div>            
+
+            <label class="labelEtapa" style="width:95px; top: 5px; left:1174px;">Etapa 10</label>
+  
+            <div class="divDivisoria" style="height: 555; top: 5px; left:1368px;"></div>            
+
+            <label class="labelEtapa" style="width:380px; top: 5px; left:1368px;">Sem Etapa</label>
+
+            <div id="ATIV_16861_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_16861_1', true);" 
+                 class="divAtividade " style="top: 35px; left: 1179px;" title="L�NGUA BRASILEIRA DE SINAIS (LIBRAS)">
+
+                <img alt="" id="ImgAtiv_ATIV_16861_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="L�NGUA BRASILEIRA DE SINAIS (LIBRAS)" /> 
+
+                    <label id="AtivLabel_ATIV_16861_1" class="labelAtividade">EDU03071</label>
+                    <label id="LabelPreRequisito_ATIV_16861_1" class="labelIndicador labelPreRequisito"  >P</label>
+                    <label id="LabelLiberadora_ATIV_16861_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_16861_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_16861_1" value="EDU03071" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_16861_1" value="L�NGUA BRASILEIRA DE SINAIS (LIBRAS)" />
+            </div>
+
+            <div id="ATIV_17895_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_17895_1', true);" 
+                 class="divAtividade " style="top: 87px; left: 1179px;" title="TESTE DE SISTEMAS ELETR�NICOS">
+
+                <img alt="" id="ImgAtiv_ATIV_17895_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="TESTE DE SISTEMAS ELETR�NICOS" /> 
+
+                    <label id="AtivLabel_ATIV_17895_1" class="labelAtividade">ENG04057</label>
+                    <label id="LabelPreRequisito_ATIV_17895_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_17895_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_17895_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_17895_1" value="ENG04057" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_17895_1" value="TESTE DE SISTEMAS ELETR�NICOS" />
+            </div>
+
+            <div id="ATIV_20290_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_20290_1', true);" 
+                 class="divAtividade " style="top: 139px; left: 1179px;" title="DISPOSITIVOS SEMICONDUTORES">
+
+                <img alt="" id="ImgAtiv_ATIV_20290_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="DISPOSITIVOS SEMICONDUTORES" /> 
+
+                    <label id="AtivLabel_ATIV_20290_1" class="labelAtividade">ENG04063</label>
+                    <label id="LabelPreRequisito_ATIV_20290_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_20290_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_20290_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_20290_1" value="ENG04063" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_20290_1" value="DISPOSITIVOS SEMICONDUTORES" />
+            </div>
+
+            <div id="ATIV_2987_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_2987_1', true);" 
+                 class="divAtividade " style="top: 191px; left: 1179px;" title="PRINC�PIOS DE COMUNICA��O">
+
+                <img alt="" id="ImgAtiv_ATIV_2987_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="PRINC�PIOS DE COMUNICA��O" /> 
+
+                    <label id="AtivLabel_ATIV_2987_1" class="labelAtividade">ENG04434</label>
+                    <label id="LabelPreRequisito_ATIV_2987_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_2987_1" class="labelIndicador labelLiberadora"  style="display:block;"  >L</label>
+                    <label id="LabelAlternativa_ATIV_2987_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_2987_1" value="ENG04434" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_2987_1" value="PRINC�PIOS DE COMUNICA��O" />
+            </div>
+
+            <div id="ATIV_3024_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_3024_1', true);" 
+                 class="divAtividade " style="top: 243px; left: 1179px;" title="PROCESSAMENTO DIGITAL DE SINAIS">
+
+                <img alt="" id="ImgAtiv_ATIV_3024_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="PROCESSAMENTO DIGITAL DE SINAIS" /> 
+
+                    <label id="AtivLabel_ATIV_3024_1" class="labelAtividade">ENG04477</label>
+                    <label id="LabelPreRequisito_ATIV_3024_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_3024_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_3024_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_3024_1" value="ENG04477" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_3024_1" value="PROCESSAMENTO DIGITAL DE SINAIS" />
+            </div>
+
+            <div id="ATIV_8196_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_8196_1', true);" 
+                 class="divAtividade " style="top: 295px; left: 1179px;" title="EMPREENDIMENTO EM INFORM�TICA">
+
+                <img alt="" id="ImgAtiv_ATIV_8196_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="EMPREENDIMENTO EM INFORM�TICA" /> 
+
+                    <label id="AtivLabel_ATIV_8196_1" class="labelAtividade">INF01032</label>
+                    <label id="LabelPreRequisito_ATIV_8196_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_8196_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_8196_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_8196_1" value="INF01032" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_8196_1" value="EMPREENDIMENTO EM INFORM�TICA" />
+            </div>
+
+            <div id="ATIV_16913_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_16913_1', true);" 
+                 class="divAtividade " style="top: 347px; left: 1179px;" title="SISTEMAS EMBARCADOS: FUNDAMENTOS E ARQUITETURAS">
+
+                <img alt="" id="ImgAtiv_ATIV_16913_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="SISTEMAS EMBARCADOS: FUNDAMENTOS E ARQUITETURAS" /> 
+
+                    <label id="AtivLabel_ATIV_16913_1" class="labelAtividade">INF01059</label>
+                    <label id="LabelPreRequisito_ATIV_16913_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_16913_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_16913_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_16913_1" value="INF01059" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_16913_1" value="SISTEMAS EMBARCADOS: FUNDAMENTOS E ARQUITETURAS" />
+            </div>
+
+            <div id="ATIV_3647_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_3647_1', true);" 
+                 class="divAtividade " style="top: 399px; left: 1179px;" title="BANCOS DE DADOS">
+
+                <img alt="" id="ImgAtiv_ATIV_3647_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="BANCOS DE DADOS" /> 
+
+                    <label id="AtivLabel_ATIV_3647_1" class="labelAtividade">INF01145</label>
+                    <label id="LabelPreRequisito_ATIV_3647_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_3647_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_3647_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_3647_1" value="INF01145" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_3647_1" value="BANCOS DE DADOS" />
+            </div>
+
+            <div id="ATIV_29413_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_29413_1', true);" 
+                 class="divAtividade " style="top: 451px; left: 1179px;" title="FOTOGRAFIA COMPUTACIONAL">
+
+                <img alt="" id="ImgAtiv_ATIV_29413_1" style="position: relative;" src="resources/images/fundo_4.png" class="imgAtividade" title="FOTOGRAFIA COMPUTACIONAL" /> 
+
+                    <label id="AtivLabel_ATIV_29413_1" class="labelAtividade">INF01213</label>
+                    <label id="LabelPreRequisito_ATIV_29413_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_29413_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_29413_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_29413_1" value="INF01213" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_29413_1" value="FOTOGRAFIA COMPUTACIONAL" />
+            </div>
+
+            <div id="ATIV_33995_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_33995_1', true);" 
+                 class="divAtividade " style="top: 503px; left: 1179px;" title="T�PICOS ESPECIAIS EM ENGENHARIA DE COMPUTA��O VII">
+
+                <img alt="" id="ImgAtiv_ATIV_33995_1" style="position: relative;" src="resources/images/fundo_4.png" class="imgAtividade" title="T�PICOS ESPECIAIS EM ENGENHARIA DE COMPUTA��O VII" /> 
+
+                    <label id="AtivLabel_ATIV_33995_1" class="labelAtividade">INF05026</label>
+                    <label id="LabelPreRequisito_ATIV_33995_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_33995_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_33995_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_33995_1" value="INF05026" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_33995_1" value="T�PICOS ESPECIAIS EM ENGENHARIA DE COMPUTA��O VII" />
+            </div>
+
+            <div id="ATIV_16917_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_16917_1', true);" 
+                 class="divAtividade " style="top: 35px; left: 1276px;" title="TRABALHO DE GRADUA��O II - ECP">
+
+                <img alt="" id="ImgAtiv_ATIV_16917_1" style="position: relative;" src="resources/images/fundo_1.png" class="imgAtividade" title="TRABALHO DE GRADUA��O II - ECP" /> 
+
+                    <label id="AtivLabel_ATIV_16917_1" class="labelAtividade">TRABALHO</label>
+                    <label id="LabelPreRequisito_ATIV_16917_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_16917_1" class="labelIndicador labelLiberadora"  style="display:block;"  >L</label>
+                    <label id="LabelAlternativa_ATIV_16917_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_16917_1" value="TRABALHO" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_16917_1" value="TRABALHO DE GRADUA��O II - ECP" />
+            </div>
+
+            <div id="ATIV_8404_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_8404_1', true);" 
+                 class="divAtividade " style="top: 35px; left: 985px;" title="ADMINISTRA��O E FINAN�AS">
+
+                <img alt="" id="ImgAtiv_ATIV_8404_1" style="position: relative;" src="resources/images/fundo_4.png" class="imgAtividade" title="ADMINISTRA��O E FINAN�AS" /> 
+
+                    <label id="AtivLabel_ATIV_8404_1" class="labelAtividade">ADM01134</label>
+                    <label id="LabelPreRequisito_ATIV_8404_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_8404_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_8404_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_8404_1" value="ADM01134" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_8404_1" value="ADMINISTRA��O E FINAN�AS" />
+            </div>
+
+            <div id="ATIV_41410_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_41410_1', true);" 
+                 class="divAtividade " style="top: 87px; left: 985px;" title="PROJETO DE FINAL DE CURSO DE ENGENHARIA DE COMPUTA��O">
+
+                <img alt="" id="ImgAtiv_ATIV_41410_1" style="position: relative;" src="resources/images/fundo_1.png" class="imgAtividade" title="PROJETO DE FINAL DE CURSO DE ENGENHARIA DE COMPUTA��O" /> 
+
+                    <label id="AtivLabel_ATIV_41410_1" class="labelAtividade">ECP99001</label>
+                    <label id="LabelPreRequisito_ATIV_41410_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_41410_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_41410_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_41410_1" value="ECP99001" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_41410_1" value="PROJETO DE FINAL DE CURSO DE ENGENHARIA DE COMPUTA��O" />
+            </div>
+
+            <div id="ATIV_10224_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_10224_1', true);" 
+                 class="divAtividade " style="top: 139px; left: 985px;" title="T�PICOS ESPECIAIS EM ENGENHARIA DE COMPUTA��O II">
+
+                <img alt="" id="ImgAtiv_ATIV_10224_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="T�PICOS ESPECIAIS EM ENGENHARIA DE COMPUTA��O II" /> 
+
+                    <label id="AtivLabel_ATIV_10224_1" class="labelAtividade">ENG04034</label>
+                    <label id="LabelPreRequisito_ATIV_10224_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_10224_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_10224_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_10224_1" value="ENG04034" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_10224_1" value="T�PICOS ESPECIAIS EM ENGENHARIA DE COMPUTA��O II" />
+            </div>
+
+            <div id="ATIV_3007_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_3007_1', true);" 
+                 class="divAtividade " style="top: 191px; left: 985px;" title="INSTRUMENTA��O A">
+
+                <img alt="" id="ImgAtiv_ATIV_3007_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="INSTRUMENTA��O A" /> 
+
+                    <label id="AtivLabel_ATIV_3007_1" class="labelAtividade">ENG04457</label>
+                    <label id="LabelPreRequisito_ATIV_3007_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_3007_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_3007_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_3007_1" value="ENG04457" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_3007_1" value="INSTRUMENTA��O A" />
+            </div>
+
+            <div id="ATIV_3023_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_3023_1', true);" 
+                 class="divAtividade " style="top: 243px; left: 985px;" title="MICROPROCESSADORES II">
+
+                <img alt="" id="ImgAtiv_ATIV_3023_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="MICROPROCESSADORES II" /> 
+
+                    <label id="AtivLabel_ATIV_3023_1" class="labelAtividade">ENG04476</label>
+                    <label id="LabelPreRequisito_ATIV_3023_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_3023_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_3023_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_3023_1" value="ENG04476" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_3023_1" value="MICROPROCESSADORES II" />
+            </div>
+
+            <div id="ATIV_10271_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_10271_1', true);" 
+                 class="divAtividade " style="top: 295px; left: 985px;" title="SISTEMAS DE CONTROLE II">
+
+                <img alt="" id="ImgAtiv_ATIV_10271_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="SISTEMAS DE CONTROLE II" /> 
+
+                    <label id="AtivLabel_ATIV_10271_1" class="labelAtividade">ENG10018</label>
+                    <label id="LabelPreRequisito_ATIV_10271_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_10271_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_10271_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_10271_1" value="ENG10018" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_10271_1" value="SISTEMAS DE CONTROLE II" />
+            </div>
+
+            <div id="ATIV_10272_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_10272_1', true);" 
+                 class="divAtividade " style="top: 347px; left: 985px;" title="SISTEMAS DE CONTROLE  DIGITAIS">
+
+                <img alt="" id="ImgAtiv_ATIV_10272_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="SISTEMAS DE CONTROLE  DIGITAIS" /> 
+
+                    <label id="AtivLabel_ATIV_10272_1" class="labelAtividade">ENG10019</label>
+                    <label id="LabelPreRequisito_ATIV_10272_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_10272_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_10272_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_10272_1" value="ENG10019" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_10272_1" value="SISTEMAS DE CONTROLE  DIGITAIS" />
+            </div>
+
+            <div id="ATIV_27869_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_27869_1', true);" 
+                 class="divAtividade " style="top: 399px; left: 985px;" title="DIN�MICA E CONTROLE DE ROB�S">
+
+                <img alt="" id="ImgAtiv_ATIV_27869_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="DIN�MICA E CONTROLE DE ROB�S" /> 
+
+                    <label id="AtivLabel_ATIV_27869_1" class="labelAtividade">ENG10051</label>
+                    <label id="LabelPreRequisito_ATIV_27869_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_27869_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_27869_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_27869_1" value="ENG10051" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_27869_1" value="DIN�MICA E CONTROLE DE ROB�S" />
+            </div>
+
+            <div id="ATIV_27870_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_27870_1', true);" 
+                 class="divAtividade " style="top: 451px; left: 985px;" title="LABORAT�RIO DE ROB�TICA">
+
+                <img alt="" id="ImgAtiv_ATIV_27870_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="LABORAT�RIO DE ROB�TICA" /> 
+
+                    <label id="AtivLabel_ATIV_27870_1" class="labelAtividade">ENG10052</label>
+                    <label id="LabelPreRequisito_ATIV_27870_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_27870_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_27870_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_27870_1" value="ENG10052" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_27870_1" value="LABORAT�RIO DE ROB�TICA" />
+            </div>
+
+            <div id="ATIV_10218_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_10218_1', true);" 
+                 class="divAtividade " style="top: 503px; left: 985px;" title="SOCIEDADE DA INFORMA��O">
+
+                <img alt="" id="ImgAtiv_ATIV_10218_1" style="position: relative;" src="resources/images/fundo_4.png" class="imgAtividade" title="SOCIEDADE DA INFORMA��O" /> 
+
+                    <label id="AtivLabel_ATIV_10218_1" class="labelAtividade">HUM04020</label>
+                    <label id="LabelPreRequisito_ATIV_10218_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_10218_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_10218_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_10218_1" value="HUM04020" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_10218_1" value="SOCIEDADE DA INFORMA��O" />
+            </div>
+
+            <div id="ATIV_7946_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_7946_1', true);" 
+                 class="divAtividade " style="top: 35px; left: 1082px;" title="COMUNICA��O DE DADOS E TECNOLOGIAS DE REDES EMERGENTES">
+
+                <img alt="" id="ImgAtiv_ATIV_7946_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="COMUNICA��O DE DADOS E TECNOLOGIAS DE REDES EMERGENTES" /> 
+
+                    <label id="AtivLabel_ATIV_7946_1" class="labelAtividade">INF01005</label>
+                    <label id="LabelPreRequisito_ATIV_7946_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_7946_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_7946_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_7946_1" value="INF01005" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_7946_1" value="COMUNICA��O DE DADOS E TECNOLOGIAS DE REDES EMERGENTES" />
+            </div>
+
+            <div id="ATIV_8725_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_8725_1', true);" 
+                 class="divAtividade " style="top: 87px; left: 1082px;" title="ROB�TICA M�VEL INTELIGENTE">
+
+                <img alt="" id="ImgAtiv_ATIV_8725_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="ROB�TICA M�VEL INTELIGENTE" /> 
+
+                    <label id="AtivLabel_ATIV_8725_1" class="labelAtividade">INF01034</label>
+                    <label id="LabelPreRequisito_ATIV_8725_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_8725_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_8725_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_8725_1" value="INF01034" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_8725_1" value="ROB�TICA M�VEL INTELIGENTE" />
+            </div>
+
+            <div id="ATIV_9993_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_9993_1', true);" 
+                 class="divAtividade " style="top: 139px; left: 1082px;" title="CIBERSEGURAN�A">
+
+                <img alt="" id="ImgAtiv_ATIV_9993_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="CIBERSEGURAN�A" /> 
+
+                    <label id="AtivLabel_ATIV_9993_1" class="labelAtividade">INF01045</label>
+                    <label id="LabelPreRequisito_ATIV_9993_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_9993_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_9993_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_9993_1" value="INF01045" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_9993_1" value="CIBERSEGURAN�A" />
+            </div>
+
+            <div id="ATIV_11459_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_11459_1', true);" 
+                 class="divAtividade " style="top: 191px; left: 1082px;" title="T�PICOS ESPECIAIS EM ENGENHARIA DE COMPUTA��O IV">
+
+                <img alt="" id="ImgAtiv_ATIV_11459_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="T�PICOS ESPECIAIS EM ENGENHARIA DE COMPUTA��O IV" /> 
+
+                    <label id="AtivLabel_ATIV_11459_1" class="labelAtividade">INF01053</label>
+                    <label id="LabelPreRequisito_ATIV_11459_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_11459_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_11459_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_11459_1" value="INF01053" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_11459_1" value="T�PICOS ESPECIAIS EM ENGENHARIA DE COMPUTA��O IV" />
+            </div>
+
+            <div id="ATIV_3681_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_3681_1', true);" 
+                 class="divAtividade " style="top: 243px; left: 1082px;" title="CAD PARA SISTEMAS DIGITAIS">
+
+                <img alt="" id="ImgAtiv_ATIV_3681_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="CAD PARA SISTEMAS DIGITAIS" /> 
+
+                    <label id="AtivLabel_ATIV_3681_1" class="labelAtividade">INF01205</label>
+                    <label id="LabelPreRequisito_ATIV_3681_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_3681_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_3681_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_3681_1" value="INF01205" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_3681_1" value="CAD PARA SISTEMAS DIGITAIS" />
+            </div>
+
+            <div id="ATIV_21903_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_21903_1', true);" 
+                 class="divAtividade " style="top: 295px; left: 1082px;" title="T�PICOS ESPECIAIS EM ENGENHARIA DE COMPUTA��O VI">
+
+                <img alt="" id="ImgAtiv_ATIV_21903_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="T�PICOS ESPECIAIS EM ENGENHARIA DE COMPUTA��O VI" /> 
+
+                    <label id="AtivLabel_ATIV_21903_1" class="labelAtividade">INF05025</label>
+                    <label id="LabelPreRequisito_ATIV_21903_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_21903_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_21903_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_21903_1" value="INF05025" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_21903_1" value="T�PICOS ESPECIAIS EM ENGENHARIA DE COMPUTA��O VI" />
+            </div>
+
+            <div id="ATIV_16916_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_16916_1', true);" 
+                 class="divAtividade " style="top: 347px; left: 1082px;" title="TRABALHO DE GRADUA��O I - ECP">
+
+                <img alt="" id="ImgAtiv_ATIV_16916_1" style="position: relative;" src="resources/images/fundo_1.png" class="imgAtividade" title="TRABALHO DE GRADUA��O I - ECP" /> 
+
+                    <label id="AtivLabel_ATIV_16916_1" class="labelAtividade">TRABALHO</label>
+                    <label id="LabelPreRequisito_ATIV_16916_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_16916_1" class="labelIndicador labelLiberadora"  style="display:block;"  >L</label>
+                    <label id="LabelAlternativa_ATIV_16916_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_16916_1" value="TRABALHO" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_16916_1" value="TRABALHO DE GRADUA��O I - ECP" />
+            </div>
+
+            <div id="ATIV_2435_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_2435_1', true);" 
+                 class="divAtividade " style="top: 35px; left: 791px;" title="ECONOMIA A">
+
+                <img alt="" id="ImgAtiv_ATIV_2435_1" style="position: relative;" src="resources/images/fundo_4.png" class="imgAtividade" title="ECONOMIA A" /> 
+
+                    <label id="AtivLabel_ATIV_2435_1" class="labelAtividade">ECO02254</label>
+                    <label id="LabelPreRequisito_ATIV_2435_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_2435_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_2435_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_2435_1" value="ECO02254" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_2435_1" value="ECONOMIA A" />
+            </div>
+
+            <div id="ATIV_11457_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_11457_1', true);" 
+                 class="divAtividade " style="top: 87px; left: 791px;" title="T�PICOS ESPECIAIS EM ENGENHARIA DE COMPUTA��O III">
+
+                <img alt="" id="ImgAtiv_ATIV_11457_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="T�PICOS ESPECIAIS EM ENGENHARIA DE COMPUTA��O III" /> 
+
+                    <label id="AtivLabel_ATIV_11457_1" class="labelAtividade">ENG04041</label>
+                    <label id="LabelPreRequisito_ATIV_11457_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_11457_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_11457_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_11457_1" value="ENG04041" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_11457_1" value="T�PICOS ESPECIAIS EM ENGENHARIA DE COMPUTA��O III" />
+            </div>
+
+            <div id="ATIV_16918_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_16918_1', true);" 
+                 class="divAtividade " style="top: 139px; left: 791px;" title="CIRCUITOS INTEGRADOS ANAL�GICOS">
+
+                <img alt="" id="ImgAtiv_ATIV_16918_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="CIRCUITOS INTEGRADOS ANAL�GICOS" /> 
+
+                    <label id="AtivLabel_ATIV_16918_1" class="labelAtividade">ENG04055</label>
+                    <label id="LabelPreRequisito_ATIV_16918_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_16918_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_16918_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_16918_1" value="ENG04055" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_16918_1" value="CIRCUITOS INTEGRADOS ANAL�GICOS" />
+            </div>
+
+            <div id="ATIV_20288_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_20288_1', true);" 
+                 class="divAtividade " style="top: 191px; left: 791px;" title="CIRCUITOS ELETR�NICOS INTEGRADOS">
+
+                <img alt="" id="ImgAtiv_ATIV_20288_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="CIRCUITOS ELETR�NICOS INTEGRADOS" /> 
+
+                    <label id="AtivLabel_ATIV_20288_1" class="labelAtividade">ENG04061</label>
+                    <label id="LabelPreRequisito_ATIV_20288_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_20288_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_20288_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_20288_1" value="ENG04061" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_20288_1" value="CIRCUITOS ELETR�NICOS INTEGRADOS" />
+            </div>
+
+            <div id="ATIV_27092_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_27092_1', true);" 
+                 class="divAtividade " style="top: 243px; left: 791px;" title="LABORAT�RIO DE CONTROLE">
+
+                <img alt="" id="ImgAtiv_ATIV_27092_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="LABORAT�RIO DE CONTROLE" /> 
+
+                    <label id="AtivLabel_ATIV_27092_1" class="labelAtividade">ENG10005</label>
+                    <label id="LabelPreRequisito_ATIV_27092_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_27092_1" class="labelIndicador labelLiberadora"  style="display:block;"  >L</label>
+                    <label id="LabelAlternativa_ATIV_27092_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_27092_1" value="ENG10005" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_27092_1" value="LABORAT�RIO DE CONTROLE" />
+            </div>
+
+            <div id="ATIV_3026_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_3026_1', true);" 
+                 class="divAtividade " style="top: 295px; left: 791px;" title="ROB�TICA A">
+
+                <img alt="" id="ImgAtiv_ATIV_3026_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="ROB�TICA A" /> 
+
+                    <label id="AtivLabel_ATIV_3026_1" class="labelAtividade">ENG10026</label>
+                    <label id="LabelPreRequisito_ATIV_3026_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_3026_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_3026_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_3026_1" value="ENG10026" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_3026_1" value="ROB�TICA A" />
+            </div>
+
+            <div id="ATIV_7943_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_7943_1', true);" 
+                 class="divAtividade " style="top: 347px; left: 791px;" title="SERVI�OS AVAN�ADOS EM REDES DE COMPUTADORES">
+
+                <img alt="" id="ImgAtiv_ATIV_7943_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="SERVI�OS AVAN�ADOS EM REDES DE COMPUTADORES" /> 
+
+                    <label id="AtivLabel_ATIV_7943_1" class="labelAtividade">INF01002</label>
+                    <label id="LabelPreRequisito_ATIV_7943_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_7943_1" class="labelIndicador labelLiberadora"  style="display:block;"  >L</label>
+                    <label id="LabelAlternativa_ATIV_7943_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_7943_1" value="INF01002" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_7943_1" value="SERVI�OS AVAN�ADOS EM REDES DE COMPUTADORES" />
+            </div>
+
+            <div id="ATIV_7949_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_7949_1', true);" 
+                 class="divAtividade " style="top: 399px; left: 791px;" title="PROGRAMA��O PARALELA">
+
+                <img alt="" id="ImgAtiv_ATIV_7949_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="PROGRAMA��O PARALELA" /> 
+
+                    <label id="AtivLabel_ATIV_7949_1" class="labelAtividade">INF01008</label>
+                    <label id="LabelPreRequisito_ATIV_7949_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_7949_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_7949_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_7949_1" value="INF01008" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_7949_1" value="PROGRAMA��O PARALELA" />
+            </div>
+
+            <div id="ATIV_7958_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_7958_1', true);" 
+                 class="divAtividade " style="top: 451px; left: 791px;" title="APRENDIZADO DE M�QUINA">
+
+                <img alt="" id="ImgAtiv_ATIV_7958_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="APRENDIZADO DE M�QUINA" /> 
+
+                    <label id="AtivLabel_ATIV_7958_1" class="labelAtividade">INF01017</label>
+                    <label id="LabelPreRequisito_ATIV_7958_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_7958_1" class="labelIndicador labelLiberadora"  style="display:block;"  >L</label>
+                    <label id="LabelAlternativa_ATIV_7958_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_7958_1" value="INF01017" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_7958_1" value="APRENDIZADO DE M�QUINA" />
+            </div>
+
+            <div id="ATIV_10225_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_10225_1', true);" 
+                 class="divAtividade " style="top: 503px; left: 791px;" title="PROCESSAMENTO DE IMAGENS E VIS�O COMPUTACIONAL I">
+
+                <img alt="" id="ImgAtiv_ATIV_10225_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="PROCESSAMENTO DE IMAGENS E VIS�O COMPUTACIONAL I" /> 
+
+                    <label id="AtivLabel_ATIV_10225_1" class="labelAtividade">INF01046</label>
+                    <label id="LabelPreRequisito_ATIV_10225_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_10225_1" class="labelIndicador labelLiberadora"  style="display:block;"  >L</label>
+                    <label id="LabelAlternativa_ATIV_10225_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_10225_1" value="INF01046" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_10225_1" value="PROCESSAMENTO DE IMAGENS E VIS�O COMPUTACIONAL I" />
+            </div>
+
+            <div id="ATIV_10219_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_10219_1', true);" 
+                 class="divAtividade " style="top: 35px; left: 888px;" title="T�PICOS ESPECIAIS EM ENGENHARIA DE COMPUTA��O I">
+
+                <img alt="" id="ImgAtiv_ATIV_10219_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="T�PICOS ESPECIAIS EM ENGENHARIA DE COMPUTA��O I" /> 
+
+                    <label id="AtivLabel_ATIV_10219_1" class="labelAtividade">INF01050</label>
+                    <label id="LabelPreRequisito_ATIV_10219_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_10219_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_10219_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_10219_1" value="INF01050" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_10219_1" value="T�PICOS ESPECIAIS EM ENGENHARIA DE COMPUTA��O I" />
+            </div>
+
+            <div id="ATIV_45696_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_45696_1', true);" 
+                 class="divAtividade " style="top: 87px; left: 888px;" title="LINGUAGENS DE PROGRAMA��O II">
+
+                <img alt="" id="ImgAtiv_ATIV_45696_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="LINGUAGENS DE PROGRAMA��O II" /> 
+
+                    <label id="AtivLabel_ATIV_45696_1" class="labelAtividade">INF01083</label>
+                    <label id="LabelPreRequisito_ATIV_45696_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_45696_1" class="labelIndicador labelLiberadora"  style="display:block;"  >L</label>
+                    <label id="LabelAlternativa_ATIV_45696_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_45696_1" value="INF01083" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_45696_1" value="LINGUAGENS DE PROGRAMA��O II" />
+            </div>
+
+            <div id="ATIV_21902_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_21902_1', true);" 
+                 class="divAtividade " style="top: 139px; left: 888px;" title="T�PICOS ESPECIAIS EM ENGENHARIA DE COMPUTA��O V">
+
+                <img alt="" id="ImgAtiv_ATIV_21902_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="T�PICOS ESPECIAIS EM ENGENHARIA DE COMPUTA��O V" /> 
+
+                    <label id="AtivLabel_ATIV_21902_1" class="labelAtividade">INF05024</label>
+                    <label id="LabelPreRequisito_ATIV_21902_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_21902_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_21902_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_21902_1" value="INF05024" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_21902_1" value="T�PICOS ESPECIAIS EM ENGENHARIA DE COMPUTA��O V" />
+            </div>
+
+            <div id="ATIV_25885_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_25885_1', true);" 
+                 class="divAtividade " style="top: 35px; left: 597px;" title="CIRCUITOS ELETR�NICOS II">
+
+                <img alt="" id="ImgAtiv_ATIV_25885_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="CIRCUITOS ELETR�NICOS II" /> 
+
+                    <label id="AtivLabel_ATIV_25885_1" class="labelAtividade">ENG04078</label>
+                    <label id="LabelPreRequisito_ATIV_25885_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_25885_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_25885_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_25885_1" value="ENG04078" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_25885_1" value="CIRCUITOS ELETR�NICOS II" />
+            </div>
+
+            <div id="ATIV_27091_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_27091_1', true);" 
+                 class="divAtividade " style="top: 87px; left: 597px;" title="SISTEMAS DE CONTROLE I - B">
+
+                <img alt="" id="ImgAtiv_ATIV_27091_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="SISTEMAS DE CONTROLE I - B" /> 
+
+                    <label id="AtivLabel_ATIV_27091_1" class="labelAtividade">ENG10004</label>
+                    <label id="LabelPreRequisito_ATIV_27091_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_27091_1" class="labelIndicador labelLiberadora"  style="display:block;"  >L</label>
+                    <label id="LabelAlternativa_ATIV_27091_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_27091_1" value="ENG10004" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_27091_1" value="SISTEMAS DE CONTROLE I - B" />
+            </div>
+
+            <div id="ATIV_17894_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_17894_1', true);" 
+                 class="divAtividade " style="top: 139px; left: 597px;" title="MICROCONTROLADORES">
+
+                <img alt="" id="ImgAtiv_ATIV_17894_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="MICROCONTROLADORES" /> 
+
+                    <label id="AtivLabel_ATIV_17894_1" class="labelAtividade">ENG10032</label>
+                    <label id="LabelPreRequisito_ATIV_17894_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_17894_1" class="labelIndicador labelLiberadora"  style="display:block;"  >L</label>
+                    <label id="LabelAlternativa_ATIV_17894_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_17894_1" value="ENG10032" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_17894_1" value="MICROCONTROLADORES" />
+            </div>
+
+            <div id="ATIV_7942_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_7942_1', true);" 
+                 class="divAtividade " style="top: 191px; left: 597px;" title="ESPECIFICA��O FORMAL N">
+
+                <img alt="" id="ImgAtiv_ATIV_7942_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="ESPECIFICA��O FORMAL N" /> 
+
+                    <label id="AtivLabel_ATIV_7942_1" class="labelAtividade">INF01001</label>
+                    <label id="LabelPreRequisito_ATIV_7942_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_7942_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_7942_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_7942_1" value="INF01001" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_7942_1" value="ESPECIFICA��O FORMAL N" />
+            </div>
+
+            <div id="ATIV_10226_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_10226_1', true);" 
+                 class="divAtividade " style="top: 243px; left: 597px;" title="COMPUTA��O GR�FICA E VISUALIZA��O I">
+
+                <img alt="" id="ImgAtiv_ATIV_10226_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="COMPUTA��O GR�FICA E VISUALIZA��O I" /> 
+
+                    <label id="AtivLabel_ATIV_10226_1" class="labelAtividade">INF01047</label>
+                    <label id="LabelPreRequisito_ATIV_10226_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_10226_1" class="labelIndicador labelLiberadora"  style="display:block;"  >L</label>
+                    <label id="LabelAlternativa_ATIV_10226_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_10226_1" value="INF01047" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_10226_1" value="COMPUTA��O GR�FICA E VISUALIZA��O I" />
+            </div>
+
+            <div id="ATIV_45694_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_45694_1', true);" 
+                 class="divAtividade " style="top: 295px; left: 597px;" title="SISTEMAS DISTRIBU�DOS E TOLERANTES A FALHAS">
+
+                <img alt="" id="ImgAtiv_ATIV_45694_1" style="position: relative;" src="resources/images/fundo_1.png" class="imgAtividade" title="SISTEMAS DISTRIBU�DOS E TOLERANTES A FALHAS" /> 
+
+                    <label id="AtivLabel_ATIV_45694_1" class="labelAtividade">INF01085</label>
+                    <label id="LabelPreRequisito_ATIV_45694_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_45694_1" class="labelIndicador labelLiberadora"  style="display:block;"  >L</label>
+                    <label id="LabelAlternativa_ATIV_45694_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_45694_1" value="INF01085" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_45694_1" value="SISTEMAS DISTRIBU�DOS E TOLERANTES A FALHAS" />
+            </div>
+
+            <div id="ATIV_3671_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_3671_1', true);" 
+                 class="divAtividade " style="top: 347px; left: 597px;" title="ARQUITETURAS AVAN�ADAS DE COMPUTADORES">
+
+                <img alt="" id="ImgAtiv_ATIV_3671_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="ARQUITETURAS AVAN�ADAS DE COMPUTADORES" /> 
+
+                    <label id="AtivLabel_ATIV_3671_1" class="labelAtividade">INF01191</label>
+                    <label id="LabelPreRequisito_ATIV_3671_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_3671_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_3671_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_3671_1" value="INF01191" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_3671_1" value="ARQUITETURAS AVAN�ADAS DE COMPUTADORES" />
+            </div>
+
+            <div id="ATIV_3673_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_3673_1', true);" 
+                 class="divAtividade " style="top: 399px; left: 597px;" title="CONCEP��O DE CIRCUITOS INTEGRADOS II">
+
+                <img alt="" id="ImgAtiv_ATIV_3673_1" style="position: relative;" src="resources/images/fundo_1.png" class="imgAtividade" title="CONCEP��O DE CIRCUITOS INTEGRADOS II" /> 
+
+                    <label id="AtivLabel_ATIV_3673_1" class="labelAtividade">INF01194</label>
+                    <label id="LabelPreRequisito_ATIV_3673_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_3673_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_3673_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_3673_1" value="INF01194" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_3673_1" value="CONCEP��O DE CIRCUITOS INTEGRADOS II" />
+            </div>
+
+            <div id="ATIV_3684_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_3684_1', true);" 
+                 class="divAtividade " style="top: 451px; left: 597px;" title="FUNDAMENTOS DE TOLER�NCIA A FALHAS">
+
+                <img alt="" id="ImgAtiv_ATIV_3684_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="FUNDAMENTOS DE TOLER�NCIA A FALHAS" /> 
+
+                    <label id="AtivLabel_ATIV_3684_1" class="labelAtividade">INF01209</label>
+                    <label id="LabelPreRequisito_ATIV_3684_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_3684_1" class="labelIndicador labelLiberadora"  style="display:block;"  >L</label>
+                    <label id="LabelAlternativa_ATIV_3684_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_3684_1" value="INF01209" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_3684_1" value="FUNDAMENTOS DE TOLER�NCIA A FALHAS" />
+            </div>
+
+            <div id="ATIV_45695_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_45695_1', true);" 
+                 class="divAtividade " style="top: 503px; left: 597px;" title="LINGUAGENS DE PROGRAMA��O I">
+
+                <img alt="" id="ImgAtiv_ATIV_45695_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="LINGUAGENS DE PROGRAMA��O I" /> 
+
+                    <label id="AtivLabel_ATIV_45695_1" class="labelAtividade">INF05029</label>
+                    <label id="LabelPreRequisito_ATIV_45695_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_45695_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_45695_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_45695_1" value="INF05029" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_45695_1" value="LINGUAGENS DE PROGRAMA��O I" />
+            </div>
+
+            <div id="ATIV_4194_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_4194_1', true);" 
+                 class="divAtividade " style="top: 35px; left: 694px;" title="C�LCULO NUM�RICO">
+
+                <img alt="" id="ImgAtiv_ATIV_4194_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="C�LCULO NUM�RICO" /> 
+
+                    <label id="AtivLabel_ATIV_4194_1" class="labelAtividade">MAT01169</label>
+                    <label id="LabelPreRequisito_ATIV_4194_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_4194_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_4194_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_4194_1" value="MAT01169" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_4194_1" value="C�LCULO NUM�RICO" />
+            </div>
+
+            <div id="ATIV_25884_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_25884_1', true);" 
+                 class="divAtividade " style="top: 35px; left: 500px;" title="CIRCUITOS ELETR�NICOS I">
+
+                <img alt="" id="ImgAtiv_ATIV_25884_1" style="position: relative;" src="resources/images/fundo_1.png" class="imgAtividade" title="CIRCUITOS ELETR�NICOS I" /> 
+
+                    <label id="AtivLabel_ATIV_25884_1" class="labelAtividade">ENG04077</label>
+                    <label id="LabelPreRequisito_ATIV_25884_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_25884_1" class="labelIndicador labelLiberadora"  style="display:block;"  >L</label>
+                    <label id="LabelAlternativa_ATIV_25884_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_25884_1" value="ENG04077" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_25884_1" value="CIRCUITOS ELETR�NICOS I" />
+            </div>
+
+            <div id="ATIV_27090_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_27090_1', true);" 
+                 class="divAtividade " style="top: 87px; left: 500px;" title="LABORAT�RIO DE CIRCUITOS EL�TRICOS">
+
+                <img alt="" id="ImgAtiv_ATIV_27090_1" style="position: relative;" src="resources/images/fundo_1.png" class="imgAtividade" title="LABORAT�RIO DE CIRCUITOS EL�TRICOS" /> 
+
+                    <label id="AtivLabel_ATIV_27090_1" class="labelAtividade">ENG10003</label>
+                    <label id="LabelPreRequisito_ATIV_27090_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_27090_1" class="labelIndicador labelLiberadora"  style="display:block;"  >L</label>
+                    <label id="LabelAlternativa_ATIV_27090_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_27090_1" value="ENG10003" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_27090_1" value="LABORAT�RIO DE CIRCUITOS EL�TRICOS" />
+            </div>
+
+            <div id="ATIV_8728_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_8728_1', true);" 
+                 class="divAtividade " style="top: 139px; left: 500px;" title="SISTEMAS E SINAIS">
+
+                <img alt="" id="ImgAtiv_ATIV_8728_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="SISTEMAS E SINAIS" /> 
+
+                    <label id="AtivLabel_ATIV_8728_1" class="labelAtividade">ENG10017</label>
+                    <label id="LabelPreRequisito_ATIV_8728_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_8728_1" class="labelIndicador labelLiberadora"  style="display:block;"  >L</label>
+                    <label id="LabelAlternativa_ATIV_8728_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_8728_1" value="ENG10017" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_8728_1" value="SISTEMAS E SINAIS" />
+            </div>
+
+            <div id="ATIV_10234_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_10234_1', true);" 
+                 class="divAtividade " style="top: 191px; left: 500px;" title="INTELIG�NCIA ARTIFICIAL">
+
+                <img alt="" id="ImgAtiv_ATIV_10234_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="INTELIG�NCIA ARTIFICIAL" /> 
+
+                    <label id="AtivLabel_ATIV_10234_1" class="labelAtividade">INF01048</label>
+                    <label id="LabelPreRequisito_ATIV_10234_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_10234_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_10234_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_10234_1" value="INF01048" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_10234_1" value="INTELIG�NCIA ARTIFICIAL" />
+            </div>
+
+            <div id="ATIV_45693_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_45693_1', true);" 
+                 class="divAtividade " style="top: 243px; left: 500px;" title="LABORAT�RIO DE REDES DE COMPUTADORES">
+
+                <img alt="" id="ImgAtiv_ATIV_45693_1" style="position: relative;" src="resources/images/fundo_1.png" class="imgAtividade" title="LABORAT�RIO DE REDES DE COMPUTADORES" /> 
+
+                    <label id="AtivLabel_ATIV_45693_1" class="labelAtividade">INF01082</label>
+                    <label id="LabelPreRequisito_ATIV_45693_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_45693_1" class="labelIndicador labelLiberadora"  style="display:block;"  >L</label>
+                    <label id="LabelAlternativa_ATIV_45693_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_45693_1" value="INF01082" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_45693_1" value="LABORAT�RIO DE REDES DE COMPUTADORES" />
+            </div>
+
+            <div id="ATIV_45692_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_45692_1', true);" 
+                 class="divAtividade " style="top: 295px; left: 500px;" title="REDES DE COMPUTADORES E INTERNET">
+
+                <img alt="" id="ImgAtiv_ATIV_45692_1" style="position: relative;" src="resources/images/fundo_1.png" class="imgAtividade" title="REDES DE COMPUTADORES E INTERNET" /> 
+
+                    <label id="AtivLabel_ATIV_45692_1" class="labelAtividade">INF01084</label>
+                    <label id="LabelPreRequisito_ATIV_45692_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_45692_1" class="labelIndicador labelLiberadora"  style="display:block;"  >L</label>
+                    <label id="LabelAlternativa_ATIV_45692_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_45692_1" value="INF01084" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_45692_1" value="REDES DE COMPUTADORES E INTERNET" />
+            </div>
+
+            <div id="ATIV_3666_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_3666_1', true);" 
+                 class="divAtividade " style="top: 347px; left: 500px;" title="CONCEP��O DE CIRCUITOS INTEGRADOS I">
+
+                <img alt="" id="ImgAtiv_ATIV_3666_1" style="position: relative;" src="resources/images/fundo_1.png" class="imgAtividade" title="CONCEP��O DE CIRCUITOS INTEGRADOS I" /> 
+
+                    <label id="AtivLabel_ATIV_3666_1" class="labelAtividade">INF01185</label>
+                    <label id="LabelPreRequisito_ATIV_3666_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_3666_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_3666_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_3666_1" value="INF01185" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_3666_1" value="CONCEP��O DE CIRCUITOS INTEGRADOS I" />
+            </div>
+
+            <div id="ATIV_8732_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_8732_1', true);" 
+                 class="divAtividade " style="top: 35px; left: 403px;" title="TEORIA ELETROMAGN�TICA E ONDAS">
+
+                <img alt="" id="ImgAtiv_ATIV_8732_1" style="position: relative;" src="resources/images/fundo_1.png" class="imgAtividade" title="TEORIA ELETROMAGN�TICA E ONDAS" /> 
+
+                    <label id="AtivLabel_ATIV_8732_1" class="labelAtividade">ENG04010</label>
+                    <label id="LabelPreRequisito_ATIV_8732_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_8732_1" class="labelIndicador labelLiberadora"  style="display:block;"  >L</label>
+                    <label id="LabelAlternativa_ATIV_8732_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_8732_1" value="ENG04010" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_8732_1" value="TEORIA ELETROMAGN�TICA E ONDAS" />
+            </div>
+
+            <div id="ATIV_27089_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_27089_1', true);" 
+                 class="divAtividade " style="top: 87px; left: 403px;" title="CIRCUITOS EL�TRICOS II - C">
+
+                <img alt="" id="ImgAtiv_ATIV_27089_1" style="position: relative;" src="resources/images/fundo_1.png" class="imgAtividade" title="CIRCUITOS EL�TRICOS II - C" /> 
+
+                    <label id="AtivLabel_ATIV_27089_1" class="labelAtividade">ENG10002</label>
+                    <label id="LabelPreRequisito_ATIV_27089_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_27089_1" class="labelIndicador labelLiberadora"  style="display:block;"  >L</label>
+                    <label id="LabelAlternativa_ATIV_27089_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_27089_1" value="ENG10002" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_27089_1" value="CIRCUITOS EL�TRICOS II - C" />
+            </div>
+
+            <div id="ATIV_10233_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_10233_1', true);" 
+                 class="divAtividade " style="top: 139px; left: 403px;" title="INTRODU��O � PESQUISA EM INFORM�TICA">
+
+                <img alt="" id="ImgAtiv_ATIV_10233_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="INTRODU��O � PESQUISA EM INFORM�TICA" /> 
+
+                    <label id="AtivLabel_ATIV_10233_1" class="labelAtividade">INF01049</label>
+                    <label id="LabelPreRequisito_ATIV_10233_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_10233_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_10233_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_10233_1" value="INF01049" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_10233_1" value="INTRODU��O � PESQUISA EM INFORM�TICA" />
+            </div>
+
+            <div id="ATIV_3629_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_3629_1', true);" 
+                 class="divAtividade " style="top: 191px; left: 403px;" title="ENGENHARIA DE SOFTWARE N">
+
+                <img alt="" id="ImgAtiv_ATIV_3629_1" style="position: relative;" src="resources/images/fundo_1.png" class="imgAtividade" title="ENGENHARIA DE SOFTWARE N" /> 
+
+                    <label id="AtivLabel_ATIV_3629_1" class="labelAtividade">INF01127</label>
+                    <label id="LabelPreRequisito_ATIV_3629_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_3629_1" class="labelIndicador labelLiberadora"  style="display:block;"  >L</label>
+                    <label id="LabelAlternativa_ATIV_3629_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_3629_1" value="INF01127" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_3629_1" value="ENGENHARIA DE SOFTWARE N" />
+            </div>
+
+            <div id="ATIV_3644_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_3644_1', true);" 
+                 class="divAtividade " style="top: 243px; left: 403px;" title="SISTEMAS OPERACIONAIS I N">
+
+                <img alt="" id="ImgAtiv_ATIV_3644_1" style="position: relative;" src="resources/images/fundo_1.png" class="imgAtividade" title="SISTEMAS OPERACIONAIS I N" /> 
+
+                    <label id="AtivLabel_ATIV_3644_1" class="labelAtividade">INF01142</label>
+                    <label id="LabelPreRequisito_ATIV_3644_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_3644_1" class="labelIndicador labelLiberadora"  style="display:block;"  >L</label>
+                    <label id="LabelAlternativa_ATIV_3644_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_3644_1" value="INF01142" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_3644_1" value="SISTEMAS OPERACIONAIS I N" />
+            </div>
+
+            <div id="ATIV_3648_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_3648_1', true);" 
+                 class="divAtividade " style="top: 295px; left: 403px;" title="AVALIA��O DE DESEMPENHO">
+
+                <img alt="" id="ImgAtiv_ATIV_3648_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="AVALIA��O DE DESEMPENHO" /> 
+
+                    <label id="AtivLabel_ATIV_3648_1" class="labelAtividade">INF01146</label>
+                    <label id="LabelPreRequisito_ATIV_3648_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_3648_1" class="labelIndicador labelLiberadora"  style="display:block;"  >L</label>
+                    <label id="LabelAlternativa_ATIV_3648_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_3648_1" value="INF01146" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_3648_1" value="AVALIA��O DE DESEMPENHO" />
+            </div>
+
+            <div id="ATIV_3660_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_3660_1', true);" 
+                 class="divAtividade " style="top: 347px; left: 403px;" title="SISTEMAS DIGITAIS PARA COMPUTADORES A">
+
+                <img alt="" id="ImgAtiv_ATIV_3660_1" style="position: relative;" src="resources/images/fundo_1.png" class="imgAtividade" title="SISTEMAS DIGITAIS PARA COMPUTADORES A" /> 
+
+                    <label id="AtivLabel_ATIV_3660_1" class="labelAtividade">INF01175</label>
+                    <label id="LabelPreRequisito_ATIV_3660_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_3660_1" class="labelIndicador labelLiberadora"  style="display:block;"  >L</label>
+                    <label id="LabelAlternativa_ATIV_3660_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_3660_1" value="INF01175" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_3660_1" value="SISTEMAS DIGITAIS PARA COMPUTADORES A" />
+            </div>
+
+            <div id="ATIV_27088_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_27088_1', true);" 
+                 class="divAtividade " style="top: 35px; left: 306px;" title="CIRCUITOS EL�TRICOS I - C">
+
+                <img alt="" id="ImgAtiv_ATIV_27088_1" style="position: relative;" src="resources/images/fundo_1.png" class="imgAtividade" title="CIRCUITOS EL�TRICOS I - C" /> 
+
+                    <label id="AtivLabel_ATIV_27088_1" class="labelAtividade">ENG10001</label>
+                    <label id="LabelPreRequisito_ATIV_27088_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_27088_1" class="labelIndicador labelLiberadora"  style="display:block;"  >L</label>
+                    <label id="LabelAlternativa_ATIV_27088_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_27088_1" value="ENG10001" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_27088_1" value="CIRCUITOS EL�TRICOS I - C" />
+            </div>
+
+            <div id="ATIV_3615_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_3615_1', true);" 
+                 class="divAtividade " style="top: 87px; left: 306px;" title="ORGANIZA��O DE COMPUTADORES">
+
+                <img alt="" id="ImgAtiv_ATIV_3615_1" style="position: relative;" src="resources/images/fundo_1.png" class="imgAtividade" title="ORGANIZA��O DE COMPUTADORES" /> 
+
+                    <label id="AtivLabel_ATIV_3615_1" class="labelAtividade">INF01113</label>
+                    <label id="LabelPreRequisito_ATIV_3615_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_3615_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_3615_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_3615_1" value="INF01113" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_3615_1" value="ORGANIZA��O DE COMPUTADORES" />
+            </div>
+
+            <div id="ATIV_45782_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_45782_1', true);" 
+                 class="divAtividade " style="top: 139px; left: 306px;" title="TEORIA DA COMPUTA��O">
+
+                <img alt="" id="ImgAtiv_ATIV_45782_1" style="position: relative;" src="resources/images/fundo_1.png" class="imgAtividade" title="TEORIA DA COMPUTA��O" /> 
+
+                    <label id="AtivLabel_ATIV_45782_1" class="labelAtividade">INF05035</label>
+                    <label id="LabelPreRequisito_ATIV_45782_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_45782_1" class="labelIndicador labelLiberadora"  style="display:block;"  >L</label>
+                    <label id="LabelAlternativa_ATIV_45782_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_45782_1" value="INF05035" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_45782_1" value="TEORIA DA COMPUTA��O" />
+            </div>
+
+            <div id="ATIV_4193_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_4193_1', true);" 
+                 class="divAtividade " style="top: 191px; left: 306px;" title="MATEM�TICA APLICADA II">
+
+                <img alt="" id="ImgAtiv_ATIV_4193_1" style="position: relative;" src="resources/images/fundo_1.png" class="imgAtividade" title="MATEM�TICA APLICADA II" /> 
+
+                    <label id="AtivLabel_ATIV_4193_1" class="labelAtividade">MAT01168</label>
+                    <label id="LabelPreRequisito_ATIV_4193_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_4193_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_4193_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_4193_1" value="MAT01168" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_4193_1" value="MATEM�TICA APLICADA II" />
+            </div>
+
+            <div id="ATIV_40308_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_40308_1', true);" 
+                 class="divAtividade " style="top: 243px; left: 306px;" title="PROBABILIDADE E ESTAT�STICA - EAD">
+
+                <img alt="" id="ImgAtiv_ATIV_40308_1" style="position: relative;" src="resources/images/fundo_2.png" class="imgAtividade" title="PROBABILIDADE E ESTAT�STICA - EAD" /> 
+
+                    <label id="AtivLabel_ATIV_40308_1" class="labelAtividade">MAT02050</label>
+                    <label id="LabelPreRequisito_ATIV_40308_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_40308_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_40308_1" class="labelIndicador labelGrupoAlternativa"  style="display:block;"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_40308_1" value="MAT02050" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_40308_1" value="PROBABILIDADE E ESTAT�STICA - EAD" />
+            </div>
+
+            <div id="ATIV_4218_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_4218_1', true);" 
+                 class="divAtividade " style="top: 295px; left: 306px;" title="PROBABILIDADE E ESTAT�STICA">
+
+                <img alt="" id="ImgAtiv_ATIV_4218_1" style="position: relative;" src="resources/images/fundo_2.png" class="imgAtividade" title="PROBABILIDADE E ESTAT�STICA" /> 
+
+                    <label id="AtivLabel_ATIV_4218_1" class="labelAtividade">MAT02219</label>
+                    <label id="LabelPreRequisito_ATIV_4218_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_4218_1" class="labelIndicador labelLiberadora"  style="display:block;"  >L</label>
+                    <label id="LabelAlternativa_ATIV_4218_1" class="labelIndicador labelGrupoAlternativa"  style="display:block;"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_4218_1" value="MAT02219" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_4218_1" value="PROBABILIDADE E ESTAT�STICA" />
+            </div>
+
+            <div id="ATIV_3215_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_3215_1', true);" 
+                 class="divAtividade " style="top: 35px; left: 209px;" title="F�SICA III-C">
+
+                <img alt="" id="ImgAtiv_ATIV_3215_1" style="position: relative;" src="resources/images/fundo_1.png" class="imgAtividade" title="F�SICA III-C" /> 
+
+                    <label id="AtivLabel_ATIV_3215_1" class="labelAtividade">FIS01183</label>
+                    <label id="LabelPreRequisito_ATIV_3215_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_3215_1" class="labelIndicador labelLiberadora"  style="display:block;"  >L</label>
+                    <label id="LabelAlternativa_ATIV_3215_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_3215_1" value="FIS01183" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_3215_1" value="F�SICA III-C" />
+            </div>
+
+            <div id="ATIV_45781_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_45781_1', true);" 
+                 class="divAtividade " style="top: 87px; left: 209px;" title="PROJETO DE CIRCUITOS DIGITAIS">
+
+                <img alt="" id="ImgAtiv_ATIV_45781_1" style="position: relative;" src="resources/images/fundo_1.png" class="imgAtividade" title="PROJETO DE CIRCUITOS DIGITAIS" /> 
+
+                    <label id="AtivLabel_ATIV_45781_1" class="labelAtividade">INF01086</label>
+                    <label id="LabelPreRequisito_ATIV_45781_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_45781_1" class="labelIndicador labelLiberadora"  style="display:block;"  >L</label>
+                    <label id="LabelAlternativa_ATIV_45781_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_45781_1" value="INF01086" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_45781_1" value="PROJETO DE CIRCUITOS DIGITAIS" />
+            </div>
+
+            <div id="ATIV_3622_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_3622_1', true);" 
+                 class="divAtividade " style="top: 139px; left: 209px;" title="DESENVOLVIMENTO DE SOFTWARE">
+
+                <img alt="" id="ImgAtiv_ATIV_3622_1" style="position: relative;" src="resources/images/fundo_1.png" class="imgAtividade" title="DESENVOLVIMENTO DE SOFTWARE" /> 
+
+                    <label id="AtivLabel_ATIV_3622_1" class="labelAtividade">INF01120</label>
+                    <label id="LabelPreRequisito_ATIV_3622_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_3622_1" class="labelIndicador labelLiberadora"  style="display:block;"  >L</label>
+                    <label id="LabelAlternativa_ATIV_3622_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_3622_1" value="INF01120" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_3622_1" value="DESENVOLVIMENTO DE SOFTWARE" />
+            </div>
+
+            <div id="ATIV_45558_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_45558_1', true);" 
+                 class="divAtividade " style="top: 191px; left: 209px;" title="PROJETO E AN�LISE DE ALGORITMOS I">
+
+                <img alt="" id="ImgAtiv_ATIV_45558_1" style="position: relative;" src="resources/images/fundo_1.png" class="imgAtividade" title="PROJETO E AN�LISE DE ALGORITMOS I" /> 
+
+                    <label id="AtivLabel_ATIV_45558_1" class="labelAtividade">INF05027</label>
+                    <label id="LabelPreRequisito_ATIV_45558_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_45558_1" class="labelIndicador labelLiberadora"  style="display:block;"  >L</label>
+                    <label id="LabelAlternativa_ATIV_45558_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_45558_1" value="INF05027" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_45558_1" value="PROJETO E AN�LISE DE ALGORITMOS I" />
+            </div>
+
+            <div id="ATIV_4192_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_4192_1', true);" 
+                 class="divAtividade " style="top: 243px; left: 209px;" title="EQUA��ES DIFERENCIAIS II">
+
+                <img alt="" id="ImgAtiv_ATIV_4192_1" style="position: relative;" src="resources/images/fundo_1.png" class="imgAtividade" title="EQUA��ES DIFERENCIAIS II" /> 
+
+                    <label id="AtivLabel_ATIV_4192_1" class="labelAtividade">MAT01167</label>
+                    <label id="LabelPreRequisito_ATIV_4192_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_4192_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_4192_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_4192_1" value="MAT01167" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_4192_1" value="EQUA��ES DIFERENCIAIS II" />
+            </div>
+
+            <div id="ATIV_3214_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_3214_1', true);" 
+                 class="divAtividade " style="top: 35px; left: 112px;" title="F�SICA GERAL - ELETROMAGNETISMO">
+
+                <img alt="" id="ImgAtiv_ATIV_3214_1" style="position: relative;" src="resources/images/fundo_1.png" class="imgAtividade" title="F�SICA GERAL - ELETROMAGNETISMO" /> 
+
+                    <label id="AtivLabel_ATIV_3214_1" class="labelAtividade">FIS01182</label>
+                    <label id="LabelPreRequisito_ATIV_3214_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_3214_1" class="labelIndicador labelLiberadora"  style="display:block;"  >L</label>
+                    <label id="LabelAlternativa_ATIV_3214_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_3214_1" value="FIS01182" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_3214_1" value="F�SICA GERAL - ELETROMAGNETISMO" />
+            </div>
+
+            <div id="ATIV_45674_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_45674_1', true);" 
+                 class="divAtividade " style="top: 87px; left: 112px;" title="ARQUITETURA DE COMPUTADORES">
+
+                <img alt="" id="ImgAtiv_ATIV_45674_1" style="position: relative;" src="resources/images/fundo_1.png" class="imgAtividade" title="ARQUITETURA DE COMPUTADORES" /> 
+
+                    <label id="AtivLabel_ATIV_45674_1" class="labelAtividade">INF01075</label>
+                    <label id="LabelPreRequisito_ATIV_45674_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_45674_1" class="labelIndicador labelLiberadora"  style="display:block;"  >L</label>
+                    <label id="LabelAlternativa_ATIV_45674_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_45674_1" value="INF01075" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_45674_1" value="ARQUITETURA DE COMPUTADORES" />
+            </div>
+
+            <div id="ATIV_3680_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_3680_1', true);" 
+                 class="divAtividade " style="top: 139px; left: 112px;" title="ESTRUTURAS DE DADOS">
+
+                <img alt="" id="ImgAtiv_ATIV_3680_1" style="position: relative;" src="resources/images/fundo_1.png" class="imgAtividade" title="ESTRUTURAS DE DADOS" /> 
+
+                    <label id="AtivLabel_ATIV_3680_1" class="labelAtividade">INF01203</label>
+                    <label id="LabelPreRequisito_ATIV_3680_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_3680_1" class="labelIndicador labelLiberadora"  style="display:block;"  >L</label>
+                    <label id="LabelAlternativa_ATIV_3680_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_3680_1" value="INF01203" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_3680_1" value="ESTRUTURAS DE DADOS" />
+            </div>
+
+            <div id="ATIV_4305_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_4305_1', true);" 
+                 class="divAtividade " style="top: 191px; left: 112px;" title="C�LCULO E GEOMETRIA ANAL�TICA II - A">
+
+                <img alt="" id="ImgAtiv_ATIV_4305_1" style="position: relative;" src="resources/images/fundo_1.png" class="imgAtividade" title="C�LCULO E GEOMETRIA ANAL�TICA II - A" /> 
+
+                    <label id="AtivLabel_ATIV_4305_1" class="labelAtividade">MAT01354</label>
+                    <label id="LabelPreRequisito_ATIV_4305_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_4305_1" class="labelIndicador labelLiberadora"  style="display:block;"  >L</label>
+                    <label id="LabelAlternativa_ATIV_4305_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_4305_1" value="MAT01354" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_4305_1" value="C�LCULO E GEOMETRIA ANAL�TICA II - A" />
+            </div>
+
+            <div id="ATIV_4306_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_4306_1', true);" 
+                 class="divAtividade " style="top: 243px; left: 112px;" title="�LGEBRA LINEAR I - A">
+
+                <img alt="" id="ImgAtiv_ATIV_4306_1" style="position: relative;" src="resources/images/fundo_1.png" class="imgAtividade" title="�LGEBRA LINEAR I - A" /> 
+
+                    <label id="AtivLabel_ATIV_4306_1" class="labelAtividade">MAT01355</label>
+                    <label id="LabelPreRequisito_ATIV_4306_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_4306_1" class="labelIndicador labelLiberadora"  style="display:block;"  >L</label>
+                    <label id="LabelAlternativa_ATIV_4306_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_4306_1" value="MAT01355" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_4306_1" value="�LGEBRA LINEAR I - A" />
+            </div>
+
+            <div id="ATIV_4321_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_4321_1', true);" 
+                 class="divAtividade " style="top: 295px; left: 112px;" title="MATEM�TICA DISCRETA B">
+
+                <img alt="" id="ImgAtiv_ATIV_4321_1" style="position: relative;" src="resources/images/fundo_1.png" class="imgAtividade" title="MATEM�TICA DISCRETA B" /> 
+
+                    <label id="AtivLabel_ATIV_4321_1" class="labelAtividade">MAT01375</label>
+                    <label id="LabelPreRequisito_ATIV_4321_1" class="labelIndicador labelPreRequisito"  >P</label>
+                    <label id="LabelLiberadora_ATIV_4321_1" class="labelIndicador labelLiberadora"  style="display:block;"  >L</label>
+                    <label id="LabelAlternativa_ATIV_4321_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_4321_1" value="MAT01375" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_4321_1" value="MATEM�TICA DISCRETA B" />
+            </div>
+
+            <div id="ATIV_8731_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_8731_1', true);" 
+                 class="divAtividade " style="top: 35px; left: 15px;" title="INTRODU��O � ENGENHARIA DE COMPUTA��O">
+
+                <img alt="" id="ImgAtiv_ATIV_8731_1" style="position: relative;" src="resources/images/fundo_1.png" class="imgAtividade" title="INTRODU��O � ENGENHARIA DE COMPUTA��O" /> 
+
+                    <label id="AtivLabel_ATIV_8731_1" class="labelAtividade">ECP99002</label>
+                    <label id="LabelPreRequisito_ATIV_8731_1" class="labelIndicador labelPreRequisito"  >P</label>
+                    <label id="LabelLiberadora_ATIV_8731_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_8731_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_8731_1" value="ECP99002" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_8731_1" value="INTRODU��O � ENGENHARIA DE COMPUTA��O" />
+            </div>
+
+            <div id="ATIV_3213_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_3213_1', true);" 
+                 class="divAtividade " style="top: 87px; left: 15px;" title="F�SICA I-C">
+
+                <img alt="" id="ImgAtiv_ATIV_3213_1" style="position: relative;" src="resources/images/fundo_1.png" class="imgAtividade" title="F�SICA I-C" /> 
+
+                    <label id="AtivLabel_ATIV_3213_1" class="labelAtividade">FIS01181</label>
+                    <label id="LabelPreRequisito_ATIV_3213_1" class="labelIndicador labelPreRequisito"  >P</label>
+                    <label id="LabelLiberadora_ATIV_3213_1" class="labelIndicador labelLiberadora"  style="display:block;"  >L</label>
+                    <label id="LabelAlternativa_ATIV_3213_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_3213_1" value="FIS01181" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_3213_1" value="F�SICA I-C" />
+            </div>
+
+            <div id="ATIV_3679_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_3679_1', true);" 
+                 class="divAtividade " style="top: 139px; left: 15px;" title="ALGOR�TMOS E PROGRAMA��O - CIC">
+
+                <img alt="" id="ImgAtiv_ATIV_3679_1" style="position: relative;" src="resources/images/fundo_1.png" class="imgAtividade" title="ALGOR�TMOS E PROGRAMA��O - CIC" /> 
+
+                    <label id="AtivLabel_ATIV_3679_1" class="labelAtividade">INF01202</label>
+                    <label id="LabelPreRequisito_ATIV_3679_1" class="labelIndicador labelPreRequisito"  >P</label>
+                    <label id="LabelLiberadora_ATIV_3679_1" class="labelIndicador labelLiberadora"  style="display:block;"  >L</label>
+                    <label id="LabelAlternativa_ATIV_3679_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_3679_1" value="INF01202" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_3679_1" value="ALGOR�TMOS E PROGRAMA��O - CIC" />
+            </div>
+
+            <div id="ATIV_3695_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_3695_1', true);" 
+                 class="divAtividade " style="top: 191px; left: 15px;" title="L�GICA PARA COMPUTA��O">
+
+                <img alt="" id="ImgAtiv_ATIV_3695_1" style="position: relative;" src="resources/images/fundo_1.png" class="imgAtividade" title="L�GICA PARA COMPUTA��O" /> 
+
+                    <label id="AtivLabel_ATIV_3695_1" class="labelAtividade">INF05508</label>
+                    <label id="LabelPreRequisito_ATIV_3695_1" class="labelIndicador labelPreRequisito"  >P</label>
+                    <label id="LabelLiberadora_ATIV_3695_1" class="labelIndicador labelLiberadora"  style="display:block;"  >L</label>
+                    <label id="LabelAlternativa_ATIV_3695_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_3695_1" value="INF05508" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_3695_1" value="L�GICA PARA COMPUTA��O" />
+            </div>
+
+            <div id="ATIV_4304_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_4304_1', true);" 
+                 class="divAtividade " style="top: 243px; left: 15px;" title="C�LCULO E GEOMETRIA ANAL�TICA I - A">
+
+                <img alt="" id="ImgAtiv_ATIV_4304_1" style="position: relative;" src="resources/images/fundo_1.png" class="imgAtividade" title="C�LCULO E GEOMETRIA ANAL�TICA I - A" /> 
+
+                    <label id="AtivLabel_ATIV_4304_1" class="labelAtividade">MAT01353</label>
+                    <label id="LabelPreRequisito_ATIV_4304_1" class="labelIndicador labelPreRequisito"  >P</label>
+                    <label id="LabelLiberadora_ATIV_4304_1" class="labelIndicador labelLiberadora"  style="display:block;"  >L</label>
+                    <label id="LabelAlternativa_ATIV_4304_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_4304_1" value="MAT01353" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_4304_1" value="C�LCULO E GEOMETRIA ANAL�TICA I - A" />
+            </div>
+
+            <div id="ATIV_10275_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_10275_1', true);" 
+                 class="divAtividade " style="top: 35px; left: 1373px;" title="ELETR�NICA III">
+
+                <img alt="" id="ImgAtiv_ATIV_10275_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="ELETR�NICA III" /> 
+
+                    <label id="AtivLabel_ATIV_10275_1" class="labelAtividade">ENG04038</label>
+                    <label id="LabelPreRequisito_ATIV_10275_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_10275_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_10275_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_10275_1" value="ENG04038" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_10275_1" value="ELETR�NICA III" />
+            </div>
+
+            <div id="ATIV_20291_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_20291_1', true);" 
+                 class="divAtividade " style="top: 87px; left: 1373px;" title="PROJETO DE SISTEMAS DE RF INTEGRADOS">
+
+                <img alt="" id="ImgAtiv_ATIV_20291_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="PROJETO DE SISTEMAS DE RF INTEGRADOS" /> 
+
+                    <label id="AtivLabel_ATIV_20291_1" class="labelAtividade">ENG04064</label>
+                    <label id="LabelPreRequisito_ATIV_20291_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_20291_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_20291_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_20291_1" value="ENG04064" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_20291_1" value="PROJETO DE SISTEMAS DE RF INTEGRADOS" />
+            </div>
+
+            <div id="ATIV_20292_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_20292_1', true);" 
+                 class="divAtividade " style="top: 139px; left: 1373px;" title="PROJETO DE SISTEMAS ANAL�GICOS E MISTOS INTEGRADOS">
+
+                <img alt="" id="ImgAtiv_ATIV_20292_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="PROJETO DE SISTEMAS ANAL�GICOS E MISTOS INTEGRADOS" /> 
+
+                    <label id="AtivLabel_ATIV_20292_1" class="labelAtividade">ENG04065</label>
+                    <label id="LabelPreRequisito_ATIV_20292_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_20292_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_20292_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_20292_1" value="ENG04065" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_20292_1" value="PROJETO DE SISTEMAS ANAL�GICOS E MISTOS INTEGRADOS" />
+            </div>
+
+            <div id="ATIV_41204_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_41204_1', true);" 
+                 class="divAtividade " style="top: 191px; left: 1373px;" title="ROB�TICA M�VEL">
+
+                <img alt="" id="ImgAtiv_ATIV_41204_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="ROB�TICA M�VEL" /> 
+
+                    <label id="AtivLabel_ATIV_41204_1" class="labelAtividade">ENG10054</label>
+                    <label id="LabelPreRequisito_ATIV_41204_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_41204_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_41204_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_41204_1" value="ENG10054" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_41204_1" value="ROB�TICA M�VEL" />
+            </div>
+
+            <div id="ATIV_41205_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_41205_1', true);" 
+                 class="divAtividade " style="top: 243px; left: 1373px;" title="SISTEMAS DE TEMPO REAL - I">
+
+                <img alt="" id="ImgAtiv_ATIV_41205_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="SISTEMAS DE TEMPO REAL - I" /> 
+
+                    <label id="AtivLabel_ATIV_41205_1" class="labelAtividade">ENG10055</label>
+                    <label id="LabelPreRequisito_ATIV_41205_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_41205_1" class="labelIndicador labelLiberadora"  style="display:block;"  >L</label>
+                    <label id="LabelAlternativa_ATIV_41205_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_41205_1" value="ENG10055" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_41205_1" value="SISTEMAS DE TEMPO REAL - I" />
+            </div>
+
+            <div id="ATIV_41412_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_41412_1', true);" 
+                 class="divAtividade " style="top: 295px; left: 1373px;" title="T�PICOS ESPECIAIS EM ENGENHARIA DE COMPUTA��O VIII">
+
+                <img alt="" id="ImgAtiv_ATIV_41412_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="T�PICOS ESPECIAIS EM ENGENHARIA DE COMPUTA��O VIII" /> 
+
+                    <label id="AtivLabel_ATIV_41412_1" class="labelAtividade">ENG10056</label>
+                    <label id="LabelPreRequisito_ATIV_41412_1" class="labelIndicador labelPreRequisito"  >P</label>
+                    <label id="LabelLiberadora_ATIV_41412_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_41412_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_41412_1" value="ENG10056" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_41412_1" value="T�PICOS ESPECIAIS EM ENGENHARIA DE COMPUTA��O VIII" />
+            </div>
+
+            <div id="ATIV_41413_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_41413_1', true);" 
+                 class="divAtividade " style="top: 347px; left: 1373px;" title="T�PICOS ESPECIAIS EM ENGENHARIA DE COMPUTA��O IX">
+
+                <img alt="" id="ImgAtiv_ATIV_41413_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="T�PICOS ESPECIAIS EM ENGENHARIA DE COMPUTA��O IX" /> 
+
+                    <label id="AtivLabel_ATIV_41413_1" class="labelAtividade">ENG10057</label>
+                    <label id="LabelPreRequisito_ATIV_41413_1" class="labelIndicador labelPreRequisito"  >P</label>
+                    <label id="LabelLiberadora_ATIV_41413_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_41413_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_41413_1" value="ENG10057" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_41413_1" value="T�PICOS ESPECIAIS EM ENGENHARIA DE COMPUTA��O IX" />
+            </div>
+
+            <div id="ATIV_41414_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_41414_1', true);" 
+                 class="divAtividade " style="top: 399px; left: 1373px;" title="T�PICOS ESPECIAIS EM ENGENHARIA DE COMPUTA��O X">
+
+                <img alt="" id="ImgAtiv_ATIV_41414_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="T�PICOS ESPECIAIS EM ENGENHARIA DE COMPUTA��O X" /> 
+
+                    <label id="AtivLabel_ATIV_41414_1" class="labelAtividade">ENG10058</label>
+                    <label id="LabelPreRequisito_ATIV_41414_1" class="labelIndicador labelPreRequisito"  >P</label>
+                    <label id="LabelLiberadora_ATIV_41414_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_41414_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_41414_1" value="ENG10058" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_41414_1" value="T�PICOS ESPECIAIS EM ENGENHARIA DE COMPUTA��O X" />
+            </div>
+
+            <div id="ATIV_7956_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_7956_1', true);" 
+                 class="divAtividade " style="top: 451px; left: 1373px;" title="GER�NCIA E APLICA��ES EM REDES">
+
+                <img alt="" id="ImgAtiv_ATIV_7956_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="GER�NCIA E APLICA��ES EM REDES" /> 
+
+                    <label id="AtivLabel_ATIV_7956_1" class="labelAtividade">INF01015</label>
+                    <label id="LabelPreRequisito_ATIV_7956_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_7956_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_7956_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_7956_1" value="INF01015" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_7956_1" value="GER�NCIA E APLICA��ES EM REDES" />
+            </div>
+
+            <div id="ATIV_7959_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_7959_1', true);" 
+                 class="divAtividade " style="top: 503px; left: 1373px;" title="SISTEMAS OPERACIONAIS DISTRIBU�DOS E DE REDES">
+
+                <img alt="" id="ImgAtiv_ATIV_7959_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="SISTEMAS OPERACIONAIS DISTRIBU�DOS E DE REDES" /> 
+
+                    <label id="AtivLabel_ATIV_7959_1" class="labelAtividade">INF01018</label>
+                    <label id="LabelPreRequisito_ATIV_7959_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_7959_1" class="labelIndicador labelLiberadora"  style="display:block;"  >L</label>
+                    <label id="LabelAlternativa_ATIV_7959_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_7959_1" value="INF01018" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_7959_1" value="SISTEMAS OPERACIONAIS DISTRIBU�DOS E DE REDES" />
+            </div>
+
+            <div id="ATIV_24387_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_24387_1', true);" 
+                 class="divAtividade " style="top: 35px; left: 1470px;" title="VIS�O COMPUTACIONAL II">
+
+                <img alt="" id="ImgAtiv_ATIV_24387_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="VIS�O COMPUTACIONAL II" /> 
+
+                    <label id="AtivLabel_ATIV_24387_1" class="labelAtividade">INF01030</label>
+                    <label id="LabelPreRequisito_ATIV_24387_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_24387_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_24387_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_24387_1" value="INF01030" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_24387_1" value="VIS�O COMPUTACIONAL II" />
+            </div>
+
+            <div id="ATIV_13380_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_13380_1', true);" 
+                 class="divAtividade " style="top: 87px; left: 1470px;" title="T�PICOS ESPECIAIS EM COMPUTA��O VII">
+
+                <img alt="" id="ImgAtiv_ATIV_13380_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="T�PICOS ESPECIAIS EM COMPUTA��O VII" /> 
+
+                    <label id="AtivLabel_ATIV_13380_1" class="labelAtividade">INF01054</label>
+                    <label id="LabelPreRequisito_ATIV_13380_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_13380_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_13380_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_13380_1" value="INF01054" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_13380_1" value="T�PICOS ESPECIAIS EM COMPUTA��O VII" />
+            </div>
+
+            <div id="ATIV_13381_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_13381_1', true);" 
+                 class="divAtividade " style="top: 139px; left: 1470px;" title="T�PICOS ESPECIAIS EM COMPUTA��O VIII">
+
+                <img alt="" id="ImgAtiv_ATIV_13381_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="T�PICOS ESPECIAIS EM COMPUTA��O VIII" /> 
+
+                    <label id="AtivLabel_ATIV_13381_1" class="labelAtividade">INF01055</label>
+                    <label id="LabelPreRequisito_ATIV_13381_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_13381_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_13381_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_13381_1" value="INF01055" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_13381_1" value="T�PICOS ESPECIAIS EM COMPUTA��O VIII" />
+            </div>
+
+            <div id="ATIV_18463_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_18463_1', true);" 
+                 class="divAtividade " style="top: 191px; left: 1470px;" title="T�PICOS ESPECIAIS EM COMPUTA��O XII">
+
+                <img alt="" id="ImgAtiv_ATIV_18463_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="T�PICOS ESPECIAIS EM COMPUTA��O XII" /> 
+
+                    <label id="AtivLabel_ATIV_18463_1" class="labelAtividade">INF01063</label>
+                    <label id="LabelPreRequisito_ATIV_18463_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_18463_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_18463_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_18463_1" value="INF01063" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_18463_1" value="T�PICOS ESPECIAIS EM COMPUTA��O XII" />
+            </div>
+
+            <div id="ATIV_45754_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_45754_1', true);" 
+                 class="divAtividade " style="top: 243px; left: 1470px;" title="T�PICOS ESPECIAIS EM COMPUTA��O XXXVII">
+
+                <img alt="" id="ImgAtiv_ATIV_45754_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="T�PICOS ESPECIAIS EM COMPUTA��O XXXVII" /> 
+
+                    <label id="AtivLabel_ATIV_45754_1" class="labelAtividade">INF01076</label>
+                    <label id="LabelPreRequisito_ATIV_45754_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_45754_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_45754_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_45754_1" value="INF01076" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_45754_1" value="T�PICOS ESPECIAIS EM COMPUTA��O XXXVII" />
+            </div>
+
+            <div id="ATIV_45755_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_45755_1', true);" 
+                 class="divAtividade " style="top: 295px; left: 1470px;" title="T�PICOS ESPECIAIS EM COMPUTA��O XXXVIII">
+
+                <img alt="" id="ImgAtiv_ATIV_45755_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="T�PICOS ESPECIAIS EM COMPUTA��O XXXVIII" /> 
+
+                    <label id="AtivLabel_ATIV_45755_1" class="labelAtividade">INF01077</label>
+                    <label id="LabelPreRequisito_ATIV_45755_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_45755_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_45755_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_45755_1" value="INF01077" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_45755_1" value="T�PICOS ESPECIAIS EM COMPUTA��O XXXVIII" />
+            </div>
+
+            <div id="ATIV_45756_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_45756_1', true);" 
+                 class="divAtividade " style="top: 347px; left: 1470px;" title="T�PICOS ESPECIAIS EM COMPUTA��O XXXIX">
+
+                <img alt="" id="ImgAtiv_ATIV_45756_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="T�PICOS ESPECIAIS EM COMPUTA��O XXXIX" /> 
+
+                    <label id="AtivLabel_ATIV_45756_1" class="labelAtividade">INF01078</label>
+                    <label id="LabelPreRequisito_ATIV_45756_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_45756_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_45756_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_45756_1" value="INF01078" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_45756_1" value="T�PICOS ESPECIAIS EM COMPUTA��O XXXIX" />
+            </div>
+
+            <div id="ATIV_45757_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_45757_1', true);" 
+                 class="divAtividade " style="top: 399px; left: 1470px;" title="T�PICOS ESPECIAIS EM COMPUTA��O XL">
+
+                <img alt="" id="ImgAtiv_ATIV_45757_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="T�PICOS ESPECIAIS EM COMPUTA��O XL" /> 
+
+                    <label id="AtivLabel_ATIV_45757_1" class="labelAtividade">INF01079</label>
+                    <label id="LabelPreRequisito_ATIV_45757_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_45757_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_45757_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_45757_1" value="INF01079" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_45757_1" value="T�PICOS ESPECIAIS EM COMPUTA��O XL" />
+            </div>
+
+            <div id="ATIV_45688_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_45688_1', true);" 
+                 class="divAtividade " style="top: 451px; left: 1470px;" title="T�PICOS ESPECIAIS EM COMPUTA��O XLI">
+
+                <img alt="" id="ImgAtiv_ATIV_45688_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="T�PICOS ESPECIAIS EM COMPUTA��O XLI" /> 
+
+                    <label id="AtivLabel_ATIV_45688_1" class="labelAtividade">INF01080</label>
+                    <label id="LabelPreRequisito_ATIV_45688_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_45688_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_45688_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_45688_1" value="INF01080" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_45688_1" value="T�PICOS ESPECIAIS EM COMPUTA��O XLI" />
+            </div>
+
+            <div id="ATIV_45689_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_45689_1', true);" 
+                 class="divAtividade " style="top: 503px; left: 1470px;" title="APRENDIZADO PROFUNDO PARA COMPUTA��O VISUAL">
+
+                <img alt="" id="ImgAtiv_ATIV_45689_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="APRENDIZADO PROFUNDO PARA COMPUTA��O VISUAL" /> 
+
+                    <label id="AtivLabel_ATIV_45689_1" class="labelAtividade">INF01081</label>
+                    <label id="LabelPreRequisito_ATIV_45689_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_45689_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_45689_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_45689_1" value="INF01081" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_45689_1" value="APRENDIZADO PROFUNDO PARA COMPUTA��O VISUAL" />
+            </div>
+
+            <div id="ATIV_3610_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_3610_1', true);" 
+                 class="divAtividade " style="top: 35px; left: 1567px;" title="INTRODU��O � ARQUITETURA DE COMPUTADORES">
+
+                <img alt="" id="ImgAtiv_ATIV_3610_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="INTRODU��O � ARQUITETURA DE COMPUTADORES" /> 
+
+                    <label id="AtivLabel_ATIV_3610_1" class="labelAtividade">INF01107</label>
+                    <label id="LabelPreRequisito_ATIV_3610_1" class="labelIndicador labelPreRequisito"  >P</label>
+                    <label id="LabelLiberadora_ATIV_3610_1" class="labelIndicador labelLiberadora"  style="display:block;"  >L</label>
+                    <label id="LabelAlternativa_ATIV_3610_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_3610_1" value="INF01107" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_3610_1" value="INTRODU��O � ARQUITETURA DE COMPUTADORES" />
+            </div>
+
+            <div id="ATIV_3614_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_3614_1', true);" 
+                 class="divAtividade " style="top: 87px; left: 1567px;" title="ARQUITETURA E ORGANIZA��O DE COMPUTADORES II">
+
+                <img alt="" id="ImgAtiv_ATIV_3614_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="ARQUITETURA E ORGANIZA��O DE COMPUTADORES II" /> 
+
+                    <label id="AtivLabel_ATIV_3614_1" class="labelAtividade">INF01112</label>
+                    <label id="LabelPreRequisito_ATIV_3614_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_3614_1" class="labelIndicador labelLiberadora"  style="display:block;"  >L</label>
+                    <label id="LabelAlternativa_ATIV_3614_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_3614_1" value="INF01112" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_3614_1" value="ARQUITETURA E ORGANIZA��O DE COMPUTADORES II" />
+            </div>
+
+            <div id="ATIV_3623_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_3623_1', true);" 
+                 class="divAtividade " style="top: 139px; left: 1567px;" title="MODELOS DE LINGUAGEM DE PROGRAMA��O">
+
+                <img alt="" id="ImgAtiv_ATIV_3623_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="MODELOS DE LINGUAGEM DE PROGRAMA��O" /> 
+
+                    <label id="AtivLabel_ATIV_3623_1" class="labelAtividade">INF01121</label>
+                    <label id="LabelPreRequisito_ATIV_3623_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_3623_1" class="labelIndicador labelLiberadora"  style="display:block;"  >L</label>
+                    <label id="LabelAlternativa_ATIV_3623_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_3623_1" value="INF01121" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_3623_1" value="MODELOS DE LINGUAGEM DE PROGRAMA��O" />
+            </div>
+
+            <div id="ATIV_29416_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_29416_1', true);" 
+                 class="divAtividade " style="top: 191px; left: 1567px;" title="MODELAGEM E GERENCIAMENTO DE PROCESSOS DE NEG�CIO">
+
+                <img alt="" id="ImgAtiv_ATIV_29416_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="MODELAGEM E GERENCIAMENTO DE PROCESSOS DE NEG�CIO" /> 
+
+                    <label id="AtivLabel_ATIV_29416_1" class="labelAtividade">INF01216</label>
+                    <label id="LabelPreRequisito_ATIV_29416_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_29416_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_29416_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_29416_1" value="INF01216" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_29416_1" value="MODELAGEM E GERENCIAMENTO DE PROCESSOS DE NEG�CIO" />
+            </div>
+
+            <div id="ATIV_13382_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_13382_1', true);" 
+                 class="divAtividade " style="top: 243px; left: 1567px;" title="T�PICOS ESPECIAIS EM COMPUTA��O IX">
+
+                <img alt="" id="ImgAtiv_ATIV_13382_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="T�PICOS ESPECIAIS EM COMPUTA��O IX" /> 
+
+                    <label id="AtivLabel_ATIV_13382_1" class="labelAtividade">INF05009</label>
+                    <label id="LabelPreRequisito_ATIV_13382_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_13382_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_13382_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_13382_1" value="INF05009" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_13382_1" value="T�PICOS ESPECIAIS EM COMPUTA��O IX" />
+            </div>
+
+            <div id="ATIV_18456_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_18456_1', true);" 
+                 class="divAtividade " style="top: 295px; left: 1567px;" title="T�PICOS ESPECIAIS EM COMPUTA��O XV">
+
+                <img alt="" id="ImgAtiv_ATIV_18456_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="T�PICOS ESPECIAIS EM COMPUTA��O XV" /> 
+
+                    <label id="AtivLabel_ATIV_18456_1" class="labelAtividade">INF05013</label>
+                    <label id="LabelPreRequisito_ATIV_18456_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_18456_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_18456_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_18456_1" value="INF05013" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_18456_1" value="T�PICOS ESPECIAIS EM COMPUTA��O XV" />
+            </div>
+
+            <div id="ATIV_45559_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_45559_1', true);" 
+                 class="divAtividade " style="top: 347px; left: 1567px;" title="PROJETO E AN�LISE DE ALGORITMOS II">
+
+                <img alt="" id="ImgAtiv_ATIV_45559_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="PROJETO E AN�LISE DE ALGORITMOS II" /> 
+
+                    <label id="AtivLabel_ATIV_45559_1" class="labelAtividade">INF05028</label>
+                    <label id="LabelPreRequisito_ATIV_45559_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_45559_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_45559_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_45559_1" value="INF05028" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_45559_1" value="PROJETO E AN�LISE DE ALGORITMOS II" />
+            </div>
+
+            <div id="ATIV_45775_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_45775_1', true);" 
+                 class="divAtividade " style="top: 399px; left: 1567px;" title="T�PICOS ESPECIAIS EM COMPUTA��O XLII">
+
+                <img alt="" id="ImgAtiv_ATIV_45775_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="T�PICOS ESPECIAIS EM COMPUTA��O XLII" /> 
+
+                    <label id="AtivLabel_ATIV_45775_1" class="labelAtividade">INF05030</label>
+                    <label id="LabelPreRequisito_ATIV_45775_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_45775_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_45775_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_45775_1" value="INF05030" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_45775_1" value="T�PICOS ESPECIAIS EM COMPUTA��O XLII" />
+            </div>
+
+            <div id="ATIV_45776_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_45776_1', true);" 
+                 class="divAtividade " style="top: 451px; left: 1567px;" title="T�PICOS ESPECIAIS EM COMPUTA��O XLIII">
+
+                <img alt="" id="ImgAtiv_ATIV_45776_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="T�PICOS ESPECIAIS EM COMPUTA��O XLIII" /> 
+
+                    <label id="AtivLabel_ATIV_45776_1" class="labelAtividade">INF05031</label>
+                    <label id="LabelPreRequisito_ATIV_45776_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_45776_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_45776_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_45776_1" value="INF05031" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_45776_1" value="T�PICOS ESPECIAIS EM COMPUTA��O XLIII" />
+            </div>
+
+            <div id="ATIV_45777_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_45777_1', true);" 
+                 class="divAtividade " style="top: 503px; left: 1567px;" title="T�PICOS ESPECIAIS EM COMPUTA��O XLIV">
+
+                <img alt="" id="ImgAtiv_ATIV_45777_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="T�PICOS ESPECIAIS EM COMPUTA��O XLIV" /> 
+
+                    <label id="AtivLabel_ATIV_45777_1" class="labelAtividade">INF05032</label>
+                    <label id="LabelPreRequisito_ATIV_45777_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_45777_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_45777_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_45777_1" value="INF05032" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_45777_1" value="T�PICOS ESPECIAIS EM COMPUTA��O XLIV" />
+            </div>
+
+            <div id="ATIV_45778_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_45778_1', true);" 
+                 class="divAtividade " style="top: 35px; left: 1664px;" title="T�PICOS ESPECIAIS EM COMPUTA��O XLV">
+
+                <img alt="" id="ImgAtiv_ATIV_45778_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="T�PICOS ESPECIAIS EM COMPUTA��O XLV" /> 
+
+                    <label id="AtivLabel_ATIV_45778_1" class="labelAtividade">INF05033</label>
+                    <label id="LabelPreRequisito_ATIV_45778_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_45778_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_45778_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_45778_1" value="INF05033" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_45778_1" value="T�PICOS ESPECIAIS EM COMPUTA��O XLV" />
+            </div>
+
+            <div id="ATIV_45779_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_45779_1', true);" 
+                 class="divAtividade " style="top: 87px; left: 1664px;" title="T�PICOS ESPECIAIS EM COMPUTA��O XLVI">
+
+                <img alt="" id="ImgAtiv_ATIV_45779_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="T�PICOS ESPECIAIS EM COMPUTA��O XLVI" /> 
+
+                    <label id="AtivLabel_ATIV_45779_1" class="labelAtividade">INF05034</label>
+                    <label id="LabelPreRequisito_ATIV_45779_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_45779_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_45779_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_45779_1" value="INF05034" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_45779_1" value="T�PICOS ESPECIAIS EM COMPUTA��O XLVI" />
+            </div>
+
+            <div id="ATIV_3699_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_3699_1', true);" 
+                 class="divAtividade " style="top: 139px; left: 1664px;" title="TEORIA DOS GRAFOS E AN�LISE COMBINAT�RIA">
+
+                <img alt="" id="ImgAtiv_ATIV_3699_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="TEORIA DOS GRAFOS E AN�LISE COMBINAT�RIA" /> 
+
+                    <label id="AtivLabel_ATIV_3699_1" class="labelAtividade">INF05512</label>
+                    <label id="LabelPreRequisito_ATIV_3699_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_3699_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_3699_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_3699_1" value="INF05512" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_3699_1" value="TEORIA DOS GRAFOS E AN�LISE COMBINAT�RIA" />
+            </div>
+
+            <div id="ATIV_3702_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_3702_1', true);" 
+                 class="divAtividade " style="top: 191px; left: 1664px;" title="COMPLEXIDADE DE ALGORITMOS - B">
+
+                <img alt="" id="ImgAtiv_ATIV_3702_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="COMPLEXIDADE DE ALGORITMOS - B" /> 
+
+                    <label id="AtivLabel_ATIV_3702_1" class="labelAtividade">INF05515</label>
+                    <label id="LabelPreRequisito_ATIV_3702_1" class="labelIndicador labelPreRequisito"  style="display:block;"  >P</label>
+                    <label id="LabelLiberadora_ATIV_3702_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_3702_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_3702_1" value="INF05515" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_3702_1" value="COMPLEXIDADE DE ALGORITMOS - B" />
+            </div>
+
+            <div id="ATIV_36917_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_36917_1', true);" 
+                 class="divAtividade " style="top: 243px; left: 1664px;" title="V�NCULO ACAD�MICO - ERE 2020/1">
+
+                <img alt="" id="ImgAtiv_ATIV_36917_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="V�NCULO ACAD�MICO - ERE 2020/1" /> 
+
+                    <label id="AtivLabel_ATIV_36917_1" class="labelAtividade">VAERE201</label>
+                    <label id="LabelPreRequisito_ATIV_36917_1" class="labelIndicador labelPreRequisito"  >P</label>
+                    <label id="LabelLiberadora_ATIV_36917_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_36917_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_36917_1" value="VAERE201" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_36917_1" value="V�NCULO ACAD�MICO - ERE 2020/1" />
+            </div>
+
+            <div id="ATIV_37410_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_37410_1', true);" 
+                 class="divAtividade " style="top: 295px; left: 1664px;" title="V�NCULO ACAD�MICO - ERE 2020/2">
+
+                <img alt="" id="ImgAtiv_ATIV_37410_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="V�NCULO ACAD�MICO - ERE 2020/2" /> 
+
+                    <label id="AtivLabel_ATIV_37410_1" class="labelAtividade">VAERE202</label>
+                    <label id="LabelPreRequisito_ATIV_37410_1" class="labelIndicador labelPreRequisito"  >P</label>
+                    <label id="LabelLiberadora_ATIV_37410_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_37410_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_37410_1" value="VAERE202" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_37410_1" value="V�NCULO ACAD�MICO - ERE 2020/2" />
+            </div>
+
+            <div id="ATIV_38399_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_38399_1', true);" 
+                 class="divAtividade " style="top: 347px; left: 1664px;" title="V�NCULO ACAD�MICO - ERE 2021/1">
+
+                <img alt="" id="ImgAtiv_ATIV_38399_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="V�NCULO ACAD�MICO - ERE 2021/1" /> 
+
+                    <label id="AtivLabel_ATIV_38399_1" class="labelAtividade">VAERE211</label>
+                    <label id="LabelPreRequisito_ATIV_38399_1" class="labelIndicador labelPreRequisito"  >P</label>
+                    <label id="LabelLiberadora_ATIV_38399_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_38399_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_38399_1" value="VAERE211" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_38399_1" value="V�NCULO ACAD�MICO - ERE 2021/1" />
+            </div>
+
+            <div id="ATIV_39284_1" onclick="menu_gerenciaOperacaoAtividade('ATIV_39284_1', true);" 
+                 class="divAtividade " style="top: 399px; left: 1664px;" title="V�NCULO ACAD�MICO - ERE 2021/2">
+
+                <img alt="" id="ImgAtiv_ATIV_39284_1" style="position: relative;" src="resources/images/fundo_3.png" class="imgAtividade" title="V�NCULO ACAD�MICO - ERE 2021/2" /> 
+
+                    <label id="AtivLabel_ATIV_39284_1" class="labelAtividade">VAERE212</label>
+                    <label id="LabelPreRequisito_ATIV_39284_1" class="labelIndicador labelPreRequisito"  >P</label>
+                    <label id="LabelLiberadora_ATIV_39284_1" class="labelIndicador labelLiberadora"  >L</label>
+                    <label id="LabelAlternativa_ATIV_39284_1" class="labelIndicador labelGrupoAlternativa"  >A</label>
+                    <input type="hidden" class="filtroConsulta" id="SIGLA@@@ATIV_39284_1" value="VAERE212" />
+                    <input type="hidden" class="filtroConsulta" id="NOME@@@ATIV_39284_1" value="V�NCULO ACAD�MICO - ERE 2021/2" />
+            </div>
+    </div>    
+
+    
+    
+    
+    
+<!-- DIV com menu lateral e informa��es sobre a atividade selecionada  -->
+
+
+    <div class="divOcultaOpcoesLateral" title="Clique para aumentar/diminuir o tamanho da grade" id="divOcultaOpcoesLateral" onclick="menu_ocultaMenuLateral();" >
+    </div>
+    
+    <div id="divMenuLateral" class="divMenuLateral dashedClass">        
+        <div id="divLateral">
+                
+            <fieldset class="bordaArredondada divOpcoesLateral" id="divOpcoes" >
+                <legend class="legend-2 espaco-ajuda"> Destacar na grade</legend>
+
+                <input type="text" name="infConsulta" id="infConsulta" style="width:160px;" class="selectBasico" onkeyup="buscarAtividades();" /> 
+                <img src="resources/images/lupa.gif" />
+                <br/>
+                <select name="tipoDadoDestacado" class="selectBasico" style="width:200px; " onchange="menu_gerenciaTrocaInformacaoDestaque(this.value);" title="A informa��o selecionada aqui ser� destacada na grade ao se clicar em uma atividade">
+                    <option value="PreRequisito">Pr� Requisito</option>
+                    <option value="GrupoAlternativa">Grupo Alternativa</option>
+                </select>                  
+            </fieldset>
+
+
+            <div id="divAccordionMenuLateral" class="divAccordionMenuLateral">
+
+                <h3><a href="#">Dados Curr�culo</a></h3>
+                <div id="divDadosCurriculo" class="bordaAzulada divAccordionLateralSubMenu">
+                    <p class="dadosAtividade"><label class="labelMenuLateral">Cr�ditos Obrigat�rios: </label>148</p>
+                    <p class="dadosAtividade"><label class="labelMenuLateral">Cr�ditos Eletivos: </label>46</p>
+                    <p class="dadosAtividade"><label class="labelMenuLateral">Cr�ditos Complementares: </label>6</p>
+                    <p class="dadosAtividade"><label class="labelMenuLateral">Total de Cr�ditos: </label>200</p>
+                    <br/>
+                    <p class="dadosAtividade"><label class="labelMenuLateral">Carga Hor�ria Obrigat�ria: </label>2460</p>
+                    <p class="dadosAtividade"><label class="labelMenuLateral">Carga Hor�ria Eletiva: </label>690</p>
+                    <p class="dadosAtividade"><label class="labelMenuLateral">Total de Carga Hor�ria: </label>3240</p>
+
+                </div>
+
+                <h3><a href="#">Atividade</a></h3>
+                <div id="divListaDadosAtividade" class="bordaAzulada divAccordionLateralSubMenu" style="font-size:12px;">
+                </div>
+
+                <h3><a href="#">Pr� Requisitos</a></h3>
+                <div id="divListaPreRequisitos" class="bordaAzulada divAccordionLateralSubMenu" style="font-size:12px;">
+                </div>
+
+                <h3><a href="#">Liberadoras</a></h3>
+                <div id="divListaAtividadeLiberadora" class="bordaAzulada divAccordionLateralSubMenu" style="font-size:12px;">
+                </div>
+
+                <h3><a href="#">Grupo de Alternativas</a></h3>
+                <div id="divListaGrupoAlternativa" class="bordaAzulada divAccordionLateralSubMenu" style="font-size:12px;">
+                </div>
+                
+                <h3><a href="#">Plano de Ensino</a></h3>
+                <div id="divDadosPlano" class="bordaAzulada divAccordionLateralSubMenu" style="font-size:12px;">
+                </div>
+                
+                
+
+            </div>
+        </div>
+    </div>
+
+    <div class="divOcultaOpcoesInferior" style="display:none;" title="Clique para aumentar/diminuir o tamanho da grade" id="divOcultaOpcoesInferior" onclick="menu_ocultaMenuInferior();" >
+    </div>
+
+
+ <script language="javascript">
+    
+    </script>
+<!-- DIV com menu lateral e informa��es sobre a atividade selecionada  -->
+
+    
+        <div style="display:none;" id="divAlerta"></div>
+    </div>
+
+</body>
+</html>

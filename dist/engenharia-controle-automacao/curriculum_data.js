@@ -1,0 +1,2871 @@
+/**
+ * Base Curricular Oficial - Engenharia de Controle e Automação (UFRGS)
+ * Catálogo 2026/1 com sincronização de periodicidade CEECA e FDCs
+ */
+var CURRICULUM_DATA = {
+  "curso": "Engenharia de Controle e Automação",
+  "codigo": 714,
+  "habilitacao": 144,
+  "instituicao": "UFRGS",
+  "versao_catalogo": "2026/1",
+  "estatisticas_nominais": {
+    "creditos_obrigatorios": 222,
+    "creditos_eletivos": 8,
+    "creditos_complementares": 6,
+    "creditos_convertidos": 15,
+    "creditos_totais_diplomacao": 251,
+    "carga_horaria_obrigatoria": 3555,
+    "carga_horaria_eletiva": 120,
+    "carga_horaria_total": 4185,
+    "horas_extensao_diplomacao": 420
+  },
+  "fdcs": [
+    {
+      "id": 1,
+      "nome": "Sistemas Discretos CAD/CAM",
+      "descricao": "Automação da Manufatura, Sistemas Discretos e CAD/CAM",
+      "cor": "#D97706",
+      "fundo": "#271E14"
+    },
+    {
+      "id": 2,
+      "nome": "Controle Avançado de Sistemas Mecânicos",
+      "descricao": "Robótica, Controle Avançado e Dinâmica Mecânica",
+      "cor": "#10B981",
+      "fundo": "#112622"
+    },
+    {
+      "id": 3,
+      "nome": "Eletrônica de Potência e Acionamento",
+      "descricao": "Máquinas Elétricas, Conversores Estáticos e Acionamentos",
+      "cor": "#8B5CF6",
+      "fundo": "#1E1630"
+    }
+  ],
+  "liberacoes_equivalencias": [
+    {
+      "disciplina_liberada": "ENG10049",
+      "nome_liberada": "ACIONAMENTO DE MÁQUINAS ELÉTRICAS - A",
+      "disciplinas_liberadoras": [
+        "ENG10024"
+      ],
+      "descricao": "ENG10024 - ACIONAMENTO DE MÁQUINAS ELÉTRICAS PARA SISTEMA DE AUTOMAÇÃO"
+    },
+    {
+      "disciplina_liberada": "INF01017",
+      "nome_liberada": "APRENDIZADO DE MÁQUINA",
+      "disciplinas_liberadoras": [
+        "INF01036"
+      ],
+      "descricao": "INF01036 - REDES NEURAIS E SISTEMA FUZZY B"
+    },
+    {
+      "disciplina_liberada": "ENG10001",
+      "nome_liberada": "CIRCUITOS ELÉTRICOS I - C",
+      "disciplinas_liberadoras": [
+        "ENG10034"
+      ],
+      "descricao": "ENG10034 - CIRCUITOS ELÉTRICOS I - B"
+    },
+    {
+      "disciplina_liberada": "ENG10002",
+      "nome_liberada": "CIRCUITOS ELÉTRICOS II - C",
+      "disciplinas_liberadoras": [
+        "ENG10035"
+      ],
+      "descricao": "ENG10035 - CIRCUITOS ELÉTRICOS II - B"
+    },
+    {
+      "disciplina_liberada": "ENG10044",
+      "nome_liberada": "ELETRÔNICA FUNDAMENTAL I - B",
+      "disciplinas_liberadoras": [
+        "ENG10029"
+      ],
+      "descricao": "ENG10029 - ELETRÔNICA FUNDAMENTAL I-A"
+    },
+    {
+      "disciplina_liberada": "FIS01182",
+      "nome_liberada": "FÍSICA GERAL - ELETROMAGNETISMO",
+      "disciplinas_liberadoras": [
+        "FIS01262",
+        "FIS01261",
+        "FIS01202",
+        "FIS01103",
+        "FIS01160",
+        "FIS01161"
+      ],
+      "descricao": "FIS01262 - FÍSICA EXPERIMENTAL III - Ae FIS01261 - FÍSICA GERAL III - Aou FIS01202 - FÍSICA GERAL E EXPERIMENTAL III Aou FIS01103 - FISICA IIou FIS01160 - FÍSICA III-Be FIS01161 - FÍSICA EXPERIMENTAL III"
+    },
+    {
+      "disciplina_liberada": "FIS01181",
+      "nome_liberada": "FÍSICA I-C",
+      "disciplinas_liberadoras": [
+        "FIS01258",
+        "FIS01257",
+        "FIS01200",
+        "FIS01102",
+        "FIS01002",
+        "FIS01158",
+        "FIS01159"
+      ],
+      "descricao": "FIS01258 - FÍSICA EXPERIMENTAL I - Ae FIS01257 - FÍSICA GERAL I - Aou FIS01200 - FÍSICA GERAL E EXPERIMENTAL I Aou FIS01102 - FISICA Iou FIS01002 - FÍSICA GERAL E EXPERIMENTAL Iou FIS01158 - FÍSICA II-Be FIS01159 - FÍSICA EXPERIMENTAL II"
+    },
+    {
+      "disciplina_liberada": "FIS01183",
+      "nome_liberada": "FÍSICA III-C",
+      "disciplinas_liberadoras": [
+        "FIS01260",
+        "FIS01259",
+        "FIS01264",
+        "FIS01263",
+        "FIS01201",
+        "FIS01204",
+        "FIS01104",
+        "FIS01162",
+        "FIS01163"
+      ],
+      "descricao": "FIS01260 - FÍSICA EXPERIMENTAL II - Ae FIS01259 - FÍSICA GERAL II - Ae FIS01264 - FÍSICA EXPERIMENTAL IV Ae FIS01263 - FÍSICA GERAL IV - Aou FIS01201 - FÍSICA GERAL E EXPERIMENTAL II Ae FIS01204 - FÍSICA GERAL E EXPERIMENTAL IV Bou FIS01104 - FISICA IIIou FIS01162 - FÍSICA IV-Be FIS01163 - FÍSICA EXPERIMENTAL IV"
+    },
+    {
+      "disciplina_liberada": "ENG10047",
+      "nome_liberada": "FUNDAMENTOS DE MÁQUINAS ELÉTRICAS",
+      "disciplinas_liberadoras": [
+        "ENG10020"
+      ],
+      "descricao": "ENG10020 - ATUADORES E MÁQUINAS ELÉTRICAS I"
+    },
+    {
+      "disciplina_liberada": "ENG07043",
+      "nome_liberada": "INSTRUMENTAÇÃO DE PROCESSOS INDUSTRIAIS",
+      "disciplinas_liberadoras": [
+        "ENG07759"
+      ],
+      "descricao": "ENG07759 - INSTRUMENTAÇÃO DA INDÚSTRIA QUÍMICA"
+    },
+    {
+      "disciplina_liberada": "ENG10003",
+      "nome_liberada": "LABORATÓRIO DE CIRCUITOS ELÉTRICOS",
+      "disciplinas_liberadoras": [
+        "ENG10034"
+      ],
+      "descricao": "ENG10034 - CIRCUITOS ELÉTRICOS I - B"
+    },
+    {
+      "disciplina_liberada": "ENG10005",
+      "nome_liberada": "LABORATÓRIO DE CONTROLE",
+      "disciplinas_liberadoras": [
+        "ENG10033"
+      ],
+      "descricao": "ENG10033 - SISTEMAS DE CONTROLE I"
+    },
+    {
+      "disciplina_liberada": "ENG10045",
+      "nome_liberada": "LABORATÓRIO DE ELETRÔNICA",
+      "disciplinas_liberadoras": [
+        "ENG10029"
+      ],
+      "descricao": "ENG10029 - ELETRÔNICA FUNDAMENTAL I-A"
+    },
+    {
+      "disciplina_liberada": "ENG10050",
+      "nome_liberada": "LABORATÓRIO DE MÁQUINAS E ACIONAMENTOS ELÉTRICOS",
+      "disciplinas_liberadoras": [
+        "ENG10020"
+      ],
+      "descricao": "ELETRÔNICA DE POTÊNCIA E ACIONAMENTO: ENG10020 - ATUADORES E MÁQUINAS ELÉTRICAS I"
+    },
+    {
+      "disciplina_liberada": "ENG10043",
+      "nome_liberada": "LABORATÓRIO DE SISTEMAS DIGITAIS",
+      "disciplinas_liberadoras": [
+        "ENG10028"
+      ],
+      "descricao": "ENG10028 - TÉCNICAS DIGITAIS"
+    },
+    {
+      "disciplina_liberada": "ENG03092",
+      "nome_liberada": "MECÂNICA DOS SOLIDOS I - A",
+      "disciplinas_liberadoras": [
+        "ENG03003"
+      ],
+      "descricao": "ENG03003 - MECÂNICA DOS SÓLIDOS I"
+    },
+    {
+      "disciplina_liberada": "ENG03004",
+      "nome_liberada": "MECÂNICA DOS SÓLIDOS II",
+      "disciplinas_liberadoras": [
+        "ENG03003"
+      ],
+      "descricao": "ENG03003 - MECÂNICA DOS SÓLIDOS I"
+    },
+    {
+      "disciplina_liberada": "ENG07069",
+      "nome_liberada": "PRINCÍPIOS DA MECÂNICA DE FLUIDOS",
+      "disciplinas_liberadoras": [
+        "ENG07017"
+      ],
+      "descricao": "ENG07017 - FENÔMENOS DE TRANSPORTE A"
+    },
+    {
+      "disciplina_liberada": "ENG10046",
+      "nome_liberada": "PRINCÍPIOS DE ELETRÔNICA DE POTÊNCIA",
+      "disciplinas_liberadoras": [
+        "ENG10024"
+      ],
+      "descricao": "ELETRÔNICA DE POTÊNCIA E ACIONAMENTO: ENG10024 - ACIONAMENTO DE MÁQUINAS ELÉTRICAS PARA SISTEMA DE AUTOMAÇÃO"
+    },
+    {
+      "disciplina_liberada": "ENG10048",
+      "nome_liberada": "PROTOCOLOS DE COMUNICAÇÃO - A",
+      "disciplinas_liberadoras": [
+        "ENG10025"
+      ],
+      "descricao": "ENG10025 - PROTOCOLOS DE COMUNICAÇÃO PARA CONTROLE E AUTOMAÇÃO"
+    },
+    {
+      "disciplina_liberada": "ENG10004",
+      "nome_liberada": "SISTEMAS DE CONTROLE I - B",
+      "disciplinas_liberadoras": [
+        "ENG10033"
+      ],
+      "descricao": "ENG10033 - SISTEMAS DE CONTROLE I"
+    },
+    {
+      "disciplina_liberada": "ENG10042",
+      "nome_liberada": "SISTEMAS DIGITAIS - A",
+      "disciplinas_liberadoras": [
+        "ENG10028"
+      ],
+      "descricao": "ENG10028 - TÉCNICAS DIGITAIS"
+    },
+    {
+      "disciplina_liberada": "ENG07086",
+      "nome_liberada": "TERMODINÂMICA E TRANSFERÊNCIA DE CALOR",
+      "disciplinas_liberadoras": [
+        "ENG07031",
+        "ENG07017"
+      ],
+      "descricao": "ENG07031 - FENÔMENOS DE TRANSPORTEou ENG07017 - FENÔMENOS DE TRANSPORTE A"
+    },
+    {
+      "disciplina_liberada": "TRABALHO",
+      "nome_liberada": "TRABALHO DE CONCLUSÃO DE CURSO CCA - I",
+      "disciplinas_liberadoras": [],
+      "descricao": "ELETRÔNICA DE POTÊNCIA E ACIONAMENTO: TRABALHO - TRABALHO DE CONCLUSÃO DE CURSO - CCA"
+    },
+    {
+      "disciplina_liberada": "TRABALHO",
+      "nome_liberada": "TRABALHO DE CONCLUSÃO DE CURSO CCA - II",
+      "disciplinas_liberadoras": [],
+      "descricao": "ELETRÔNICA DE POTÊNCIA E ACIONAMENTO: TRABALHO - TRABALHO DE CONCLUSÃO DE CURSO - CCA"
+    }
+  ],
+  "disciplinas": {
+    "INF01202": {
+      "codigo": "INF01202",
+      "nome": "ALGORÍTMOS E PROGRAMAÇÃO - CIC",
+      "creditos": 6,
+      "carga_horaria": 90,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 1,
+      "tipo_padrao": "obrigatoria",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 1
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 1
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 1
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "MAT01353": {
+      "codigo": "MAT01353",
+      "nome": "CÁLCULO E GEOMETRIA ANALÍTICA I - A",
+      "creditos": 6,
+      "carga_horaria": 90,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 1,
+      "tipo_padrao": "obrigatoria",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 1
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 1
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 1
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "FIS01181": {
+      "codigo": "FIS01181",
+      "nome": "FÍSICA I-C",
+      "creditos": 6,
+      "carga_horaria": 90,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 1,
+      "tipo_padrao": "obrigatoria",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 1
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 1
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 1
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "ARQ03317": {
+      "codigo": "ARQ03317",
+      "nome": "GEOMETRIA DESCRITIVA II-A",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 1,
+      "tipo_padrao": "obrigatoria",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 1
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 1
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 1
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "CCA99001": {
+      "codigo": "CCA99001",
+      "nome": "INTRODUÇÃO À ENGENHARIA DE CONTROLE E AUTOMAÇÃO",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 1,
+      "tipo_padrao": "obrigatoria",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 1
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 1
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 1
+        }
+      },
+      "periodicidade": "1",
+      "min_credits": 0,
+      "oferta": "1"
+    },
+    "QUI01009": {
+      "codigo": "QUI01009",
+      "nome": "QUIMICA FUNDAMENTAL A",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 1,
+      "tipo_padrao": "obrigatoria",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 1
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 1
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 1
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "MAT01355": {
+      "codigo": "MAT01355",
+      "nome": "ÁLGEBRA LINEAR I - A",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 2,
+      "tipo_padrao": "obrigatoria",
+      "prerequisitos": [
+        "MAT01353"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 2
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 2
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 2
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "MAT01354": {
+      "codigo": "MAT01354",
+      "nome": "CÁLCULO E GEOMETRIA ANALÍTICA II - A",
+      "creditos": 6,
+      "carga_horaria": 90,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 2,
+      "tipo_padrao": "obrigatoria",
+      "prerequisitos": [
+        "MAT01353"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 2
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 2
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 2
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "ARQ03319": {
+      "codigo": "ARQ03319",
+      "nome": "DESENHO TÉCNICO II-A",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 2,
+      "tipo_padrao": "obrigatoria",
+      "prerequisitos": [
+        "ARQ03317"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 2
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 2
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 2
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "FIS01182": {
+      "codigo": "FIS01182",
+      "nome": "FÍSICA GERAL - ELETROMAGNETISMO",
+      "creditos": 6,
+      "carga_horaria": 90,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 2,
+      "tipo_padrao": "obrigatoria",
+      "prerequisitos": [
+        "FIS01181"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 2
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 2
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 2
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "ENG03041": {
+      "codigo": "ENG03041",
+      "nome": "MECÂNICA APLICADA I",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 2,
+      "tipo_padrao": "obrigatoria",
+      "prerequisitos": [
+        "CCA99001",
+        "FIS01181",
+        "MAT01353"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 2
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 2
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 2
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "INF01057": {
+      "codigo": "INF01057",
+      "nome": "PROGRAMAÇÃO ORIENTADA A OBJETO",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 2,
+      "tipo_padrao": "obrigatoria",
+      "prerequisitos": [
+        "INF01202"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 2
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 2
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 2
+        }
+      },
+      "periodicidade": "2",
+      "min_credits": 0,
+      "oferta": "2"
+    },
+    "ENG10001": {
+      "codigo": "ENG10001",
+      "nome": "CIRCUITOS ELÉTRICOS I - C",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 3,
+      "tipo_padrao": "obrigatoria",
+      "prerequisitos": [
+        "FIS01182",
+        "MAT01354"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 3
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 3
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 3
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "MAT01167": {
+      "codigo": "MAT01167",
+      "nome": "EQUAÇÕES DIFERENCIAIS II",
+      "creditos": 6,
+      "carga_horaria": 90,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 3,
+      "tipo_padrao": "obrigatoria",
+      "prerequisitos": [
+        "MAT01354",
+        "MAT01355"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 3
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 3
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 3
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "FIS01183": {
+      "codigo": "FIS01183",
+      "nome": "FÍSICA III-C",
+      "creditos": 6,
+      "carga_horaria": 90,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 3,
+      "tipo_padrao": "obrigatoria",
+      "prerequisitos": [
+        "FIS01182"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 3
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 3
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 3
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "ENG03043": {
+      "codigo": "ENG03043",
+      "nome": "MATERIAIS PARA ENGENHARIA A",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 3,
+      "tipo_padrao": "obrigatoria",
+      "prerequisitos": [
+        "QUI01009"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 3
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 3
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 3
+        }
+      },
+      "periodicidade": "1",
+      "min_credits": 0,
+      "oferta": "1"
+    },
+    "ENG03042": {
+      "codigo": "ENG03042",
+      "nome": "MECÂNICA APLICADA II",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 3,
+      "tipo_padrao": "obrigatoria",
+      "prerequisitos": [
+        "ENG03041"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 3
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 3
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 3
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "MAT02219": {
+      "codigo": "MAT02219",
+      "nome": "PROBABILIDADE E ESTATÍSTICA",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 3,
+      "tipo_padrao": "obrigatoria",
+      "prerequisitos": [
+        "MAT01353"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 3
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 3
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 3
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "ENG10042": {
+      "codigo": "ENG10042",
+      "nome": "SISTEMAS DIGITAIS - A",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 3,
+      "tipo_padrao": "obrigatoria",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 3
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 3
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 3
+        }
+      },
+      "periodicidade": "1",
+      "min_credits": 0,
+      "oferta": "1"
+    },
+    "MAT01169": {
+      "codigo": "MAT01169",
+      "nome": "CÁLCULO NUMÉRICO",
+      "creditos": 6,
+      "carga_horaria": 90,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 4,
+      "tipo_padrao": "obrigatoria",
+      "prerequisitos": [
+        "INF01202",
+        "MAT01167"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 4
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 4
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 4
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "ENG10002": {
+      "codigo": "ENG10002",
+      "nome": "CIRCUITOS ELÉTRICOS II - C",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 4,
+      "tipo_padrao": "obrigatoria",
+      "prerequisitos": [
+        "ENG10001",
+        "MAT01167"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 4
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 4
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 4
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "ENG10043": {
+      "codigo": "ENG10043",
+      "nome": "LABORATÓRIO DE SISTEMAS DIGITAIS",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 4,
+      "tipo_padrao": "obrigatoria",
+      "prerequisitos": [
+        "ENG10042"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 4
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 4
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 4
+        }
+      },
+      "periodicidade": "2",
+      "min_credits": 0,
+      "oferta": "2"
+    },
+    "MAT01168": {
+      "codigo": "MAT01168",
+      "nome": "MATEMÁTICA APLICADA II",
+      "creditos": 6,
+      "carga_horaria": 90,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 4,
+      "tipo_padrao": "obrigatoria",
+      "prerequisitos": [
+        "MAT01167"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 4
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 4
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 4
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "ENG03092": {
+      "codigo": "ENG03092",
+      "nome": "MECÂNICA DOS SOLIDOS I - A",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 4,
+      "tipo_padrao": "obrigatoria",
+      "prerequisitos": [
+        "ENG03041",
+        "ENG03043"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 4
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 4
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 4
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "ENG03316": {
+      "codigo": "ENG03316",
+      "nome": "MECANISMOS I",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 4,
+      "tipo_padrao": "obrigatoria",
+      "prerequisitos": [
+        "ENG03042"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 4
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 4
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 4
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "ENG03044": {
+      "codigo": "ENG03044",
+      "nome": "MODELAGEM DE SISTEMAS MECÂNICOS",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 4,
+      "tipo_padrao": "obrigatoria",
+      "prerequisitos": [
+        "ENG10001",
+        "FIS01183",
+        "MAT01167"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 4
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 4
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 4
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "ENG10044": {
+      "codigo": "ENG10044",
+      "nome": "ELETRÔNICA FUNDAMENTAL I - B",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 5,
+      "tipo_padrao": "obrigatoria",
+      "prerequisitos": [
+        "ENG10002"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 5
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 5
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 5
+        }
+      },
+      "periodicidade": "1",
+      "min_credits": 0,
+      "oferta": "1"
+    },
+    "ENG10003": {
+      "codigo": "ENG10003",
+      "nome": "LABORATÓRIO DE CIRCUITOS ELÉTRICOS",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 5,
+      "tipo_padrao": "obrigatoria",
+      "prerequisitos": [
+        "ENG10002"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 5
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 5
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 5
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "ENG03004": {
+      "codigo": "ENG03004",
+      "nome": "MECÂNICA DOS SÓLIDOS II",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 5,
+      "tipo_padrao": "obrigatoria",
+      "prerequisitos": [
+        "ENG03092",
+        "MAT01169"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 5
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 5
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 5
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "ENG10017": {
+      "codigo": "ENG10017",
+      "nome": "SISTEMAS E SINAIS",
+      "creditos": 6,
+      "carga_horaria": 90,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 5,
+      "tipo_padrao": "obrigatoria",
+      "prerequisitos": [
+        "MAT01168"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 5
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 5
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 5
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "ENG07086": {
+      "codigo": "ENG07086",
+      "nome": "TERMODINÂMICA E TRANSFERÊNCIA DE CALOR",
+      "creditos": 5,
+      "carga_horaria": 75,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 5,
+      "tipo_padrao": "obrigatoria",
+      "prerequisitos": [
+        "FIS01183"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 5
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 5
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 5
+        }
+      },
+      "periodicidade": "1",
+      "min_credits": 0,
+      "oferta": "1"
+    },
+    "ENG10047": {
+      "codigo": "ENG10047",
+      "nome": "FUNDAMENTOS DE MÁQUINAS ELÉTRICAS",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 6,
+      "tipo_padrao": "obrigatoria",
+      "prerequisitos": [
+        "ENG10002"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 6
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 6
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 6
+        }
+      },
+      "periodicidade": "2",
+      "min_credits": 0,
+      "oferta": "2"
+    },
+    "ENG10022": {
+      "codigo": "ENG10022",
+      "nome": "INSTRUMENTAÇÃO FUNDAMENTAL PARA CONTROLE E AUTOMAÇÃO",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 6,
+      "tipo_padrao": "obrigatoria",
+      "prerequisitos": [
+        "ENG10044",
+        "MAT02219"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 6
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 6
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 6
+        }
+      },
+      "periodicidade": "2",
+      "min_credits": 0,
+      "oferta": "2"
+    },
+    "ENG10045": {
+      "codigo": "ENG10045",
+      "nome": "LABORATÓRIO DE ELETRÔNICA",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 6,
+      "tipo_padrao": "obrigatoria",
+      "prerequisitos": [
+        "ENG10003",
+        "ENG10044"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 6
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 6
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 6
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "ENG07069": {
+      "codigo": "ENG07069",
+      "nome": "PRINCÍPIOS DA MECÂNICA DE FLUIDOS",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 6,
+      "tipo_padrao": "obrigatoria",
+      "prerequisitos": [
+        "ENG07086"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 6
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 6
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 6
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "ENG10023": {
+      "codigo": "ENG10023",
+      "nome": "SISTEMAS DE AUTOMAÇÃO",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 6,
+      "tipo_padrao": "obrigatoria",
+      "prerequisitos": [
+        "ENG10043",
+        "INF01057"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 6
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 6
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 6
+        }
+      },
+      "periodicidade": "2",
+      "min_credits": 0,
+      "oferta": "2"
+    },
+    "ENG10004": {
+      "codigo": "ENG10004",
+      "nome": "SISTEMAS DE CONTROLE I - B",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 6,
+      "tipo_padrao": "obrigatoria",
+      "prerequisitos": [
+        "ENG03044",
+        "ENG10017"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 6
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 6
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 6
+        }
+      },
+      "periodicidade": "2",
+      "min_credits": 0,
+      "oferta": "2"
+    },
+    "ENG10049": {
+      "codigo": "ENG10049",
+      "nome": "ACIONAMENTO DE MÁQUINAS ELÉTRICAS - A",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 7,
+      "tipo_padrao": "obrigatoria",
+      "prerequisitos": [
+        "ENG10045",
+        "ENG10047"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 7
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 7
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 7
+        }
+      },
+      "periodicidade": "1",
+      "min_credits": 0,
+      "oferta": "1"
+    },
+    "ENG10005": {
+      "codigo": "ENG10005",
+      "nome": "LABORATÓRIO DE CONTROLE",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 7,
+      "tipo_padrao": "obrigatoria",
+      "prerequisitos": [
+        "ENG10004"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 7
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 7
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 7
+        }
+      },
+      "periodicidade": "1",
+      "min_credits": 0,
+      "oferta": "1"
+    },
+    "ENG04475": {
+      "codigo": "ENG04475",
+      "nome": "MICROPROCESSADORES I",
+      "creditos": 5,
+      "carga_horaria": 75,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 7,
+      "tipo_padrao": "obrigatoria",
+      "prerequisitos": [
+        "ENG10043",
+        "ENG10044"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 7
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 7
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 7
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "ENG03021": {
+      "codigo": "ENG03021",
+      "nome": "PROCESSOS DISCRETOS DE PRODUÇÃO",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 7,
+      "tipo_padrao": "obrigatoria",
+      "prerequisitos": [
+        "ENG03043"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 7
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 7
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 7
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "ENG10048": {
+      "codigo": "ENG10048",
+      "nome": "PROTOCOLOS DE COMUNICAÇÃO - A",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 7,
+      "tipo_padrao": "obrigatoria",
+      "prerequisitos": [
+        "ENG10023"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 7
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 7
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 7
+        }
+      },
+      "periodicidade": "1",
+      "min_credits": 0,
+      "oferta": "1"
+    },
+    "ENG10018": {
+      "codigo": "ENG10018",
+      "nome": "SISTEMAS DE CONTROLE II",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 7,
+      "tipo_padrao": "obrigatoria",
+      "prerequisitos": [
+        "ENG10004"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 7
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 7
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 7
+        }
+      },
+      "periodicidade": "1",
+      "min_credits": 0,
+      "oferta": "1"
+    },
+    "ENG03027": {
+      "codigo": "ENG03027",
+      "nome": "SISTEMAS HIDRÁULICOS E PNEUMÁTICOS",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 7,
+      "tipo_padrao": "obrigatoria",
+      "prerequisitos": [
+        "ENG07069"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 7
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 7
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 7
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "INF01017": {
+      "codigo": "INF01017",
+      "nome": "APRENDIZADO DE MÁQUINA",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo_padrao": "eletiva",
+      "prerequisitos": [
+        "INF01057"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "eletiva",
+          "etapa": null
+        },
+        "2": {
+          "tipo": "eletiva",
+          "etapa": null
+        },
+        "3": {
+          "tipo": "eletiva",
+          "etapa": null
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "INF01037": {
+      "codigo": "INF01037",
+      "nome": "COMPUTAÇÃO EVOLUTIVA",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo_padrao": "eletiva",
+      "prerequisitos": [
+        "INF01057"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "eletiva",
+          "etapa": null
+        },
+        "2": {
+          "tipo": "eletiva",
+          "etapa": null
+        },
+        "3": {
+          "tipo": "eletiva",
+          "etapa": null
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "ENG10051": {
+      "codigo": "ENG10051",
+      "nome": "DINÂMICA E CONTROLE DE ROBÔS",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo_padrao": "eletiva",
+      "prerequisitos": [
+        "ENG10004",
+        "ENG03026",
+        "ENG03026"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "eletiva",
+          "etapa": null
+        },
+        "2": {
+          "tipo": "eletiva",
+          "etapa": null
+        },
+        "3": {
+          "tipo": "eletiva",
+          "etapa": null
+        }
+      },
+      "periodicidade": "1",
+      "min_credits": 0,
+      "oferta": "1"
+    },
+    "ADM01135": {
+      "codigo": "ADM01135",
+      "nome": "ENGENHARIA ECONÔMICA E AVALIAÇÕES",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo_padrao": "eletiva",
+      "prerequisitos": [
+        "MAT02219"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "eletiva",
+          "etapa": null
+        },
+        "2": {
+          "tipo": "eletiva",
+          "etapa": null
+        },
+        "3": {
+          "tipo": "eletiva",
+          "etapa": null
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "INF01126": {
+      "codigo": "INF01126",
+      "nome": "ESTRUTURAS DE DADOS I",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo_padrao": "eletiva",
+      "prerequisitos": [
+        "INF01202"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "eletiva",
+          "etapa": null
+        },
+        "2": {
+          "tipo": "eletiva",
+          "etapa": null
+        },
+        "3": {
+          "tipo": "eletiva",
+          "etapa": null
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "ENG07043": {
+      "codigo": "ENG07043",
+      "nome": "INSTRUMENTAÇÃO DE PROCESSOS INDUSTRIAIS",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo_padrao": "eletiva",
+      "prerequisitos": [
+        "ENG07069",
+        "ENG10018"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "eletiva",
+          "etapa": null
+        },
+        "2": {
+          "tipo": "eletiva",
+          "etapa": null
+        },
+        "3": {
+          "tipo": "eletiva",
+          "etapa": null
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "ENG10052": {
+      "codigo": "ENG10052",
+      "nome": "LABORATÓRIO DE ROBÓTICA",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo_padrao": "eletiva",
+      "prerequisitos": [
+        "ENG03026",
+        "ENG03026"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "eletiva",
+          "etapa": null
+        },
+        "2": {
+          "tipo": "eletiva",
+          "etapa": null
+        },
+        "3": {
+          "tipo": "eletiva",
+          "etapa": null
+        }
+      },
+      "periodicidade": "2",
+      "min_credits": 0,
+      "oferta": "2"
+    },
+    "EDU03071": {
+      "codigo": "EDU03071",
+      "nome": "LÍNGUA BRASILEIRA DE SINAIS (LIBRAS)",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo_padrao": "eletiva",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "eletiva",
+          "etapa": null
+        },
+        "2": {
+          "tipo": "eletiva",
+          "etapa": null
+        },
+        "3": {
+          "tipo": "eletiva",
+          "etapa": null
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "ENG09023": {
+      "codigo": "ENG09023",
+      "nome": "PLANEJAMENTO ESTRATÉGICO DA PRODUÇÃO",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo_padrao": "eletiva",
+      "prerequisitos": [
+        "ENG03021"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "eletiva",
+          "etapa": null
+        },
+        "2": {
+          "tipo": "eletiva",
+          "etapa": null
+        },
+        "3": {
+          "tipo": "eletiva",
+          "etapa": null
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "CCA99008": {
+      "codigo": "CCA99008",
+      "nome": "PROJETO INTEGRADO I - CCA",
+      "creditos": 9,
+      "carga_horaria": 135,
+      "carga_horaria_extensao": 100,
+      "etapa_sugerida": null,
+      "tipo_padrao": "eletiva",
+      "prerequisitos": [
+        "ENG03044",
+        "ENG03316",
+        "ENG07086",
+        "ENG10003",
+        "ENG10042"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "eletiva",
+          "etapa": null
+        },
+        "2": {
+          "tipo": "eletiva",
+          "etapa": null
+        },
+        "3": {
+          "tipo": "eletiva",
+          "etapa": null
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 120,
+      "oferta": "ambos"
+    },
+    "CCA99009": {
+      "codigo": "CCA99009",
+      "nome": "PROJETO INTEGRADO II - CCA",
+      "creditos": 9,
+      "carga_horaria": 135,
+      "carga_horaria_extensao": 100,
+      "etapa_sugerida": null,
+      "tipo_padrao": "eletiva",
+      "prerequisitos": [
+        "CCA99008",
+        "ENG03021",
+        "ENG04475",
+        "ENG07069",
+        "ENG10004",
+        "ENG10022",
+        "ENG10023"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "eletiva",
+          "etapa": null
+        },
+        "2": {
+          "tipo": "eletiva",
+          "etapa": null
+        },
+        "3": {
+          "tipo": "eletiva",
+          "etapa": null
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 150,
+      "oferta": "ambos"
+    },
+    "CCA99010": {
+      "codigo": "CCA99010",
+      "nome": "PROJETO INTEGRADO III - CCA",
+      "creditos": 9,
+      "carga_horaria": 135,
+      "carga_horaria_extensao": 100,
+      "etapa_sugerida": null,
+      "tipo_padrao": "eletiva",
+      "prerequisitos": [
+        "CCA99009"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "eletiva",
+          "etapa": null
+        },
+        "2": {
+          "tipo": "eletiva",
+          "etapa": null
+        },
+        "3": {
+          "tipo": "eletiva",
+          "etapa": null
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "ENG10054": {
+      "codigo": "ENG10054",
+      "nome": "ROBÓTICA MÓVEL",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo_padrao": "eletiva",
+      "prerequisitos": [
+        "ENG10017",
+        "INF01057",
+        "MAT02219"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "eletiva",
+          "etapa": null
+        },
+        "2": {
+          "tipo": "eletiva",
+          "etapa": null
+        },
+        "3": {
+          "tipo": "eletiva",
+          "etapa": null
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "ENG10055": {
+      "codigo": "ENG10055",
+      "nome": "SISTEMAS DE TEMPO REAL - I",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo_padrao": "eletiva",
+      "prerequisitos": [
+        "ENG04475"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "eletiva",
+          "etapa": null
+        },
+        "2": {
+          "tipo": "eletiva",
+          "etapa": null
+        },
+        "3": {
+          "tipo": "eletiva",
+          "etapa": null
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "CCA99011": {
+      "codigo": "CCA99011",
+      "nome": "TÓPICOS EM PROCESSAMENTO DIGITAL DE SINAIS I",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo_padrao": "eletiva",
+      "prerequisitos": [
+        "ENG10017"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "eletiva",
+          "etapa": null
+        },
+        "2": {
+          "tipo": "eletiva",
+          "etapa": null
+        },
+        "3": {
+          "tipo": "eletiva",
+          "etapa": null
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "CCA99005": {
+      "codigo": "CCA99005",
+      "nome": "TÓPICOS ESPECIAIS EM ENGENHARIA DE CONTROLE E AUTOMAÇÃO I",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo_padrao": "eletiva",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "eletiva",
+          "etapa": null
+        },
+        "2": {
+          "tipo": "eletiva",
+          "etapa": null
+        },
+        "3": {
+          "tipo": "eletiva",
+          "etapa": null
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "CCA99006": {
+      "codigo": "CCA99006",
+      "nome": "TÓPICOS ESPECIAIS EM ENGENHARIA DE CONTROLE E AUTOMAÇÃO II",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo_padrao": "eletiva",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "eletiva",
+          "etapa": null
+        },
+        "2": {
+          "tipo": "eletiva",
+          "etapa": null
+        },
+        "3": {
+          "tipo": "eletiva",
+          "etapa": null
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "CCA99007": {
+      "codigo": "CCA99007",
+      "nome": "TÓPICOS ESPECIAIS EM ENGENHARIA DE CONTROLE E AUTOMAÇÃO III",
+      "creditos": 6,
+      "carga_horaria": 90,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo_padrao": "eletiva",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "eletiva",
+          "etapa": null
+        },
+        "2": {
+          "tipo": "eletiva",
+          "etapa": null
+        },
+        "3": {
+          "tipo": "eletiva",
+          "etapa": null
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "ENG03046": {
+      "codigo": "ENG03046",
+      "nome": "CONTROLE DE SISTEMAS FLUÍDO-MECÂNICOS",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 8,
+      "tipo_padrao": "eletiva",
+      "prerequisitos": [
+        "ENG03027",
+        "ENG10018"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": 2,
+      "status_fdc": {
+        "1": {
+          "tipo": "eletiva",
+          "etapa": 8
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 8
+        },
+        "3": {
+          "tipo": "eletiva",
+          "etapa": 8
+        }
+      },
+      "periodicidade": "2",
+      "min_credits": 0,
+      "oferta": "2"
+    },
+    "ENG03045": {
+      "codigo": "ENG03045",
+      "nome": "ELEMENTOS DE MÁQUINAS",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 8,
+      "tipo_padrao": "eletiva",
+      "prerequisitos": [
+        "ENG03004",
+        "ENG03021"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 8
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 8
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 8
+        }
+      },
+      "periodicidade": "2",
+      "min_credits": 0,
+      "oferta": "2"
+    },
+    "ENG10027": {
+      "codigo": "ENG10027",
+      "nome": "ELETRÔNICA FUNDAMENTAL II - B",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 8,
+      "tipo_padrao": "eletiva",
+      "prerequisitos": [
+        "ENG10002",
+        "ENG10044"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": 3,
+      "status_fdc": {
+        "1": {
+          "tipo": "eletiva",
+          "etapa": 8
+        },
+        "2": {
+          "tipo": "eletiva",
+          "etapa": 8
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 8
+        }
+      },
+      "periodicidade": "2",
+      "min_credits": 0,
+      "oferta": "2"
+    },
+    "ENG03386": {
+      "codigo": "ENG03386",
+      "nome": "FABRICAÇÃO AUXILIADA POR COMPUTADOR",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 8,
+      "tipo_padrao": "eletiva",
+      "prerequisitos": [
+        "ENG03021"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": 1,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 8
+        },
+        "2": {
+          "tipo": "eletiva",
+          "etapa": 8
+        },
+        "3": {
+          "tipo": "eletiva",
+          "etapa": 8
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "ENG07042": {
+      "codigo": "ENG07042",
+      "nome": "MODELAGEM E CONTROLE DE PROCESSOS INDUSTRIAIS",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 8,
+      "tipo_padrao": "eletiva",
+      "prerequisitos": [
+        "ENG07069",
+        "ENG10018"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 8
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 8
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 8
+        }
+      },
+      "periodicidade": "2",
+      "min_credits": 0,
+      "oferta": "2"
+    },
+    "ENG10019": {
+      "codigo": "ENG10019",
+      "nome": "SISTEMAS DE CONTROLE DIGITAIS",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 8,
+      "tipo_padrao": "eletiva",
+      "prerequisitos": [
+        "ENG04475",
+        "ENG10004"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 8
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 8
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 8
+        }
+      },
+      "periodicidade": "2",
+      "min_credits": 0,
+      "oferta": "2"
+    },
+    "ENG03387": {
+      "codigo": "ENG03387",
+      "nome": "SISTEMAS DE FABRICAÇÃO",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 8,
+      "tipo_padrao": "eletiva",
+      "prerequisitos": [
+        "ENG03021"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 8
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 8
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 8
+        }
+      },
+      "periodicidade": "2",
+      "min_credits": 0,
+      "oferta": "2"
+    },
+    "ENG07087": {
+      "codigo": "ENG07087",
+      "nome": "CONTROLE AVANÇADO DE PROCESSOS",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 9,
+      "tipo_padrao": "eletiva",
+      "prerequisitos": [
+        "ENG07042"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 9
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 9
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 9
+        }
+      },
+      "periodicidade": "1",
+      "min_credits": 0,
+      "oferta": "1"
+    },
+    "CCA99004": {
+      "codigo": "CCA99004",
+      "nome": "ESTÁGIO SUPERVISIONADO EM ENGENHARIA DE CONTROLE E AUTOMAÇÃO",
+      "creditos": 0,
+      "carga_horaria": 165,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 9,
+      "tipo_padrao": "eletiva",
+      "prerequisitos": [
+        "ENG03027",
+        "ENG10018"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 9
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 9
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 9
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 150,
+      "oferta": "ambos"
+    },
+    "ENG10050": {
+      "codigo": "ENG10050",
+      "nome": "LABORATÓRIO DE MÁQUINAS E ACIONAMENTOS ELÉTRICOS",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 9,
+      "tipo_padrao": "eletiva",
+      "prerequisitos": [
+        "ENG10049"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": 3,
+      "status_fdc": {
+        "1": {
+          "tipo": "eletiva",
+          "etapa": 9
+        },
+        "2": {
+          "tipo": "eletiva",
+          "etapa": 9
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 9
+        }
+      },
+      "periodicidade": "1",
+      "min_credits": 0,
+      "oferta": "1"
+    },
+    "ENG10046": {
+      "codigo": "ENG10046",
+      "nome": "PRINCÍPIOS DE ELETRÔNICA DE POTÊNCIA",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 9,
+      "tipo_padrao": "eletiva",
+      "prerequisitos": [
+        "ENG10044"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": 3,
+      "status_fdc": {
+        "1": {
+          "tipo": "eletiva",
+          "etapa": 9
+        },
+        "2": {
+          "tipo": "eletiva",
+          "etapa": 9
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 9
+        }
+      },
+      "periodicidade": "1",
+      "min_credits": 0,
+      "oferta": "1"
+    },
+    "ENG03047": {
+      "codigo": "ENG03047",
+      "nome": "PROJETOS DE SISTEMAS MECÂNICOS",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 9,
+      "tipo_padrao": "eletiva",
+      "prerequisitos": [
+        "ENG03044",
+        "ENG03045"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": 2,
+      "status_fdc": {
+        "1": {
+          "tipo": "eletiva",
+          "etapa": 9
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 9
+        },
+        "3": {
+          "tipo": "eletiva",
+          "etapa": 9
+        }
+      },
+      "periodicidade": "1",
+      "min_credits": 0,
+      "oferta": "1"
+    },
+    "ENG10021": {
+      "codigo": "ENG10021",
+      "nome": "SISTEMAS A EVENTOS DISCRETOS",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 9,
+      "tipo_padrao": "eletiva",
+      "prerequisitos": [
+        "ENG10023"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": 1,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 9
+        },
+        "2": {
+          "tipo": "eletiva",
+          "etapa": 9
+        },
+        "3": {
+          "tipo": "eletiva",
+          "etapa": 9
+        }
+      },
+      "periodicidade": "1",
+      "min_credits": 0,
+      "oferta": "1"
+    },
+    "CCA99002": {
+      "codigo": "CCA99002",
+      "nome": "TRABALHO DE CONCLUSÃO DE CURSO CCA - I",
+      "creditos": 0,
+      "carga_horaria": 30,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 9,
+      "tipo_padrao": "eletiva",
+      "prerequisitos": [
+        "ENG03027",
+        "ENG10005",
+        "ENG10048",
+        "ENG10049"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 9
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 9
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 9
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 160,
+      "oferta": "ambos"
+    },
+    "ENG03010": {
+      "codigo": "ENG03010",
+      "nome": "CIÊNCIA, TECNOLOGIA E AMBIENTE",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 10,
+      "tipo_padrao": "eletiva",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 10
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 10
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 10
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "ENG03048": {
+      "codigo": "ENG03048",
+      "nome": "GERÊNCIA E ADMINISTRAÇÃO DE PROJETOS",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 10,
+      "tipo_padrao": "eletiva",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 10
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 10
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 10
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "CCA99003": {
+      "codigo": "CCA99003",
+      "nome": "TRABALHO DE CONCLUSÃO DE CURSO CCA - II",
+      "creditos": 0,
+      "carga_horaria": 30,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 10,
+      "tipo_padrao": "eletiva",
+      "prerequisitos": [
+        "ENG03045",
+        "ENG07042",
+        "ENG10019",
+        "CCA99002"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 10
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 10
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 10
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 180,
+      "oferta": "ambos"
+    },
+    "ENG07012": {
+      "codigo": "ENG07012",
+      "nome": "LABORATÓRIO DE CONTROLE E OPERAÇÃO DE PROCESSOS",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo_padrao": "eletiva",
+      "prerequisitos": [
+        "ENG07042"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "eletiva",
+          "etapa": null
+        },
+        "2": {
+          "tipo": "eletiva",
+          "etapa": null
+        },
+        "3": {
+          "tipo": "eletiva",
+          "etapa": null
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "ENG07062": {
+      "codigo": "ENG07062",
+      "nome": "OTIMIZAÇÃO APLICADA",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo_padrao": "eletiva",
+      "prerequisitos": [
+        "ENG07042"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "status_fdc": {
+        "1": {
+          "tipo": "eletiva",
+          "etapa": null
+        },
+        "2": {
+          "tipo": "eletiva",
+          "etapa": null
+        },
+        "3": {
+          "tipo": "eletiva",
+          "etapa": null
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "ENG03003": {
+      "codigo": "ENG03003",
+      "nome": "ROBÓTICA",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 5,
+      "tipo_padrao": "eletiva",
+      "prerequisitos": [
+        "ENG03316"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "alternativeOf": "ENG03026",
+      "status_fdc": {
+        "1": {
+          "tipo": "eletiva",
+          "etapa": 5
+        },
+        "2": {
+          "tipo": "eletiva",
+          "etapa": 5
+        },
+        "3": {
+          "tipo": "eletiva",
+          "etapa": 5
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    },
+    "ENG03026": {
+      "codigo": "ENG03026",
+      "nome": "ROBÓTICA A",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 5,
+      "tipo_padrao": "obrigatoria",
+      "prerequisitos": [
+        "ENG03316"
+      ],
+      "corequisitos": [],
+      "fdc_especifica": null,
+      "alternativeOf": "ENG03003",
+      "status_fdc": {
+        "1": {
+          "tipo": "obrigatoria",
+          "etapa": 5
+        },
+        "2": {
+          "tipo": "obrigatoria",
+          "etapa": 5
+        },
+        "3": {
+          "tipo": "obrigatoria",
+          "etapa": 5
+        }
+      },
+      "periodicidade": "ambos",
+      "min_credits": 0,
+      "oferta": "ambos"
+    }
+  }
+};
+
+if (typeof window !== 'undefined') {
+  window.CURRICULUM_DATA_FALLBACK = CURRICULUM_DATA;
+  window.CURRICULUM_DATA = CURRICULUM_DATA;
+}
+if (typeof globalThis !== 'undefined') {
+  globalThis.CURRICULUM_DATA_FALLBACK = CURRICULUM_DATA;
+  globalThis.CURRICULUM_DATA = CURRICULUM_DATA;
+}
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = CURRICULUM_DATA;
+}

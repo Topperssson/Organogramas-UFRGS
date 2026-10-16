@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simulador de Trajetória Acadêmica | Engenharia Elétrica UFRGS</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Bibliotecas de Renderização e Exportação Visual (PDF) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+  <div class="app-layout">
+    <!-- BARRA LATERAL ESQUERDA (LEFT SIDEBAR) -->
+    <aside class="left-sidebar" id="left-sidebar">
+      <!-- BOTÃO PARA RECOLHER/EXPANDIR SIDEBAR -->
+      <button type="button" class="sidebar-toggle-btn" id="btn-toggle-sidebar" title="Recolher / Expandir Menu Lateral" aria-label="Toggle Sidebar">
+        <span class="toggle-icon" id="sidebar-toggle-icon">◀</span>
+      </button>
+
+      <!-- BLOCO 1: CABEÇALHO & CONTADOR DE CRÉDITOS FEITOS -->
+      <div class="sidebar-block block-header-credits">
+        <div class="brand">
+          <div class="brand-logo">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="3" width="7" height="7"></rect>
+              <rect x="14" y="3" width="7" height="7"></rect>
+              <rect x="14" y="14" width="7" height="7"></rect>
+              <rect x="3" y="14" width="7" height="7"></rect>
+              <path d="M10 6.5h4"></path>
+              <path d="M6.5 10v4"></path>
+              <path d="M17.5 10v4"></path>
+              <path d="M10 17.5h4"></path>
+            </svg>
+          </div>
+          <div class="brand-text">
+            <h1>Trajetória Elétrica <span class="badge-ufrgs">UFRGS</span></h1>
+            <p class="subtitle">Engenharia Elétrica • Catálogo 2026/1</p>
+          </div>
+        </div>
+
+        <!-- PAINEL DE CRÉDITOS FEITOS (CONCLUÍDOS) E PLANEJADOS -->
+        <div class="credits-tracker-card" id="credits-tracker-card">
+          <!-- BARRA 1: CRÉDITOS OBRIGATÓRIOS -->
+          <div class="tracker-bar-group tracker-group-obrig">
+            <div class="tracker-title-row">
+              <span class="tracker-title">Créditos Obrigatórios</span>
+              <div class="tracker-right-stats">
+                <span class="tracker-count-text"><span id="stat-obrig-done">0</span> / <span id="stat-obrig-target">246</span> cr</span>
+                <span class="tracker-percentage" id="credits-percent-text">0%</span>
+              </div>
+            </div>
+            <div class="progress-bar-container">
+              <div class="progress-bar-fill progress-bar-obrig" id="credits-progress-fill" style="width: 0%;"></div>
+            </div>
+          </div>
+
+          <!-- BARRA 2: CRÉDITOS ELETIVOS -->
+          <div class="tracker-bar-group tracker-group-ele">
+            <div class="tracker-title-row">
+              <span class="tracker-title tracker-title-ele">Créditos Eletivos</span>
+              <div class="tracker-right-stats">
+                <span class="tracker-count-text"><span id="stat-ele-done">0</span> / <span id="stat-ele-target">20</span> cr</span>
+                <span class="tracker-percentage tracker-pct-ele" id="credits-ele-percent-text">0%</span>
+              </div>
+            </div>
+            <div class="progress-bar-container progress-bar-container-ele">
+              <div class="progress-bar-fill progress-bar-ele" id="credits-ele-progress-fill" style="width: 0%;"></div>
+            </div>
+          </div>
+
+          <!-- RESUMO TOTAL E MINI-CARDS OBRIG / ELET -->
+          <div class="credits-summary-box">
+            <div class="credits-total-row">
+              <span class="credits-total-label">Total Feito:</span>
+              <span class="credits-done-num" id="stat-completed-credits">0</span>
+              <span class="credits-target-label">/ <span id="stat-target-credits">284</span> cr</span>
+            </div>
+            <div class="credits-category-pills">
+              <div class="credit-pill pill-obr" title="Créditos Obrigatórios Concluídos">
+                <span class="pill-dot dot-obr"></span>
+                <span class="pill-lbl">Obrig:</span>
+                <span class="pill-val" id="stat-done-obr">0 cr</span>
+              </div>
+              <div class="credit-pill pill-ele" title="Créditos Eletivos Concluídos">
+                <span class="pill-dot dot-ele"></span>
+                <span class="pill-lbl">Elet:</span>
+                <span class="pill-val" id="stat-done-ele">0 cr</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- ESTATÍSTICAS DA GRADE PLANEJADA -->
+          <div class="planned-metrics-box">
+            <div class="planned-title">Planejado no Board:</div>
+            <div class="planned-row">
+              <span class="planned-item" title="Créditos alocados na grade">Grade: <strong id="stat-credits">0 / 284</strong></span>
+              <span class="planned-item" title="Disciplinas posicionadas">Alocadas: <strong id="stat-courses">0 / 0</strong></span>
+              <span class="planned-item" title="Duração total">Duração: <strong id="stat-max-sem">10 sem</strong></span>
+            </div>
+            <div class="planned-subrow">
+              <span class="planned-subitem" title="Créditos obrigatórios planejados na grade">Obrig: <strong id="stat-planned-obrig">0</strong>/<span id="stat-planned-obrig-target">210</span> cr</span>
+              <span class="planned-subitem" title="Créditos eletivos planejados na grade">Elet: <strong id="stat-planned-ele">0</strong>/<span id="stat-planned-ele-target">20</span> cr</span>
+            </div>
+            <div class="stat-pill stat-dag-status" id="stat-dag" title="Integridade do grafo de pré-requisitos">
+              <span class="dag-dot"></span>
+              <span class="stat-val">DAG Válido</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- BLOCO 2: CICLO INICIAL -->
+      <div class="sidebar-block block-cycle">
+        <div class="sidebar-label label-cycle">Ciclo Inicial:</div>
+        <div class="cycle-inputs-row">
+          <input type="number" id="base-year-input" value="2024" min="2000" max="2050" class="custom-input-year" title="Ano inicial" />
+          <select id="base-period-select" class="custom-select custom-select-period" title="Período inicial">
+            <option value="1">/1</option>
+            <option value="2">/2</option>
+          </select>
+          <button id="btn-apply-cycle" class="btn btn-secondary btn-apply-cycle" title="Aplicar sequência contínua (ex: 2024/1, 2024/2...)">
+            Aplicar
+          </button>
+        </div>
+      </div>
+
+      <!-- BLOCO 3: BUSCA, FILTROS E BANCO DE ELETIVAS -->
+      <div class="sidebar-block block-search-drawer">
+        <div class="sidebar-label">Busca & Filtros:</div>
+        <div class="search-container">
+          <svg class="search-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input type="text" id="course-search" placeholder="Buscar código ou nome..." autocomplete="off" />
+          <button id="search-clear" class="btn-clear hidden" title="Limpar busca">&times;</button>
+        </div>
+
+        <select id="filter-select" class="custom-select full-width" title="Filtrar matérias">
+          <option value="all">Todas as Disciplinas</option>
+          <option value="mandatory">Apenas Obrigatórias</option>
+          <option value="elective">Apenas Eletivas</option>
+          <option value="completed">Concluídas / Cursadas</option>
+          <option value="pending">Pendentes</option>
+          <option value="overflow">Com Advertência (20+)</option>
+        </select>
+
+        <!-- DESTAQUE POR SEMESTRE ORIGINAL (ETAPAS 1 A 10 + ELETIVAS) -->
+        <div class="stage-highlight-section">
+          <div class="sidebar-sublabel">Destacar Semestre Original:</div>
+          <div class="stage-chips-grid" id="stage-chips-grid" role="group" aria-label="Destacar por semestre original">
+            <button type="button" class="stage-chip active" data-stage="all" title="Mostrar todas as disciplinas normalmente">
+              <span class="stage-chip-label">Todos</span>
+            </button>
+            <button type="button" class="stage-chip" data-stage="1" title="Destacar disciplinas originais do 1º Semestre">
+              <span class="stage-chip-dot dot-stage-1"></span>
+              <span class="stage-chip-label">1º</span>
+            </button>
+            <button type="button" class="stage-chip" data-stage="2" title="Destacar disciplinas originais do 2º Semestre">
+              <span class="stage-chip-dot dot-stage-2"></span>
+              <span class="stage-chip-label">2º</span>
+            </button>
+            <button type="button" class="stage-chip" data-stage="3" title="Destacar disciplinas originais do 3º Semestre">
+              <span class="stage-chip-dot dot-stage-3"></span>
+              <span class="stage-chip-label">3º</span>
+            </button>
+            <button type="button" class="stage-chip" data-stage="4" title="Destacar disciplinas originais do 4º Semestre">
+              <span class="stage-chip-dot dot-stage-4"></span>
+              <span class="stage-chip-label">4º</span>
+            </button>
+            <button type="button" class="stage-chip" data-stage="5" title="Destacar disciplinas originais do 5º Semestre">
+              <span class="stage-chip-dot dot-stage-5"></span>
+              <span class="stage-chip-label">5º</span>
+            </button>
+            <button type="button" class="stage-chip" data-stage="6" title="Destacar disciplinas originais do 6º Semestre">
+              <span class="stage-chip-dot dot-stage-6"></span>
+              <span class="stage-chip-label">6º</span>
+            </button>
+            <button type="button" class="stage-chip" data-stage="7" title="Destacar disciplinas originais do 7º Semestre">
+              <span class="stage-chip-dot dot-stage-7"></span>
+              <span class="stage-chip-label">7º</span>
+            </button>
+            <button type="button" class="stage-chip" data-stage="8" title="Destacar disciplinas originais do 8º Semestre">
+              <span class="stage-chip-dot dot-stage-8"></span>
+              <span class="stage-chip-label">8º</span>
+            </button>
+            <button type="button" class="stage-chip" data-stage="9" title="Destacar disciplinas originais do 9º Semestre">
+              <span class="stage-chip-dot dot-stage-9"></span>
+              <span class="stage-chip-label">9º</span>
+            </button>
+            <button type="button" class="stage-chip" data-stage="10" title="Destacar disciplinas originais do 10º Semestre">
+              <span class="stage-chip-dot dot-stage-10"></span>
+              <span class="stage-chip-label">10º</span>
+            </button>
+            <button type="button" class="stage-chip" data-stage="elet" title="Destacar disciplinas eletivas (sem etapa fixa)">
+              <span class="stage-chip-dot dot-stage-elet"></span>
+              <span class="stage-chip-label">Elet</span>
+            </button>
+          </div>
+        </div>
+
+        <button id="btn-toggle-drawer" class="btn btn-primary btn-drawer-hero" title="Abrir/Fechar Banco de Eletivas e Não Alocadas">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 8H3M21 16H3M7 4v16M17 4v16"></path></svg>
+          <span>📚 Banco de Eletivas</span>
+          <span class="badge-count" id="drawer-count">0</span>
+        </button>
+      </div>
+
+      <!-- BLOCO 4: CONTROLES DO CANVAS (ZOOM & RESETAR GRADE) -->
+      <div class="sidebar-block block-canvas-nav">
+        <div class="sidebar-label">Zoom & Canvas:</div>
+        <div class="canvas-zoom-grid">
+          <button id="btn-zoom-out" class="btn btn-secondary btn-zoom" title="Diminuir Zoom">-</button>
+          <button id="btn-zoom-reset" class="btn btn-secondary btn-zoom" title="Reset Zoom para 100%">100%</button>
+          <button id="btn-zoom-in" class="btn btn-secondary btn-zoom" title="Aumentar Zoom">+</button>
+          <button id="btn-zoom-fit" class="btn btn-secondary btn-zoom" title="Ajustar Viewport">Fit</button>
+        </div>
+        <button id="btn-reset-default" class="btn btn-secondary btn-reset-full" title="Restaurar alocação padrão oficial da UFRGS">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path><path d="M3 3v5h5"></path></svg>
+          Resetar Grade Padrão
+        </button>
+      </div>
+
+      <!-- BLOCO 5: PERSISTÊNCIA & EXPORTAÇÃO -->
+      <div class="sidebar-block block-export-persistence">
+        <div class="sidebar-label">Salvar & Exportar:</div>
+        <div class="persistence-grid-2x2">
+          <button id="btn-export-json" class="btn btn-secondary btn-compact" title="Salvar snapshot completo em JSON">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Salvar JSON
+          </button>
+          <button id="btn-import-json" class="btn btn-secondary btn-compact" title="Carregar planejamento de JSON">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+            Carregar JSON
+          </button>
+          <button id="btn-export-png" class="btn btn-secondary btn-compact" title="Exportar imagem PNG em 2x">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+            Exportar PNG
+          </button>
+          <button id="btn-export-pdf" class="btn btn-secondary btn-compact" title="Exportar documento PDF em formato paisagem">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+            Exportar PDF
+          </button>
+        </div>
+        <button id="btn-save" class="btn btn-secondary btn-save-storage" title="Salvar no navegador (localStorage)">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path><polyline points="17 21 17 13 7 13 7 21"></polyline><polyline points="7 3 7 8 15 8"></polyline></svg>
+          Salvar no Navegador
+        </button>
+        <input type="file" id="input-import-json" accept=".json" style="display:none;" />
+      </div>
+    </aside>
+
+  <!-- VIEWPORT INFINITO DO BOARD (CANVAS) -->
+  <main class="board-viewport" id="board-viewport">
+    <button type="button" class="sidebar-floating-toggle" id="btn-floating-sidebar" title="Expandir Menu Lateral" aria-label="Expand Sidebar">
+      <span>▶</span>
+    </button>
+    <div class="board-canvas" id="board-canvas">
+      <!-- CAMADA SVG DE CONEXÕES REATIVAS (BÉZIER CÚBICA) -->
+      <svg class="connectors-layer" id="connectors-layer" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <!-- Setas de conexão -->
+          <marker id="arrow-default" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+            <path d="M 0 1 L 9 5 L 0 9 z" fill="rgba(148, 163, 184, 0.45)" />
+          </marker>
+          <marker id="arrow-prereq" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+            <path d="M 0 1 L 9 5 L 0 9 z" fill="#38bdf8" />
+          </marker>
+          <marker id="arrow-dependent" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+            <path d="M 0 1 L 9 5 L 0 9 z" fill="#34d399" />
+          </marker>
+          <!-- Filtro glow para conexões ativas -->
+          <filter id="glow-prereq" x="-20%" y="-20%" width="140%" height="140%">
+            <feGaussianBlur stdDeviation="2.5" result="blur" />
+            <feComposite in="SourceGraphic" in2="blur" operator="over" />
+          </filter>
+        </defs>
+        <g id="paths-group"></g>
+      </svg>
+
+      <!-- CONTAINER DAS 20 COLUNAS DE SEMESTRES -->
+      <div class="semesters-grid" id="semesters-grid">
+        <!-- Gerado dinamicamente de Semestre 1 a Semestre 20 pelo app.js -->
+      </div>
+    </div>
+
+    <!-- GUIA DE ATALHOS / LEGENDA DE CORES -->
+    <div class="canvas-legend">
+      <div class="legend-header">
+        <span>Legenda & Atalhos</span>
+      </div>
+      <div class="legend-items">
+        <div class="legend-item"><span class="legend-color legend-upstream"></span> Pré-requisito (a montante)</div>
+        <div class="legend-item"><span class="legend-color legend-downstream"></span> Libera disciplina (a jusante)</div>
+        <div class="legend-item"><span class="legend-color legend-selected"></span> Disciplina Selecionada</div>
+        <div class="legend-item"><span class="legend-color legend-overflow"></span> Advertência 20+ Semestres</div>
+      </div>
+      <div class="legend-shortcuts">
+        <small><kbd>Space</kbd> + Arraste ou Botão Meio = Pan | Scroll = Zoom</small>
+      </div>
+    </div>
+  </main>
+
+  <!-- DRAWER LATERAL: BANCO DE ELETIVAS E NÃO ALOCADAS -->
+  <aside class="electives-drawer" id="electives-drawer">
+    <div class="drawer-header">
+      <div class="drawer-title-row">
+        <h2>Banco de Disciplinas</h2>
+        <button id="btn-close-drawer" class="btn-icon" title="Fechar Drawer">&times;</button>
+      </div>
+      <p class="drawer-subtitle">Disciplinas eletivas, complementares ou ainda não alocadas na trajetória.</p>
+      <div class="drawer-search">
+        <input type="text" id="drawer-search-input" placeholder="Filtrar no banco..." />
+      </div>
+    </div>
+
+    <div class="drawer-cards-list" id="drawer-cards-list" data-semester="0">
+      <!-- Cards não alocados ou eletivas soltas aqui -->
+    </div>
+  </aside>
+</div>
+
+  <!-- MODAL DE DETALHES DA DISCIPLINA -->
+  <div class="modal-overlay hidden" id="course-modal-overlay">
+    <div class="modal-content" id="course-modal">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <span class="modal-code" id="modal-code">ENG10001</span>
+          <h3 class="modal-title" id="modal-name">Circuitos Elétricos I - C</h3>
+        </div>
+        <button class="btn-icon modal-close" id="modal-close">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-badges" id="modal-badges"></div>
+        <div class="modal-meta-grid">
+          <div class="meta-item"><span class="meta-label">Créditos:</span> <strong id="modal-credits">4</strong></div>
+          <div class="meta-item"><span class="meta-label">Carga Horária:</span> <strong id="modal-ch">60h</strong></div>
+          <div class="meta-item"><span class="meta-label">Extensão (CHE):</span> <strong id="modal-che">0h</strong></div>
+          <div class="meta-item"><span class="meta-label">Etapa Sugerida:</span> <strong id="modal-etapa">3ª Etapa</strong></div>
+          <div class="meta-item"><span class="meta-label">Semestre Atual:</span> <strong id="modal-current-sem">Semestre 3</strong></div>
+          <div class="meta-item"><span class="meta-label">Oferta:</span> <strong id="modal-periodicity">1º Semestre</strong></div>
+          <div class="meta-item"><span class="meta-label">Status:</span> <strong id="modal-status">Pendente</strong></div>
+        </div>
+
+        <div class="modal-section">
+          <h4>Pré-Requisitos Necessários (A Montante)</h4>
+          <div class="modal-chips-list" id="modal-prereqs"></div>
+        </div>
+
+        <div class="modal-section">
+          <h4>Disciplinas que ela Libera (A Jusante)</h4>
+          <div class="modal-chips-list" id="modal-dependents"></div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button id="modal-btn-toggle-completed" class="btn btn-secondary">Marcar como Cursada</button>
+        <button id="modal-btn-unallocate" class="btn btn-secondary">Mover para Banco de Eletivas</button>
+        <button id="modal-btn-locate" class="btn btn-primary">Focar no Canvas</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTAINER DE TOASTS NOTIFICADORES -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- SCRIPTS -->
+  <script src="curriculum_data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

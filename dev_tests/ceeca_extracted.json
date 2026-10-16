@@ -1,0 +1,3765 @@
+{
+  "results": {
+    "cadcam": [
+      {
+        "c": "INF01202",
+        "n": "Algoritmos e Programação",
+        "e": 1,
+        "pr": [],
+        "t": "o",
+        "cr": 6,
+        "par": null
+      },
+      {
+        "c": "MAT01353",
+        "n": "Cálculo e Geometria Analítica I",
+        "e": 1,
+        "pr": [],
+        "t": "o",
+        "cr": 6,
+        "par": null
+      },
+      {
+        "c": "FIS01181",
+        "n": "Física I-C",
+        "e": 1,
+        "pr": [],
+        "t": "o",
+        "cr": 6,
+        "par": null
+      },
+      {
+        "c": "ARQ03317",
+        "n": "Geometria Descritiva II-A",
+        "e": 1,
+        "pr": [],
+        "t": "o",
+        "cr": 2,
+        "par": null
+      },
+      {
+        "c": "CCA99001",
+        "n": "Introdução à Eng. de Controle e Automação",
+        "e": 1,
+        "pr": [],
+        "t": "o",
+        "cr": 2,
+        "par": "1"
+      },
+      {
+        "c": "QUI01009",
+        "n": "Química Fundamental A",
+        "e": 1,
+        "pr": [],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "MAT01355",
+        "n": "Álgebra Linear I-A",
+        "e": 2,
+        "pr": [
+          "MAT01353"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "MAT01354",
+        "n": "Cálculo e Geometria Analítica II-A",
+        "e": 2,
+        "pr": [
+          "MAT01353"
+        ],
+        "t": "o",
+        "cr": 6,
+        "par": null
+      },
+      {
+        "c": "ARQ03319",
+        "n": "Desenho Técnico II-A",
+        "e": 2,
+        "pr": [
+          "ARQ03317"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "FIS01182",
+        "n": "Física Geral - Eletromagnetismo",
+        "e": 2,
+        "pr": [
+          "FIS01181"
+        ],
+        "t": "o",
+        "cr": 6,
+        "par": null
+      },
+      {
+        "c": "ENG03041",
+        "n": "Mecânica Aplicada I",
+        "e": 2,
+        "pr": [
+          "CCA99001",
+          "FIS01181",
+          "MAT01353"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "INF01057",
+        "n": "Programação Orientada a Objeto",
+        "e": 2,
+        "pr": [
+          "INF01202"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": "2"
+      },
+      {
+        "c": "ENG10001",
+        "n": "Circuitos Elétricos I-C",
+        "e": 3,
+        "pr": [
+          "FIS01182",
+          "MAT01354"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "MAT01167",
+        "n": "Equações Diferenciais II",
+        "e": 3,
+        "pr": [
+          "MAT01354",
+          "MAT01355"
+        ],
+        "t": "o",
+        "cr": 6,
+        "par": null
+      },
+      {
+        "c": "FIS01183",
+        "n": "Física III-C",
+        "e": 3,
+        "pr": [
+          "FIS01182"
+        ],
+        "t": "o",
+        "cr": 6,
+        "par": null
+      },
+      {
+        "c": "ENG03043",
+        "n": "Materiais para Engenharia A",
+        "e": 3,
+        "pr": [
+          "QUI01009"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": "1"
+      },
+      {
+        "c": "ENG03042",
+        "n": "Mecânica Aplicada II",
+        "e": 3,
+        "pr": [
+          "ENG03041"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "MAT02219",
+        "n": "Probabilidade e Estatística",
+        "e": 3,
+        "pr": [
+          "MAT01353"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "ENG10042",
+        "n": "Sistemas Digitais-A",
+        "e": 3,
+        "pr": [],
+        "t": "o",
+        "cr": 4,
+        "par": "1"
+      },
+      {
+        "c": "MAT01169",
+        "n": "Cálculo Numérico",
+        "e": 4,
+        "pr": [
+          "INF01202",
+          "MAT01167"
+        ],
+        "t": "o",
+        "cr": 6,
+        "par": null
+      },
+      {
+        "c": "ENG10002",
+        "n": "Circuitos Elétricos II-C",
+        "e": 4,
+        "pr": [
+          "ENG10001",
+          "MAT01167"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "ENG10043",
+        "n": "Laboratório de Sistemas Digitais",
+        "e": 4,
+        "pr": [
+          "ENG10042"
+        ],
+        "t": "o",
+        "cr": 2,
+        "par": "2"
+      },
+      {
+        "c": "MAT01168",
+        "n": "Matemática Aplicada II",
+        "e": 4,
+        "pr": [
+          "MAT01167"
+        ],
+        "t": "o",
+        "cr": 6,
+        "par": null
+      },
+      {
+        "c": "ENG03092",
+        "n": "Mecânica dos Sólidos I-A",
+        "e": 4,
+        "pr": [
+          "ENG03041",
+          "ENG03043"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "ENG03316",
+        "n": "Mecanismos I",
+        "e": 4,
+        "pr": [
+          "ENG03042"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "ENG03044",
+        "n": "Modelagem de Sistemas Mecânicos",
+        "e": 4,
+        "pr": [
+          "ENG10001",
+          "FIS01183",
+          "MAT01167"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "ENG10044",
+        "n": "Eletrônica Fundamental I-B",
+        "e": 5,
+        "pr": [
+          "ENG10002"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": "1"
+      },
+      {
+        "c": "ENG10003",
+        "n": "Laboratório de Circuitos Elétricos",
+        "e": 5,
+        "pr": [
+          "ENG10002"
+        ],
+        "t": "o",
+        "cr": 2,
+        "par": null
+      },
+      {
+        "c": "ENG03004",
+        "n": "Mecânica dos Sólidos II",
+        "e": 5,
+        "pr": [
+          "ENG03092",
+          "MAT01169"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "ENG10017",
+        "n": "Sistemas e Sinais",
+        "e": 5,
+        "pr": [
+          "MAT01168"
+        ],
+        "t": "o",
+        "cr": 6,
+        "par": null
+      },
+      {
+        "c": "ENG07086",
+        "n": "Termodinâmica e Transf. de Calor",
+        "e": 5,
+        "pr": [
+          "FIS01183"
+        ],
+        "t": "o",
+        "cr": 5,
+        "par": "1"
+      },
+      {
+        "c": "ENG10026",
+        "n": "Robótica / Robótica A",
+        "e": 5,
+        "pr": [
+          "ENG03316"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "ENG10047",
+        "n": "Fundamentos de Máquinas Elétricas",
+        "e": 6,
+        "pr": [
+          "ENG10002"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": "2"
+      },
+      {
+        "c": "ENG10022",
+        "n": "Instrum. Fundamental p/ Controle e Automação",
+        "e": 6,
+        "pr": [
+          "ENG10044",
+          "MAT02219"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": "2"
+      },
+      {
+        "c": "ENG10045",
+        "n": "Laboratório de Eletrônica",
+        "e": 6,
+        "pr": [
+          "ENG10003",
+          "ENG10044"
+        ],
+        "t": "o",
+        "cr": 2,
+        "par": null
+      },
+      {
+        "c": "ENG07069",
+        "n": "Princípios da Mecânica de Fluidos",
+        "e": 6,
+        "pr": [
+          "ENG07086"
+        ],
+        "t": "o",
+        "cr": 2,
+        "par": null
+      },
+      {
+        "c": "ENG10023",
+        "n": "Sistemas de Automação",
+        "e": 6,
+        "pr": [
+          "ENG10043",
+          "INF01057"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": "2"
+      },
+      {
+        "c": "ENG10004",
+        "n": "Sistemas de Controle I-B",
+        "e": 6,
+        "pr": [
+          "ENG03044",
+          "ENG10017"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": "2"
+      },
+      {
+        "c": "ENG10049",
+        "n": "Acionamento de Máq. Elétricas-A",
+        "e": 7,
+        "pr": [
+          "ENG10045",
+          "ENG10047"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": "1"
+      },
+      {
+        "c": "ENG10005",
+        "n": "Laboratório de Controle",
+        "e": 7,
+        "pr": [
+          "ENG10004"
+        ],
+        "t": "o",
+        "cr": 2,
+        "par": "1"
+      },
+      {
+        "c": "ENG04475",
+        "n": "Microprocessadores I",
+        "e": 7,
+        "pr": [
+          "ENG10043",
+          "ENG10044"
+        ],
+        "t": "o",
+        "cr": 5,
+        "par": null
+      },
+      {
+        "c": "ENG03021",
+        "n": "Processos Discretos de Produção",
+        "e": 7,
+        "pr": [
+          "ENG03043"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "ENG10048",
+        "n": "Protocolos de Comunicação-A",
+        "e": 7,
+        "pr": [
+          "ENG10023"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": "1"
+      },
+      {
+        "c": "ENG10018",
+        "n": "Sistemas de Controle II",
+        "e": 7,
+        "pr": [
+          "ENG10004"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": "1"
+      },
+      {
+        "c": "ENG03027",
+        "n": "Sistemas Hidráulicos e Pneumáticos",
+        "e": 7,
+        "pr": [
+          "ENG07069"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "ENG03045",
+        "n": "Elementos de Máquinas",
+        "e": 8,
+        "pr": [
+          "ENG03004",
+          "ENG03021"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": "2"
+      },
+      {
+        "c": "ENG07042",
+        "n": "Modelagem e Controle de Proc. Industriais",
+        "e": 8,
+        "pr": [
+          "ENG07069",
+          "ENG10018"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": "2"
+      },
+      {
+        "c": "ENG10019",
+        "n": "Sistemas de Controle Digitais",
+        "e": 8,
+        "pr": [
+          "ENG04475",
+          "ENG10004"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": "2"
+      },
+      {
+        "c": "ENG03387",
+        "n": "Sistemas de Fabricação",
+        "e": 8,
+        "pr": [
+          "ENG03021"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": "2"
+      },
+      {
+        "c": "ENG03386",
+        "n": "Fabricação Auxiliada por Computador",
+        "e": 8,
+        "pr": [
+          "ENG03021"
+        ],
+        "t": "f",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "ENG07087",
+        "n": "Controle Avançado de Processos",
+        "e": 9,
+        "pr": [
+          "ENG07042"
+        ],
+        "t": "o",
+        "cr": 3,
+        "par": "1"
+      },
+      {
+        "c": "ESTAGIO",
+        "n": "Estágio Supervisionado",
+        "e": 9,
+        "pr": [
+          "ENG03027",
+          "ENG10018"
+        ],
+        "t": "o",
+        "cr": 0,
+        "par": null,
+        "ch": 165
+      },
+      {
+        "c": "TCC1",
+        "n": "Trab. de Conclusão CCA - I",
+        "e": 9,
+        "pr": [
+          "ENG03027",
+          "ENG10005",
+          "ENG10048",
+          "ENG10049"
+        ],
+        "t": "o",
+        "cr": 0,
+        "par": null,
+        "ch": 30
+      },
+      {
+        "c": "ENG10021",
+        "n": "Sistemas a Eventos Discretos",
+        "e": 9,
+        "pr": [
+          "ENG10023"
+        ],
+        "t": "f",
+        "cr": 4,
+        "par": "1"
+      },
+      {
+        "c": "ENG03010",
+        "n": "Ciência, Tecnologia e Ambiente",
+        "e": 10,
+        "pr": [],
+        "t": "o",
+        "cr": 3,
+        "par": null
+      },
+      {
+        "c": "ENG03048",
+        "n": "Gerência e Adm. de Projetos",
+        "e": 10,
+        "pr": [],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "TCC2",
+        "n": "Trab. de Conclusão CCA - II",
+        "e": 10,
+        "pr": [
+          "ENG03045",
+          "ENG07042",
+          "ENG10019",
+          "TCC1"
+        ],
+        "t": "o",
+        "cr": 0,
+        "par": null,
+        "ch": 30
+      },
+      {
+        "c": "EDU03071",
+        "n": "Libras",
+        "e": 1,
+        "pr": [],
+        "cr": 2,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "CCA99005",
+        "n": "Tópicos Especiais em ECA I",
+        "e": 1,
+        "pr": [],
+        "cr": 2,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "CCA99006",
+        "n": "Tópicos Especiais em ECA II",
+        "e": 1,
+        "pr": [],
+        "cr": 4,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "CCA99007",
+        "n": "Tópicos Especiais em ECA III",
+        "e": 1,
+        "pr": [],
+        "cr": 6,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "INF01126",
+        "n": "Estruturas de Dados I",
+        "e": 2,
+        "pr": [
+          "INF01202"
+        ],
+        "cr": 4,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "INF01017",
+        "n": "Aprendizado de Máquina",
+        "e": 3,
+        "pr": [
+          "INF01057"
+        ],
+        "cr": 4,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "INF01037",
+        "n": "Computação Evolutiva",
+        "e": 3,
+        "pr": [
+          "INF01057"
+        ],
+        "cr": 4,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "ADM01135",
+        "n": "Engenharia Econômica e Avaliações",
+        "e": 4,
+        "pr": [
+          "MAT02219"
+        ],
+        "cr": 2,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "CCA99008",
+        "n": "Projeto Integrado I",
+        "e": 6,
+        "pr": [
+          "ENG03044",
+          "ENG03316",
+          "ENG07086",
+          "ENG10003",
+          "ENG10042"
+        ],
+        "cr": 9,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "ENG10052",
+        "n": "Laboratório de Robótica",
+        "e": 6,
+        "pr": [
+          "ENG10026"
+        ],
+        "cr": 2,
+        "par": "2",
+        "t": "e"
+      },
+      {
+        "c": "ENG10054",
+        "n": "Robótica Móvel",
+        "e": 6,
+        "pr": [
+          "ENG10017",
+          "INF01057",
+          "MAT02219"
+        ],
+        "cr": 4,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "CCA99011",
+        "n": "Tópicos em Proc. Digital de Sinais I",
+        "e": 6,
+        "pr": [
+          "ENG10017"
+        ],
+        "cr": 4,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "ENG10027",
+        "n": "Eletrônica Fundamental II-B",
+        "e": 6,
+        "pr": [
+          "ENG10002",
+          "ENG10044"
+        ],
+        "cr": 4,
+        "par": "2",
+        "t": "e"
+      },
+      {
+        "c": "ENG10046",
+        "n": "Princípios de Eletrônica de Potência",
+        "e": 9,
+        "pr": [
+          "ENG10044"
+        ],
+        "cr": 2,
+        "par": "1",
+        "t": "e"
+      },
+      {
+        "c": "ENG10051",
+        "n": "Dinâmica e Controle de Robôs",
+        "e": 7,
+        "pr": [
+          "ENG10004",
+          "ENG10026"
+        ],
+        "cr": 4,
+        "par": "1",
+        "t": "e"
+      },
+      {
+        "c": "CCA99009",
+        "n": "Projeto Integrado II",
+        "e": 8,
+        "pr": [
+          "CCA99008",
+          "ENG03021",
+          "ENG04475",
+          "ENG07069",
+          "ENG10004",
+          "ENG10022",
+          "ENG10023"
+        ],
+        "cr": 9,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "ENG07043",
+        "n": "Instrumentação de Processos Industriais",
+        "e": 8,
+        "pr": [
+          "ENG07069",
+          "ENG10018"
+        ],
+        "cr": 2,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "ENG09023",
+        "n": "Planejamento Estratégico da Produção",
+        "e": 8,
+        "pr": [
+          "ENG03021"
+        ],
+        "cr": 2,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "ENG03046",
+        "n": "Controle de Sistemas Fluído-Mecânicos",
+        "e": 8,
+        "pr": [
+          "ENG03027",
+          "ENG10018"
+        ],
+        "cr": 4,
+        "par": "2",
+        "t": "e"
+      },
+      {
+        "c": "ENG10050",
+        "n": "Laboratório de Máquinas e Acionamentos Elétricos",
+        "e": 9,
+        "pr": [
+          "ENG10049"
+        ],
+        "cr": 2,
+        "par": "1",
+        "t": "e"
+      },
+      {
+        "c": "ENG10055",
+        "n": "Sistemas de Tempo Real - I",
+        "e": 8,
+        "pr": [
+          "ENG04475"
+        ],
+        "cr": 4,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "CCA99010",
+        "n": "Projeto Integrado III",
+        "e": 9,
+        "pr": [
+          "CCA99009"
+        ],
+        "cr": 9,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "ENG07012",
+        "n": "Laboratório de Controle e Operação de Processos",
+        "e": 9,
+        "pr": [
+          "ENG07042"
+        ],
+        "cr": 3,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "ENG07062",
+        "n": "Otimização Aplicada",
+        "e": 9,
+        "pr": [
+          "ENG07042"
+        ],
+        "cr": 3,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "ENG03047",
+        "n": "Projetos de Sistemas Mecânicos",
+        "e": 9,
+        "pr": [
+          "ENG03044",
+          "ENG03045"
+        ],
+        "cr": 4,
+        "par": "1",
+        "t": "e"
+      }
+    ],
+    "mecanica": [
+      {
+        "c": "INF01202",
+        "n": "Algoritmos e Programação",
+        "e": 1,
+        "pr": [],
+        "t": "o",
+        "cr": 6,
+        "par": null
+      },
+      {
+        "c": "MAT01353",
+        "n": "Cálculo e Geometria Analítica I",
+        "e": 1,
+        "pr": [],
+        "t": "o",
+        "cr": 6,
+        "par": null
+      },
+      {
+        "c": "FIS01181",
+        "n": "Física I-C",
+        "e": 1,
+        "pr": [],
+        "t": "o",
+        "cr": 6,
+        "par": null
+      },
+      {
+        "c": "ARQ03317",
+        "n": "Geometria Descritiva II-A",
+        "e": 1,
+        "pr": [],
+        "t": "o",
+        "cr": 2,
+        "par": null
+      },
+      {
+        "c": "CCA99001",
+        "n": "Introdução à Eng. de Controle e Automação",
+        "e": 1,
+        "pr": [],
+        "t": "o",
+        "cr": 2,
+        "par": "1"
+      },
+      {
+        "c": "QUI01009",
+        "n": "Química Fundamental A",
+        "e": 1,
+        "pr": [],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "MAT01355",
+        "n": "Álgebra Linear I-A",
+        "e": 2,
+        "pr": [
+          "MAT01353"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "MAT01354",
+        "n": "Cálculo e Geometria Analítica II-A",
+        "e": 2,
+        "pr": [
+          "MAT01353"
+        ],
+        "t": "o",
+        "cr": 6,
+        "par": null
+      },
+      {
+        "c": "ARQ03319",
+        "n": "Desenho Técnico II-A",
+        "e": 2,
+        "pr": [
+          "ARQ03317"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "FIS01182",
+        "n": "Física Geral - Eletromagnetismo",
+        "e": 2,
+        "pr": [
+          "FIS01181"
+        ],
+        "t": "o",
+        "cr": 6,
+        "par": null
+      },
+      {
+        "c": "ENG03041",
+        "n": "Mecânica Aplicada I",
+        "e": 2,
+        "pr": [
+          "CCA99001",
+          "FIS01181",
+          "MAT01353"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "INF01057",
+        "n": "Programação Orientada a Objeto",
+        "e": 2,
+        "pr": [
+          "INF01202"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": "2"
+      },
+      {
+        "c": "ENG10001",
+        "n": "Circuitos Elétricos I-C",
+        "e": 3,
+        "pr": [
+          "FIS01182",
+          "MAT01354"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "MAT01167",
+        "n": "Equações Diferenciais II",
+        "e": 3,
+        "pr": [
+          "MAT01354",
+          "MAT01355"
+        ],
+        "t": "o",
+        "cr": 6,
+        "par": null
+      },
+      {
+        "c": "FIS01183",
+        "n": "Física III-C",
+        "e": 3,
+        "pr": [
+          "FIS01182"
+        ],
+        "t": "o",
+        "cr": 6,
+        "par": null
+      },
+      {
+        "c": "ENG03043",
+        "n": "Materiais para Engenharia A",
+        "e": 3,
+        "pr": [
+          "QUI01009"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": "1"
+      },
+      {
+        "c": "ENG03042",
+        "n": "Mecânica Aplicada II",
+        "e": 3,
+        "pr": [
+          "ENG03041"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "MAT02219",
+        "n": "Probabilidade e Estatística",
+        "e": 3,
+        "pr": [
+          "MAT01353"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "ENG10042",
+        "n": "Sistemas Digitais-A",
+        "e": 3,
+        "pr": [],
+        "t": "o",
+        "cr": 4,
+        "par": "1"
+      },
+      {
+        "c": "MAT01169",
+        "n": "Cálculo Numérico",
+        "e": 4,
+        "pr": [
+          "INF01202",
+          "MAT01167"
+        ],
+        "t": "o",
+        "cr": 6,
+        "par": null
+      },
+      {
+        "c": "ENG10002",
+        "n": "Circuitos Elétricos II-C",
+        "e": 4,
+        "pr": [
+          "ENG10001",
+          "MAT01167"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "ENG10043",
+        "n": "Laboratório de Sistemas Digitais",
+        "e": 4,
+        "pr": [
+          "ENG10042"
+        ],
+        "t": "o",
+        "cr": 2,
+        "par": "2"
+      },
+      {
+        "c": "MAT01168",
+        "n": "Matemática Aplicada II",
+        "e": 4,
+        "pr": [
+          "MAT01167"
+        ],
+        "t": "o",
+        "cr": 6,
+        "par": null
+      },
+      {
+        "c": "ENG03092",
+        "n": "Mecânica dos Sólidos I-A",
+        "e": 4,
+        "pr": [
+          "ENG03041",
+          "ENG03043"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "ENG03316",
+        "n": "Mecanismos I",
+        "e": 4,
+        "pr": [
+          "ENG03042"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "ENG03044",
+        "n": "Modelagem de Sistemas Mecânicos",
+        "e": 4,
+        "pr": [
+          "ENG10001",
+          "FIS01183",
+          "MAT01167"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "ENG10044",
+        "n": "Eletrônica Fundamental I-B",
+        "e": 5,
+        "pr": [
+          "ENG10002"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": "1"
+      },
+      {
+        "c": "ENG10003",
+        "n": "Laboratório de Circuitos Elétricos",
+        "e": 5,
+        "pr": [
+          "ENG10002"
+        ],
+        "t": "o",
+        "cr": 2,
+        "par": null
+      },
+      {
+        "c": "ENG03004",
+        "n": "Mecânica dos Sólidos II",
+        "e": 5,
+        "pr": [
+          "ENG03092",
+          "MAT01169"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "ENG10017",
+        "n": "Sistemas e Sinais",
+        "e": 5,
+        "pr": [
+          "MAT01168"
+        ],
+        "t": "o",
+        "cr": 6,
+        "par": null
+      },
+      {
+        "c": "ENG07086",
+        "n": "Termodinâmica e Transf. de Calor",
+        "e": 5,
+        "pr": [
+          "FIS01183"
+        ],
+        "t": "o",
+        "cr": 5,
+        "par": "1"
+      },
+      {
+        "c": "ENG10026",
+        "n": "Robótica / Robótica A",
+        "e": 5,
+        "pr": [
+          "ENG03316"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "ENG10047",
+        "n": "Fundamentos de Máquinas Elétricas",
+        "e": 6,
+        "pr": [
+          "ENG10002"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": "2"
+      },
+      {
+        "c": "ENG10022",
+        "n": "Instrum. Fundamental p/ Controle e Automação",
+        "e": 6,
+        "pr": [
+          "ENG10044",
+          "MAT02219"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": "2"
+      },
+      {
+        "c": "ENG10045",
+        "n": "Laboratório de Eletrônica",
+        "e": 6,
+        "pr": [
+          "ENG10003",
+          "ENG10044"
+        ],
+        "t": "o",
+        "cr": 2,
+        "par": null
+      },
+      {
+        "c": "ENG07069",
+        "n": "Princípios da Mecânica de Fluidos",
+        "e": 6,
+        "pr": [
+          "ENG07086"
+        ],
+        "t": "o",
+        "cr": 2,
+        "par": null
+      },
+      {
+        "c": "ENG10023",
+        "n": "Sistemas de Automação",
+        "e": 6,
+        "pr": [
+          "ENG10043",
+          "INF01057"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": "2"
+      },
+      {
+        "c": "ENG10004",
+        "n": "Sistemas de Controle I-B",
+        "e": 6,
+        "pr": [
+          "ENG03044",
+          "ENG10017"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": "2"
+      },
+      {
+        "c": "ENG10049",
+        "n": "Acionamento de Máq. Elétricas-A",
+        "e": 7,
+        "pr": [
+          "ENG10045",
+          "ENG10047"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": "1"
+      },
+      {
+        "c": "ENG10005",
+        "n": "Laboratório de Controle",
+        "e": 7,
+        "pr": [
+          "ENG10004"
+        ],
+        "t": "o",
+        "cr": 2,
+        "par": "1"
+      },
+      {
+        "c": "ENG04475",
+        "n": "Microprocessadores I",
+        "e": 7,
+        "pr": [
+          "ENG10043",
+          "ENG10044"
+        ],
+        "t": "o",
+        "cr": 5,
+        "par": null
+      },
+      {
+        "c": "ENG03021",
+        "n": "Processos Discretos de Produção",
+        "e": 7,
+        "pr": [
+          "ENG03043"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "ENG10048",
+        "n": "Protocolos de Comunicação-A",
+        "e": 7,
+        "pr": [
+          "ENG10023"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": "1"
+      },
+      {
+        "c": "ENG10018",
+        "n": "Sistemas de Controle II",
+        "e": 7,
+        "pr": [
+          "ENG10004"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": "1"
+      },
+      {
+        "c": "ENG03027",
+        "n": "Sistemas Hidráulicos e Pneumáticos",
+        "e": 7,
+        "pr": [
+          "ENG07069"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "ENG03045",
+        "n": "Elementos de Máquinas",
+        "e": 8,
+        "pr": [
+          "ENG03004",
+          "ENG03021"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": "2"
+      },
+      {
+        "c": "ENG07042",
+        "n": "Modelagem e Controle de Proc. Industriais",
+        "e": 8,
+        "pr": [
+          "ENG07069",
+          "ENG10018"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": "2"
+      },
+      {
+        "c": "ENG10019",
+        "n": "Sistemas de Controle Digitais",
+        "e": 8,
+        "pr": [
+          "ENG04475",
+          "ENG10004"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": "2"
+      },
+      {
+        "c": "ENG03387",
+        "n": "Sistemas de Fabricação",
+        "e": 8,
+        "pr": [
+          "ENG03021"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": "2"
+      },
+      {
+        "c": "ENG03046",
+        "n": "Controle de Sistemas Fluído-Mecânicos",
+        "e": 8,
+        "pr": [
+          "ENG03027",
+          "ENG10018"
+        ],
+        "t": "f",
+        "cr": 4,
+        "par": "2"
+      },
+      {
+        "c": "ENG07087",
+        "n": "Controle Avançado de Processos",
+        "e": 9,
+        "pr": [
+          "ENG07042"
+        ],
+        "t": "o",
+        "cr": 3,
+        "par": "1"
+      },
+      {
+        "c": "ESTAGIO",
+        "n": "Estágio Supervisionado",
+        "e": 9,
+        "pr": [
+          "ENG03027",
+          "ENG10018"
+        ],
+        "t": "o",
+        "cr": 0,
+        "par": null,
+        "ch": 165
+      },
+      {
+        "c": "TCC1",
+        "n": "Trab. de Conclusão CCA - I",
+        "e": 9,
+        "pr": [
+          "ENG03027",
+          "ENG10005",
+          "ENG10048",
+          "ENG10049"
+        ],
+        "t": "o",
+        "cr": 0,
+        "par": null,
+        "ch": 30
+      },
+      {
+        "c": "ENG03047",
+        "n": "Projetos de Sistemas Mecânicos",
+        "e": 9,
+        "pr": [
+          "ENG03044",
+          "ENG03045"
+        ],
+        "t": "f",
+        "cr": 4,
+        "par": "1"
+      },
+      {
+        "c": "ENG03010",
+        "n": "Ciência, Tecnologia e Ambiente",
+        "e": 10,
+        "pr": [],
+        "t": "o",
+        "cr": 3,
+        "par": null
+      },
+      {
+        "c": "ENG03048",
+        "n": "Gerência e Adm. de Projetos",
+        "e": 10,
+        "pr": [],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "TCC2",
+        "n": "Trab. de Conclusão CCA - II",
+        "e": 10,
+        "pr": [
+          "ENG03045",
+          "ENG07042",
+          "ENG10019",
+          "TCC1"
+        ],
+        "t": "o",
+        "cr": 0,
+        "par": null,
+        "ch": 30
+      },
+      {
+        "c": "EDU03071",
+        "n": "Libras",
+        "e": 1,
+        "pr": [],
+        "cr": 2,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "CCA99005",
+        "n": "Tópicos Especiais em ECA I",
+        "e": 1,
+        "pr": [],
+        "cr": 2,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "CCA99006",
+        "n": "Tópicos Especiais em ECA II",
+        "e": 1,
+        "pr": [],
+        "cr": 4,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "CCA99007",
+        "n": "Tópicos Especiais em ECA III",
+        "e": 1,
+        "pr": [],
+        "cr": 6,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "INF01126",
+        "n": "Estruturas de Dados I",
+        "e": 2,
+        "pr": [
+          "INF01202"
+        ],
+        "cr": 4,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "INF01017",
+        "n": "Aprendizado de Máquina",
+        "e": 3,
+        "pr": [
+          "INF01057"
+        ],
+        "cr": 4,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "INF01037",
+        "n": "Computação Evolutiva",
+        "e": 3,
+        "pr": [
+          "INF01057"
+        ],
+        "cr": 4,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "ADM01135",
+        "n": "Engenharia Econômica e Avaliações",
+        "e": 4,
+        "pr": [
+          "MAT02219"
+        ],
+        "cr": 2,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "CCA99008",
+        "n": "Projeto Integrado I",
+        "e": 6,
+        "pr": [
+          "ENG03044",
+          "ENG03316",
+          "ENG07086",
+          "ENG10003",
+          "ENG10042"
+        ],
+        "cr": 9,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "ENG10052",
+        "n": "Laboratório de Robótica",
+        "e": 6,
+        "pr": [
+          "ENG10026"
+        ],
+        "cr": 2,
+        "par": "2",
+        "t": "e"
+      },
+      {
+        "c": "ENG10054",
+        "n": "Robótica Móvel",
+        "e": 6,
+        "pr": [
+          "ENG10017",
+          "INF01057",
+          "MAT02219"
+        ],
+        "cr": 4,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "CCA99011",
+        "n": "Tópicos em Proc. Digital de Sinais I",
+        "e": 6,
+        "pr": [
+          "ENG10017"
+        ],
+        "cr": 4,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "ENG10027",
+        "n": "Eletrônica Fundamental II-B",
+        "e": 6,
+        "pr": [
+          "ENG10002",
+          "ENG10044"
+        ],
+        "cr": 4,
+        "par": "2",
+        "t": "e"
+      },
+      {
+        "c": "ENG10046",
+        "n": "Princípios de Eletrônica de Potência",
+        "e": 9,
+        "pr": [
+          "ENG10044"
+        ],
+        "cr": 2,
+        "par": "1",
+        "t": "e"
+      },
+      {
+        "c": "ENG10021",
+        "n": "Sistemas a Eventos Discretos",
+        "e": 9,
+        "pr": [
+          "ENG10023"
+        ],
+        "cr": 4,
+        "par": "1",
+        "t": "e"
+      },
+      {
+        "c": "ENG10051",
+        "n": "Dinâmica e Controle de Robôs",
+        "e": 7,
+        "pr": [
+          "ENG10004",
+          "ENG10026"
+        ],
+        "cr": 4,
+        "par": "1",
+        "t": "e"
+      },
+      {
+        "c": "CCA99009",
+        "n": "Projeto Integrado II",
+        "e": 8,
+        "pr": [
+          "CCA99008",
+          "ENG03021",
+          "ENG04475",
+          "ENG07069",
+          "ENG10004",
+          "ENG10022",
+          "ENG10023"
+        ],
+        "cr": 9,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "ENG07043",
+        "n": "Instrumentação de Processos Industriais",
+        "e": 8,
+        "pr": [
+          "ENG07069",
+          "ENG10018"
+        ],
+        "cr": 2,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "ENG09023",
+        "n": "Planejamento Estratégico da Produção",
+        "e": 8,
+        "pr": [
+          "ENG03021"
+        ],
+        "cr": 2,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "ENG03386",
+        "n": "Fabricação Auxiliada por Computador",
+        "e": 8,
+        "pr": [
+          "ENG03021"
+        ],
+        "cr": 4,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "ENG10050",
+        "n": "Laboratório de Máquinas e Acionamentos Elétricos",
+        "e": 9,
+        "pr": [
+          "ENG10049"
+        ],
+        "cr": 2,
+        "par": "1",
+        "t": "e"
+      },
+      {
+        "c": "ENG10055",
+        "n": "Sistemas de Tempo Real - I",
+        "e": 8,
+        "pr": [
+          "ENG04475"
+        ],
+        "cr": 4,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "CCA99010",
+        "n": "Projeto Integrado III",
+        "e": 9,
+        "pr": [
+          "CCA99009"
+        ],
+        "cr": 9,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "ENG07012",
+        "n": "Laboratório de Controle e Operação de Processos",
+        "e": 9,
+        "pr": [
+          "ENG07042"
+        ],
+        "cr": 3,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "ENG07062",
+        "n": "Otimização Aplicada",
+        "e": 9,
+        "pr": [
+          "ENG07042"
+        ],
+        "cr": 3,
+        "par": null,
+        "t": "e"
+      }
+    ],
+    "potencia": [
+      {
+        "c": "INF01202",
+        "n": "Algoritmos e Programação",
+        "e": 1,
+        "pr": [],
+        "t": "o",
+        "cr": 6,
+        "par": null
+      },
+      {
+        "c": "MAT01353",
+        "n": "Cálculo e Geometria Analítica I",
+        "e": 1,
+        "pr": [],
+        "t": "o",
+        "cr": 6,
+        "par": null
+      },
+      {
+        "c": "FIS01181",
+        "n": "Física I-C",
+        "e": 1,
+        "pr": [],
+        "t": "o",
+        "cr": 6,
+        "par": null
+      },
+      {
+        "c": "ARQ03317",
+        "n": "Geometria Descritiva II-A",
+        "e": 1,
+        "pr": [],
+        "t": "o",
+        "cr": 2,
+        "par": null
+      },
+      {
+        "c": "CCA99001",
+        "n": "Introdução à Eng. de Controle e Automação",
+        "e": 1,
+        "pr": [],
+        "t": "o",
+        "cr": 2,
+        "par": "1"
+      },
+      {
+        "c": "QUI01009",
+        "n": "Química Fundamental A",
+        "e": 1,
+        "pr": [],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "MAT01355",
+        "n": "Álgebra Linear I-A",
+        "e": 2,
+        "pr": [
+          "MAT01353"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "MAT01354",
+        "n": "Cálculo e Geometria Analítica II-A",
+        "e": 2,
+        "pr": [
+          "MAT01353"
+        ],
+        "t": "o",
+        "cr": 6,
+        "par": null
+      },
+      {
+        "c": "ARQ03319",
+        "n": "Desenho Técnico II-A",
+        "e": 2,
+        "pr": [
+          "ARQ03317"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "FIS01182",
+        "n": "Física Geral - Eletromagnetismo",
+        "e": 2,
+        "pr": [
+          "FIS01181"
+        ],
+        "t": "o",
+        "cr": 6,
+        "par": null
+      },
+      {
+        "c": "ENG03041",
+        "n": "Mecânica Aplicada I",
+        "e": 2,
+        "pr": [
+          "CCA99001",
+          "FIS01181",
+          "MAT01353"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "INF01057",
+        "n": "Programação Orientada a Objeto",
+        "e": 2,
+        "pr": [
+          "INF01202"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": "2"
+      },
+      {
+        "c": "ENG10001",
+        "n": "Circuitos Elétricos I-C",
+        "e": 3,
+        "pr": [
+          "FIS01182",
+          "MAT01354"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "MAT01167",
+        "n": "Equações Diferenciais II",
+        "e": 3,
+        "pr": [
+          "MAT01354",
+          "MAT01355"
+        ],
+        "t": "o",
+        "cr": 6,
+        "par": null
+      },
+      {
+        "c": "FIS01183",
+        "n": "Física III-C",
+        "e": 3,
+        "pr": [
+          "FIS01182"
+        ],
+        "t": "o",
+        "cr": 6,
+        "par": null
+      },
+      {
+        "c": "ENG03043",
+        "n": "Materiais para Engenharia A",
+        "e": 3,
+        "pr": [
+          "QUI01009"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": "1"
+      },
+      {
+        "c": "ENG03042",
+        "n": "Mecânica Aplicada II",
+        "e": 3,
+        "pr": [
+          "ENG03041"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "MAT02219",
+        "n": "Probabilidade e Estatística",
+        "e": 3,
+        "pr": [
+          "MAT01353"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "ENG10042",
+        "n": "Sistemas Digitais-A",
+        "e": 3,
+        "pr": [],
+        "t": "o",
+        "cr": 4,
+        "par": "1"
+      },
+      {
+        "c": "MAT01169",
+        "n": "Cálculo Numérico",
+        "e": 4,
+        "pr": [
+          "INF01202",
+          "MAT01167"
+        ],
+        "t": "o",
+        "cr": 6,
+        "par": null
+      },
+      {
+        "c": "ENG10002",
+        "n": "Circuitos Elétricos II-C",
+        "e": 4,
+        "pr": [
+          "ENG10001",
+          "MAT01167"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "ENG10043",
+        "n": "Laboratório de Sistemas Digitais",
+        "e": 4,
+        "pr": [
+          "ENG10042"
+        ],
+        "t": "o",
+        "cr": 2,
+        "par": "2"
+      },
+      {
+        "c": "MAT01168",
+        "n": "Matemática Aplicada II",
+        "e": 4,
+        "pr": [
+          "MAT01167"
+        ],
+        "t": "o",
+        "cr": 6,
+        "par": null
+      },
+      {
+        "c": "ENG03092",
+        "n": "Mecânica dos Sólidos I-A",
+        "e": 4,
+        "pr": [
+          "ENG03041",
+          "ENG03043"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "ENG03316",
+        "n": "Mecanismos I",
+        "e": 4,
+        "pr": [
+          "ENG03042"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "ENG03044",
+        "n": "Modelagem de Sistemas Mecânicos",
+        "e": 4,
+        "pr": [
+          "ENG10001",
+          "FIS01183",
+          "MAT01167"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "ENG10044",
+        "n": "Eletrônica Fundamental I-B",
+        "e": 5,
+        "pr": [
+          "ENG10002"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": "1"
+      },
+      {
+        "c": "ENG10003",
+        "n": "Laboratório de Circuitos Elétricos",
+        "e": 5,
+        "pr": [
+          "ENG10002"
+        ],
+        "t": "o",
+        "cr": 2,
+        "par": null
+      },
+      {
+        "c": "ENG03004",
+        "n": "Mecânica dos Sólidos II",
+        "e": 5,
+        "pr": [
+          "ENG03092",
+          "MAT01169"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "ENG10017",
+        "n": "Sistemas e Sinais",
+        "e": 5,
+        "pr": [
+          "MAT01168"
+        ],
+        "t": "o",
+        "cr": 6,
+        "par": null
+      },
+      {
+        "c": "ENG07086",
+        "n": "Termodinâmica e Transf. de Calor",
+        "e": 5,
+        "pr": [
+          "FIS01183"
+        ],
+        "t": "o",
+        "cr": 5,
+        "par": "1"
+      },
+      {
+        "c": "ENG10026",
+        "n": "Robótica / Robótica A",
+        "e": 5,
+        "pr": [
+          "ENG03316"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "ENG10047",
+        "n": "Fundamentos de Máquinas Elétricas",
+        "e": 6,
+        "pr": [
+          "ENG10002"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": "2"
+      },
+      {
+        "c": "ENG10022",
+        "n": "Instrum. Fundamental p/ Controle e Automação",
+        "e": 6,
+        "pr": [
+          "ENG10044",
+          "MAT02219"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": "2"
+      },
+      {
+        "c": "ENG10045",
+        "n": "Laboratório de Eletrônica",
+        "e": 6,
+        "pr": [
+          "ENG10003",
+          "ENG10044"
+        ],
+        "t": "o",
+        "cr": 2,
+        "par": null
+      },
+      {
+        "c": "ENG07069",
+        "n": "Princípios da Mecânica de Fluidos",
+        "e": 6,
+        "pr": [
+          "ENG07086"
+        ],
+        "t": "o",
+        "cr": 2,
+        "par": null
+      },
+      {
+        "c": "ENG10023",
+        "n": "Sistemas de Automação",
+        "e": 6,
+        "pr": [
+          "ENG10043",
+          "INF01057"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": "2"
+      },
+      {
+        "c": "ENG10004",
+        "n": "Sistemas de Controle I-B",
+        "e": 6,
+        "pr": [
+          "ENG03044",
+          "ENG10017"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": "2"
+      },
+      {
+        "c": "ENG10049",
+        "n": "Acionamento de Máq. Elétricas-A",
+        "e": 7,
+        "pr": [
+          "ENG10045",
+          "ENG10047"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": "1"
+      },
+      {
+        "c": "ENG10005",
+        "n": "Laboratório de Controle",
+        "e": 7,
+        "pr": [
+          "ENG10004"
+        ],
+        "t": "o",
+        "cr": 2,
+        "par": "1"
+      },
+      {
+        "c": "ENG04475",
+        "n": "Microprocessadores I",
+        "e": 7,
+        "pr": [
+          "ENG10043",
+          "ENG10044"
+        ],
+        "t": "o",
+        "cr": 5,
+        "par": null
+      },
+      {
+        "c": "ENG03021",
+        "n": "Processos Discretos de Produção",
+        "e": 7,
+        "pr": [
+          "ENG03043"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "ENG10048",
+        "n": "Protocolos de Comunicação-A",
+        "e": 7,
+        "pr": [
+          "ENG10023"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": "1"
+      },
+      {
+        "c": "ENG10018",
+        "n": "Sistemas de Controle II",
+        "e": 7,
+        "pr": [
+          "ENG10004"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": "1"
+      },
+      {
+        "c": "ENG03027",
+        "n": "Sistemas Hidráulicos e Pneumáticos",
+        "e": 7,
+        "pr": [
+          "ENG07069"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "ENG03045",
+        "n": "Elementos de Máquinas",
+        "e": 8,
+        "pr": [
+          "ENG03004",
+          "ENG03021"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": "2"
+      },
+      {
+        "c": "ENG07042",
+        "n": "Modelagem e Controle de Proc. Industriais",
+        "e": 8,
+        "pr": [
+          "ENG07069",
+          "ENG10018"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": "2"
+      },
+      {
+        "c": "ENG10019",
+        "n": "Sistemas de Controle Digitais",
+        "e": 8,
+        "pr": [
+          "ENG04475",
+          "ENG10004"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": "2"
+      },
+      {
+        "c": "ENG03387",
+        "n": "Sistemas de Fabricação",
+        "e": 8,
+        "pr": [
+          "ENG03021"
+        ],
+        "t": "o",
+        "cr": 4,
+        "par": "2"
+      },
+      {
+        "c": "ENG10027",
+        "n": "Eletrônica Fundamental II-B",
+        "e": 8,
+        "pr": [
+          "ENG10002",
+          "ENG10044"
+        ],
+        "t": "f",
+        "cr": 4,
+        "par": "2"
+      },
+      {
+        "c": "ENG07087",
+        "n": "Controle Avançado de Processos",
+        "e": 9,
+        "pr": [
+          "ENG07042"
+        ],
+        "t": "o",
+        "cr": 3,
+        "par": "1"
+      },
+      {
+        "c": "ESTAGIO",
+        "n": "Estágio Supervisionado",
+        "e": 9,
+        "pr": [
+          "ENG03027",
+          "ENG10018"
+        ],
+        "t": "o",
+        "cr": 0,
+        "par": null,
+        "ch": 165
+      },
+      {
+        "c": "TCC1",
+        "n": "Trab. de Conclusão CCA - I",
+        "e": 9,
+        "pr": [
+          "ENG03027",
+          "ENG10005",
+          "ENG10048",
+          "ENG10049"
+        ],
+        "t": "o",
+        "cr": 0,
+        "par": null,
+        "ch": 30
+      },
+      {
+        "c": "ENG10050",
+        "n": "Laboratório de Máquinas e Acionamentos Elétricos",
+        "e": 9,
+        "pr": [
+          "ENG10049"
+        ],
+        "t": "f",
+        "cr": 2,
+        "par": "1"
+      },
+      {
+        "c": "ENG10046",
+        "n": "Princípios de Eletrônica de Potência",
+        "e": 9,
+        "pr": [
+          "ENG10044"
+        ],
+        "t": "f",
+        "cr": 2,
+        "par": "1"
+      },
+      {
+        "c": "ENG03010",
+        "n": "Ciência, Tecnologia e Ambiente",
+        "e": 10,
+        "pr": [],
+        "t": "o",
+        "cr": 3,
+        "par": null
+      },
+      {
+        "c": "ENG03048",
+        "n": "Gerência e Adm. de Projetos",
+        "e": 10,
+        "pr": [],
+        "t": "o",
+        "cr": 4,
+        "par": null
+      },
+      {
+        "c": "TCC2",
+        "n": "Trab. de Conclusão CCA - II",
+        "e": 10,
+        "pr": [
+          "ENG03045",
+          "ENG07042",
+          "ENG10019",
+          "TCC1"
+        ],
+        "t": "o",
+        "cr": 0,
+        "par": null,
+        "ch": 30
+      },
+      {
+        "c": "EDU03071",
+        "n": "Libras",
+        "e": 1,
+        "pr": [],
+        "cr": 2,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "CCA99005",
+        "n": "Tópicos Especiais em ECA I",
+        "e": 1,
+        "pr": [],
+        "cr": 2,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "CCA99006",
+        "n": "Tópicos Especiais em ECA II",
+        "e": 1,
+        "pr": [],
+        "cr": 4,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "CCA99007",
+        "n": "Tópicos Especiais em ECA III",
+        "e": 1,
+        "pr": [],
+        "cr": 6,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "INF01126",
+        "n": "Estruturas de Dados I",
+        "e": 2,
+        "pr": [
+          "INF01202"
+        ],
+        "cr": 4,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "INF01017",
+        "n": "Aprendizado de Máquina",
+        "e": 3,
+        "pr": [
+          "INF01057"
+        ],
+        "cr": 4,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "INF01037",
+        "n": "Computação Evolutiva",
+        "e": 3,
+        "pr": [
+          "INF01057"
+        ],
+        "cr": 4,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "ADM01135",
+        "n": "Engenharia Econômica e Avaliações",
+        "e": 4,
+        "pr": [
+          "MAT02219"
+        ],
+        "cr": 2,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "CCA99008",
+        "n": "Projeto Integrado I",
+        "e": 6,
+        "pr": [
+          "ENG03044",
+          "ENG03316",
+          "ENG07086",
+          "ENG10003",
+          "ENG10042"
+        ],
+        "cr": 9,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "ENG10052",
+        "n": "Laboratório de Robótica",
+        "e": 6,
+        "pr": [
+          "ENG10026"
+        ],
+        "cr": 2,
+        "par": "2",
+        "t": "e"
+      },
+      {
+        "c": "ENG10054",
+        "n": "Robótica Móvel",
+        "e": 6,
+        "pr": [
+          "ENG10017",
+          "INF01057",
+          "MAT02219"
+        ],
+        "cr": 4,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "CCA99011",
+        "n": "Tópicos em Proc. Digital de Sinais I",
+        "e": 6,
+        "pr": [
+          "ENG10017"
+        ],
+        "cr": 4,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "ENG10021",
+        "n": "Sistemas a Eventos Discretos",
+        "e": 9,
+        "pr": [
+          "ENG10023"
+        ],
+        "cr": 4,
+        "par": "1",
+        "t": "e"
+      },
+      {
+        "c": "ENG10051",
+        "n": "Dinâmica e Controle de Robôs",
+        "e": 7,
+        "pr": [
+          "ENG10004",
+          "ENG10026"
+        ],
+        "cr": 4,
+        "par": "1",
+        "t": "e"
+      },
+      {
+        "c": "CCA99009",
+        "n": "Projeto Integrado II",
+        "e": 8,
+        "pr": [
+          "CCA99008",
+          "ENG03021",
+          "ENG04475",
+          "ENG07069",
+          "ENG10004",
+          "ENG10022",
+          "ENG10023"
+        ],
+        "cr": 9,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "ENG07043",
+        "n": "Instrumentação de Processos Industriais",
+        "e": 8,
+        "pr": [
+          "ENG07069",
+          "ENG10018"
+        ],
+        "cr": 2,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "ENG09023",
+        "n": "Planejamento Estratégico da Produção",
+        "e": 8,
+        "pr": [
+          "ENG03021"
+        ],
+        "cr": 2,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "ENG03046",
+        "n": "Controle de Sistemas Fluído-Mecânicos",
+        "e": 8,
+        "pr": [
+          "ENG03027",
+          "ENG10018"
+        ],
+        "cr": 4,
+        "par": "2",
+        "t": "e"
+      },
+      {
+        "c": "ENG03386",
+        "n": "Fabricação Auxiliada por Computador",
+        "e": 8,
+        "pr": [
+          "ENG03021"
+        ],
+        "cr": 4,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "ENG10055",
+        "n": "Sistemas de Tempo Real - I",
+        "e": 8,
+        "pr": [
+          "ENG04475"
+        ],
+        "cr": 4,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "CCA99010",
+        "n": "Projeto Integrado III",
+        "e": 9,
+        "pr": [
+          "CCA99009"
+        ],
+        "cr": 9,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "ENG07012",
+        "n": "Laboratório de Controle e Operação de Processos",
+        "e": 9,
+        "pr": [
+          "ENG07042"
+        ],
+        "cr": 3,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "ENG07062",
+        "n": "Otimização Aplicada",
+        "e": 9,
+        "pr": [
+          "ENG07042"
+        ],
+        "cr": 3,
+        "par": null,
+        "t": "e"
+      },
+      {
+        "c": "ENG03047",
+        "n": "Projetos de Sistemas Mecânicos",
+        "e": 9,
+        "pr": [
+          "ENG03044",
+          "ENG03045"
+        ],
+        "cr": 4,
+        "par": "1",
+        "t": "e"
+      }
+    ]
+  },
+  "disciplineMap": {
+    "INF01202": {
+      "code": "INF01202",
+      "name": "Algoritmos e Programação",
+      "etapa": 1,
+      "par": null,
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 6
+    },
+    "MAT01353": {
+      "code": "MAT01353",
+      "name": "Cálculo e Geometria Analítica I",
+      "etapa": 1,
+      "par": null,
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 6
+    },
+    "FIS01181": {
+      "code": "FIS01181",
+      "name": "Física I-C",
+      "etapa": 1,
+      "par": null,
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 6
+    },
+    "ARQ03317": {
+      "code": "ARQ03317",
+      "name": "Geometria Descritiva II-A",
+      "etapa": 1,
+      "par": null,
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 2
+    },
+    "CCA99001": {
+      "code": "CCA99001",
+      "name": "Introdução à Eng. de Controle e Automação",
+      "etapa": 1,
+      "par": "1",
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 2
+    },
+    "QUI01009": {
+      "code": "QUI01009",
+      "name": "Química Fundamental A",
+      "etapa": 1,
+      "par": null,
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 4
+    },
+    "MAT01355": {
+      "code": "MAT01355",
+      "name": "Álgebra Linear I-A",
+      "etapa": 2,
+      "par": null,
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 4
+    },
+    "MAT01354": {
+      "code": "MAT01354",
+      "name": "Cálculo e Geometria Analítica II-A",
+      "etapa": 2,
+      "par": null,
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 6
+    },
+    "ARQ03319": {
+      "code": "ARQ03319",
+      "name": "Desenho Técnico II-A",
+      "etapa": 2,
+      "par": null,
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 4
+    },
+    "FIS01182": {
+      "code": "FIS01182",
+      "name": "Física Geral - Eletromagnetismo",
+      "etapa": 2,
+      "par": null,
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 6
+    },
+    "ENG03041": {
+      "code": "ENG03041",
+      "name": "Mecânica Aplicada I",
+      "etapa": 2,
+      "par": null,
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 4
+    },
+    "INF01057": {
+      "code": "INF01057",
+      "name": "Programação Orientada a Objeto",
+      "etapa": 2,
+      "par": "2",
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 4
+    },
+    "ENG10001": {
+      "code": "ENG10001",
+      "name": "Circuitos Elétricos I-C",
+      "etapa": 3,
+      "par": null,
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 4
+    },
+    "MAT01167": {
+      "code": "MAT01167",
+      "name": "Equações Diferenciais II",
+      "etapa": 3,
+      "par": null,
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 6
+    },
+    "FIS01183": {
+      "code": "FIS01183",
+      "name": "Física III-C",
+      "etapa": 3,
+      "par": null,
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 6
+    },
+    "ENG03043": {
+      "code": "ENG03043",
+      "name": "Materiais para Engenharia A",
+      "etapa": 3,
+      "par": "1",
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 4
+    },
+    "ENG03042": {
+      "code": "ENG03042",
+      "name": "Mecânica Aplicada II",
+      "etapa": 3,
+      "par": null,
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 4
+    },
+    "MAT02219": {
+      "code": "MAT02219",
+      "name": "Probabilidade e Estatística",
+      "etapa": 3,
+      "par": null,
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 4
+    },
+    "ENG10042": {
+      "code": "ENG10042",
+      "name": "Sistemas Digitais-A",
+      "etapa": 3,
+      "par": "1",
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 4
+    },
+    "MAT01169": {
+      "code": "MAT01169",
+      "name": "Cálculo Numérico",
+      "etapa": 4,
+      "par": null,
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 6
+    },
+    "ENG10002": {
+      "code": "ENG10002",
+      "name": "Circuitos Elétricos II-C",
+      "etapa": 4,
+      "par": null,
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 4
+    },
+    "ENG10043": {
+      "code": "ENG10043",
+      "name": "Laboratório de Sistemas Digitais",
+      "etapa": 4,
+      "par": "2",
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 2
+    },
+    "MAT01168": {
+      "code": "MAT01168",
+      "name": "Matemática Aplicada II",
+      "etapa": 4,
+      "par": null,
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 6
+    },
+    "ENG03092": {
+      "code": "ENG03092",
+      "name": "Mecânica dos Sólidos I-A",
+      "etapa": 4,
+      "par": null,
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 4
+    },
+    "ENG03316": {
+      "code": "ENG03316",
+      "name": "Mecanismos I",
+      "etapa": 4,
+      "par": null,
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 4
+    },
+    "ENG03044": {
+      "code": "ENG03044",
+      "name": "Modelagem de Sistemas Mecânicos",
+      "etapa": 4,
+      "par": null,
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 4
+    },
+    "ENG10044": {
+      "code": "ENG10044",
+      "name": "Eletrônica Fundamental I-B",
+      "etapa": 5,
+      "par": "1",
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 4
+    },
+    "ENG10003": {
+      "code": "ENG10003",
+      "name": "Laboratório de Circuitos Elétricos",
+      "etapa": 5,
+      "par": null,
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 2
+    },
+    "ENG03004": {
+      "code": "ENG03004",
+      "name": "Mecânica dos Sólidos II",
+      "etapa": 5,
+      "par": null,
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 4
+    },
+    "ENG10017": {
+      "code": "ENG10017",
+      "name": "Sistemas e Sinais",
+      "etapa": 5,
+      "par": null,
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 6
+    },
+    "ENG07086": {
+      "code": "ENG07086",
+      "name": "Termodinâmica e Transf. de Calor",
+      "etapa": 5,
+      "par": "1",
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 5
+    },
+    "ENG10026": {
+      "code": "ENG10026",
+      "name": "Robótica / Robótica A",
+      "etapa": 5,
+      "par": null,
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 4
+    },
+    "ENG10047": {
+      "code": "ENG10047",
+      "name": "Fundamentos de Máquinas Elétricas",
+      "etapa": 6,
+      "par": "2",
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 4
+    },
+    "ENG10022": {
+      "code": "ENG10022",
+      "name": "Instrum. Fundamental p/ Controle e Automação",
+      "etapa": 6,
+      "par": "2",
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 4
+    },
+    "ENG10045": {
+      "code": "ENG10045",
+      "name": "Laboratório de Eletrônica",
+      "etapa": 6,
+      "par": null,
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 2
+    },
+    "ENG07069": {
+      "code": "ENG07069",
+      "name": "Princípios da Mecânica de Fluidos",
+      "etapa": 6,
+      "par": null,
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 2
+    },
+    "ENG10023": {
+      "code": "ENG10023",
+      "name": "Sistemas de Automação",
+      "etapa": 6,
+      "par": "2",
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 4
+    },
+    "ENG10004": {
+      "code": "ENG10004",
+      "name": "Sistemas de Controle I-B",
+      "etapa": 6,
+      "par": "2",
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 4
+    },
+    "ENG10049": {
+      "code": "ENG10049",
+      "name": "Acionamento de Máq. Elétricas-A",
+      "etapa": 7,
+      "par": "1",
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 4
+    },
+    "ENG10005": {
+      "code": "ENG10005",
+      "name": "Laboratório de Controle",
+      "etapa": 7,
+      "par": "1",
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 2
+    },
+    "ENG04475": {
+      "code": "ENG04475",
+      "name": "Microprocessadores I",
+      "etapa": 7,
+      "par": null,
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 5
+    },
+    "ENG03021": {
+      "code": "ENG03021",
+      "name": "Processos Discretos de Produção",
+      "etapa": 7,
+      "par": null,
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 4
+    },
+    "ENG10048": {
+      "code": "ENG10048",
+      "name": "Protocolos de Comunicação-A",
+      "etapa": 7,
+      "par": "1",
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 4
+    },
+    "ENG10018": {
+      "code": "ENG10018",
+      "name": "Sistemas de Controle II",
+      "etapa": 7,
+      "par": "1",
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 4
+    },
+    "ENG03027": {
+      "code": "ENG03027",
+      "name": "Sistemas Hidráulicos e Pneumáticos",
+      "etapa": 7,
+      "par": null,
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 4
+    },
+    "ENG03045": {
+      "code": "ENG03045",
+      "name": "Elementos de Máquinas",
+      "etapa": 8,
+      "par": "2",
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 4
+    },
+    "ENG07042": {
+      "code": "ENG07042",
+      "name": "Modelagem e Controle de Proc. Industriais",
+      "etapa": 8,
+      "par": "2",
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 4
+    },
+    "ENG10019": {
+      "code": "ENG10019",
+      "name": "Sistemas de Controle Digitais",
+      "etapa": 8,
+      "par": "2",
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 4
+    },
+    "ENG03387": {
+      "code": "ENG03387",
+      "name": "Sistemas de Fabricação",
+      "etapa": 8,
+      "par": "2",
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 4
+    },
+    "ENG03386": {
+      "code": "ENG03386",
+      "name": "Fabricação Auxiliada por Computador",
+      "etapa": 8,
+      "par": null,
+      "t": {
+        "cadcam": "f",
+        "mecanica": "e",
+        "potencia": "e"
+      },
+      "cr": 4
+    },
+    "ENG07087": {
+      "code": "ENG07087",
+      "name": "Controle Avançado de Processos",
+      "etapa": 9,
+      "par": "1",
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 3
+    },
+    "CCA99004": {
+      "code": "CCA99004",
+      "name": "Estágio Supervisionado",
+      "etapa": 9,
+      "par": null,
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 0,
+      "ch": 165
+    },
+    "CCA99002": {
+      "code": "CCA99002",
+      "name": "Trab. de Conclusão CCA - I",
+      "etapa": 9,
+      "par": null,
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 0,
+      "ch": 30
+    },
+    "ENG10021": {
+      "code": "ENG10021",
+      "name": "Sistemas a Eventos Discretos",
+      "etapa": 9,
+      "par": "1",
+      "t": {
+        "cadcam": "f",
+        "mecanica": "e",
+        "potencia": "e"
+      },
+      "cr": 4
+    },
+    "ENG03010": {
+      "code": "ENG03010",
+      "name": "Ciência, Tecnologia e Ambiente",
+      "etapa": 10,
+      "par": null,
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 3
+    },
+    "ENG03048": {
+      "code": "ENG03048",
+      "name": "Gerência e Adm. de Projetos",
+      "etapa": 10,
+      "par": null,
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 4
+    },
+    "CCA99003": {
+      "code": "CCA99003",
+      "name": "Trab. de Conclusão CCA - II",
+      "etapa": 10,
+      "par": null,
+      "t": {
+        "cadcam": "o",
+        "mecanica": "o",
+        "potencia": "o"
+      },
+      "cr": 0,
+      "ch": 30
+    },
+    "EDU03071": {
+      "code": "EDU03071",
+      "name": "Libras",
+      "etapa": 1,
+      "par": null,
+      "t": {
+        "cadcam": "e",
+        "mecanica": "e",
+        "potencia": "e"
+      },
+      "cr": 2
+    },
+    "CCA99005": {
+      "code": "CCA99005",
+      "name": "Tópicos Especiais em ECA I",
+      "etapa": 1,
+      "par": null,
+      "t": {
+        "cadcam": "e",
+        "mecanica": "e",
+        "potencia": "e"
+      },
+      "cr": 2
+    },
+    "CCA99006": {
+      "code": "CCA99006",
+      "name": "Tópicos Especiais em ECA II",
+      "etapa": 1,
+      "par": null,
+      "t": {
+        "cadcam": "e",
+        "mecanica": "e",
+        "potencia": "e"
+      },
+      "cr": 4
+    },
+    "CCA99007": {
+      "code": "CCA99007",
+      "name": "Tópicos Especiais em ECA III",
+      "etapa": 1,
+      "par": null,
+      "t": {
+        "cadcam": "e",
+        "mecanica": "e",
+        "potencia": "e"
+      },
+      "cr": 6
+    },
+    "INF01126": {
+      "code": "INF01126",
+      "name": "Estruturas de Dados I",
+      "etapa": 2,
+      "par": null,
+      "t": {
+        "cadcam": "e",
+        "mecanica": "e",
+        "potencia": "e"
+      },
+      "cr": 4
+    },
+    "INF01017": {
+      "code": "INF01017",
+      "name": "Aprendizado de Máquina",
+      "etapa": 3,
+      "par": null,
+      "t": {
+        "cadcam": "e",
+        "mecanica": "e",
+        "potencia": "e"
+      },
+      "cr": 4
+    },
+    "INF01037": {
+      "code": "INF01037",
+      "name": "Computação Evolutiva",
+      "etapa": 3,
+      "par": null,
+      "t": {
+        "cadcam": "e",
+        "mecanica": "e",
+        "potencia": "e"
+      },
+      "cr": 4
+    },
+    "ADM01135": {
+      "code": "ADM01135",
+      "name": "Engenharia Econômica e Avaliações",
+      "etapa": 4,
+      "par": null,
+      "t": {
+        "cadcam": "e",
+        "mecanica": "e",
+        "potencia": "e"
+      },
+      "cr": 2
+    },
+    "CCA99008": {
+      "code": "CCA99008",
+      "name": "Projeto Integrado I",
+      "etapa": 6,
+      "par": null,
+      "t": {
+        "cadcam": "e",
+        "mecanica": "e",
+        "potencia": "e"
+      },
+      "cr": 9
+    },
+    "ENG10052": {
+      "code": "ENG10052",
+      "name": "Laboratório de Robótica",
+      "etapa": 6,
+      "par": "2",
+      "t": {
+        "cadcam": "e",
+        "mecanica": "e",
+        "potencia": "e"
+      },
+      "cr": 2
+    },
+    "ENG10054": {
+      "code": "ENG10054",
+      "name": "Robótica Móvel",
+      "etapa": 6,
+      "par": null,
+      "t": {
+        "cadcam": "e",
+        "mecanica": "e",
+        "potencia": "e"
+      },
+      "cr": 4
+    },
+    "CCA99011": {
+      "code": "CCA99011",
+      "name": "Tópicos em Proc. Digital de Sinais I",
+      "etapa": 6,
+      "par": null,
+      "t": {
+        "cadcam": "e",
+        "mecanica": "e",
+        "potencia": "e"
+      },
+      "cr": 4
+    },
+    "ENG10027": {
+      "code": "ENG10027",
+      "name": "Eletrônica Fundamental II-B",
+      "etapa": 6,
+      "par": "2",
+      "t": {
+        "cadcam": "e",
+        "mecanica": "e",
+        "potencia": "f"
+      },
+      "cr": 4
+    },
+    "ENG10046": {
+      "code": "ENG10046",
+      "name": "Princípios de Eletrônica de Potência",
+      "etapa": 9,
+      "par": "1",
+      "t": {
+        "cadcam": "e",
+        "mecanica": "e",
+        "potencia": "f"
+      },
+      "cr": 2
+    },
+    "ENG10051": {
+      "code": "ENG10051",
+      "name": "Dinâmica e Controle de Robôs",
+      "etapa": 7,
+      "par": "1",
+      "t": {
+        "cadcam": "e",
+        "mecanica": "e",
+        "potencia": "e"
+      },
+      "cr": 4
+    },
+    "CCA99009": {
+      "code": "CCA99009",
+      "name": "Projeto Integrado II",
+      "etapa": 8,
+      "par": null,
+      "t": {
+        "cadcam": "e",
+        "mecanica": "e",
+        "potencia": "e"
+      },
+      "cr": 9
+    },
+    "ENG07043": {
+      "code": "ENG07043",
+      "name": "Instrumentação de Processos Industriais",
+      "etapa": 8,
+      "par": null,
+      "t": {
+        "cadcam": "e",
+        "mecanica": "e",
+        "potencia": "e"
+      },
+      "cr": 2
+    },
+    "ENG09023": {
+      "code": "ENG09023",
+      "name": "Planejamento Estratégico da Produção",
+      "etapa": 8,
+      "par": null,
+      "t": {
+        "cadcam": "e",
+        "mecanica": "e",
+        "potencia": "e"
+      },
+      "cr": 2
+    },
+    "ENG03046": {
+      "code": "ENG03046",
+      "name": "Controle de Sistemas Fluído-Mecânicos",
+      "etapa": 8,
+      "par": "2",
+      "t": {
+        "cadcam": "e",
+        "mecanica": "f",
+        "potencia": "e"
+      },
+      "cr": 4
+    },
+    "ENG10050": {
+      "code": "ENG10050",
+      "name": "Laboratório de Máquinas e Acionamentos Elétricos",
+      "etapa": 9,
+      "par": "1",
+      "t": {
+        "cadcam": "e",
+        "mecanica": "e",
+        "potencia": "f"
+      },
+      "cr": 2
+    },
+    "ENG10055": {
+      "code": "ENG10055",
+      "name": "Sistemas de Tempo Real - I",
+      "etapa": 8,
+      "par": null,
+      "t": {
+        "cadcam": "e",
+        "mecanica": "e",
+        "potencia": "e"
+      },
+      "cr": 4
+    },
+    "CCA99010": {
+      "code": "CCA99010",
+      "name": "Projeto Integrado III",
+      "etapa": 9,
+      "par": null,
+      "t": {
+        "cadcam": "e",
+        "mecanica": "e",
+        "potencia": "e"
+      },
+      "cr": 9
+    },
+    "ENG07012": {
+      "code": "ENG07012",
+      "name": "Laboratório de Controle e Operação de Processos",
+      "etapa": 9,
+      "par": null,
+      "t": {
+        "cadcam": "e",
+        "mecanica": "e",
+        "potencia": "e"
+      },
+      "cr": 3
+    },
+    "ENG07062": {
+      "code": "ENG07062",
+      "name": "Otimização Aplicada",
+      "etapa": 9,
+      "par": null,
+      "t": {
+        "cadcam": "e",
+        "mecanica": "e",
+        "potencia": "e"
+      },
+      "cr": 3
+    },
+    "ENG03047": {
+      "code": "ENG03047",
+      "name": "Projetos de Sistemas Mecânicos",
+      "etapa": 9,
+      "par": "1",
+      "t": {
+        "cadcam": "e",
+        "mecanica": "f",
+        "potencia": "e"
+      },
+      "cr": 4
+    }
+  }
+}

@@ -1,0 +1,5200 @@
+/**
+ * Base Curricular Oficial Unificada - Ciências Econômicas (UFRGS)
+ * Catálogo Oficial COMGRAD Economia 2026/1 - Modalidades Diurno e Noturno
+ */
+var ECONOMIA_CURRICULA = {
+  "diurno": {
+    "label": "Ciências Econômicas (Diurno)",
+    "shift": "diurno",
+    "curso": "Ciências Econômicas",
+    "codigo": 309,
+    "habilitacao": 56,
+    "curriculo": 180,
+    "instituicao": "UFRGS",
+    "versao_catalogo": "2026/1",
+    "totalMandatoryCredits": 128,
+    "totalElectiveCredits": 44,
+    "totalTargetCredits": 172,
+    "maxStage": 8,
+    "estatisticas_nominais": {
+      "creditos_obrigatorios": 128,
+      "creditos_eletivos": 44,
+      "creditos_complementares": 0,
+      "creditos_convertidos": 0,
+      "creditos_totais_diplomacao": 172,
+      "carga_horaria_obrigatoria": 2100,
+      "carga_horaria_eletiva": 660,
+      "carga_horaria_total": 3000,
+      "horas_extensao_diplomacao": 300
+    },
+    "disciplinas": {
+      "ECO02274": {
+        "codigo": "ECO02274",
+        "nome": "TÉCNICA DE PESQUISA E PROJETO DO TRABALHO DE DIPLOMAÇÃO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 7,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 100,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "TRABALHO": {
+        "codigo": "TRABALHO",
+        "nome": "TRABALHO DE DIPLOMAÇÃO - ECO",
+        "creditos": 0,
+        "carga_horaria": 180,
+        "horas_extensao": 0,
+        "etapa_sugerida": 8,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "ECO02274"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02104": {
+        "codigo": "ECO02104",
+        "nome": "TRABALHO DE PESQUISA CIENTÍFICA EM ECONOMIA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 8,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "ECO02274"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02011": {
+        "codigo": "ECO02011",
+        "nome": "ELABORAÇÃO E ANÁLISE DE PROJETOS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 6,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01031",
+          "ECO02278"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02001": {
+        "codigo": "ECO02001",
+        "nome": "ECONOMIA MATEMÁTICA A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 5,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01355",
+          "MAT01025",
+          "MAT01214"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02006": {
+        "codigo": "ECO02006",
+        "nome": "ECONOMIA INTERNACIONAL II - A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 6,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "ECO02004"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02012": {
+        "codigo": "ECO02012",
+        "nome": "ECONOMIA DO SETOR PÚBLICO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 6,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "ECO02236",
+          "ECO02278"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02009": {
+        "codigo": "ECO02009",
+        "nome": "ECONOMIA BRASILEIRA CONTEMPORÂNEA II",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 7,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "ECO02013",
+          "ECO02125"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02013": {
+        "codigo": "ECO02013",
+        "nome": "ECONOMIA BRASILEIRA CONTEMPORÂNEA I",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 6,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "ECO02258",
+          "ECO02237"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": "ECO02125"
+      },
+      "ECO02125": {
+        "codigo": "ECO02125",
+        "nome": "ECONOMIA BRASILEIRA CONTEMPORÂNEA I - EAD",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02258",
+          "ECO02237"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": "ECO02013"
+      },
+      "ECO02002": {
+        "codigo": "ECO02002",
+        "nome": "ECONOMIA MONETÁRIA I - A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 4,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "ECO02236"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02249": {
+        "codigo": "ECO02249",
+        "nome": "DESENVOLVIMENTO SÓCIO-ECONÔMICO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 5,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "ECO02237"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT02208": {
+        "codigo": "MAT02208",
+        "nome": "ECONOMETRIA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 4,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT02207"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02278": {
+        "codigo": "ECO02278",
+        "nome": "TEORIA MICROECONÔMICA II",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 4,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "ECO02277"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02004": {
+        "codigo": "ECO02004",
+        "nome": "ECONOMIA INTERNACIONAL I - A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 5,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "ECO02236",
+          "ECO02278"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02237": {
+        "codigo": "ECO02237",
+        "nome": "TEORIA MACROECONÔMICA II",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 4,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "ECO02236"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02010": {
+        "codigo": "ECO02010",
+        "nome": "ECONOMIA POLÍTICA - A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 3,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "ECO02245"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02236": {
+        "codigo": "ECO02236",
+        "nome": "TEORIA MACROECONÔMICA I",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 3,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "ECO02215"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02003": {
+        "codigo": "ECO02003",
+        "nome": "ECONOMIA INDUSTRIAL A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 5,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "ECO02278"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02075": {
+        "codigo": "ECO02075",
+        "nome": "ECONOMIA RURAL",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 4,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "ECO02276"
+        ],
+        "corequisitos": [],
+        "min_credits": 56,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02215": {
+        "codigo": "ECO02215",
+        "nome": "CONTABILIDADE SOCIAL",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 2,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02246": {
+        "codigo": "ECO02246",
+        "nome": "HISTÓRIA DO PENSAMENTO ECONÔMICO II",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 3,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "ECO02245"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02245": {
+        "codigo": "ECO02245",
+        "nome": "HISTÓRIA DO PENSAMENTO ECONÔMICO I",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 2,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "ECO02257"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT02207": {
+        "codigo": "MAT02207",
+        "nome": "ESTATÍSTICA ECONÔMICA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 3,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01355",
+          "MAT02215",
+          "MAT02051",
+          "MAT01214"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02277": {
+        "codigo": "ECO02277",
+        "nome": "TEORIA MICROECONÔMICA I",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 3,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01025",
+          "ECO02276"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01025": {
+        "codigo": "MAT01025",
+        "nome": "CÁLCULO DIFERENCIAL E INTEGRAL II",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 2,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01109",
+          "MAT01218"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02258": {
+        "codigo": "ECO02258",
+        "nome": "FORMAÇÃO ECONÔMICA DO BRASIL",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 2,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "ECO02257",
+          "ECO02276"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01355": {
+        "codigo": "MAT01355",
+        "nome": "ÁLGEBRA LINEAR I - A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 2,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01109",
+          "MAT01218"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": "MAT01214"
+      },
+      "MAT01214": {
+        "codigo": "MAT01214",
+        "nome": "ÁLGEBRA LINEAR I - A - EAD",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT01109",
+          "MAT01218"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": "MAT01355"
+      },
+      "MAT02051": {
+        "codigo": "MAT02051",
+        "nome": "ESTATÍSTICA GERAL II - EAD",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT01218",
+          "MAT02214",
+          "MAT02052",
+          "MAT01109"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": "MAT02215"
+      },
+      "ECO02257": {
+        "codigo": "ECO02257",
+        "nome": "HISTÓRIA ECONÔMICA GERAL",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 1,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT02215": {
+        "codigo": "MAT02215",
+        "nome": "ESTATÍSTICA GERAL II",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 2,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01109",
+          "MAT02214",
+          "MAT02052",
+          "MAT01218"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": "MAT02051"
+      },
+      "ECO02276": {
+        "codigo": "ECO02276",
+        "nome": "INTRODUÇÃO A ECONOMIA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 1,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO03037": {
+        "codigo": "ECO03037",
+        "nome": "CONTABILIDADE E ANÁLISE DAS DEMONSTRAÇÕES CONTÁBEIS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 1,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01218": {
+        "codigo": "MAT01218",
+        "nome": "CÁLCULO DIFERENCIAL E INTEGRAL - EAD",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": "MAT01109"
+      },
+      "MAT01031": {
+        "codigo": "MAT01031",
+        "nome": "MATEMÁTICA FINANCEIRA - EAD",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 1,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT02052": {
+        "codigo": "MAT02052",
+        "nome": "ESTATÍSTICA GERAL I - EAD",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": "MAT02214"
+      },
+      "MAT02214": {
+        "codigo": "MAT02214",
+        "nome": "ESTATÍSTICA GERAL I",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 1,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": "MAT02052"
+      },
+      "ADM01101": {
+        "codigo": "ADM01101",
+        "nome": "INTRODUÇÃO À ADMINISTRAÇÃO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ADM01115": {
+        "codigo": "ADM01115",
+        "nome": "TEORIAS ORGANIZACIONAIS II",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01109": {
+        "codigo": "MAT01109",
+        "nome": "CÁLCULO DIFERENCIAL E INTEGRAL",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 1,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": "MAT01218"
+      },
+      "DIR02204": {
+        "codigo": "DIR02204",
+        "nome": "INSTITUIÇÕES DE DIREITO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "DIR02008": {
+        "codigo": "DIR02008",
+        "nome": "DIREITO DA INTEGRAÇÃO",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "DIR04401": {
+        "codigo": "DIR04401",
+        "nome": "INTRODUÇÃO AO DIREITO DO TRABALHO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ADM01120": {
+        "codigo": "ADM01120",
+        "nome": "PESQUISA OPERACIONAL I",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT01355",
+          "MAT01214"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ADM01131": {
+        "codigo": "ADM01131",
+        "nome": "ADMINISTRAÇÃO DE CARTEIRA DE INVESTIMENTOS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ADM01129"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ADM01121": {
+        "codigo": "ADM01121",
+        "nome": "PESQUISA OPERACIONAL II",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ADM01120"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ADM01129": {
+        "codigo": "ADM01129",
+        "nome": "ADMINISTRAÇÃO FINANCEIRA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO03037",
+          "MAT01031"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "DIR02260": {
+        "codigo": "DIR02260",
+        "nome": "DIREITO COMERCIAL",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "DIR02204"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "DIR04416": {
+        "codigo": "DIR04416",
+        "nome": "INSTITUIÇÕES DE DIREITO PÚBLICO E LEGISLAÇÃO TRIBUTÁRIA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "DIR02271": {
+        "codigo": "DIR02271",
+        "nome": "DIREITO SOCIETÁRIO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "DIR02204"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ADM01136": {
+        "codigo": "ADM01136",
+        "nome": "ORGANIZAÇÃO DA PRODUÇÃO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ADM01101"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02005": {
+        "codigo": "ECO02005",
+        "nome": "ECONOMIA MONETÁRIA II - A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02002"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02007": {
+        "codigo": "ECO02007",
+        "nome": "ECONOMETRIA APLICADA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT02208"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02008": {
+        "codigo": "ECO02008",
+        "nome": "ECONOMIA DA TECNOLOGIA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02277"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02015": {
+        "codigo": "ECO02015",
+        "nome": "ESTADO E ECONOMIA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02276"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02014": {
+        "codigo": "ECO02014",
+        "nome": "TEORIA DO CAPITAL E DISTRIBUIÇÃO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02010"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02017": {
+        "codigo": "ECO02017",
+        "nome": "ECONOMIA DE EMPRESAS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02003"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02016": {
+        "codigo": "ECO02016",
+        "nome": "TÓPICOS ESPECIAIS EM ECONOMIA DO SETOR PÚBLICO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02012"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02018": {
+        "codigo": "ECO02018",
+        "nome": "TÓPICOS ESPECIAIS EM ECONOMETRIA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT02208"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02019": {
+        "codigo": "ECO02019",
+        "nome": "HISTÓRIA ECONÔMICA CONTEMPORÂNEA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02257",
+          "ECO02236"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02020": {
+        "codigo": "ECO02020",
+        "nome": "TÓPICOS ESPECIAIS EM HISTÓRIA DO PENSAMENTO ECONÔMICO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02246"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02021": {
+        "codigo": "ECO02021",
+        "nome": "TÓPICOS ESPECIAIS EM ECONOMIA MATEMÁTICA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02001"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02023": {
+        "codigo": "ECO02023",
+        "nome": "TÓPICOS ESPECIAIS EM MICROECONOMIA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02278"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02022": {
+        "codigo": "ECO02022",
+        "nome": "AVALIAÇÃO E PRÁTICA DE PROJETOS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02011"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02025": {
+        "codigo": "ECO02025",
+        "nome": "TÓPICOS ESPECIAIS EM ECONOMIA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 48,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02033": {
+        "codigo": "ECO02033",
+        "nome": "ECONOMIA DA POBREZA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02249"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02036": {
+        "codigo": "ECO02036",
+        "nome": "ECONOMIA DA INFORMAÇÃO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02278"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02034": {
+        "codigo": "ECO02034",
+        "nome": "ECONOMIA DA REGULAÇÃO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02012"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02035": {
+        "codigo": "ECO02035",
+        "nome": "HISTÓRIA ECONÔMICA DA AMÉRICA LATINA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02257"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02037": {
+        "codigo": "ECO02037",
+        "nome": "ECONOMIA DOS RECURSOS HUMANOS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02278"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02038": {
+        "codigo": "ECO02038",
+        "nome": "TEORIA DOS JOGOS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02278"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02039": {
+        "codigo": "ECO02039",
+        "nome": "HISTÓRIA DAS RELAÇÕES INTERNACIONAIS I",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 24,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02042": {
+        "codigo": "ECO02042",
+        "nome": "HISTÓRIA DAS RELAÇÕES INTERNACIONAIS II",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02039"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02046": {
+        "codigo": "ECO02046",
+        "nome": "INTEGRAÇÃO E BLOCOS ECONÔMICOS INTERNACIONAIS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 60,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02056": {
+        "codigo": "ECO02056",
+        "nome": "RELAÇÕES INTERNACIONAIS CONTEMPORÂNEAS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 100,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02049": {
+        "codigo": "ECO02049",
+        "nome": "INTERNACIONALIZAÇÃO DE EMPRESAS: ESTRATÉGIAS E PRÁTICAS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02006"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02062": {
+        "codigo": "ECO02062",
+        "nome": "ECONOMIA SOLIDÁRIA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 20,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02061": {
+        "codigo": "ECO02061",
+        "nome": "ECONOMIA REGIONAL - ECO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02237",
+          "ECO02278"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02058": {
+        "codigo": "ECO02058",
+        "nome": "NOVOS TEMAS DAS RELAÇÕES INTERNACIONAIS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 100,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02060": {
+        "codigo": "ECO02060",
+        "nome": "ECONOMIA URBANA - ECO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02278"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02067": {
+        "codigo": "ECO02067",
+        "nome": "TEORIA DAS RELAÇÕES INTERNACIONAIS - A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02082"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02068": {
+        "codigo": "ECO02068",
+        "nome": "TEORIA DAS RELAÇÕES INTERNACIONAIS - B",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02067"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02070": {
+        "codigo": "ECO02070",
+        "nome": "ECONOMIA DO TRABALHO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 100,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02071": {
+        "codigo": "ECO02071",
+        "nome": "INTRODUÇÃO ÀS RELAÇÕES DE TRABALHO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 70,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02073": {
+        "codigo": "ECO02073",
+        "nome": "ECONOMIA DA SAÚDE E DESENVOLVIMENTO ECONÔMICO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 20,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02072": {
+        "codigo": "ECO02072",
+        "nome": "ECONOMIA DA SAÚDE",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 88,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02077": {
+        "codigo": "ECO02077",
+        "nome": "FARMACOECONOMIA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 100,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02079": {
+        "codigo": "ECO02079",
+        "nome": "ECONOMIA DO COMPORTAMENTO HUMANO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 100,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02078": {
+        "codigo": "ECO02078",
+        "nome": "DIREITO E ECONOMIA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 100,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02074": {
+        "codigo": "ECO02074",
+        "nome": "METODOLOGIA DA ECONOMIA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 80,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02080": {
+        "codigo": "ECO02080",
+        "nome": "ECONOMIA POLÍTICA DO ESTADO DESENVOLVIMENTISTA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02237"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02081": {
+        "codigo": "ECO02081",
+        "nome": "MÉTODOS QUANTITATIVOS EM ECONOMIA DA SAÚDE",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT02208"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02082": {
+        "codigo": "ECO02082",
+        "nome": "INTRODUÇÃO ÀS RELAÇÕES INTERNACIONAIS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 24,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02089": {
+        "codigo": "ECO02089",
+        "nome": "ECONOMIA E PROJETOS SOCIOAMBIENTAIS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 88,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02090": {
+        "codigo": "ECO02090",
+        "nome": "DERIVATIVOS E RISCOS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 88,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02093": {
+        "codigo": "ECO02093",
+        "nome": "CRISES FINANCEIRAS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02002"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02091": {
+        "codigo": "ECO02091",
+        "nome": "TÓPICOS ESPECIAIS EM FINANÇAS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 88,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02083": {
+        "codigo": "ECO02083",
+        "nome": "COMÉRCIO INTERNACIONAL",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 100,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02092": {
+        "codigo": "ECO02092",
+        "nome": "TÓPICOS ESPECIAIS EM MACROECONOMIA PÓS-KEYNESIANA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02237"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02095": {
+        "codigo": "ECO02095",
+        "nome": "ECONOMETRIA FINANCEIRA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT02208"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02094": {
+        "codigo": "ECO02094",
+        "nome": "DESENVOLVIMENTO E POLÍTICAS INDUSTRIAIS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02249"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02112": {
+        "codigo": "ECO02112",
+        "nome": "TEORIA CRÍTICA DAS RELAÇÕES INTERNACIONAIS: A CONTRIBUIÇÃO MARXISTA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02096": {
+        "codigo": "ECO02096",
+        "nome": "ECONOMIA SOCIAL E DO TRABALHO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 60,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02105": {
+        "codigo": "ECO02105",
+        "nome": "ECONOMIA, CULTURA E DESENVOLVIMENTO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02276"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02106": {
+        "codigo": "ECO02106",
+        "nome": "DESENVOLVIMENTO SOCIOECONÔMICO APLICADO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02249"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02117": {
+        "codigo": "ECO02117",
+        "nome": "ECONOMIA COMPUTACIONAL I",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02111": {
+        "codigo": "ECO02111",
+        "nome": "ECONOMIA MATEMÁTICA B",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02001"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02114": {
+        "codigo": "ECO02114",
+        "nome": "ECONOMIA INSTITUCIONAL",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02245",
+          "ECO02237"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02113": {
+        "codigo": "ECO02113",
+        "nome": "ELEMENTOS DE MATEMÁTICA PARA ECONOMIA POLÍTICA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT01355",
+          "MAT01025",
+          "MAT01214"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02115": {
+        "codigo": "ECO02115",
+        "nome": "HISTÓRIA DO PENSAMENTO ECONÔMICO E FILOSOFIA DAS CIÊNCIAS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02276"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02121": {
+        "codigo": "ECO02121",
+        "nome": "BIOECONOMIA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02116": {
+        "codigo": "ECO02116",
+        "nome": "ECONOMIA ESPACIAL COMPUTACIONAL",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02236",
+          "ECO02277"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02118": {
+        "codigo": "ECO02118",
+        "nome": "ECONOMIA COMPUTACIONAL II",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02117"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02119": {
+        "codigo": "ECO02119",
+        "nome": "CIÊNCIA DE DADOS EM ECONOMIA E FINANÇAS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02117"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02132": {
+        "codigo": "ECO02132",
+        "nome": "EXTENSÃO E INOVAÇÃO EM ECONOMIA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02122": {
+        "codigo": "ECO02122",
+        "nome": "AVALIAÇÃO DE IMPACTO REGULATÓRIO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02277"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02126": {
+        "codigo": "ECO02126",
+        "nome": "TEORIA MICROECONÔMICA AVANÇADA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02277",
+          "ECO02278"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02127": {
+        "codigo": "ECO02127",
+        "nome": "RELAÇÕES DE TRABALHO E NEGOCIAÇÕES COLETIVAS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 50,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02131": {
+        "codigo": "ECO02131",
+        "nome": "MACROFINANÇAS COMPUTACIONAIS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02117",
+          "ECO02236"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02129": {
+        "codigo": "ECO02129",
+        "nome": "ORÇAMENTO FAMILIAR E CIDADANIA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02276",
+          "MAT01031"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02128": {
+        "codigo": "ECO02128",
+        "nome": "SOCIOBIODIVERSIDADE, SOBERANIA E SEGURANÇA ALIMENTAR E NUTRICIONAL",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 60,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02146": {
+        "codigo": "ECO02146",
+        "nome": "TURISMO, ALIMENTAÇÃO E SOCIOBIODIVERSIDADE",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02145": {
+        "codigo": "ECO02145",
+        "nome": "ECONOMIA DA EDUCAÇÃO - A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT02208",
+          "ECO02237",
+          "ECO02278"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02267": {
+        "codigo": "ECO02267",
+        "nome": "ECONOMIA DO RIO GRANDE DO SUL",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02258"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02262": {
+        "codigo": "ECO02262",
+        "nome": "POLÍTICA E PLANEJAMENTO ECONÔMICO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 80,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02281": {
+        "codigo": "ECO02281",
+        "nome": "TÓPICOS ESPECIAIS DE MACROECONOMIA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02237"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02284": {
+        "codigo": "ECO02284",
+        "nome": "MERCADO DE CAPITAIS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT02208",
+          "ECO02278"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02283": {
+        "codigo": "ECO02283",
+        "nome": "ANÁLISE DA CONJUNTURA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02004",
+          "ECO02237"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02285": {
+        "codigo": "ECO02285",
+        "nome": "AGRICULTURA E DESENVOLVIMENTO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02249"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02291": {
+        "codigo": "ECO02291",
+        "nome": "TÓPICOS AVANÇADOS EM ECONOMIA POLÍTICA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02010"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO03060": {
+        "codigo": "ECO03060",
+        "nome": "PLANEJAMENTO E GESTÃO DE FINANÇAS PESSOAIS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02289": {
+        "codigo": "ECO02289",
+        "nome": "ECONOMIA E MEIO AMBIENTE",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 100,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02293": {
+        "codigo": "ECO02293",
+        "nome": "ECONOMIA FEMINISTA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 44,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "FIS02009": {
+        "codigo": "FIS02009",
+        "nome": "EXPLORANDO O UNIVERSO: DOS QUARKS AOS QUASARES",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO03005": {
+        "codigo": "ECO03005",
+        "nome": "TÉCNICA COMERCIAL - A",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO03037",
+          "DIR02260"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO03020": {
+        "codigo": "ECO03020",
+        "nome": "INTRODUÇÃO À ATUÁRIA",
+        "creditos": 6,
+        "carga_horaria": 90,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 20,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "HUM01168": {
+        "codigo": "HUM01168",
+        "nome": "LÓGICA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "GEO01194": {
+        "codigo": "GEO01194",
+        "nome": "GEOGRAFIA HUMANA E ECONÔMICA - A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "HUM01146": {
+        "codigo": "HUM01146",
+        "nome": "FILOSOFIA DA CIÊNCIA I",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO03033": {
+        "codigo": "ECO03033",
+        "nome": "CONTABILIDADE E SUSTENTABILIDADE",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO03037",
+          "ECO03320"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU03071": {
+        "codigo": "EDU03071",
+        "nome": "LÍNGUA BRASILEIRA DE SINAIS (LIBRAS)",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 24,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "HUM03347": {
+        "codigo": "HUM03347",
+        "nome": "CULTURA BRASILEIRA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO03320": {
+        "codigo": "ECO03320",
+        "nome": "METODOLOGIA BÁSICA DE CUSTOS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO03037"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "HUM05006": {
+        "codigo": "HUM05006",
+        "nome": "ANTROPOLOGIA - INTRODUÇÃO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "HUM06830": {
+        "codigo": "HUM06830",
+        "nome": "POLÍTICA III: INSTITUIÇÕES POLÍTICAS BRASILEIRAS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "INT00003": {
+        "codigo": "INT00003",
+        "nome": "INTRODUÇÃO AO EMPREENDEDORISMO E INOVAÇÃO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "HUM04002": {
+        "codigo": "HUM04002",
+        "nome": "INTRODUÇÃO À SOCIOLOGIA - A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "INF01210": {
+        "codigo": "INF01210",
+        "nome": "INTRODUÇÃO À INFORMÁTICA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "HUM06829": {
+        "codigo": "HUM06829",
+        "nome": "POLÍTICA II : TEORIA POLÍTICA CONTEMPORÂNEA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "HUM04002"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "LET02268": {
+        "codigo": "LET02268",
+        "nome": "INGLÊS INSTRUMENTAL I",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "LET01405": {
+        "codigo": "LET01405",
+        "nome": "PRODUÇÃO DE TEXTOS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "HUM06409": {
+        "codigo": "HUM06409",
+        "nome": "INTRODUÇÃO À CIÊNCIA POLÍTICA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "HUM04002"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "HUM06834": {
+        "codigo": "HUM06834",
+        "nome": "POLÍTICA VII: ANÁLISE POLÍTICA DO BRASIL CONTEMPORÂNEO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "HUM06830"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "HUM06029": {
+        "codigo": "HUM06029",
+        "nome": "POLÍTICA I: FUNDAMENTOS DA TEORIA POLÍTICA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "HUM04002"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "HUM04064": {
+        "codigo": "HUM04064",
+        "nome": "SOCIOLOGIA DO DESENVOLVIMENTO - B",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02276"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "VAERE201": {
+        "codigo": "VAERE201",
+        "nome": "VÍNCULO ACADÊMICO - ERE 2020/1",
+        "creditos": 0,
+        "carga_horaria": 0,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "VAERE202": {
+        "codigo": "VAERE202",
+        "nome": "VÍNCULO ACADÊMICO - ERE 2020/2",
+        "creditos": 0,
+        "carga_horaria": 0,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "LET02269": {
+        "codigo": "LET02269",
+        "nome": "INGLÊS INSTRUMENTAL II",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "LET02268"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "VAERE211": {
+        "codigo": "VAERE211",
+        "nome": "VÍNCULO ACADÊMICO - ERE 2021/1",
+        "creditos": 0,
+        "carga_horaria": 0,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "VAERE212": {
+        "codigo": "VAERE212",
+        "nome": "VÍNCULO ACADÊMICO - ERE 2021/2",
+        "creditos": 0,
+        "carga_horaria": 0,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01058": {
+        "codigo": "MAT01058",
+        "nome": "ANÁLISE MATEMÁTICA B",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT01057"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01057": {
+        "codigo": "MAT01057",
+        "nome": "ANÁLISE MATEMÁTICA A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02001"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01167": {
+        "codigo": "MAT01167",
+        "nome": "EQUAÇÕES DIFERENCIAIS II",
+        "creditos": 6,
+        "carga_horaria": 90,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02001"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01073": {
+        "codigo": "MAT01073",
+        "nome": "APLICAÇÕES DA MATEMÁTICA - A",
+        "creditos": 5,
+        "carga_horaria": 75,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02001"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01168": {
+        "codigo": "MAT01168",
+        "nome": "MATEMÁTICA APLICADA II",
+        "creditos": 6,
+        "carga_horaria": 90,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT01167"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      }
+    }
+  },
+  "noturno": {
+    "label": "Ciências Econômicas (Noturno)",
+    "shift": "noturno",
+    "curso": "Ciências Econômicas",
+    "codigo": 309,
+    "habilitacao": 171,
+    "curriculo": 1,
+    "instituicao": "UFRGS",
+    "versao_catalogo": "2026/1",
+    "totalMandatoryCredits": 128,
+    "totalElectiveCredits": 44,
+    "totalTargetCredits": 172,
+    "maxStage": 10,
+    "estatisticas_nominais": {
+      "creditos_obrigatorios": 128,
+      "creditos_eletivos": 44,
+      "creditos_complementares": 0,
+      "creditos_convertidos": 0,
+      "creditos_totais_diplomacao": 172,
+      "carga_horaria_obrigatoria": 2100,
+      "carga_horaria_eletiva": 660,
+      "carga_horaria_total": 3000,
+      "horas_extensao_diplomacao": 300
+    },
+    "disciplinas": {
+      "ECO02006": {
+        "codigo": "ECO02006",
+        "nome": "ECONOMIA INTERNACIONAL II - A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 6,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "ECO02004"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "TRABALHO": {
+        "codigo": "TRABALHO",
+        "nome": "TRABALHO DE DIPLOMAÇÃO - ECO",
+        "creditos": 0,
+        "carga_horaria": 180,
+        "horas_extensao": 0,
+        "etapa_sugerida": 10,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "ECO02274"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02104": {
+        "codigo": "ECO02104",
+        "nome": "TRABALHO DE PESQUISA CIENTÍFICA EM ECONOMIA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 10,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "ECO02274"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02003": {
+        "codigo": "ECO02003",
+        "nome": "ECONOMIA INDUSTRIAL A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 6,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "ECO02278"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02274": {
+        "codigo": "ECO02274",
+        "nome": "TÉCNICA DE PESQUISA E PROJETO DO TRABALHO DE DIPLOMAÇÃO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 9,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 100,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02012": {
+        "codigo": "ECO02012",
+        "nome": "ECONOMIA DO SETOR PÚBLICO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 6,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "ECO02236",
+          "ECO02278"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02125": {
+        "codigo": "ECO02125",
+        "nome": "ECONOMIA BRASILEIRA CONTEMPORÂNEA I - EAD",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02258",
+          "ECO02237"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": "ECO02013"
+      },
+      "ECO02011": {
+        "codigo": "ECO02011",
+        "nome": "ELABORAÇÃO E ANÁLISE DE PROJETOS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 7,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01031",
+          "ECO02278"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02009": {
+        "codigo": "ECO02009",
+        "nome": "ECONOMIA BRASILEIRA CONTEMPORÂNEA II",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 8,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "ECO02013",
+          "ECO02125"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02013": {
+        "codigo": "ECO02013",
+        "nome": "ECONOMIA BRASILEIRA CONTEMPORÂNEA I",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 7,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "ECO02258",
+          "ECO02237"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": "ECO02125"
+      },
+      "ECO02001": {
+        "codigo": "ECO02001",
+        "nome": "ECONOMIA MATEMÁTICA A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 5,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01355",
+          "MAT01025",
+          "MAT01214"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02004": {
+        "codigo": "ECO02004",
+        "nome": "ECONOMIA INTERNACIONAL I - A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 5,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "ECO02236",
+          "ECO02278"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02002": {
+        "codigo": "ECO02002",
+        "nome": "ECONOMIA MONETÁRIA I - A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 5,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "ECO02236"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02246": {
+        "codigo": "ECO02246",
+        "nome": "HISTÓRIA DO PENSAMENTO ECONÔMICO II",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 4,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "ECO02245"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02249": {
+        "codigo": "ECO02249",
+        "nome": "DESENVOLVIMENTO SÓCIO-ECONÔMICO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 5,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "ECO02237"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT02207": {
+        "codigo": "MAT02207",
+        "nome": "ESTATÍSTICA ECONÔMICA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 4,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01355",
+          "MAT02215",
+          "MAT02051",
+          "MAT01214"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT02208": {
+        "codigo": "MAT02208",
+        "nome": "ECONOMETRIA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 5,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT02207"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02237": {
+        "codigo": "ECO02237",
+        "nome": "TEORIA MACROECONÔMICA II",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 4,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "ECO02236"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02278": {
+        "codigo": "ECO02278",
+        "nome": "TEORIA MICROECONÔMICA II",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 4,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "ECO02277"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02075": {
+        "codigo": "ECO02075",
+        "nome": "ECONOMIA RURAL",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 4,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "ECO02276"
+        ],
+        "corequisitos": [],
+        "min_credits": 56,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02215": {
+        "codigo": "ECO02215",
+        "nome": "CONTABILIDADE SOCIAL",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 2,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01031": {
+        "codigo": "MAT01031",
+        "nome": "MATEMÁTICA FINANCEIRA - EAD",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 2,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02258": {
+        "codigo": "ECO02258",
+        "nome": "FORMAÇÃO ECONÔMICA DO BRASIL",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 3,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "ECO02257",
+          "ECO02276"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02236": {
+        "codigo": "ECO02236",
+        "nome": "TEORIA MACROECONÔMICA I",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 3,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "ECO02215"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02010": {
+        "codigo": "ECO02010",
+        "nome": "ECONOMIA POLÍTICA - A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 3,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "ECO02245"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02277": {
+        "codigo": "ECO02277",
+        "nome": "TEORIA MICROECONÔMICA I",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 3,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01025",
+          "ECO02276"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02245": {
+        "codigo": "ECO02245",
+        "nome": "HISTÓRIA DO PENSAMENTO ECONÔMICO I",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 2,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "ECO02257"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01025": {
+        "codigo": "MAT01025",
+        "nome": "CÁLCULO DIFERENCIAL E INTEGRAL II",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 2,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01109",
+          "MAT01218"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01214": {
+        "codigo": "MAT01214",
+        "nome": "ÁLGEBRA LINEAR I - A - EAD",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT01109",
+          "MAT01218"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": "MAT01355"
+      },
+      "MAT01355": {
+        "codigo": "MAT01355",
+        "nome": "ÁLGEBRA LINEAR I - A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 3,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01109",
+          "MAT01218"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": "MAT01214"
+      },
+      "MAT02051": {
+        "codigo": "MAT02051",
+        "nome": "ESTATÍSTICA GERAL II - EAD",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT01109",
+          "MAT02214",
+          "MAT02052",
+          "MAT01218"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": "MAT02215"
+      },
+      "MAT02052": {
+        "codigo": "MAT02052",
+        "nome": "ESTATÍSTICA GERAL I - EAD",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": "MAT02214"
+      },
+      "MAT01218": {
+        "codigo": "MAT01218",
+        "nome": "CÁLCULO DIFERENCIAL E INTEGRAL - EAD",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": "MAT01109"
+      },
+      "ECO02276": {
+        "codigo": "ECO02276",
+        "nome": "INTRODUÇÃO A ECONOMIA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 1,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO03037": {
+        "codigo": "ECO03037",
+        "nome": "CONTABILIDADE E ANÁLISE DAS DEMONSTRAÇÕES CONTÁBEIS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 1,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02257": {
+        "codigo": "ECO02257",
+        "nome": "HISTÓRIA ECONÔMICA GERAL",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 1,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT02214": {
+        "codigo": "MAT02214",
+        "nome": "ESTATÍSTICA GERAL I",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 1,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": "MAT02052"
+      },
+      "ADM01101": {
+        "codigo": "ADM01101",
+        "nome": "INTRODUÇÃO À ADMINISTRAÇÃO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01109": {
+        "codigo": "MAT01109",
+        "nome": "CÁLCULO DIFERENCIAL E INTEGRAL",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 1,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": "MAT01218"
+      },
+      "ADM01115": {
+        "codigo": "ADM01115",
+        "nome": "TEORIAS ORGANIZACIONAIS II",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "DIR02008": {
+        "codigo": "DIR02008",
+        "nome": "DIREITO DA INTEGRAÇÃO",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT02215": {
+        "codigo": "MAT02215",
+        "nome": "ESTATÍSTICA GERAL II",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": 2,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01109",
+          "MAT02214",
+          "MAT02052",
+          "MAT01218"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": "MAT02051"
+      },
+      "ADM01120": {
+        "codigo": "ADM01120",
+        "nome": "PESQUISA OPERACIONAL I",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT01355",
+          "MAT01214"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "DIR04401": {
+        "codigo": "DIR04401",
+        "nome": "INTRODUÇÃO AO DIREITO DO TRABALHO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ADM01129": {
+        "codigo": "ADM01129",
+        "nome": "ADMINISTRAÇÃO FINANCEIRA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO03037",
+          "MAT01031"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ADM01131": {
+        "codigo": "ADM01131",
+        "nome": "ADMINISTRAÇÃO DE CARTEIRA DE INVESTIMENTOS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ADM01129"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "DIR02204": {
+        "codigo": "DIR02204",
+        "nome": "INSTITUIÇÕES DE DIREITO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ADM01121": {
+        "codigo": "ADM01121",
+        "nome": "PESQUISA OPERACIONAL II",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ADM01120"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "DIR02260": {
+        "codigo": "DIR02260",
+        "nome": "DIREITO COMERCIAL",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "DIR02204"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "DIR04416": {
+        "codigo": "DIR04416",
+        "nome": "INSTITUIÇÕES DE DIREITO PÚBLICO E LEGISLAÇÃO TRIBUTÁRIA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ADM01136": {
+        "codigo": "ADM01136",
+        "nome": "ORGANIZAÇÃO DA PRODUÇÃO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ADM01101"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "DIR02271": {
+        "codigo": "DIR02271",
+        "nome": "DIREITO SOCIETÁRIO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "DIR02204"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02005": {
+        "codigo": "ECO02005",
+        "nome": "ECONOMIA MONETÁRIA II - A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02002"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02008": {
+        "codigo": "ECO02008",
+        "nome": "ECONOMIA DA TECNOLOGIA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02277"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02007": {
+        "codigo": "ECO02007",
+        "nome": "ECONOMETRIA APLICADA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT02208"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02015": {
+        "codigo": "ECO02015",
+        "nome": "ESTADO E ECONOMIA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02276"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02017": {
+        "codigo": "ECO02017",
+        "nome": "ECONOMIA DE EMPRESAS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02003"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02016": {
+        "codigo": "ECO02016",
+        "nome": "TÓPICOS ESPECIAIS EM ECONOMIA DO SETOR PÚBLICO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02012"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02014": {
+        "codigo": "ECO02014",
+        "nome": "TEORIA DO CAPITAL E DISTRIBUIÇÃO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02010"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02018": {
+        "codigo": "ECO02018",
+        "nome": "TÓPICOS ESPECIAIS EM ECONOMETRIA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT02208"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02019": {
+        "codigo": "ECO02019",
+        "nome": "HISTÓRIA ECONÔMICA CONTEMPORÂNEA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02257",
+          "ECO02236"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02020": {
+        "codigo": "ECO02020",
+        "nome": "TÓPICOS ESPECIAIS EM HISTÓRIA DO PENSAMENTO ECONÔMICO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02246"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02021": {
+        "codigo": "ECO02021",
+        "nome": "TÓPICOS ESPECIAIS EM ECONOMIA MATEMÁTICA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02001"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02025": {
+        "codigo": "ECO02025",
+        "nome": "TÓPICOS ESPECIAIS EM ECONOMIA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 48,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02022": {
+        "codigo": "ECO02022",
+        "nome": "AVALIAÇÃO E PRÁTICA DE PROJETOS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02011"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02023": {
+        "codigo": "ECO02023",
+        "nome": "TÓPICOS ESPECIAIS EM MICROECONOMIA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02278"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02033": {
+        "codigo": "ECO02033",
+        "nome": "ECONOMIA DA POBREZA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02249"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02035": {
+        "codigo": "ECO02035",
+        "nome": "HISTÓRIA ECONÔMICA DA AMÉRICA LATINA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02257"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02036": {
+        "codigo": "ECO02036",
+        "nome": "ECONOMIA DA INFORMAÇÃO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02278"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02034": {
+        "codigo": "ECO02034",
+        "nome": "ECONOMIA DA REGULAÇÃO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02012"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02038": {
+        "codigo": "ECO02038",
+        "nome": "TEORIA DOS JOGOS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02278"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02037": {
+        "codigo": "ECO02037",
+        "nome": "ECONOMIA DOS RECURSOS HUMANOS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02278"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02039": {
+        "codigo": "ECO02039",
+        "nome": "HISTÓRIA DAS RELAÇÕES INTERNACIONAIS I",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 24,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02042": {
+        "codigo": "ECO02042",
+        "nome": "HISTÓRIA DAS RELAÇÕES INTERNACIONAIS II",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02039"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02049": {
+        "codigo": "ECO02049",
+        "nome": "INTERNACIONALIZAÇÃO DE EMPRESAS: ESTRATÉGIAS E PRÁTICAS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02006"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02046": {
+        "codigo": "ECO02046",
+        "nome": "INTEGRAÇÃO E BLOCOS ECONÔMICOS INTERNACIONAIS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 60,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02056": {
+        "codigo": "ECO02056",
+        "nome": "RELAÇÕES INTERNACIONAIS CONTEMPORÂNEAS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 100,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02058": {
+        "codigo": "ECO02058",
+        "nome": "NOVOS TEMAS DAS RELAÇÕES INTERNACIONAIS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 100,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02061": {
+        "codigo": "ECO02061",
+        "nome": "ECONOMIA REGIONAL - ECO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02237",
+          "ECO02278"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02060": {
+        "codigo": "ECO02060",
+        "nome": "ECONOMIA URBANA - ECO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02278"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02062": {
+        "codigo": "ECO02062",
+        "nome": "ECONOMIA SOLIDÁRIA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 20,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02067": {
+        "codigo": "ECO02067",
+        "nome": "TEORIA DAS RELAÇÕES INTERNACIONAIS - A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02082"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02068": {
+        "codigo": "ECO02068",
+        "nome": "TEORIA DAS RELAÇÕES INTERNACIONAIS - B",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02067"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02071": {
+        "codigo": "ECO02071",
+        "nome": "INTRODUÇÃO ÀS RELAÇÕES DE TRABALHO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 70,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02072": {
+        "codigo": "ECO02072",
+        "nome": "ECONOMIA DA SAÚDE",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 88,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02073": {
+        "codigo": "ECO02073",
+        "nome": "ECONOMIA DA SAÚDE E DESENVOLVIMENTO ECONÔMICO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 20,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02070": {
+        "codigo": "ECO02070",
+        "nome": "ECONOMIA DO TRABALHO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 100,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02077": {
+        "codigo": "ECO02077",
+        "nome": "FARMACOECONOMIA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 100,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02078": {
+        "codigo": "ECO02078",
+        "nome": "DIREITO E ECONOMIA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 100,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02079": {
+        "codigo": "ECO02079",
+        "nome": "ECONOMIA DO COMPORTAMENTO HUMANO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 100,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02074": {
+        "codigo": "ECO02074",
+        "nome": "METODOLOGIA DA ECONOMIA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 80,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02080": {
+        "codigo": "ECO02080",
+        "nome": "ECONOMIA POLÍTICA DO ESTADO DESENVOLVIMENTISTA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02237"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02082": {
+        "codigo": "ECO02082",
+        "nome": "INTRODUÇÃO ÀS RELAÇÕES INTERNACIONAIS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 24,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02081": {
+        "codigo": "ECO02081",
+        "nome": "MÉTODOS QUANTITATIVOS EM ECONOMIA DA SAÚDE",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT02208"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02092": {
+        "codigo": "ECO02092",
+        "nome": "TÓPICOS ESPECIAIS EM MACROECONOMIA PÓS-KEYNESIANA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02237"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02090": {
+        "codigo": "ECO02090",
+        "nome": "DERIVATIVOS E RISCOS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 88,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02089": {
+        "codigo": "ECO02089",
+        "nome": "ECONOMIA E PROJETOS SOCIOAMBIENTAIS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 88,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02083": {
+        "codigo": "ECO02083",
+        "nome": "COMÉRCIO INTERNACIONAL",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 100,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02091": {
+        "codigo": "ECO02091",
+        "nome": "TÓPICOS ESPECIAIS EM FINANÇAS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 88,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02093": {
+        "codigo": "ECO02093",
+        "nome": "CRISES FINANCEIRAS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02002"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02094": {
+        "codigo": "ECO02094",
+        "nome": "DESENVOLVIMENTO E POLÍTICAS INDUSTRIAIS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02249"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02095": {
+        "codigo": "ECO02095",
+        "nome": "ECONOMETRIA FINANCEIRA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT02208"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02112": {
+        "codigo": "ECO02112",
+        "nome": "TEORIA CRÍTICA DAS RELAÇÕES INTERNACIONAIS: A CONTRIBUIÇÃO MARXISTA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02117": {
+        "codigo": "ECO02117",
+        "nome": "ECONOMIA COMPUTACIONAL I",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02106": {
+        "codigo": "ECO02106",
+        "nome": "DESENVOLVIMENTO SOCIOECONÔMICO APLICADO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02249"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02096": {
+        "codigo": "ECO02096",
+        "nome": "ECONOMIA SOCIAL E DO TRABALHO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 60,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02111": {
+        "codigo": "ECO02111",
+        "nome": "ECONOMIA MATEMÁTICA B",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02001"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02113": {
+        "codigo": "ECO02113",
+        "nome": "ELEMENTOS DE MATEMÁTICA PARA ECONOMIA POLÍTICA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT01355",
+          "MAT01025",
+          "MAT01214"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02105": {
+        "codigo": "ECO02105",
+        "nome": "ECONOMIA, CULTURA E DESENVOLVIMENTO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02276"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02115": {
+        "codigo": "ECO02115",
+        "nome": "HISTÓRIA DO PENSAMENTO ECONÔMICO E FILOSOFIA DAS CIÊNCIAS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02276"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02114": {
+        "codigo": "ECO02114",
+        "nome": "ECONOMIA INSTITUCIONAL",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02245",
+          "ECO02237"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02116": {
+        "codigo": "ECO02116",
+        "nome": "ECONOMIA ESPACIAL COMPUTACIONAL",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02236",
+          "ECO02277"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02121": {
+        "codigo": "ECO02121",
+        "nome": "BIOECONOMIA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02118": {
+        "codigo": "ECO02118",
+        "nome": "ECONOMIA COMPUTACIONAL II",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02117"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02132": {
+        "codigo": "ECO02132",
+        "nome": "EXTENSÃO E INOVAÇÃO EM ECONOMIA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02119": {
+        "codigo": "ECO02119",
+        "nome": "CIÊNCIA DE DADOS EM ECONOMIA E FINANÇAS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02117"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02146": {
+        "codigo": "ECO02146",
+        "nome": "TURISMO, ALIMENTAÇÃO E SOCIOBIODIVERSIDADE",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02127": {
+        "codigo": "ECO02127",
+        "nome": "RELAÇÕES DE TRABALHO E NEGOCIAÇÕES COLETIVAS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 50,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02129": {
+        "codigo": "ECO02129",
+        "nome": "ORÇAMENTO FAMILIAR E CIDADANIA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02276",
+          "MAT01031"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02126": {
+        "codigo": "ECO02126",
+        "nome": "TEORIA MICROECONÔMICA AVANÇADA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02277",
+          "ECO02278"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02131": {
+        "codigo": "ECO02131",
+        "nome": "MACROFINANÇAS COMPUTACIONAIS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02117",
+          "ECO02236"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02128": {
+        "codigo": "ECO02128",
+        "nome": "SOCIOBIODIVERSIDADE, SOBERANIA E SEGURANÇA ALIMENTAR E NUTRICIONAL",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 60,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02122": {
+        "codigo": "ECO02122",
+        "nome": "AVALIAÇÃO DE IMPACTO REGULATÓRIO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02277"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02145": {
+        "codigo": "ECO02145",
+        "nome": "ECONOMIA DA EDUCAÇÃO - A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT02208",
+          "ECO02237",
+          "ECO02278"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02262": {
+        "codigo": "ECO02262",
+        "nome": "POLÍTICA E PLANEJAMENTO ECONÔMICO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 80,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02267": {
+        "codigo": "ECO02267",
+        "nome": "ECONOMIA DO RIO GRANDE DO SUL",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02258"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02281": {
+        "codigo": "ECO02281",
+        "nome": "TÓPICOS ESPECIAIS DE MACROECONOMIA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02237"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02283": {
+        "codigo": "ECO02283",
+        "nome": "ANÁLISE DA CONJUNTURA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02004",
+          "ECO02237"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02284": {
+        "codigo": "ECO02284",
+        "nome": "MERCADO DE CAPITAIS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT02208",
+          "ECO02278"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02291": {
+        "codigo": "ECO02291",
+        "nome": "TÓPICOS AVANÇADOS EM ECONOMIA POLÍTICA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02010"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02285": {
+        "codigo": "ECO02285",
+        "nome": "AGRICULTURA E DESENVOLVIMENTO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02249"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02289": {
+        "codigo": "ECO02289",
+        "nome": "ECONOMIA E MEIO AMBIENTE",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 100,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02293": {
+        "codigo": "ECO02293",
+        "nome": "ECONOMIA FEMINISTA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 44,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO03005": {
+        "codigo": "ECO03005",
+        "nome": "TÉCNICA COMERCIAL - A",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO03037",
+          "DIR02260"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO03060": {
+        "codigo": "ECO03060",
+        "nome": "PLANEJAMENTO E GESTÃO DE FINANÇAS PESSOAIS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "GEO01194": {
+        "codigo": "GEO01194",
+        "nome": "GEOGRAFIA HUMANA E ECONÔMICA - A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "FIS02009": {
+        "codigo": "FIS02009",
+        "nome": "EXPLORANDO O UNIVERSO: DOS QUARKS AOS QUASARES",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "HUM01146": {
+        "codigo": "HUM01146",
+        "nome": "FILOSOFIA DA CIÊNCIA I",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "HUM01168": {
+        "codigo": "HUM01168",
+        "nome": "LÓGICA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO03020": {
+        "codigo": "ECO03020",
+        "nome": "INTRODUÇÃO À ATUÁRIA",
+        "creditos": 6,
+        "carga_horaria": 90,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 20,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO03033": {
+        "codigo": "ECO03033",
+        "nome": "CONTABILIDADE E SUSTENTABILIDADE",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO03037",
+          "ECO03320"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "HUM03347": {
+        "codigo": "HUM03347",
+        "nome": "CULTURA BRASILEIRA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU03071": {
+        "codigo": "EDU03071",
+        "nome": "LÍNGUA BRASILEIRA DE SINAIS (LIBRAS)",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 24,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO03320": {
+        "codigo": "ECO03320",
+        "nome": "METODOLOGIA BÁSICA DE CUSTOS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO03037"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "HUM05006": {
+        "codigo": "HUM05006",
+        "nome": "ANTROPOLOGIA - INTRODUÇÃO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "HUM04002": {
+        "codigo": "HUM04002",
+        "nome": "INTRODUÇÃO À SOCIOLOGIA - A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "HUM06830": {
+        "codigo": "HUM06830",
+        "nome": "POLÍTICA III: INSTITUIÇÕES POLÍTICAS BRASILEIRAS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "LET01405": {
+        "codigo": "LET01405",
+        "nome": "PRODUÇÃO DE TEXTOS",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "INT00003": {
+        "codigo": "INT00003",
+        "nome": "INTRODUÇÃO AO EMPREENDEDORISMO E INOVAÇÃO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "HUM06409": {
+        "codigo": "HUM06409",
+        "nome": "INTRODUÇÃO À CIÊNCIA POLÍTICA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "HUM04002"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "INF01210": {
+        "codigo": "INF01210",
+        "nome": "INTRODUÇÃO À INFORMÁTICA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "HUM06829": {
+        "codigo": "HUM06829",
+        "nome": "POLÍTICA II : TEORIA POLÍTICA CONTEMPORÂNEA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "HUM04002"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "LET02268": {
+        "codigo": "LET02268",
+        "nome": "INGLÊS INSTRUMENTAL I",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "HUM06029": {
+        "codigo": "HUM06029",
+        "nome": "POLÍTICA I: FUNDAMENTOS DA TEORIA POLÍTICA",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "HUM04002"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "HUM04064": {
+        "codigo": "HUM04064",
+        "nome": "SOCIOLOGIA DO DESENVOLVIMENTO - B",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02276"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "HUM06834": {
+        "codigo": "HUM06834",
+        "nome": "POLÍTICA VII: ANÁLISE POLÍTICA DO BRASIL CONTEMPORÂNEO",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "HUM06830"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "VAERE201": {
+        "codigo": "VAERE201",
+        "nome": "VÍNCULO ACADÊMICO - ERE 2020/1",
+        "creditos": 0,
+        "carga_horaria": 0,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "VAERE211": {
+        "codigo": "VAERE211",
+        "nome": "VÍNCULO ACADÊMICO - ERE 2021/1",
+        "creditos": 0,
+        "carga_horaria": 0,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "VAERE202": {
+        "codigo": "VAERE202",
+        "nome": "VÍNCULO ACADÊMICO - ERE 2020/2",
+        "creditos": 0,
+        "carga_horaria": 0,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "VAERE212": {
+        "codigo": "VAERE212",
+        "nome": "VÍNCULO ACADÊMICO - ERE 2021/2",
+        "creditos": 0,
+        "carga_horaria": 0,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "LET02269": {
+        "codigo": "LET02269",
+        "nome": "INGLÊS INSTRUMENTAL II",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "LET02268"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01057": {
+        "codigo": "MAT01057",
+        "nome": "ANÁLISE MATEMÁTICA A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02001"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01167": {
+        "codigo": "MAT01167",
+        "nome": "EQUAÇÕES DIFERENCIAIS II",
+        "creditos": 6,
+        "carga_horaria": 90,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02001"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01058": {
+        "codigo": "MAT01058",
+        "nome": "ANÁLISE MATEMÁTICA B",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT01057"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01168": {
+        "codigo": "MAT01168",
+        "nome": "MATEMÁTICA APLICADA II",
+        "creditos": 6,
+        "carga_horaria": 90,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT01167"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01073": {
+        "codigo": "MAT01073",
+        "nome": "APLICAÇÕES DA MATEMÁTICA - A",
+        "creditos": 5,
+        "carga_horaria": 75,
+        "horas_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02001"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      }
+    }
+  }
+};
+
+// Fallback padrão para inicialização síncrona
+var CURRICULUM_DATA = ECONOMIA_CURRICULA.diurno;
+if (typeof globalThis !== 'undefined') {
+  globalThis.ECONOMIA_CURRICULA = ECONOMIA_CURRICULA;
+  globalThis.CURRICULUM_DATA = ECONOMIA_CURRICULA.diurno;
+}
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = { ECONOMIA_CURRICULA, CURRICULUM_DATA };
+}

@@ -1,0 +1,37 @@
+# Python virtual environments & packages
+.venv/
+venv/
+ENV/
+env/
+node_modules/
+
+# Python cache & compiled bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+.pytest_cache/
+
+# Environment files & credentials
+.env
+.env.*
+!.env.example
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Standalone distribution tracking (ensures all dist/ course packages are tracked)
+!dist/
+!dist/**
+
+# Archives & Temporary files (never track compressed blobs)
+*.zip
+*.tar.gz
+*.log
+*.tmp
+*.bak
+dist/*.zip
+
