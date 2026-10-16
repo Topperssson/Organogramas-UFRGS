@@ -1,6 +1,6 @@
-# Trajetória Acadêmica UFRGS Contract: `trajetoria-academica`
+# Organogramas UFRGS Contract: `organogramas-ufrgs`
 
-> **Inheritance**: Inherits all universal behavioral, security, token economy, and Git standards from [`~/.gemini/GEMINI.md`](file:///C:/Users/LAMECC%20Gabriel%20Rossa/.gemini/GEMINI.md). This contract defines the domain rules, mathematical invariants, and zero-server standalone architecture of the UFRGS Academic Trajectory Curriculum Simulators.
+> **Inheritance**: Inherits all universal behavioral, security, token economy, and Git standards from [`~/.gemini/GEMINI.md`](file:///C:/Users/LAMECC%20Gabriel%20Rossa/.gemini/GEMINI.md). This contract defines the domain rules, mathematical invariants, and zero-server standalone architecture of the Organogramas UFRGS Curriculum Simulators.
 
 ---
 

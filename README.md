@@ -1,4 +1,4 @@
-# Trajetória Acadêmica UFRGS 🎓🗺️
+# Organogramas UFRGS 🎓🗺️
 
 > **Simuladores e Organogramas Curriculares Interativos para Cursos de Graduação da UFRGS**  
 > Aplicações web *standalone* com canvas infinito estilo Miro, resolução determinística de pré-requisitos em grafo acíclico dirigido (DAG), cálculo reativo de barreiras de créditos, planejamento de semestres e exportação visual em alta fidelidade.
@@ -139,7 +139,7 @@ node dev_tests/validate_step5_refinements.js
 ## 📁 Estrutura do Repositório
 
 ```text
-trajetoria-academica/
+organogramas-ufrgs/
 ├── .agents/                                   # Skills e guias agênticos especializados
 │   └── skills/
 │       └── academic-curriculum-planner/      # Skill com especificações de scraping e DAG solver

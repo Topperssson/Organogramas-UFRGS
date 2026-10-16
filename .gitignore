@@ -11,6 +11,7 @@ __pycache__/
 *$py.class
 *.pytest_cache/
 .pytest_cache/
+.cache/
 
 # Environment files & credentials
 .env
