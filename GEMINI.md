@@ -5,12 +5,13 @@
 ---
 
 ## 1. Domain Scopes & Repository Structure
-- **`dist/<curso>/`**: Standalone production simulator bundles. Each supported course lives in its dedicated distribution folder containing **strictly 5 production files**:
+- **`dist/<curso>/`**: Standalone production simulator bundles. Each supported course lives in its dedicated distribution folder containing **strictly 6 production files**:
   - `index.html`: Clean semantic DOM, header controls, credit sidebar, and interactive canvas board.
   - `styles.css`: Dark-themed design system (`#0B0F19`, `#161F30`), Miro canvas, pastel badges, and responsive controls.
   - `app.js`: State management, DAG solver, pan/zoom engine, drag-and-drop, `localStorage` persistence, and native Canvas 2D export.
   - `curriculum_data.js`: Vanilla JS fallback enabling zero-server `file://` execution.
   - `curriculum_data.json`: Master JSON curriculum schema for programmatic validation and imports.
+  - `README.md`: Guia de utilização e especificidades curriculares do curso.
 - **`dev_tests/`**: Automated validation suites (`validate_all_projects.js`, `validate_eletrica.js`, etc.), scraping converters, and official curriculum generators.
 - **`planos-curriculares-salvos/`**: User-saved curricular snapshots and test state fixtures.
 - **`.agents/skills/academic-curriculum-planner/`**: Dedicated domain skill providing architectural guidelines, scraping specs, and DAG solver references.
@@ -24,7 +25,7 @@
 - Dual-mode data loader in `app.js`: Attempt asynchronous `fetch('curriculum_data.json')` and immediately fall back to `window.CURRICULUM_DATA` provided by `curriculum_data.js` if CORS or local filesystem restrictions occur.
 
 ### 2. Strict Isolation between `dist/` and `dev_tests/`
-- Production distribution folders (`dist/<curso>/`) must remain strictly pristine: **exactly 5 production files**, 0 test files, 0 build artifacts, and 0 temporary files.
+- Production distribution folders (`dist/<curso>/`) must remain strictly pristine: **exactly 6 production files**, 0 test files, 0 build artifacts, and 0 temporary files.
 - Automated validation suites and generators reside exclusively in `dev_tests/`.
 
 ### 3. Isolation of `localStorage` Keys & Export Prefixes

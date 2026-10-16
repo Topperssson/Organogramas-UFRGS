@@ -77,7 +77,7 @@ const projects = [
   }
 ];
 
-const allowedFiles = new Set(['index.html', 'styles.css', 'app.js', 'curriculum_data.js', 'curriculum_data.json']);
+const allowedFiles = new Set(['index.html', 'styles.css', 'app.js', 'curriculum_data.js', 'curriculum_data.json', 'README.md']);
 const foundKeys = new Set();
 
 // -----------------------------------------------------------------------------
@@ -189,7 +189,7 @@ projects.forEach(p => {
   const files = fs.readdirSync(pDir);
   const extraneous = files.filter(f => !allowedFiles.has(f));
   assert(extraneous.length === 0, `[${p.name}] Pasta limpa sem arquivos residuais de teste (Extras: ${extraneous.join(', ') || 'Nenhum'})`);
-  assert(files.length === allowedFiles.size, `[${p.name}] Exatamente ${allowedFiles.size}/5 arquivos de produção presentes`);
+  assert(files.length === allowedFiles.size, `[${p.name}] Exatamente ${allowedFiles.size}/${allowedFiles.size} arquivos de produção presentes (incluindo README.md)`);
 });
 
 // RESUMO FINAL

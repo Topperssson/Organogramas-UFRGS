@@ -93,11 +93,11 @@ assert(!appJsContent.includes("'trajetoria_eng_eletrica_ufrgs_v1'"), "Sem contam
 
 // TEST 4: Higiene da pasta de distribuição
 console.log('\n--- Teste 4: Higiene de Distribuição Standalone ---');
-const allowedFiles = new Set(['index.html', 'styles.css', 'app.js', 'curriculum_data.js', 'curriculum_data.json']);
+const allowedFiles = new Set(['index.html', 'styles.css', 'app.js', 'curriculum_data.js', 'curriculum_data.json', 'README.md']);
 const files = fs.readdirSync(distDir);
 const extraneous = files.filter(f => !allowedFiles.has(f));
 assert(extraneous.length === 0, `Pasta limpa sem resíduos (Extras: ${extraneous.join(', ') || 'Nenhum'})`);
-assert(files.length === allowedFiles.size, `Exatamente ${allowedFiles.size}/5 arquivos de produção presentes`);
+assert(files.length === allowedFiles.size, `Exatamente ${allowedFiles.size}/${allowedFiles.size} arquivos de produção presentes`);
 
 console.log('\n========================================================================');
 if (failures === 0) {

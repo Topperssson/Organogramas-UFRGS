@@ -22,9 +22,9 @@ const distDir = path.resolve(__dirname, '../dist/ciencias-economicas');
 // TESTE 1: Arquivos estritamente standalone na pasta dist/
 // ----------------------------------------------------
 console.log('1. Verificação de Isolamento e Conteúdo de dist/ciencias-economicas/:');
-const allowedFiles = new Set(['app.js', 'curriculum_data.js', 'curriculum_data.json', 'index.html', 'styles.css']);
+const allowedFiles = new Set(['app.js', 'curriculum_data.js', 'curriculum_data.json', 'index.html', 'styles.css', 'README.md']);
 const currentFiles = fs.readdirSync(distDir);
-assert(currentFiles.length === 5, `Exatamente 5 arquivos esperados (encontrados: ${currentFiles.length})`);
+assert(currentFiles.length === allowedFiles.size, `Exatamente ${allowedFiles.size} arquivos esperados (encontrados: ${currentFiles.length})`);
 currentFiles.forEach(f => {
   assert(allowedFiles.has(f), `Arquivo permitido standalone: ${f}`);
 });

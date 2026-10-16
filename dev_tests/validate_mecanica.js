@@ -120,14 +120,14 @@ assert(appContent.includes('grade_mecanica_ufrgs_'), "Nome sugerido para exporta
 
 // TEST 5: Limpeza das Pastas de Distribuição
 console.log('\n--- Teste 5: Higiene & Limpeza dos Diretórios dist/ ---');
-const allowedFiles = new Set(['index.html', 'styles.css', 'app.js', 'curriculum_data.js', 'curriculum_data.json']);
+const allowedFiles = new Set(['index.html', 'styles.css', 'app.js', 'curriculum_data.js', 'curriculum_data.json', 'README.md']);
 
 function checkCleanDir(dirPath, label) {
   assert(fs.existsSync(dirPath), `Diretório ${label} existe`);
   const files = fs.readdirSync(dirPath);
   const extraneous = files.filter(f => !allowedFiles.has(f));
-  assert(extraneous.length === 0, `Diretório ${label} limpo contendo apenas os 5 arquivos de produção (Arquivos extras: ${extraneous.join(', ') || 'Nenhum'})`);
-  assert(allowedFiles.size === files.length, `Todos os 5 arquivos esperados estão presentes em ${label} (${files.length}/5)`);
+  assert(extraneous.length === 0, `Diretório ${label} limpo contendo apenas os ${allowedFiles.size} arquivos de produção (Arquivos extras: ${extraneous.join(', ') || 'Nenhum'})`);
+  assert(allowedFiles.size === files.length, `Todos os ${allowedFiles.size} arquivos esperados estão presentes em ${label} (${files.length}/${allowedFiles.size})`);
 }
 
 checkCleanDir(distEcaDir, 'dist/engenharia-controle-automacao');
