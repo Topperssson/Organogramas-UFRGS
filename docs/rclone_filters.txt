@@ -1,0 +1,47 @@
+# ==============================================================================
+# Rclone Filter Rules - Organogramas UFRGS Backup
+# ==============================================================================
+
+# 1. Pastas do Sistema, Git, Ambientes e Caches (IGNORAR SEMPRE)
+- .git/**
+- **/.git/**
+- /.venv/**
+- **/.venv/**
+- /venv/**
+- **/venv/**
+- **/__pycache__/**
+- **/*.py[cod]
+- /.pytest_cache/**
+- **/.pytest_cache/**
+- /.pytest_temp/**
+- **/.pytest_temp/**
+- **/.agents/**
+- **/.agents/**
+- **/node_modules/**
+
+# 2. Arquivos Temporários de Logs e SO (IGNORAR SEMPRE)
+- **/*.log
+- **/*.tmp
+- **/*.bak
+- **/~$*
+- **/Thumbs.db
+- **/ehthumbs.db
+- **/Desktop.ini
+- **/.DS_Store
+- **/$RECYCLE.BIN/**
+
+# 3. Planos Curriculares e Simulações Salvas (JSON/HTML/PDF/PNG) (INCLUIR)
++ /planos-curriculares-salvos/**
++ **/*.json
++ **/*.png
++ **/*.pdf
++ **/*.html
++ **/*.css
++ **/*.js
+
+# 4. Dados e Configurações Locais (INCLUIR)
++ /.env*
++ **/.env*
+
+# 5. Todo o restante dos assets do projeto (INCLUIR)
++ *

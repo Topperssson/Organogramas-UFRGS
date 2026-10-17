@@ -189,7 +189,9 @@ organogramas-ufrgs/
 │   ├── test_ceeca_integration.js
 │   ├── generate_all_new_simulators.py
 │   ├── generate_mecanica_curriculum.py
-│   └── generate_producao_curriculum.py
+├── docs/                                      # Governança de backup e sincronização Rclone
+│   ├── backup_gdrive.ps1                      # Script de backup aditivo para Google Drive
+│   └── rclone_filters.txt                     # Filtros de inclusão/exclusão de arquivos
 ├── planos-curriculares-salvos/                # Exemplos e backups de planos salvos (.json)
 ├── .gitignore                                 # Exclusões padronizadas
 ├── GEMINI.md                                  # Contrato de governança agêntica e regras de domínio
