@@ -24,6 +24,8 @@ Cada curso possui um pacote de distribuição 100% independente e *standalone* e
 | **Engenharia Elétrica** | [`dist/engenharia-eletrica/`](dist/engenharia-eletrica/) | 128 | 246 cr | Grade abrangente de eletrônica, potência, sistemas e telecomunicações | `Start-Process "dist/engenharia-eletrica/index.html"` |
 | **Engenharia de Computação** | [`dist/engenharia-computacao/`](dist/engenharia-computacao/) | 122 | 148 cr | Integração hardware/software, sistemas embarcados, redes e computação | `Start-Process "dist/engenharia-computacao/index.html"` |
 
+> 📋 Para o roadmap completo com o status de todas as graduações da UFRGS, consulte o [**Checklist Completo de Cursos**](docs/checklist-cursos.md).
+
 ---
 
 ## 🚀 Como Executar
@@ -189,9 +191,10 @@ organogramas-ufrgs/
 │   ├── test_ceeca_integration.js
 │   ├── generate_all_new_simulators.py
 │   ├── generate_mecanica_curriculum.py
-├── docs/                                      # Governança de backup e sincronização Rclone
+├── docs/                                      # Governança de backup e documentação de cursos
 │   ├── backup_gdrive.ps1                      # Script de backup aditivo para Google Drive
-│   └── rclone_filters.txt                     # Filtros de inclusão/exclusão de arquivos
+│   ├── rclone_filters.txt                     # Filtros de inclusão/exclusão de arquivos
+│   └── checklist-cursos.md                    # Roadmap de homologação dos cursos UFRGS
 ├── planos-curriculares-salvos/                # Exemplos e backups de planos salvos (.json)
 ├── .gitignore                                 # Exclusões padronizadas
 ├── GEMINI.md                                  # Contrato de governança agêntica e regras de domínio
