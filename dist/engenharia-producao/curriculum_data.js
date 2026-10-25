@@ -22,7 +22,7 @@ var CURRICULUM_DATA = {
   "disciplinas": {
     "MAT01353": {
       "codigo": "MAT01353",
-      "nome": "CÁLCULO E GEOMETRIA ANALÍTICA I - A",
+      "nome": "Cálculo E Geometria Analítica I - A",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -34,7 +34,7 @@ var CURRICULUM_DATA = {
     },
     "FIS01181": {
       "codigo": "FIS01181",
-      "nome": "FÍSICA I - C",
+      "nome": "Física I - C",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -46,7 +46,7 @@ var CURRICULUM_DATA = {
     },
     "INF01040": {
       "codigo": "INF01040",
-      "nome": "INTRODUÇÃO À PROGRAMAÇÃO",
+      "nome": "Introdução à Programação",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -58,7 +58,7 @@ var CURRICULUM_DATA = {
     },
     "ARQ03318": {
       "codigo": "ARQ03318",
-      "nome": "DESENHO TÉCNICO I - A",
+      "nome": "Desenho Técnico I - A",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -70,7 +70,7 @@ var CURRICULUM_DATA = {
     },
     "ENG09001": {
       "codigo": "ENG09001",
-      "nome": "INTRODUÇÃO À ENGENHARIA DE PRODUÇÃO",
+      "nome": "Introdução à Engenharia de Produção",
       "creditos": 2,
       "carga_horaria": 30,
       "horas_extensao": 0,
@@ -82,7 +82,7 @@ var CURRICULUM_DATA = {
     },
     "QUI01009": {
       "codigo": "QUI01009",
-      "nome": "QUÍMICA FUNDAMENTAL A",
+      "nome": "Química Fundamental A",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -94,7 +94,7 @@ var CURRICULUM_DATA = {
     },
     "MAT01354": {
       "codigo": "MAT01354",
-      "nome": "CÁLCULO E GEOMETRIA ANALÍTICA II - A",
+      "nome": "Cálculo E Geometria Analítica II - A",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -108,7 +108,7 @@ var CURRICULUM_DATA = {
     },
     "MAT01355": {
       "codigo": "MAT01355",
-      "nome": "ÁLGEBRA LINEAR I - A",
+      "nome": "Álgebra Linear I - A",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -122,7 +122,7 @@ var CURRICULUM_DATA = {
     },
     "FIS01182": {
       "codigo": "FIS01182",
-      "nome": "FÍSICA II - C",
+      "nome": "Física II - C",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -137,7 +137,7 @@ var CURRICULUM_DATA = {
     },
     "ENG03041": {
       "codigo": "ENG03041",
-      "nome": "MECÂNICA APLICADA I",
+      "nome": "Mecnica Aplicada I",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -152,7 +152,7 @@ var CURRICULUM_DATA = {
     },
     "ECO02254": {
       "codigo": "ECO02254",
-      "nome": "ECONOMIA A",
+      "nome": "Economia A",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -164,7 +164,7 @@ var CURRICULUM_DATA = {
     },
     "MAT01167": {
       "codigo": "MAT01167",
-      "nome": "EQUAÇÕES DIFERENCIAIS II",
+      "nome": "Equações Diferenciais II",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -179,7 +179,7 @@ var CURRICULUM_DATA = {
     },
     "FIS01044": {
       "codigo": "FIS01044",
-      "nome": "FÍSICA III - D",
+      "nome": "Física III - D",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -194,7 +194,7 @@ var CURRICULUM_DATA = {
     },
     "MAT02219": {
       "codigo": "MAT02219",
-      "nome": "PROBABILIDADE E ESTATÍSTICA",
+      "nome": "Probabilidade E Estatística",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -208,7 +208,7 @@ var CURRICULUM_DATA = {
     },
     "ENG02001": {
       "codigo": "ENG02001",
-      "nome": "CIÊNCIA DOS MATERIAIS - B",
+      "nome": "Ciência dos Materiais - B",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -223,7 +223,7 @@ var CURRICULUM_DATA = {
     },
     "ENG03003": {
       "codigo": "ENG03003",
-      "nome": "MECÂNICA DOS SÓLIDOS I",
+      "nome": "Mecnica dos Sólidos I",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -238,7 +238,7 @@ var CURRICULUM_DATA = {
     },
     "MAT01169": {
       "codigo": "MAT01169",
-      "nome": "CÁLCULO NUMÉRICO",
+      "nome": "Cálculo Numérico",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -253,7 +253,7 @@ var CURRICULUM_DATA = {
     },
     "ENG09004": {
       "codigo": "ENG09004",
-      "nome": "ESTATÍSTICA PARA ENGENHARIA",
+      "nome": "Estatística para Engenharia",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -267,7 +267,7 @@ var CURRICULUM_DATA = {
     },
     "ENG09051": {
       "codigo": "ENG09051",
-      "nome": "PROGRAMAÇÃO COMPUTACIONAL APLICADA À PRODUÇÃO",
+      "nome": "Programação Computacional Aplicada à Produção",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -281,7 +281,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04453": {
       "codigo": "ENG04453",
-      "nome": "FÍSICA GERAL - ELETROMAGNETISMO",
+      "nome": "Física Geral - Eletromagnetismo",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -296,7 +296,7 @@ var CURRICULUM_DATA = {
     },
     "ADM01134": {
       "codigo": "ADM01134",
-      "nome": "ADMINISTRAÇÃO E FINANÇAS",
+      "nome": "Administração E Finanças",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -310,7 +310,7 @@ var CURRICULUM_DATA = {
     },
     "ENG09002": {
       "codigo": "ENG09002",
-      "nome": "PESQUISA OPERACIONAL PARA ENGENHARIA I",
+      "nome": "Pesquisa Operacional para Engenharia I",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -325,7 +325,7 @@ var CURRICULUM_DATA = {
     },
     "ENG09003": {
       "codigo": "ENG09003",
-      "nome": "SISTEMAS PRODUTIVOS I",
+      "nome": "Sistemas Produtivos I",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -339,7 +339,7 @@ var CURRICULUM_DATA = {
     },
     "ENG09005": {
       "codigo": "ENG09005",
-      "nome": "ERGONOMIA I",
+      "nome": "Ergonomia I",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -353,7 +353,7 @@ var CURRICULUM_DATA = {
     },
     "ENG09007": {
       "codigo": "ENG09007",
-      "nome": "METROLOGIA E ENSAIOS",
+      "nome": "Metrologia E Ensaios",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -367,7 +367,7 @@ var CURRICULUM_DATA = {
     },
     "ENG02002": {
       "codigo": "ENG02002",
-      "nome": "PROCESSOS E MATERIAIS DE FABRICAÇÃO",
+      "nome": "Processos E Materiais de Fabricação",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -381,7 +381,7 @@ var CURRICULUM_DATA = {
     },
     "ENG09011": {
       "codigo": "ENG09011",
-      "nome": "PESQUISA OPERACIONAL PARA ENGENHARIA II",
+      "nome": "Pesquisa Operacional para Engenharia II",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -395,7 +395,7 @@ var CURRICULUM_DATA = {
     },
     "ENG09014": {
       "codigo": "ENG09014",
-      "nome": "SISTEMAS PRODUTIVOS II",
+      "nome": "Sistemas Produtivos II",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -409,7 +409,7 @@ var CURRICULUM_DATA = {
     },
     "ENG09006": {
       "codigo": "ENG09006",
-      "nome": "GERÊNCIA DA QUALIDADE",
+      "nome": "Gerência da Qualidade",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -423,7 +423,7 @@ var CURRICULUM_DATA = {
     },
     "ENG09010": {
       "codigo": "ENG09010",
-      "nome": "PROGRAMAÇÃO DA PRODUÇÃO I",
+      "nome": "Programação da Produção I",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -438,7 +438,7 @@ var CURRICULUM_DATA = {
     },
     "ENG09015": {
       "codigo": "ENG09015",
-      "nome": "ERGONOMIA II",
+      "nome": "Ergonomia II",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -452,7 +452,7 @@ var CURRICULUM_DATA = {
     },
     "ENG09019": {
       "codigo": "ENG09019",
-      "nome": "PROGRAMAÇÃO DA PRODUÇÃO II",
+      "nome": "Programação da Produção II",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -466,7 +466,7 @@ var CURRICULUM_DATA = {
     },
     "ENG09008": {
       "codigo": "ENG09008",
-      "nome": "ENGENHARIA DA QUALIDADE A",
+      "nome": "Engenharia da Qualidade A",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -480,7 +480,7 @@ var CURRICULUM_DATA = {
     },
     "ENG09009": {
       "codigo": "ENG09009",
-      "nome": "ENGENHARIA DO PRODUTO I",
+      "nome": "Engenharia do Produto I",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -494,7 +494,7 @@ var CURRICULUM_DATA = {
     },
     "ENG09013": {
       "codigo": "ENG09013",
-      "nome": "PROJETO DE FÁBRICA E LAYOUT",
+      "nome": "Projeto de Fábrica E Layout",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -509,7 +509,7 @@ var CURRICULUM_DATA = {
     },
     "ENG09020": {
       "codigo": "ENG09020",
-      "nome": "CUSTOS DA PRODUÇÃO",
+      "nome": "Custos da Produção",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -524,7 +524,7 @@ var CURRICULUM_DATA = {
     },
     "ENG09024": {
       "codigo": "ENG09024",
-      "nome": "LOGÍSTICA E DISTRIBUIÇÃO",
+      "nome": "Logística E Distribuição",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -539,7 +539,7 @@ var CURRICULUM_DATA = {
     },
     "ENG09018": {
       "codigo": "ENG09018",
-      "nome": "ENGENHARIA DO PRODUTO II",
+      "nome": "Engenharia do Produto II",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -553,7 +553,7 @@ var CURRICULUM_DATA = {
     },
     "ENG09023": {
       "codigo": "ENG09023",
-      "nome": "PLANEJAMENTO ESTRATÉGICO DA PRODUÇÃO",
+      "nome": "Planejamento Estratégico da Produção",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -568,7 +568,7 @@ var CURRICULUM_DATA = {
     },
     "ENG09017": {
       "codigo": "ENG09017",
-      "nome": "MANUTENÇÃO E CONFIABILIDADE",
+      "nome": "Manutenção E Confiabilidade",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -583,7 +583,7 @@ var CURRICULUM_DATA = {
     },
     "ENG09025": {
       "codigo": "ENG09025",
-      "nome": "SISTEMAS DE INFORMAÇÃO NA PRODUÇÃO",
+      "nome": "Sistemas de Informação na Produção",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -598,7 +598,7 @@ var CURRICULUM_DATA = {
     },
     "ENG09021": {
       "codigo": "ENG09021",
-      "nome": "GESTÃO TECNOLÓGICA",
+      "nome": "Gestão Tecnológica",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -612,7 +612,7 @@ var CURRICULUM_DATA = {
     },
     "ENG09026": {
       "codigo": "ENG09026",
-      "nome": "SISTEMAS DE GARANTIA DA QUALIDADE",
+      "nome": "Sistemas de Garantia da Qualidade",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -626,7 +626,7 @@ var CURRICULUM_DATA = {
     },
     "ENG09028": {
       "codigo": "ENG09028",
-      "nome": "GESTÃO AMBIENTAL NA PRODUÇÃO",
+      "nome": "Gestão Ambiental na Produção",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -640,7 +640,7 @@ var CURRICULUM_DATA = {
     },
     "ENG09012": {
       "codigo": "ENG09012",
-      "nome": "PRÁTICA EM ENGENHARIA DE PRODUÇÃO",
+      "nome": "Prática em Engenharia de Produção",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -655,7 +655,7 @@ var CURRICULUM_DATA = {
     },
     "ENG09091": {
       "codigo": "ENG09091",
-      "nome": "TRABALHO DE CONCLUSÃO DE CURSO I",
+      "nome": "Trabalho de Conclusão de Curso I",
       "creditos": 2,
       "carga_horaria": 30,
       "horas_extensao": 0,
@@ -670,7 +670,7 @@ var CURRICULUM_DATA = {
     },
     "ENG09092": {
       "codigo": "ENG09092",
-      "nome": "TRABALHO DE CONCLUSÃO DE CURSO II",
+      "nome": "Trabalho de Conclusão de Curso II",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -684,7 +684,7 @@ var CURRICULUM_DATA = {
     },
     "ENG09022": {
       "codigo": "ENG09022",
-      "nome": "ESTÁGIO SUPERVISIONADO EM ENGENHARIA DE PRODUÇÃO",
+      "nome": "Estágio Supervisionado em Engenharia de Produção",
       "creditos": 4,
       "carga_horaria": 200,
       "horas_extensao": 0,
@@ -696,7 +696,7 @@ var CURRICULUM_DATA = {
     },
     "MED05011": {
       "codigo": "MED05011",
-      "nome": "HIGIENE E SEGURANÇA DO TRABALHO - A",
+      "nome": "Higiene E Segurança do Trabalho - A",
       "creditos": 2,
       "carga_horaria": 30,
       "horas_extensao": 0,
@@ -708,7 +708,7 @@ var CURRICULUM_DATA = {
     },
     "ENG09016": {
       "codigo": "ENG09016",
-      "nome": "ORGANIZAÇÃO INDUSTRIAL A",
+      "nome": "Organização Industrial A",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -722,7 +722,7 @@ var CURRICULUM_DATA = {
     },
     "ENG09029": {
       "codigo": "ENG09029",
-      "nome": "RODOVIAS",
+      "nome": "Rodovias",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -736,7 +736,7 @@ var CURRICULUM_DATA = {
     },
     "ENG09030": {
       "codigo": "ENG09030",
-      "nome": "INFRAESTRUTURA DE TRANSPORTES",
+      "nome": "Infraestrutura de Transportes",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -750,7 +750,7 @@ var CURRICULUM_DATA = {
     },
     "ENG09031": {
       "codigo": "ENG09031",
-      "nome": "OPERAÇÃO DE TRANSPORTES",
+      "nome": "Operação de Transportes",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -764,7 +764,7 @@ var CURRICULUM_DATA = {
     },
     "ENG09032": {
       "codigo": "ENG09032",
-      "nome": "ECONOMIA DOS TRANSPORTES",
+      "nome": "Economia dos Transportes",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -778,7 +778,7 @@ var CURRICULUM_DATA = {
     },
     "ENG09034": {
       "codigo": "ENG09034",
-      "nome": "GERENCIAMENTO DE SERVIÇOS EM PRODUÇÃO E TRANSPORTES",
+      "nome": "Gerenciamento de Serviços em Produção E Transportes",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -792,7 +792,7 @@ var CURRICULUM_DATA = {
     },
     "ENG09035": {
       "codigo": "ENG09035",
-      "nome": "PLANEJAMENTO DE TRANSPORTES",
+      "nome": "Planejamento de Transportes",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -806,7 +806,7 @@ var CURRICULUM_DATA = {
     },
     "ENG09036": {
       "codigo": "ENG09036",
-      "nome": "ENGENHARIA DE TRÁFEGO",
+      "nome": "Engenharia de Tráfego",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -820,7 +820,7 @@ var CURRICULUM_DATA = {
     },
     "ENG09038": {
       "codigo": "ENG09038",
-      "nome": "TRANSPORTE PÚBLICO URBANO",
+      "nome": "Transporte Público Urbano",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -834,7 +834,7 @@ var CURRICULUM_DATA = {
     },
     "ENG09052": {
       "codigo": "ENG09052",
-      "nome": "EMPREENDEDORISMO E INOVAÇÃO PARA ENGENHARIA DE PRODUÇÃO",
+      "nome": "Empreendedorismo E Inovação para Engenharia de Produção",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -848,7 +848,7 @@ var CURRICULUM_DATA = {
     },
     "ADM01135": {
       "codigo": "ADM01135",
-      "nome": "ENGENHARIA ECONÔMICA E AVALIAÇÕES",
+      "nome": "Engenharia Econômica E Avaliações",
       "creditos": 2,
       "carga_horaria": 30,
       "horas_extensao": 0,
@@ -862,7 +862,7 @@ var CURRICULUM_DATA = {
     },
     "INF01017": {
       "codigo": "INF01017",
-      "nome": "APRENDIZADO DE MÁQUINA",
+      "nome": "Aprendizado de Máquina",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -877,7 +877,7 @@ var CURRICULUM_DATA = {
     },
     "INF01036": {
       "codigo": "INF01036",
-      "nome": "REDES NEURAIS ARTIFICIAIS",
+      "nome": "Redes Neurais Artificiais",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -892,7 +892,7 @@ var CURRICULUM_DATA = {
     },
     "ENG03021": {
       "codigo": "ENG03021",
-      "nome": "AUTOMAÇÃO DA MANUFATURA",
+      "nome": "Automação da Manufatura",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -906,7 +906,7 @@ var CURRICULUM_DATA = {
     },
     "ENG06105": {
       "codigo": "ENG06105",
-      "nome": "PROCESSOS AUXILIADOS POR COMPUTADOR - CAM",
+      "nome": "Processos Auxiliados por Computador - CAM",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -920,7 +920,7 @@ var CURRICULUM_DATA = {
     },
     "ENG03044": {
       "codigo": "ENG03044",
-      "nome": "DINÂMICA DE SISTEMAS E CONTROLE",
+      "nome": "Dinmica de Sistemas E Controle",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -934,3 +934,9 @@ var CURRICULUM_DATA = {
     }
   }
 };
+if (typeof globalThis !== 'undefined') {
+  globalThis.CURRICULUM_DATA = CURRICULUM_DATA;
+}
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = { CURRICULUM_DATA };
+}

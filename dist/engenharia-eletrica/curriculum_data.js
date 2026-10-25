@@ -22,7 +22,7 @@ var CURRICULUM_DATA = {
   "disciplinas": {
     "ENG04079": {
       "codigo": "ENG04079",
-      "nome": "APRENDIZAGEM AUTï¿½NOMA I",
+      "nome": "Aprendizagem Autï¿½noma I",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -35,7 +35,7 @@ var CURRICULUM_DATA = {
     },
     "MAT01353": {
       "codigo": "MAT01353",
-      "nome": "Cï¿½LCULO E GEOMETRIA ANALï¿½TICA I - A",
+      "nome": "Cï¿½lculo E Geometria Analï¿½tica I - A",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -48,7 +48,7 @@ var CURRICULUM_DATA = {
     },
     "ARQ03318": {
       "codigo": "ARQ03318",
-      "nome": "DESENHO Tï¿½CNICO I-A",
+      "nome": "Desenho Tï¿½cnico I-A",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -61,7 +61,7 @@ var CURRICULUM_DATA = {
     },
     "ARQ03317": {
       "codigo": "ARQ03317",
-      "nome": "GEOMETRIA DESCRITIVA II-A",
+      "nome": "Geometria Descritiva II-A",
       "creditos": 2,
       "carga_horaria": 30,
       "horas_extensao": 0,
@@ -74,7 +74,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04080": {
       "codigo": "ENG04080",
-      "nome": "INTRODUï¿½ï¿½O ï¿½ ENGENHARIA ELï¿½TRICA - B",
+      "nome": "Introduï¿½ï¿½o Ï¿½ Engenharia Elï¿½trica - B",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -87,12 +87,12 @@ var CURRICULUM_DATA = {
     },
     "FIS01080": {
       "codigo": "FIS01080",
-      "nome": "Fï¿½SICA I - E",
+      "nome": "Fï¿½sica I - E",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
       "etapa_sugerida": null,
-      "tipo": "alternativa",
+      "tipo": "Alternativa",
       "prerequisitos": [],
       "min_credits": 0,
       "periodicidade": "ambos",
@@ -100,7 +100,7 @@ var CURRICULUM_DATA = {
     },
     "FIS01181": {
       "codigo": "FIS01181",
-      "nome": "Fï¿½SICA I-C",
+      "nome": "Fï¿½sica I-C",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -113,7 +113,7 @@ var CURRICULUM_DATA = {
     },
     "MAT01355": {
       "codigo": "MAT01355",
-      "nome": "ï¿½LGEBRA LINEAR I - A",
+      "nome": "Ï¿½lgebra Linear I - A",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -129,7 +129,7 @@ var CURRICULUM_DATA = {
     },
     "INF01202": {
       "codigo": "INF01202",
-      "nome": "ALGORï¿½TMOS E PROGRAMAï¿½ï¿½O - CIC",
+      "nome": "Algorï¿½tmos E Programaï¿½ï¿½o - CIC",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -142,7 +142,7 @@ var CURRICULUM_DATA = {
     },
     "MAT01354": {
       "codigo": "MAT01354",
-      "nome": "Cï¿½LCULO E GEOMETRIA ANALï¿½TICA II - A",
+      "nome": "Cï¿½lculo E Geometria Analï¿½tica II - A",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -158,7 +158,7 @@ var CURRICULUM_DATA = {
     },
     "ARQ03319": {
       "codigo": "ARQ03319",
-      "nome": "DESENHO Tï¿½CNICO II-A",
+      "nome": "Desenho Tï¿½cnico II-A",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -174,7 +174,7 @@ var CURRICULUM_DATA = {
     },
     "FIS01183": {
       "codigo": "FIS01183",
-      "nome": "Fï¿½SICA III-C",
+      "nome": "Fï¿½sica III-C",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -192,7 +192,7 @@ var CURRICULUM_DATA = {
     },
     "QUI01121": {
       "codigo": "QUI01121",
-      "nome": "QUï¿½MICA FUNDAMENTAL",
+      "nome": "Quï¿½mica Fundamental",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -205,7 +205,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04075": {
       "codigo": "ENG04075",
-      "nome": "ELETRï¿½NICA DIGITAL I",
+      "nome": "Eletrï¿½nica Digital I",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -222,7 +222,7 @@ var CURRICULUM_DATA = {
     },
     "MAT01167": {
       "codigo": "MAT01167",
-      "nome": "EQUAï¿½ï¿½ES DIFERENCIAIS II",
+      "nome": "Equaï¿½ï¿½es Diferenciais II",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -238,7 +238,7 @@ var CURRICULUM_DATA = {
     },
     "FIS01184": {
       "codigo": "FIS01184",
-      "nome": "Fï¿½SICA IV-C",
+      "nome": "Fï¿½sica IV-C",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -253,7 +253,7 @@ var CURRICULUM_DATA = {
     },
     "ENG01156": {
       "codigo": "ENG01156",
-      "nome": "MECï¿½NICA",
+      "nome": "Mecï¿½nica",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -270,7 +270,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04074": {
       "codigo": "ENG04074",
-      "nome": "TEORIA DE CIRCUITOS I",
+      "nome": "Teoria de Circuitos I",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -286,7 +286,7 @@ var CURRICULUM_DATA = {
     },
     "MAT01169": {
       "codigo": "MAT01169",
-      "nome": "Cï¿½LCULO NUMï¿½RICO",
+      "nome": "Cï¿½lculo Numï¿½rico",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -302,7 +302,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04077": {
       "codigo": "ENG04077",
-      "nome": "CIRCUITOS ELETRï¿½NICOS I",
+      "nome": "Circuitos Eletrï¿½nicos I",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -317,7 +317,7 @@ var CURRICULUM_DATA = {
     },
     "FIS01182": {
       "codigo": "FIS01182",
-      "nome": "Fï¿½SICA GERAL - ELETROMAGNETISMO",
+      "nome": "Fï¿½sica Geral - Eletromagnetismo",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -334,7 +334,7 @@ var CURRICULUM_DATA = {
     },
     "MAT01168": {
       "codigo": "MAT01168",
-      "nome": "MATEMï¿½TICA APLICADA II",
+      "nome": "Matemï¿½tica Aplicada II",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -349,7 +349,7 @@ var CURRICULUM_DATA = {
     },
     "INF01212": {
       "codigo": "INF01212",
-      "nome": "METODOLOGIA DE PROGRAMAï¿½ï¿½O",
+      "nome": "Metodologia de Programaï¿½ï¿½o",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -364,7 +364,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04076": {
       "codigo": "ENG04076",
-      "nome": "TEORIA DE CIRCUITOS II",
+      "nome": "Teoria de Circuitos II",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -380,7 +380,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04032": {
       "codigo": "ENG04032",
-      "nome": "ANï¿½LISE DE CIRCUITOS III",
+      "nome": "Anï¿½lise de Circuitos III",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -396,7 +396,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04078": {
       "codigo": "ENG04078",
-      "nome": "CIRCUITOS ELETRï¿½NICOS II",
+      "nome": "Circuitos Eletrï¿½nicos II",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -412,7 +412,7 @@ var CURRICULUM_DATA = {
     },
     "IPH01111": {
       "codigo": "IPH01111",
-      "nome": "HIDRï¿½ULICA E HIDROLOGIA APLICADA II",
+      "nome": "Hidrï¿½ulica E Hidrologia Aplicada II",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -427,7 +427,7 @@ var CURRICULUM_DATA = {
     },
     "ENG02213": {
       "codigo": "ENG02213",
-      "nome": "MATERIAIS ELï¿½TRICOS E MAGNï¿½TICOS",
+      "nome": "Materiais Elï¿½tricos E Magnï¿½ticos",
       "creditos": 5,
       "carga_horaria": 75,
       "horas_extensao": 0,
@@ -442,7 +442,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10017": {
       "codigo": "ENG10017",
-      "nome": "SISTEMAS E SINAIS",
+      "nome": "Sistemas E Sinais",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -457,7 +457,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04454": {
       "codigo": "ENG04454",
-      "nome": "TEORIA ELETROMAGNï¿½TICA APLICADA A",
+      "nome": "Teoria Eletromagnï¿½tica Aplicada A",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -474,7 +474,7 @@ var CURRICULUM_DATA = {
     },
     "IPH02009": {
       "codigo": "IPH02009",
-      "nome": "APROVEITAMENTOS HIDROELï¿½TRICOS",
+      "nome": "Aproveitamentos Hidroelï¿½tricos",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -489,7 +489,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04061": {
       "codigo": "ENG04061",
-      "nome": "CIRCUITOS ELETRï¿½NICOS INTEGRADOS",
+      "nome": "Circuitos Eletrï¿½nicos Integrados",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -505,7 +505,7 @@ var CURRICULUM_DATA = {
     },
     "INF01185": {
       "codigo": "INF01185",
-      "nome": "CONCEPï¿½ï¿½O DE CIRCUITOS INTEGRADOS I",
+      "nome": "Concepï¿½ï¿½o de Circuitos Integrados I",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -520,7 +520,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04407": {
       "codigo": "ENG04407",
-      "nome": "CONVERSï¿½O ELETROMECï¿½NICA DE ENERGIA I",
+      "nome": "Conversï¿½o Eletromecï¿½nica de Energia I",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -535,7 +535,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04038": {
       "codigo": "ENG04038",
-      "nome": "ELETRï¿½NICA III",
+      "nome": "Eletrï¿½nica III",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -551,7 +551,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04475": {
       "codigo": "ENG04475",
-      "nome": "MICROPROCESSADORES I",
+      "nome": "Microprocessadores I",
       "creditos": 5,
       "carga_horaria": 75,
       "horas_extensao": 0,
@@ -567,7 +567,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04404": {
       "codigo": "ENG04404",
-      "nome": "ONDAS ELETROMAGNï¿½TICAS",
+      "nome": "Ondas Eletromagnï¿½ticas",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -582,7 +582,7 @@ var CURRICULUM_DATA = {
     },
     "MAT02219": {
       "codigo": "MAT02219",
-      "nome": "PROBABILIDADE E ESTATï¿½STICA",
+      "nome": "Probabilidade E Estatï¿½stica",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -597,7 +597,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04073": {
       "codigo": "ENG04073",
-      "nome": "SISTEMAS DE CONTROLE ELETROELETRï¿½NICOS",
+      "nome": "Sistemas de Controle Eletroeletrï¿½nicos",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -612,7 +612,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04461": {
       "codigo": "ENG04461",
-      "nome": "SISTEMAS DIGITAIS",
+      "nome": "Sistemas Digitais",
       "creditos": 5,
       "carga_horaria": 75,
       "horas_extensao": 0,
@@ -627,7 +627,7 @@ var CURRICULUM_DATA = {
     },
     "ENG03055": {
       "codigo": "ENG03055",
-      "nome": "FUNDAMENTOS DE ENGENHARIA DE SEGURANï¿½A DO TRABALHO - ELE",
+      "nome": "Fundamentos de Engenharia de Seguranï¿½a do Trabalho - ELE",
       "creditos": 2,
       "carga_horaria": 30,
       "horas_extensao": 0,
@@ -640,12 +640,12 @@ var CURRICULUM_DATA = {
     },
     "ENG09044": {
       "codigo": "ENG09044",
-      "nome": "GESTï¿½O DA SEGURANï¿½A E SAï¿½DE NO TRABALHO",
+      "nome": "Gestï¿½o da Seguranï¿½a E Saï¿½de no Trabalho",
       "creditos": 2,
       "carga_horaria": 30,
       "horas_extensao": 0,
       "etapa_sugerida": null,
-      "tipo": "alternativa",
+      "tipo": "Alternativa",
       "prerequisitos": [],
       "min_credits": 0,
       "periodicidade": "ambos",
@@ -653,12 +653,12 @@ var CURRICULUM_DATA = {
     },
     "MED05011": {
       "codigo": "MED05011",
-      "nome": "HIGIENE E SEGURANï¿½A DO TRABALHO - A",
+      "nome": "Higiene E Seguranï¿½a do Trabalho - A",
       "creditos": 2,
       "carga_horaria": 30,
       "horas_extensao": 0,
       "etapa_sugerida": 7,
-      "tipo": "alternativa",
+      "tipo": "Alternativa",
       "prerequisitos": [],
       "min_credits": 0,
       "periodicidade": "ambos",
@@ -666,7 +666,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04436": {
       "codigo": "ENG04436",
-      "nome": "ANTENAS E PROPAGAï¿½ï¿½O",
+      "nome": "Antenas E Propagaï¿½ï¿½o",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -681,7 +681,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04460": {
       "codigo": "ENG04460",
-      "nome": "APLICAï¿½ï¿½ES INDUSTRIAIS DA ELETRï¿½NICA",
+      "nome": "Aplicaï¿½ï¿½es Industriais da Eletrï¿½nica",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -697,7 +697,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04053": {
       "codigo": "ENG04053",
-      "nome": "AUTOMAï¿½ï¿½O E CONTROLE",
+      "nome": "Automaï¿½ï¿½o E Controle",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -712,7 +712,7 @@ var CURRICULUM_DATA = {
     },
     "INF01194": {
       "codigo": "INF01194",
-      "nome": "CONCEPï¿½ï¿½O DE CIRCUITOS INTEGRADOS II",
+      "nome": "Concepï¿½ï¿½o de Circuitos Integrados II",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -728,7 +728,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04408": {
       "codigo": "ENG04408",
-      "nome": "CONVERSï¿½O ELETROMECï¿½NICA DE ENERGIA II",
+      "nome": "Conversï¿½o Eletromecï¿½nica de Energia II",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -743,7 +743,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04063": {
       "codigo": "ENG04063",
-      "nome": "DISPOSITIVOS SEMICONDUTORES",
+      "nome": "Dispositivos Semicondutores",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -759,7 +759,7 @@ var CURRICULUM_DATA = {
     },
     "ADM01135": {
       "codigo": "ADM01135",
-      "nome": "ENGENHARIA ECONï¿½MICA E AVALIAï¿½ï¿½ES",
+      "nome": "Engenharia Econï¿½mica E Avaliaï¿½ï¿½es",
       "creditos": 2,
       "carga_horaria": 30,
       "horas_extensao": 0,
@@ -772,7 +772,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04457": {
       "codigo": "ENG04457",
-      "nome": "INSTRUMENTAï¿½ï¿½O A",
+      "nome": "Instrumentaï¿½ï¿½o A",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -788,7 +788,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10023": {
       "codigo": "ENG10023",
-      "nome": "SISTEMAS DE AUTOMAï¿½ï¿½O",
+      "nome": "Sistemas de Automaï¿½ï¿½o",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -803,7 +803,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10018": {
       "codigo": "ENG10018",
-      "nome": "SISTEMAS DE CONTROLE II",
+      "nome": "Sistemas de Controle II",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -818,7 +818,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04081": {
       "codigo": "ENG04081",
-      "nome": "Tï¿½PICOS ESPECIAIS EM ELETROMAGNETISMO APLICADO",
+      "nome": "Tï¿½picos Especiais em Eletromagnetismo Aplicado",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -833,7 +833,7 @@ var CURRICULUM_DATA = {
     },
     "ENG03010": {
       "codigo": "ENG03010",
-      "nome": "CIï¿½NCIA, TECNOLOGIA E AMBIENTE",
+      "nome": "Ciï¿½ncia, Tecnologia E Ambiente",
       "creditos": 3,
       "carga_horaria": 45,
       "horas_extensao": 0,
@@ -846,12 +846,12 @@ var CURRICULUM_DATA = {
     },
     "BIO11010": {
       "codigo": "BIO11010",
-      "nome": "FUNDAMENTO DE ECOLOGIA APLICADA - A",
+      "nome": "Fundamento de Ecologia Aplicada - A",
       "creditos": 2,
       "carga_horaria": 30,
       "horas_extensao": 0,
       "etapa_sugerida": null,
-      "tipo": "alternativa",
+      "tipo": "Alternativa",
       "prerequisitos": [],
       "min_credits": 0,
       "periodicidade": "ambos",
@@ -859,12 +859,12 @@ var CURRICULUM_DATA = {
     },
     "ENG09028": {
       "codigo": "ENG09028",
-      "nome": "GESTï¿½O AMBIENTAL",
+      "nome": "Gestï¿½o Ambiental",
       "creditos": 2,
       "carga_horaria": 30,
       "horas_extensao": 0,
       "etapa_sugerida": 9,
-      "tipo": "alternativa",
+      "tipo": "Alternativa",
       "prerequisitos": [],
       "min_credits": 0,
       "periodicidade": "ambos",
@@ -872,7 +872,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04444": {
       "codigo": "ENG04444",
-      "nome": "ANï¿½LISE DE SISTEMAS DE POTï¿½NCIA",
+      "nome": "Anï¿½lise de Sistemas de Potï¿½ncia",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -888,7 +888,7 @@ var CURRICULUM_DATA = {
     },
     "INF01205": {
       "codigo": "INF01205",
-      "nome": "CAD PARA SISTEMAS DIGITAIS",
+      "nome": "Cad para Sistemas Digitais",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -903,7 +903,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04422": {
       "codigo": "ENG04422",
-      "nome": "CENTRAIS TERMOELï¿½TRICAS",
+      "nome": "Centrais Termoelï¿½tricas",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -918,7 +918,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04055": {
       "codigo": "ENG04055",
-      "nome": "CIRCUITOS INTEGRADOS ANALï¿½GICOS",
+      "nome": "Circuitos Integrados Analï¿½gicos",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -934,7 +934,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04040": {
       "codigo": "ENG04040",
-      "nome": "DINï¿½MICA DE DISPOSITIVOS ELETROMAGNï¿½TICOS",
+      "nome": "Dinï¿½mica de Dispositivos Eletromagnï¿½ticos",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -949,7 +949,7 @@ var CURRICULUM_DATA = {
     },
     "ECO02254": {
       "codigo": "ECO02254",
-      "nome": "ECONOMIA A",
+      "nome": "Economia A",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -962,7 +962,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04003": {
       "codigo": "ENG04003",
-      "nome": "ELETRï¿½NICA DAS COMUNICAï¿½ï¿½ES - A",
+      "nome": "Eletrï¿½nica das Comunicaï¿½ï¿½es - A",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -978,7 +978,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04466": {
       "codigo": "ENG04466",
-      "nome": "INSTALAï¿½ï¿½ES ELï¿½TRICAS",
+      "nome": "Instalaï¿½ï¿½es Elï¿½tricas",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -993,7 +993,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04476": {
       "codigo": "ENG04476",
-      "nome": "MICROPROCESSADORES II",
+      "nome": "Microprocessadores II",
       "creditos": 5,
       "carga_horaria": 75,
       "horas_extensao": 0,
@@ -1008,7 +1008,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04434": {
       "codigo": "ENG04434",
-      "nome": "PRINCï¿½PIOS DE COMUNICAï¿½ï¿½O",
+      "nome": "Princï¿½pios de Comunicaï¿½ï¿½o",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1024,7 +1024,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04477": {
       "codigo": "ENG04477",
-      "nome": "PROCESSAMENTO DIGITAL DE SINAIS",
+      "nome": "Processamento Digital de Sinais",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1040,7 +1040,7 @@ var CURRICULUM_DATA = {
     },
     "ENG01140": {
       "codigo": "ENG01140",
-      "nome": "RESISTï¿½NCIA DOS MATERIAIS A",
+      "nome": "Resistï¿½ncia dos Materiais A",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1055,7 +1055,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10019": {
       "codigo": "ENG10019",
-      "nome": "SISTEMAS DE CONTROLE DIGITAIS",
+      "nome": "Sistemas de Controle Digitais",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1070,7 +1070,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04458": {
       "codigo": "ENG04458",
-      "nome": "TELEFONIA A",
+      "nome": "Telefonia A",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1086,7 +1086,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04014": {
       "codigo": "ENG04014",
-      "nome": "TEORIA DA INFORMAï¿½ï¿½O - A",
+      "nome": "Teoria da Informaï¿½ï¿½o - A",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1101,7 +1101,7 @@ var CURRICULUM_DATA = {
     },
     "DIR04423": {
       "codigo": "DIR04423",
-      "nome": "Tï¿½PICOS JURï¿½DICOS E SOCIAIS",
+      "nome": "Tï¿½picos Jurï¿½dicos E Sociais",
       "creditos": 2,
       "carga_horaria": 30,
       "horas_extensao": 0,
@@ -1114,7 +1114,7 @@ var CURRICULUM_DATA = {
     },
     "ADM01134": {
       "codigo": "ADM01134",
-      "nome": "ADMINISTRAï¿½ï¿½O E FINANï¿½AS",
+      "nome": "Administraï¿½ï¿½o E Finanï¿½as",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1129,7 +1129,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04421": {
       "codigo": "ENG04421",
-      "nome": "CENTRAIS HIDROELï¿½TRICAS",
+      "nome": "Centrais Hidroelï¿½tricas",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1144,7 +1144,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04001": {
       "codigo": "ENG04001",
-      "nome": "COMUNICAï¿½ï¿½ES ï¿½TICAS",
+      "nome": "Comunicaï¿½ï¿½es Ï¿½ticas",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1160,7 +1160,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04438": {
       "codigo": "ENG04438",
-      "nome": "MICROONDAS I",
+      "nome": "Microondas I",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1175,7 +1175,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04039": {
       "codigo": "ENG04039",
-      "nome": "PROJETO DE DISPOSITIVOS ELETROMAGNï¿½TICOS",
+      "nome": "Projeto de Dispositivos Eletromagnï¿½ticos",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1190,7 +1190,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10026": {
       "codigo": "ENG10026",
-      "nome": "ROBï¿½TICA A",
+      "nome": "Robï¿½tica A",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1206,7 +1206,7 @@ var CURRICULUM_DATA = {
     },
     "ELE99003": {
       "codigo": "ELE99003",
-      "nome": "PROJETO DE DIPLOMAÇÃO I - ELE (PD1)",
+      "nome": "Projeto de Diplomação I - ELE (pd1)",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -1219,20 +1219,20 @@ var CURRICULUM_DATA = {
     },
     "ELE99001": {
       "codigo": "ELE99001",
-      "nome": "SEMINï¿½RIO DE ACOMPANHAMENTO E PRï¿½TICA EXTENSIONISTA DE PROJETO DE DIPLOMAï¿½ï¿½O I",
+      "nome": "Seminï¿½rio de Acompanhamento E Prï¿½tica Extensionista de Projeto de Diplomaï¿½ï¿½o I",
       "creditos": 10,
       "carga_horaria": 150,
       "horas_extensao": 120,
       "etapa_sugerida": 9,
       "tipo": "obrigatoria",
       "prerequisitos": [],
-      "min_credits": 0,
+      "min_credits": 180,
       "periodicidade": "ambos",
       "alternativeOf": null
     },
     "ENG10039": {
       "codigo": "ENG10039",
-      "nome": "SISTEMAS DE DISTRIBUIï¿½ï¿½O DE ENERGIA ELï¿½TRICA",
+      "nome": "Sistemas de Distribuiï¿½ï¿½o de Energia Elï¿½trica",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1248,7 +1248,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04478": {
       "codigo": "ENG04478",
-      "nome": "SISTEMAS DE TELEVISï¿½O",
+      "nome": "Sistemas de Televisï¿½o",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1263,7 +1263,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10040": {
       "codigo": "ENG10040",
-      "nome": "SISTEMAS DE TRANSMISSï¿½O DE ENERGIA ELï¿½TRICA",
+      "nome": "Sistemas de Transmissï¿½o de Energia Elï¿½trica",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1279,7 +1279,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04070": {
       "codigo": "ENG04070",
-      "nome": "SUBESTAï¿½ï¿½ES DE ALTA TENSï¿½O",
+      "nome": "Subestaï¿½ï¿½es de Alta Tensï¿½o",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1294,7 +1294,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04057": {
       "codigo": "ENG04057",
-      "nome": "TESTE DE SISTEMAS ELETRï¿½NICOS",
+      "nome": "Teste de Sistemas Eletrï¿½nicos",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1310,7 +1310,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04471": {
       "codigo": "ENG04471",
-      "nome": "Tï¿½PICOS ESPECIAIS DE ENGENHARIA ELï¿½TRICA I",
+      "nome": "Tï¿½picos Especiais de Engenharia Elï¿½trica I",
       "creditos": 3,
       "carga_horaria": 45,
       "horas_extensao": 0,
@@ -1323,7 +1323,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10016": {
       "codigo": "ENG10016",
-      "nome": "TRANSITï¿½RIOS EM SISTEMAS DE POTï¿½NCIA",
+      "nome": "Transitï¿½rios em Sistemas de Potï¿½ncia",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1338,7 +1338,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04462": {
       "codigo": "ENG04462",
-      "nome": "ACIONAMENTO DE Mï¿½QUINAS ELï¿½TRICAS",
+      "nome": "Acionamento de Mï¿½quinas Elï¿½tricas",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1354,7 +1354,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04439": {
       "codigo": "ENG04439",
-      "nome": "MICROONDAS II",
+      "nome": "Microondas II",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1369,7 +1369,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04065": {
       "codigo": "ENG04065",
-      "nome": "PROJETO DE SISTEMAS ANALï¿½GICOS E MISTOS INTEGRADOS",
+      "nome": "Projeto de Sistemas Analï¿½gicos E Mistos Integrados",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1384,7 +1384,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04064": {
       "codigo": "ENG04064",
-      "nome": "PROJETO DE SISTEMAS DE RF INTEGRADOS",
+      "nome": "Projeto de Sistemas de RF Integrados",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1401,7 +1401,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10041": {
       "codigo": "ENG10041",
-      "nome": "PROTEï¿½ï¿½O E ESTABILIDADE DOS SISTEMAS ELï¿½TRICOS DE POTï¿½NCIA",
+      "nome": "Proteï¿½ï¿½o E Estabilidade dos Sistemas Elï¿½tricos de Potï¿½ncia",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1416,7 +1416,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10014": {
       "codigo": "ENG10014",
-      "nome": "QUALIDADE DE ENERGIA ELï¿½TRICA",
+      "nome": "Qualidade de Energia Elï¿½trica",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1431,7 +1431,7 @@ var CURRICULUM_DATA = {
     },
     "ELE99002": {
       "codigo": "ELE99002",
-      "nome": "SEMINï¿½RIO DE ACOMPANHAMENTO E PRï¿½TICA EXTENSIONISTA DE PROJETO DE DIPLOMAï¿½ï¿½O II",
+      "nome": "Seminï¿½rio de Acompanhamento E Prï¿½tica Extensionista de Projeto de Diplomaï¿½ï¿½o II",
       "creditos": 10,
       "carga_horaria": 150,
       "horas_extensao": 120,
@@ -1440,13 +1440,13 @@ var CURRICULUM_DATA = {
       "prerequisitos": [
         "ELE99001"
       ],
-      "min_credits": 0,
+      "min_credits": 180,
       "periodicidade": "ambos",
       "alternativeOf": null
     },
     "ENG04463": {
       "codigo": "ENG04463",
-      "nome": "Tï¿½PICOS ESPECIAIS EM ENGENHARIA ELï¿½TRICA",
+      "nome": "Tï¿½picos Especiais em Engenharia Elï¿½trica",
       "creditos": 3,
       "carga_horaria": 45,
       "horas_extensao": 0,
@@ -1459,7 +1459,7 @@ var CURRICULUM_DATA = {
     },
     "ENG03052": {
       "codigo": "ENG03052",
-      "nome": "ANï¿½LISE DE RISCOS INDUSTRIAIS",
+      "nome": "Anï¿½lise de Riscos Industriais",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1475,7 +1475,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04067": {
       "codigo": "ENG04067",
-      "nome": "COMUNICAï¿½ï¿½O DIGITAL",
+      "nome": "Comunicaï¿½ï¿½o Digital",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1490,7 +1490,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04068": {
       "codigo": "ENG04068",
-      "nome": "COMUNICAï¿½ï¿½O SEM FIO",
+      "nome": "Comunicaï¿½ï¿½o Sem Fio",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1505,7 +1505,7 @@ var CURRICULUM_DATA = {
     },
     "ENG03065": {
       "codigo": "ENG03065",
-      "nome": "ENGENHARIA DE REATORES NUCLEARES",
+      "nome": "Engenharia de Reatores Nucleares",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1520,7 +1520,7 @@ var CURRICULUM_DATA = {
     },
     "INF01126": {
       "codigo": "INF01126",
-      "nome": "ESTRUTURAS DE DADOS I",
+      "nome": "Estruturas de Dados I",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1535,7 +1535,7 @@ var CURRICULUM_DATA = {
     },
     "FIS02009": {
       "codigo": "FIS02009",
-      "nome": "EXPLORANDO O UNIVERSO: DOS QUARKS AOS QUASARES",
+      "nome": "Explorando o Universo: dos Quarks aos Quasares",
       "creditos": 2,
       "carga_horaria": 30,
       "horas_extensao": 0,
@@ -1548,7 +1548,7 @@ var CURRICULUM_DATA = {
     },
     "ENG03062": {
       "codigo": "ENG03062",
-      "nome": "FUNDAMENTOS DE ENGENHARIA NUCLEAR",
+      "nome": "Fundamentos de Engenharia Nuclear",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1564,7 +1564,7 @@ var CURRICULUM_DATA = {
     },
     "ENG03050": {
       "codigo": "ENG03050",
-      "nome": "FUNDAMENTOS DE PROTEï¿½ï¿½O RADIOLï¿½GICA",
+      "nome": "Fundamentos de Proteï¿½ï¿½o Radiolï¿½gica",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1577,7 +1577,7 @@ var CURRICULUM_DATA = {
     },
     "ENG03063": {
       "codigo": "ENG03063",
-      "nome": "INTRODUï¿½ï¿½O ï¿½ ENGENHARIA NUCLEAR II",
+      "nome": "Introduï¿½ï¿½o Ï¿½ Engenharia Nuclear II",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1592,7 +1592,7 @@ var CURRICULUM_DATA = {
     },
     "EDU03071": {
       "codigo": "EDU03071",
-      "nome": "Lï¿½NGUA BRASILEIRA DE SINAIS (LIBRAS)",
+      "nome": "Lï¿½ngua Brasileira de Sinais (libras)",
       "creditos": 2,
       "carga_horaria": 30,
       "horas_extensao": 0,
@@ -1605,7 +1605,7 @@ var CURRICULUM_DATA = {
     },
     "ENG03049": {
       "codigo": "ENG03049",
-      "nome": "LINGUAGEM C PARA ENGENHARIA",
+      "nome": "Linguagem C para Engenharia",
       "creditos": 3,
       "carga_horaria": 45,
       "horas_extensao": 0,
@@ -1620,7 +1620,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04071": {
       "codigo": "ENG04071",
-      "nome": "PLANEJAMENTO DE SISTEMAS DE ENERGIA ELï¿½TRICA",
+      "nome": "Planejamento de Sistemas de Energia Elï¿½trica",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1635,7 +1635,7 @@ var CURRICULUM_DATA = {
     },
     "INF01057": {
       "codigo": "INF01057",
-      "nome": "PROGRAMAï¿½ï¿½O ORIENTADA A OBJETO",
+      "nome": "Programaï¿½ï¿½o Orientada A Objeto",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1650,7 +1650,7 @@ var CURRICULUM_DATA = {
     },
     "ENG03066": {
       "codigo": "ENG03066",
-      "nome": "Tï¿½CNICAS E MEDIDAS NUCLEARES",
+      "nome": "Tï¿½cnicas E Medidas Nucleares",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1665,7 +1665,7 @@ var CURRICULUM_DATA = {
     },
     "ENG03064": {
       "codigo": "ENG03064",
-      "nome": "TEORIA DOS REATORES NUCLEARES",
+      "nome": "Teoria dos Reatores Nucleares",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1680,7 +1680,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04020": {
       "codigo": "ENG04020",
-      "nome": "Tï¿½PICOS ESPECIAIS EM AUTOMAï¿½ï¿½O E CONTROLE I",
+      "nome": "Tï¿½picos Especiais em Automaï¿½ï¿½o E Controle I",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1695,7 +1695,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04027": {
       "codigo": "ENG04027",
-      "nome": "Tï¿½PICOS ESPECIAIS EM AUTOMAï¿½ï¿½O E CONTROLE II",
+      "nome": "Tï¿½picos Especiais em Automaï¿½ï¿½o E Controle II",
       "creditos": 2,
       "carga_horaria": 30,
       "horas_extensao": 0,
@@ -1710,7 +1710,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04021": {
       "codigo": "ENG04021",
-      "nome": "Tï¿½PICOS ESPECIAIS EM ELETRï¿½NICA DE POTï¿½NCIA I",
+      "nome": "Tï¿½picos Especiais em Eletrï¿½nica de Potï¿½ncia I",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1725,7 +1725,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04028": {
       "codigo": "ENG04028",
-      "nome": "Tï¿½PICOS ESPECIAIS EM ELETRï¿½NICA DE POTï¿½NCIA II",
+      "nome": "Tï¿½picos Especiais em Eletrï¿½nica de Potï¿½ncia II",
       "creditos": 2,
       "carga_horaria": 30,
       "horas_extensao": 0,
@@ -1740,7 +1740,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04062": {
       "codigo": "ENG04062",
-      "nome": "Tï¿½PICOS ESPECIAIS EM ELETRï¿½NICA I",
+      "nome": "Tï¿½picos Especiais em Eletrï¿½nica I",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1755,7 +1755,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04066": {
       "codigo": "ENG04066",
-      "nome": "Tï¿½PICOS ESPECIAIS EM ELETRï¿½NICA II",
+      "nome": "Tï¿½picos Especiais em Eletrï¿½nica II",
       "creditos": 2,
       "carga_horaria": 30,
       "horas_extensao": 0,
@@ -1770,7 +1770,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04019": {
       "codigo": "ENG04019",
-      "nome": "Tï¿½PICOS ESPECIAIS EM INSTRUMENTAï¿½ï¿½O I",
+      "nome": "Tï¿½picos Especiais em Instrumentaï¿½ï¿½o I",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1785,7 +1785,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04026": {
       "codigo": "ENG04026",
-      "nome": "Tï¿½PICOS ESPECIAIS EM INSTRUMENTAï¿½ï¿½O II",
+      "nome": "Tï¿½picos Especiais em Instrumentaï¿½ï¿½o II",
       "creditos": 2,
       "carga_horaria": 30,
       "horas_extensao": 0,
@@ -1800,7 +1800,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04016": {
       "codigo": "ENG04016",
-      "nome": "Tï¿½PICOS ESPECIAIS EM Mï¿½QUINAS ELï¿½TRICAS I",
+      "nome": "Tï¿½picos Especiais em Mï¿½quinas Elï¿½tricas I",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1815,7 +1815,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04023": {
       "codigo": "ENG04023",
-      "nome": "Tï¿½PICOS ESPECIAIS EM Mï¿½QUINAS ELï¿½TRICAS II",
+      "nome": "Tï¿½picos Especiais em Mï¿½quinas Elï¿½tricas II",
       "creditos": 2,
       "carga_horaria": 30,
       "horas_extensao": 0,
@@ -1830,7 +1830,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04015": {
       "codigo": "ENG04015",
-      "nome": "Tï¿½PICOS ESPECIAIS EM SISTEMAS DE POTï¿½NCIA I",
+      "nome": "Tï¿½picos Especiais em Sistemas de Potï¿½ncia I",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1845,7 +1845,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04022": {
       "codigo": "ENG04022",
-      "nome": "Tï¿½PICOS ESPECIAIS EM SISTEMAS DE POTï¿½NCIA II",
+      "nome": "Tï¿½picos Especiais em Sistemas de Potï¿½ncia II",
       "creditos": 2,
       "carga_horaria": 30,
       "horas_extensao": 0,
@@ -1860,7 +1860,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04025": {
       "codigo": "ENG04025",
-      "nome": "Tï¿½PICOS ESPECIAIS EM SISTEMAS DIGITAIS",
+      "nome": "Tï¿½picos Especiais em Sistemas Digitais",
       "creditos": 2,
       "carga_horaria": 30,
       "horas_extensao": 0,
@@ -1876,7 +1876,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04018": {
       "codigo": "ENG04018",
-      "nome": "Tï¿½PICOS ESPECIAIS EM SISTEMAS DIGITAIS I",
+      "nome": "Tï¿½picos Especiais em Sistemas Digitais I",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1892,7 +1892,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04017": {
       "codigo": "ENG04017",
-      "nome": "Tï¿½PICOS ESPECIAIS EM TELECOMUNICAï¿½ï¿½ES I",
+      "nome": "Tï¿½picos Especiais em Telecomunicaï¿½ï¿½es I",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1907,7 +1907,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04024": {
       "codigo": "ENG04024",
-      "nome": "Tï¿½PICOS ESPECIAIS EM TELECOMUNICAï¿½ï¿½ES II",
+      "nome": "Tï¿½picos Especiais em Telecomunicaï¿½ï¿½es II",
       "creditos": 2,
       "carga_horaria": 30,
       "horas_extensao": 0,
@@ -1922,7 +1922,7 @@ var CURRICULUM_DATA = {
     },
     "ELE99004": {
       "codigo": "ELE99004",
-      "nome": "PROJETO DE DIPLOMAÇÃO II - ELE (PD2)",
+      "nome": "Projeto de Diplomação II - ELE (pd2)",
       "creditos": 10,
       "carga_horaria": 150,
       "horas_extensao": 0,
@@ -1932,13 +1932,15 @@ var CURRICULUM_DATA = {
         "ELE99001",
         "ELE99003"
       ],
-      "min_credits": 0,
+      "min_credits": 180,
       "periodicidade": "ambos",
       "alternativeOf": null
     }
   }
 };
-
+if (typeof globalThis !== 'undefined') {
+  globalThis.CURRICULUM_DATA = CURRICULUM_DATA;
+}
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = { CURRICULUM_DATA };
 }

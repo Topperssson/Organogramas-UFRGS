@@ -1,9 +1,9 @@
 /**
  * Base Curricular Oficial - Engenharia de Controle e Automação (UFRGS)
- * Catálogo 2026/1 com sincronização de periodicidade CEECA e FDCs
+ * Catálogo 2026/1
  */
 var CURRICULUM_DATA = {
-  "curso": "Engenharia de Controle e Automação",
+  "curso": "Engenharia de Controle E Automação",
   "codigo": 714,
   "habilitacao": 144,
   "instituicao": "UFRGS",
@@ -22,70 +22,70 @@ var CURRICULUM_DATA = {
   "fdcs": [
     {
       "id": 1,
-      "nome": "Sistemas Discretos CAD/CAM",
-      "descricao": "Automação da Manufatura, Sistemas Discretos e CAD/CAM",
-      "cor": "#D97706",
-      "fundo": "#271E14"
+      "nome": "Sistemas Discretos Cad/CAM",
+      "descricao": "Automação da Manufatura, Sistemas Discretos E Cad/CAM",
+      "cor": "#d97706",
+      "fundo": "#271e14"
     },
     {
       "id": 2,
       "nome": "Controle Avançado de Sistemas Mecânicos",
-      "descricao": "Robótica, Controle Avançado e Dinâmica Mecânica",
-      "cor": "#10B981",
+      "descricao": "Robótica, Controle Avançado E Dinâmica Mecânica",
+      "cor": "#10b981",
       "fundo": "#112622"
     },
     {
       "id": 3,
-      "nome": "Eletrônica de Potência e Acionamento",
-      "descricao": "Máquinas Elétricas, Conversores Estáticos e Acionamentos",
-      "cor": "#8B5CF6",
-      "fundo": "#1E1630"
+      "nome": "Eletrônica de Potência E Acionamento",
+      "descricao": "Máquinas Elétricas, Conversores Estáticos E Acionamentos",
+      "cor": "#8b5cf6",
+      "fundo": "#1e1630"
     }
   ],
   "liberacoes_equivalencias": [
     {
       "disciplina_liberada": "ENG10049",
-      "nome_liberada": "ACIONAMENTO DE MÁQUINAS ELÉTRICAS - A",
+      "nome_liberada": "Acionamento de Máquinas Elétricas - A",
       "disciplinas_liberadoras": [
         "ENG10024"
       ],
-      "descricao": "ENG10024 - ACIONAMENTO DE MÁQUINAS ELÉTRICAS PARA SISTEMA DE AUTOMAÇÃO"
+      "descricao": "Eng10024 - Acionamento de Máquinas Elétricas para Sistema de Automação"
     },
     {
       "disciplina_liberada": "INF01017",
-      "nome_liberada": "APRENDIZADO DE MÁQUINA",
+      "nome_liberada": "Aprendizado de Máquina",
       "disciplinas_liberadoras": [
         "INF01036"
       ],
-      "descricao": "INF01036 - REDES NEURAIS E SISTEMA FUZZY B"
+      "descricao": "Inf01036 - Redes Neurais E Sistema Fuzzy B"
     },
     {
       "disciplina_liberada": "ENG10001",
-      "nome_liberada": "CIRCUITOS ELÉTRICOS I - C",
+      "nome_liberada": "Circuitos Elétricos I - C",
       "disciplinas_liberadoras": [
         "ENG10034"
       ],
-      "descricao": "ENG10034 - CIRCUITOS ELÉTRICOS I - B"
+      "descricao": "Eng10034 - Circuitos Elétricos I - B"
     },
     {
       "disciplina_liberada": "ENG10002",
-      "nome_liberada": "CIRCUITOS ELÉTRICOS II - C",
+      "nome_liberada": "Circuitos Elétricos II - C",
       "disciplinas_liberadoras": [
         "ENG10035"
       ],
-      "descricao": "ENG10035 - CIRCUITOS ELÉTRICOS II - B"
+      "descricao": "Eng10035 - Circuitos Elétricos II - B"
     },
     {
       "disciplina_liberada": "ENG10044",
-      "nome_liberada": "ELETRÔNICA FUNDAMENTAL I - B",
+      "nome_liberada": "Eletrônica Fundamental I - B",
       "disciplinas_liberadoras": [
         "ENG10029"
       ],
-      "descricao": "ENG10029 - ELETRÔNICA FUNDAMENTAL I-A"
+      "descricao": "Eng10029 - Eletrônica Fundamental I-A"
     },
     {
       "disciplina_liberada": "FIS01182",
-      "nome_liberada": "FÍSICA GERAL - ELETROMAGNETISMO",
+      "nome_liberada": "Física Geral - Eletromagnetismo",
       "disciplinas_liberadoras": [
         "FIS01262",
         "FIS01261",
@@ -94,11 +94,11 @@ var CURRICULUM_DATA = {
         "FIS01160",
         "FIS01161"
       ],
-      "descricao": "FIS01262 - FÍSICA EXPERIMENTAL III - Ae FIS01261 - FÍSICA GERAL III - Aou FIS01202 - FÍSICA GERAL E EXPERIMENTAL III Aou FIS01103 - FISICA IIou FIS01160 - FÍSICA III-Be FIS01161 - FÍSICA EXPERIMENTAL III"
+      "descricao": "Fis01262 - Física Experimental III - Ae Fis01261 - Física Geral III - Aou Fis01202 - Física Geral E Experimental III Aou Fis01103 - Fisica Iiou Fis01160 - Física III-Be Fis01161 - Física Experimental III"
     },
     {
       "disciplina_liberada": "FIS01181",
-      "nome_liberada": "FÍSICA I-C",
+      "nome_liberada": "Física I-C",
       "disciplinas_liberadoras": [
         "FIS01258",
         "FIS01257",
@@ -108,11 +108,11 @@ var CURRICULUM_DATA = {
         "FIS01158",
         "FIS01159"
       ],
-      "descricao": "FIS01258 - FÍSICA EXPERIMENTAL I - Ae FIS01257 - FÍSICA GERAL I - Aou FIS01200 - FÍSICA GERAL E EXPERIMENTAL I Aou FIS01102 - FISICA Iou FIS01002 - FÍSICA GERAL E EXPERIMENTAL Iou FIS01158 - FÍSICA II-Be FIS01159 - FÍSICA EXPERIMENTAL II"
+      "descricao": "Fis01258 - Física Experimental I - Ae Fis01257 - Física Geral I - Aou Fis01200 - Física Geral E Experimental I Aou Fis01102 - Fisica Iou Fis01002 - Física Geral E Experimental Iou Fis01158 - Física II-Be Fis01159 - Física Experimental II"
     },
     {
       "disciplina_liberada": "FIS01183",
-      "nome_liberada": "FÍSICA III-C",
+      "nome_liberada": "Física III-C",
       "disciplinas_liberadoras": [
         "FIS01260",
         "FIS01259",
@@ -124,146 +124,146 @@ var CURRICULUM_DATA = {
         "FIS01162",
         "FIS01163"
       ],
-      "descricao": "FIS01260 - FÍSICA EXPERIMENTAL II - Ae FIS01259 - FÍSICA GERAL II - Ae FIS01264 - FÍSICA EXPERIMENTAL IV Ae FIS01263 - FÍSICA GERAL IV - Aou FIS01201 - FÍSICA GERAL E EXPERIMENTAL II Ae FIS01204 - FÍSICA GERAL E EXPERIMENTAL IV Bou FIS01104 - FISICA IIIou FIS01162 - FÍSICA IV-Be FIS01163 - FÍSICA EXPERIMENTAL IV"
+      "descricao": "Fis01260 - Física Experimental II - Ae Fis01259 - Física Geral II - Ae Fis01264 - Física Experimental IV Ae Fis01263 - Física Geral IV - Aou Fis01201 - Física Geral E Experimental II Ae Fis01204 - Física Geral E Experimental IV Bou Fis01104 - Fisica Iiiou Fis01162 - Física IV-Be Fis01163 - Física Experimental IV"
     },
     {
       "disciplina_liberada": "ENG10047",
-      "nome_liberada": "FUNDAMENTOS DE MÁQUINAS ELÉTRICAS",
+      "nome_liberada": "Fundamentos de Máquinas Elétricas",
       "disciplinas_liberadoras": [
         "ENG10020"
       ],
-      "descricao": "ENG10020 - ATUADORES E MÁQUINAS ELÉTRICAS I"
+      "descricao": "Eng10020 - Atuadores E Máquinas Elétricas I"
     },
     {
       "disciplina_liberada": "ENG07043",
-      "nome_liberada": "INSTRUMENTAÇÃO DE PROCESSOS INDUSTRIAIS",
+      "nome_liberada": "Instrumentação de Processos Industriais",
       "disciplinas_liberadoras": [
         "ENG07759"
       ],
-      "descricao": "ENG07759 - INSTRUMENTAÇÃO DA INDÚSTRIA QUÍMICA"
+      "descricao": "Eng07759 - Instrumentação da Indústria Química"
     },
     {
       "disciplina_liberada": "ENG10003",
-      "nome_liberada": "LABORATÓRIO DE CIRCUITOS ELÉTRICOS",
+      "nome_liberada": "Laboratório de Circuitos Elétricos",
       "disciplinas_liberadoras": [
         "ENG10034"
       ],
-      "descricao": "ENG10034 - CIRCUITOS ELÉTRICOS I - B"
+      "descricao": "Eng10034 - Circuitos Elétricos I - B"
     },
     {
       "disciplina_liberada": "ENG10005",
-      "nome_liberada": "LABORATÓRIO DE CONTROLE",
+      "nome_liberada": "Laboratório de Controle",
       "disciplinas_liberadoras": [
         "ENG10033"
       ],
-      "descricao": "ENG10033 - SISTEMAS DE CONTROLE I"
+      "descricao": "Eng10033 - Sistemas de Controle I"
     },
     {
       "disciplina_liberada": "ENG10045",
-      "nome_liberada": "LABORATÓRIO DE ELETRÔNICA",
+      "nome_liberada": "Laboratório de Eletrônica",
       "disciplinas_liberadoras": [
         "ENG10029"
       ],
-      "descricao": "ENG10029 - ELETRÔNICA FUNDAMENTAL I-A"
+      "descricao": "Eng10029 - Eletrônica Fundamental I-A"
     },
     {
       "disciplina_liberada": "ENG10050",
-      "nome_liberada": "LABORATÓRIO DE MÁQUINAS E ACIONAMENTOS ELÉTRICOS",
+      "nome_liberada": "Laboratório de Máquinas E Acionamentos Elétricos",
       "disciplinas_liberadoras": [
         "ENG10020"
       ],
-      "descricao": "ELETRÔNICA DE POTÊNCIA E ACIONAMENTO: ENG10020 - ATUADORES E MÁQUINAS ELÉTRICAS I"
+      "descricao": "Eletrônica de Potência E Acionamento: Eng10020 - Atuadores E Máquinas Elétricas I"
     },
     {
       "disciplina_liberada": "ENG10043",
-      "nome_liberada": "LABORATÓRIO DE SISTEMAS DIGITAIS",
+      "nome_liberada": "Laboratório de Sistemas Digitais",
       "disciplinas_liberadoras": [
         "ENG10028"
       ],
-      "descricao": "ENG10028 - TÉCNICAS DIGITAIS"
+      "descricao": "Eng10028 - Técnicas Digitais"
     },
     {
       "disciplina_liberada": "ENG03092",
-      "nome_liberada": "MECÂNICA DOS SOLIDOS I - A",
+      "nome_liberada": "Mecnica dos Solidos I - A",
       "disciplinas_liberadoras": [
         "ENG03003"
       ],
-      "descricao": "ENG03003 - MECÂNICA DOS SÓLIDOS I"
+      "descricao": "Eng03003 - Mecnica dos Sólidos I"
     },
     {
       "disciplina_liberada": "ENG03004",
-      "nome_liberada": "MECÂNICA DOS SÓLIDOS II",
+      "nome_liberada": "Mecnica dos Sólidos II",
       "disciplinas_liberadoras": [
         "ENG03003"
       ],
-      "descricao": "ENG03003 - MECÂNICA DOS SÓLIDOS I"
+      "descricao": "Eng03003 - Mecnica dos Sólidos I"
     },
     {
       "disciplina_liberada": "ENG07069",
-      "nome_liberada": "PRINCÍPIOS DA MECÂNICA DE FLUIDOS",
+      "nome_liberada": "Princípios da Mecnica de Fluidos",
       "disciplinas_liberadoras": [
         "ENG07017"
       ],
-      "descricao": "ENG07017 - FENÔMENOS DE TRANSPORTE A"
+      "descricao": "Eng07017 - Fenômenos de Transporte A"
     },
     {
       "disciplina_liberada": "ENG10046",
-      "nome_liberada": "PRINCÍPIOS DE ELETRÔNICA DE POTÊNCIA",
+      "nome_liberada": "Princípios de Eletrônica de Potência",
       "disciplinas_liberadoras": [
         "ENG10024"
       ],
-      "descricao": "ELETRÔNICA DE POTÊNCIA E ACIONAMENTO: ENG10024 - ACIONAMENTO DE MÁQUINAS ELÉTRICAS PARA SISTEMA DE AUTOMAÇÃO"
+      "descricao": "Eletrônica de Potência E Acionamento: Eng10024 - Acionamento de Máquinas Elétricas para Sistema de Automação"
     },
     {
       "disciplina_liberada": "ENG10048",
-      "nome_liberada": "PROTOCOLOS DE COMUNICAÇÃO - A",
+      "nome_liberada": "Protocolos de Comunicação - A",
       "disciplinas_liberadoras": [
         "ENG10025"
       ],
-      "descricao": "ENG10025 - PROTOCOLOS DE COMUNICAÇÃO PARA CONTROLE E AUTOMAÇÃO"
+      "descricao": "Eng10025 - Protocolos de Comunicação para Controle E Automação"
     },
     {
       "disciplina_liberada": "ENG10004",
-      "nome_liberada": "SISTEMAS DE CONTROLE I - B",
+      "nome_liberada": "Sistemas de Controle I - B",
       "disciplinas_liberadoras": [
         "ENG10033"
       ],
-      "descricao": "ENG10033 - SISTEMAS DE CONTROLE I"
+      "descricao": "Eng10033 - Sistemas de Controle I"
     },
     {
       "disciplina_liberada": "ENG10042",
-      "nome_liberada": "SISTEMAS DIGITAIS - A",
+      "nome_liberada": "Sistemas Digitais - A",
       "disciplinas_liberadoras": [
         "ENG10028"
       ],
-      "descricao": "ENG10028 - TÉCNICAS DIGITAIS"
+      "descricao": "Eng10028 - Técnicas Digitais"
     },
     {
       "disciplina_liberada": "ENG07086",
-      "nome_liberada": "TERMODINÂMICA E TRANSFERÊNCIA DE CALOR",
+      "nome_liberada": "Termodinmica E Transferência de Calor",
       "disciplinas_liberadoras": [
         "ENG07031",
         "ENG07017"
       ],
-      "descricao": "ENG07031 - FENÔMENOS DE TRANSPORTEou ENG07017 - FENÔMENOS DE TRANSPORTE A"
+      "descricao": "Eng07031 - Fenômenos de Transporteou Eng07017 - Fenômenos de Transporte A"
     },
     {
-      "disciplina_liberada": "TRABALHO",
-      "nome_liberada": "TRABALHO DE CONCLUSÃO DE CURSO CCA - I",
+      "disciplina_liberada": "Trabalho",
+      "nome_liberada": "Trabalho de Conclusão de Curso CCA - I",
       "disciplinas_liberadoras": [],
-      "descricao": "ELETRÔNICA DE POTÊNCIA E ACIONAMENTO: TRABALHO - TRABALHO DE CONCLUSÃO DE CURSO - CCA"
+      "descricao": "Eletrônica de Potência E Acionamento: Trabalho - Trabalho de Conclusão de Curso - CCA"
     },
     {
-      "disciplina_liberada": "TRABALHO",
-      "nome_liberada": "TRABALHO DE CONCLUSÃO DE CURSO CCA - II",
+      "disciplina_liberada": "Trabalho",
+      "nome_liberada": "Trabalho de Conclusão de Curso CCA - II",
       "disciplinas_liberadoras": [],
-      "descricao": "ELETRÔNICA DE POTÊNCIA E ACIONAMENTO: TRABALHO - TRABALHO DE CONCLUSÃO DE CURSO - CCA"
+      "descricao": "Eletrônica de Potência E Acionamento: Trabalho - Trabalho de Conclusão de Curso - CCA"
     }
   ],
   "disciplinas": {
     "INF01202": {
       "codigo": "INF01202",
-      "nome": "ALGORÍTMOS E PROGRAMAÇÃO - CIC",
+      "nome": "Algorítmos E Programação - CIC",
       "creditos": 6,
       "carga_horaria": 90,
       "carga_horaria_extensao": 0,
@@ -292,7 +292,7 @@ var CURRICULUM_DATA = {
     },
     "MAT01353": {
       "codigo": "MAT01353",
-      "nome": "CÁLCULO E GEOMETRIA ANALÍTICA I - A",
+      "nome": "Cálculo E Geometria Analítica I - A",
       "creditos": 6,
       "carga_horaria": 90,
       "carga_horaria_extensao": 0,
@@ -321,7 +321,7 @@ var CURRICULUM_DATA = {
     },
     "FIS01181": {
       "codigo": "FIS01181",
-      "nome": "FÍSICA I-C",
+      "nome": "Física I-C",
       "creditos": 6,
       "carga_horaria": 90,
       "carga_horaria_extensao": 0,
@@ -350,7 +350,7 @@ var CURRICULUM_DATA = {
     },
     "ARQ03317": {
       "codigo": "ARQ03317",
-      "nome": "GEOMETRIA DESCRITIVA II-A",
+      "nome": "Geometria Descritiva II-A",
       "creditos": 2,
       "carga_horaria": 30,
       "carga_horaria_extensao": 0,
@@ -379,7 +379,7 @@ var CURRICULUM_DATA = {
     },
     "CCA99001": {
       "codigo": "CCA99001",
-      "nome": "INTRODUÇÃO À ENGENHARIA DE CONTROLE E AUTOMAÇÃO",
+      "nome": "Introdução à Engenharia de Controle E Automação",
       "creditos": 2,
       "carga_horaria": 30,
       "carga_horaria_extensao": 0,
@@ -408,7 +408,7 @@ var CURRICULUM_DATA = {
     },
     "QUI01009": {
       "codigo": "QUI01009",
-      "nome": "QUIMICA FUNDAMENTAL A",
+      "nome": "Quimica Fundamental A",
       "creditos": 4,
       "carga_horaria": 60,
       "carga_horaria_extensao": 0,
@@ -437,7 +437,7 @@ var CURRICULUM_DATA = {
     },
     "MAT01355": {
       "codigo": "MAT01355",
-      "nome": "ÁLGEBRA LINEAR I - A",
+      "nome": "Álgebra Linear I - A",
       "creditos": 4,
       "carga_horaria": 60,
       "carga_horaria_extensao": 0,
@@ -468,7 +468,7 @@ var CURRICULUM_DATA = {
     },
     "MAT01354": {
       "codigo": "MAT01354",
-      "nome": "CÁLCULO E GEOMETRIA ANALÍTICA II - A",
+      "nome": "Cálculo E Geometria Analítica II - A",
       "creditos": 6,
       "carga_horaria": 90,
       "carga_horaria_extensao": 0,
@@ -499,7 +499,7 @@ var CURRICULUM_DATA = {
     },
     "ARQ03319": {
       "codigo": "ARQ03319",
-      "nome": "DESENHO TÉCNICO II-A",
+      "nome": "Desenho Técnico II-A",
       "creditos": 4,
       "carga_horaria": 60,
       "carga_horaria_extensao": 0,
@@ -530,7 +530,7 @@ var CURRICULUM_DATA = {
     },
     "FIS01182": {
       "codigo": "FIS01182",
-      "nome": "FÍSICA GERAL - ELETROMAGNETISMO",
+      "nome": "Física Geral - Eletromagnetismo",
       "creditos": 6,
       "carga_horaria": 90,
       "carga_horaria_extensao": 0,
@@ -561,7 +561,7 @@ var CURRICULUM_DATA = {
     },
     "ENG03041": {
       "codigo": "ENG03041",
-      "nome": "MECÂNICA APLICADA I",
+      "nome": "Mecnica Aplicada I",
       "creditos": 4,
       "carga_horaria": 60,
       "carga_horaria_extensao": 0,
@@ -594,7 +594,7 @@ var CURRICULUM_DATA = {
     },
     "INF01057": {
       "codigo": "INF01057",
-      "nome": "PROGRAMAÇÃO ORIENTADA A OBJETO",
+      "nome": "Programação Orientada A Objeto",
       "creditos": 4,
       "carga_horaria": 60,
       "carga_horaria_extensao": 0,
@@ -625,7 +625,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10001": {
       "codigo": "ENG10001",
-      "nome": "CIRCUITOS ELÉTRICOS I - C",
+      "nome": "Circuitos Elétricos I - C",
       "creditos": 4,
       "carga_horaria": 60,
       "carga_horaria_extensao": 0,
@@ -657,7 +657,7 @@ var CURRICULUM_DATA = {
     },
     "MAT01167": {
       "codigo": "MAT01167",
-      "nome": "EQUAÇÕES DIFERENCIAIS II",
+      "nome": "Equações Diferenciais II",
       "creditos": 6,
       "carga_horaria": 90,
       "carga_horaria_extensao": 0,
@@ -689,7 +689,7 @@ var CURRICULUM_DATA = {
     },
     "FIS01183": {
       "codigo": "FIS01183",
-      "nome": "FÍSICA III-C",
+      "nome": "Física III-C",
       "creditos": 6,
       "carga_horaria": 90,
       "carga_horaria_extensao": 0,
@@ -720,7 +720,7 @@ var CURRICULUM_DATA = {
     },
     "ENG03043": {
       "codigo": "ENG03043",
-      "nome": "MATERIAIS PARA ENGENHARIA A",
+      "nome": "Materiais para Engenharia A",
       "creditos": 4,
       "carga_horaria": 60,
       "carga_horaria_extensao": 0,
@@ -751,7 +751,7 @@ var CURRICULUM_DATA = {
     },
     "ENG03042": {
       "codigo": "ENG03042",
-      "nome": "MECÂNICA APLICADA II",
+      "nome": "Mecnica Aplicada II",
       "creditos": 4,
       "carga_horaria": 60,
       "carga_horaria_extensao": 0,
@@ -782,7 +782,7 @@ var CURRICULUM_DATA = {
     },
     "MAT02219": {
       "codigo": "MAT02219",
-      "nome": "PROBABILIDADE E ESTATÍSTICA",
+      "nome": "Probabilidade E Estatística",
       "creditos": 4,
       "carga_horaria": 60,
       "carga_horaria_extensao": 0,
@@ -813,7 +813,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10042": {
       "codigo": "ENG10042",
-      "nome": "SISTEMAS DIGITAIS - A",
+      "nome": "Sistemas Digitais - A",
       "creditos": 4,
       "carga_horaria": 60,
       "carga_horaria_extensao": 0,
@@ -842,7 +842,7 @@ var CURRICULUM_DATA = {
     },
     "MAT01169": {
       "codigo": "MAT01169",
-      "nome": "CÁLCULO NUMÉRICO",
+      "nome": "Cálculo Numérico",
       "creditos": 6,
       "carga_horaria": 90,
       "carga_horaria_extensao": 0,
@@ -874,7 +874,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10002": {
       "codigo": "ENG10002",
-      "nome": "CIRCUITOS ELÉTRICOS II - C",
+      "nome": "Circuitos Elétricos II - C",
       "creditos": 4,
       "carga_horaria": 60,
       "carga_horaria_extensao": 0,
@@ -906,7 +906,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10043": {
       "codigo": "ENG10043",
-      "nome": "LABORATÓRIO DE SISTEMAS DIGITAIS",
+      "nome": "Laboratório de Sistemas Digitais",
       "creditos": 2,
       "carga_horaria": 30,
       "carga_horaria_extensao": 0,
@@ -937,7 +937,7 @@ var CURRICULUM_DATA = {
     },
     "MAT01168": {
       "codigo": "MAT01168",
-      "nome": "MATEMÁTICA APLICADA II",
+      "nome": "Matemática Aplicada II",
       "creditos": 6,
       "carga_horaria": 90,
       "carga_horaria_extensao": 0,
@@ -968,7 +968,7 @@ var CURRICULUM_DATA = {
     },
     "ENG03092": {
       "codigo": "ENG03092",
-      "nome": "MECÂNICA DOS SOLIDOS I - A",
+      "nome": "Mecnica dos Solidos I - A",
       "creditos": 4,
       "carga_horaria": 60,
       "carga_horaria_extensao": 0,
@@ -1000,7 +1000,7 @@ var CURRICULUM_DATA = {
     },
     "ENG03316": {
       "codigo": "ENG03316",
-      "nome": "MECANISMOS I",
+      "nome": "Mecanismos I",
       "creditos": 4,
       "carga_horaria": 60,
       "carga_horaria_extensao": 0,
@@ -1031,7 +1031,7 @@ var CURRICULUM_DATA = {
     },
     "ENG03044": {
       "codigo": "ENG03044",
-      "nome": "MODELAGEM DE SISTEMAS MECÂNICOS",
+      "nome": "Modelagem de Sistemas Mecnicos",
       "creditos": 4,
       "carga_horaria": 60,
       "carga_horaria_extensao": 0,
@@ -1064,7 +1064,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10044": {
       "codigo": "ENG10044",
-      "nome": "ELETRÔNICA FUNDAMENTAL I - B",
+      "nome": "Eletrônica Fundamental I - B",
       "creditos": 4,
       "carga_horaria": 60,
       "carga_horaria_extensao": 0,
@@ -1095,7 +1095,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10003": {
       "codigo": "ENG10003",
-      "nome": "LABORATÓRIO DE CIRCUITOS ELÉTRICOS",
+      "nome": "Laboratório de Circuitos Elétricos",
       "creditos": 2,
       "carga_horaria": 30,
       "carga_horaria_extensao": 0,
@@ -1126,7 +1126,7 @@ var CURRICULUM_DATA = {
     },
     "ENG03004": {
       "codigo": "ENG03004",
-      "nome": "MECÂNICA DOS SÓLIDOS II",
+      "nome": "Mecnica dos Sólidos II",
       "creditos": 4,
       "carga_horaria": 60,
       "carga_horaria_extensao": 0,
@@ -1158,7 +1158,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10017": {
       "codigo": "ENG10017",
-      "nome": "SISTEMAS E SINAIS",
+      "nome": "Sistemas E Sinais",
       "creditos": 6,
       "carga_horaria": 90,
       "carga_horaria_extensao": 0,
@@ -1189,7 +1189,7 @@ var CURRICULUM_DATA = {
     },
     "ENG07086": {
       "codigo": "ENG07086",
-      "nome": "TERMODINÂMICA E TRANSFERÊNCIA DE CALOR",
+      "nome": "Termodinmica E Transferência de Calor",
       "creditos": 5,
       "carga_horaria": 75,
       "carga_horaria_extensao": 0,
@@ -1220,7 +1220,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10047": {
       "codigo": "ENG10047",
-      "nome": "FUNDAMENTOS DE MÁQUINAS ELÉTRICAS",
+      "nome": "Fundamentos de Máquinas Elétricas",
       "creditos": 4,
       "carga_horaria": 60,
       "carga_horaria_extensao": 0,
@@ -1251,7 +1251,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10022": {
       "codigo": "ENG10022",
-      "nome": "INSTRUMENTAÇÃO FUNDAMENTAL PARA CONTROLE E AUTOMAÇÃO",
+      "nome": "Instrumentação Fundamental para Controle E Automação",
       "creditos": 4,
       "carga_horaria": 60,
       "carga_horaria_extensao": 0,
@@ -1283,7 +1283,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10045": {
       "codigo": "ENG10045",
-      "nome": "LABORATÓRIO DE ELETRÔNICA",
+      "nome": "Laboratório de Eletrônica",
       "creditos": 2,
       "carga_horaria": 30,
       "carga_horaria_extensao": 0,
@@ -1315,7 +1315,7 @@ var CURRICULUM_DATA = {
     },
     "ENG07069": {
       "codigo": "ENG07069",
-      "nome": "PRINCÍPIOS DA MECÂNICA DE FLUIDOS",
+      "nome": "Princípios da Mecnica de Fluidos",
       "creditos": 2,
       "carga_horaria": 30,
       "carga_horaria_extensao": 0,
@@ -1346,7 +1346,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10023": {
       "codigo": "ENG10023",
-      "nome": "SISTEMAS DE AUTOMAÇÃO",
+      "nome": "Sistemas de Automação",
       "creditos": 4,
       "carga_horaria": 60,
       "carga_horaria_extensao": 0,
@@ -1378,7 +1378,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10004": {
       "codigo": "ENG10004",
-      "nome": "SISTEMAS DE CONTROLE I - B",
+      "nome": "Sistemas de Controle I - B",
       "creditos": 4,
       "carga_horaria": 60,
       "carga_horaria_extensao": 0,
@@ -1410,7 +1410,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10049": {
       "codigo": "ENG10049",
-      "nome": "ACIONAMENTO DE MÁQUINAS ELÉTRICAS - A",
+      "nome": "Acionamento de Máquinas Elétricas - A",
       "creditos": 4,
       "carga_horaria": 60,
       "carga_horaria_extensao": 0,
@@ -1442,7 +1442,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10005": {
       "codigo": "ENG10005",
-      "nome": "LABORATÓRIO DE CONTROLE",
+      "nome": "Laboratório de Controle",
       "creditos": 2,
       "carga_horaria": 30,
       "carga_horaria_extensao": 0,
@@ -1473,7 +1473,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04475": {
       "codigo": "ENG04475",
-      "nome": "MICROPROCESSADORES I",
+      "nome": "Microprocessadores I",
       "creditos": 5,
       "carga_horaria": 75,
       "carga_horaria_extensao": 0,
@@ -1505,7 +1505,7 @@ var CURRICULUM_DATA = {
     },
     "ENG03021": {
       "codigo": "ENG03021",
-      "nome": "PROCESSOS DISCRETOS DE PRODUÇÃO",
+      "nome": "Processos Discretos de Produção",
       "creditos": 4,
       "carga_horaria": 60,
       "carga_horaria_extensao": 0,
@@ -1536,7 +1536,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10048": {
       "codigo": "ENG10048",
-      "nome": "PROTOCOLOS DE COMUNICAÇÃO - A",
+      "nome": "Protocolos de Comunicação - A",
       "creditos": 4,
       "carga_horaria": 60,
       "carga_horaria_extensao": 0,
@@ -1567,7 +1567,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10018": {
       "codigo": "ENG10018",
-      "nome": "SISTEMAS DE CONTROLE II",
+      "nome": "Sistemas de Controle II",
       "creditos": 4,
       "carga_horaria": 60,
       "carga_horaria_extensao": 0,
@@ -1598,7 +1598,7 @@ var CURRICULUM_DATA = {
     },
     "ENG03027": {
       "codigo": "ENG03027",
-      "nome": "SISTEMAS HIDRÁULICOS E PNEUMÁTICOS",
+      "nome": "Sistemas Hidráulicos E Pneumáticos",
       "creditos": 4,
       "carga_horaria": 60,
       "carga_horaria_extensao": 0,
@@ -1629,7 +1629,7 @@ var CURRICULUM_DATA = {
     },
     "INF01017": {
       "codigo": "INF01017",
-      "nome": "APRENDIZADO DE MÁQUINA",
+      "nome": "Aprendizado de Máquina",
       "creditos": 4,
       "carga_horaria": 60,
       "carga_horaria_extensao": 0,
@@ -1660,7 +1660,7 @@ var CURRICULUM_DATA = {
     },
     "INF01037": {
       "codigo": "INF01037",
-      "nome": "COMPUTAÇÃO EVOLUTIVA",
+      "nome": "Computação Evolutiva",
       "creditos": 4,
       "carga_horaria": 60,
       "carga_horaria_extensao": 0,
@@ -1691,7 +1691,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10051": {
       "codigo": "ENG10051",
-      "nome": "DINÂMICA E CONTROLE DE ROBÔS",
+      "nome": "Dinmica E Controle de Robôs",
       "creditos": 4,
       "carga_horaria": 60,
       "carga_horaria_extensao": 0,
@@ -1724,7 +1724,7 @@ var CURRICULUM_DATA = {
     },
     "ADM01135": {
       "codigo": "ADM01135",
-      "nome": "ENGENHARIA ECONÔMICA E AVALIAÇÕES",
+      "nome": "Engenharia Econômica E Avaliações",
       "creditos": 2,
       "carga_horaria": 30,
       "carga_horaria_extensao": 0,
@@ -1755,7 +1755,7 @@ var CURRICULUM_DATA = {
     },
     "INF01126": {
       "codigo": "INF01126",
-      "nome": "ESTRUTURAS DE DADOS I",
+      "nome": "Estruturas de Dados I",
       "creditos": 4,
       "carga_horaria": 60,
       "carga_horaria_extensao": 0,
@@ -1786,7 +1786,7 @@ var CURRICULUM_DATA = {
     },
     "ENG07043": {
       "codigo": "ENG07043",
-      "nome": "INSTRUMENTAÇÃO DE PROCESSOS INDUSTRIAIS",
+      "nome": "Instrumentação de Processos Industriais",
       "creditos": 2,
       "carga_horaria": 30,
       "carga_horaria_extensao": 0,
@@ -1818,7 +1818,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10052": {
       "codigo": "ENG10052",
-      "nome": "LABORATÓRIO DE ROBÓTICA",
+      "nome": "Laboratório de Robótica",
       "creditos": 2,
       "carga_horaria": 30,
       "carga_horaria_extensao": 0,
@@ -1850,7 +1850,7 @@ var CURRICULUM_DATA = {
     },
     "EDU03071": {
       "codigo": "EDU03071",
-      "nome": "LÍNGUA BRASILEIRA DE SINAIS (LIBRAS)",
+      "nome": "Língua Brasileira de Sinais (libras)",
       "creditos": 2,
       "carga_horaria": 30,
       "carga_horaria_extensao": 0,
@@ -1879,7 +1879,7 @@ var CURRICULUM_DATA = {
     },
     "ENG09023": {
       "codigo": "ENG09023",
-      "nome": "PLANEJAMENTO ESTRATÉGICO DA PRODUÇÃO",
+      "nome": "Planejamento Estratégico da Produção",
       "creditos": 2,
       "carga_horaria": 30,
       "carga_horaria_extensao": 0,
@@ -1910,7 +1910,7 @@ var CURRICULUM_DATA = {
     },
     "CCA99008": {
       "codigo": "CCA99008",
-      "nome": "PROJETO INTEGRADO I - CCA",
+      "nome": "Projeto Integrado I - CCA",
       "creditos": 9,
       "carga_horaria": 135,
       "carga_horaria_extensao": 100,
@@ -1945,7 +1945,7 @@ var CURRICULUM_DATA = {
     },
     "CCA99009": {
       "codigo": "CCA99009",
-      "nome": "PROJETO INTEGRADO II - CCA",
+      "nome": "Projeto Integrado II - CCA",
       "creditos": 9,
       "carga_horaria": 135,
       "carga_horaria_extensao": 100,
@@ -1982,7 +1982,7 @@ var CURRICULUM_DATA = {
     },
     "CCA99010": {
       "codigo": "CCA99010",
-      "nome": "PROJETO INTEGRADO III - CCA",
+      "nome": "Projeto Integrado III - CCA",
       "creditos": 9,
       "carga_horaria": 135,
       "carga_horaria_extensao": 100,
@@ -2013,7 +2013,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10054": {
       "codigo": "ENG10054",
-      "nome": "ROBÓTICA MÓVEL",
+      "nome": "Robótica Móvel",
       "creditos": 4,
       "carga_horaria": 60,
       "carga_horaria_extensao": 0,
@@ -2046,7 +2046,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10055": {
       "codigo": "ENG10055",
-      "nome": "SISTEMAS DE TEMPO REAL - I",
+      "nome": "Sistemas de Tempo Real - I",
       "creditos": 4,
       "carga_horaria": 60,
       "carga_horaria_extensao": 0,
@@ -2077,7 +2077,7 @@ var CURRICULUM_DATA = {
     },
     "CCA99011": {
       "codigo": "CCA99011",
-      "nome": "TÓPICOS EM PROCESSAMENTO DIGITAL DE SINAIS I",
+      "nome": "Tópicos em Processamento Digital de Sinais I",
       "creditos": 4,
       "carga_horaria": 60,
       "carga_horaria_extensao": 0,
@@ -2108,7 +2108,7 @@ var CURRICULUM_DATA = {
     },
     "CCA99005": {
       "codigo": "CCA99005",
-      "nome": "TÓPICOS ESPECIAIS EM ENGENHARIA DE CONTROLE E AUTOMAÇÃO I",
+      "nome": "Tópicos Especiais em Engenharia de Controle E Automação I",
       "creditos": 2,
       "carga_horaria": 30,
       "carga_horaria_extensao": 0,
@@ -2137,7 +2137,7 @@ var CURRICULUM_DATA = {
     },
     "CCA99006": {
       "codigo": "CCA99006",
-      "nome": "TÓPICOS ESPECIAIS EM ENGENHARIA DE CONTROLE E AUTOMAÇÃO II",
+      "nome": "Tópicos Especiais em Engenharia de Controle E Automação II",
       "creditos": 4,
       "carga_horaria": 60,
       "carga_horaria_extensao": 0,
@@ -2166,7 +2166,7 @@ var CURRICULUM_DATA = {
     },
     "CCA99007": {
       "codigo": "CCA99007",
-      "nome": "TÓPICOS ESPECIAIS EM ENGENHARIA DE CONTROLE E AUTOMAÇÃO III",
+      "nome": "Tópicos Especiais em Engenharia de Controle E Automação III",
       "creditos": 6,
       "carga_horaria": 90,
       "carga_horaria_extensao": 0,
@@ -2195,7 +2195,7 @@ var CURRICULUM_DATA = {
     },
     "ENG03046": {
       "codigo": "ENG03046",
-      "nome": "CONTROLE DE SISTEMAS FLUÍDO-MECÂNICOS",
+      "nome": "Controle de Sistemas Fluído-Mecnicos",
       "creditos": 4,
       "carga_horaria": 60,
       "carga_horaria_extensao": 0,
@@ -2227,7 +2227,7 @@ var CURRICULUM_DATA = {
     },
     "ENG03045": {
       "codigo": "ENG03045",
-      "nome": "ELEMENTOS DE MÁQUINAS",
+      "nome": "Elementos de Máquinas",
       "creditos": 4,
       "carga_horaria": 60,
       "carga_horaria_extensao": 0,
@@ -2259,7 +2259,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10027": {
       "codigo": "ENG10027",
-      "nome": "ELETRÔNICA FUNDAMENTAL II - B",
+      "nome": "Eletrônica Fundamental II - B",
       "creditos": 4,
       "carga_horaria": 60,
       "carga_horaria_extensao": 0,
@@ -2291,7 +2291,7 @@ var CURRICULUM_DATA = {
     },
     "ENG03386": {
       "codigo": "ENG03386",
-      "nome": "FABRICAÇÃO AUXILIADA POR COMPUTADOR",
+      "nome": "Fabricação Auxiliada por Computador",
       "creditos": 4,
       "carga_horaria": 60,
       "carga_horaria_extensao": 0,
@@ -2322,7 +2322,7 @@ var CURRICULUM_DATA = {
     },
     "ENG07042": {
       "codigo": "ENG07042",
-      "nome": "MODELAGEM E CONTROLE DE PROCESSOS INDUSTRIAIS",
+      "nome": "Modelagem E Controle de Processos Industriais",
       "creditos": 4,
       "carga_horaria": 60,
       "carga_horaria_extensao": 0,
@@ -2354,7 +2354,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10019": {
       "codigo": "ENG10019",
-      "nome": "SISTEMAS DE CONTROLE DIGITAIS",
+      "nome": "Sistemas de Controle Digitais",
       "creditos": 4,
       "carga_horaria": 60,
       "carga_horaria_extensao": 0,
@@ -2386,7 +2386,7 @@ var CURRICULUM_DATA = {
     },
     "ENG03387": {
       "codigo": "ENG03387",
-      "nome": "SISTEMAS DE FABRICAÇÃO",
+      "nome": "Sistemas de Fabricação",
       "creditos": 4,
       "carga_horaria": 60,
       "carga_horaria_extensao": 0,
@@ -2417,7 +2417,7 @@ var CURRICULUM_DATA = {
     },
     "ENG07087": {
       "codigo": "ENG07087",
-      "nome": "CONTROLE AVANÇADO DE PROCESSOS",
+      "nome": "Controle Avançado de Processos",
       "creditos": 3,
       "carga_horaria": 45,
       "carga_horaria_extensao": 0,
@@ -2448,7 +2448,7 @@ var CURRICULUM_DATA = {
     },
     "CCA99004": {
       "codigo": "CCA99004",
-      "nome": "ESTÁGIO SUPERVISIONADO EM ENGENHARIA DE CONTROLE E AUTOMAÇÃO",
+      "nome": "Estágio Supervisionado em Engenharia de Controle E Automação",
       "creditos": 0,
       "carga_horaria": 165,
       "carga_horaria_extensao": 0,
@@ -2480,7 +2480,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10050": {
       "codigo": "ENG10050",
-      "nome": "LABORATÓRIO DE MÁQUINAS E ACIONAMENTOS ELÉTRICOS",
+      "nome": "Laboratório de Máquinas E Acionamentos Elétricos",
       "creditos": 2,
       "carga_horaria": 30,
       "carga_horaria_extensao": 0,
@@ -2511,7 +2511,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10046": {
       "codigo": "ENG10046",
-      "nome": "PRINCÍPIOS DE ELETRÔNICA DE POTÊNCIA",
+      "nome": "Princípios de Eletrônica de Potência",
       "creditos": 2,
       "carga_horaria": 30,
       "carga_horaria_extensao": 0,
@@ -2542,7 +2542,7 @@ var CURRICULUM_DATA = {
     },
     "ENG03047": {
       "codigo": "ENG03047",
-      "nome": "PROJETOS DE SISTEMAS MECÂNICOS",
+      "nome": "Projetos de Sistemas Mecnicos",
       "creditos": 4,
       "carga_horaria": 60,
       "carga_horaria_extensao": 0,
@@ -2574,7 +2574,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10021": {
       "codigo": "ENG10021",
-      "nome": "SISTEMAS A EVENTOS DISCRETOS",
+      "nome": "Sistemas A Eventos Discretos",
       "creditos": 4,
       "carga_horaria": 60,
       "carga_horaria_extensao": 0,
@@ -2605,7 +2605,7 @@ var CURRICULUM_DATA = {
     },
     "CCA99002": {
       "codigo": "CCA99002",
-      "nome": "TRABALHO DE CONCLUSÃO DE CURSO CCA - I",
+      "nome": "Trabalho de Conclusão de Curso CCA - I",
       "creditos": 0,
       "carga_horaria": 30,
       "carga_horaria_extensao": 0,
@@ -2639,7 +2639,7 @@ var CURRICULUM_DATA = {
     },
     "ENG03010": {
       "codigo": "ENG03010",
-      "nome": "CIÊNCIA, TECNOLOGIA E AMBIENTE",
+      "nome": "Ciência, Tecnologia E Ambiente",
       "creditos": 3,
       "carga_horaria": 45,
       "carga_horaria_extensao": 0,
@@ -2668,7 +2668,7 @@ var CURRICULUM_DATA = {
     },
     "ENG03048": {
       "codigo": "ENG03048",
-      "nome": "GERÊNCIA E ADMINISTRAÇÃO DE PROJETOS",
+      "nome": "Gerência E Administração de Projetos",
       "creditos": 4,
       "carga_horaria": 60,
       "carga_horaria_extensao": 0,
@@ -2697,7 +2697,7 @@ var CURRICULUM_DATA = {
     },
     "CCA99003": {
       "codigo": "CCA99003",
-      "nome": "TRABALHO DE CONCLUSÃO DE CURSO CCA - II",
+      "nome": "Trabalho de Conclusão de Curso CCA - II",
       "creditos": 0,
       "carga_horaria": 30,
       "carga_horaria_extensao": 0,
@@ -2731,7 +2731,7 @@ var CURRICULUM_DATA = {
     },
     "ENG07012": {
       "codigo": "ENG07012",
-      "nome": "LABORATÓRIO DE CONTROLE E OPERAÇÃO DE PROCESSOS",
+      "nome": "Laboratório de Controle E Operação de Processos",
       "creditos": 3,
       "carga_horaria": 45,
       "carga_horaria_extensao": 0,
@@ -2762,7 +2762,7 @@ var CURRICULUM_DATA = {
     },
     "ENG07062": {
       "codigo": "ENG07062",
-      "nome": "OTIMIZAÇÃO APLICADA",
+      "nome": "Otimização Aplicada",
       "creditos": 3,
       "carga_horaria": 45,
       "carga_horaria_extensao": 0,
@@ -2793,7 +2793,7 @@ var CURRICULUM_DATA = {
     },
     "ENG03003": {
       "codigo": "ENG03003",
-      "nome": "ROBÓTICA",
+      "nome": "Robótica",
       "creditos": 4,
       "carga_horaria": 60,
       "carga_horaria_extensao": 0,
@@ -2825,7 +2825,7 @@ var CURRICULUM_DATA = {
     },
     "ENG03026": {
       "codigo": "ENG03026",
-      "nome": "ROBÓTICA A",
+      "nome": "Robótica A",
       "creditos": 4,
       "carga_horaria": 60,
       "carga_horaria_extensao": 0,
@@ -2857,15 +2857,9 @@ var CURRICULUM_DATA = {
     }
   }
 };
-
-if (typeof window !== 'undefined') {
-  window.CURRICULUM_DATA_FALLBACK = CURRICULUM_DATA;
-  window.CURRICULUM_DATA = CURRICULUM_DATA;
-}
 if (typeof globalThis !== 'undefined') {
-  globalThis.CURRICULUM_DATA_FALLBACK = CURRICULUM_DATA;
   globalThis.CURRICULUM_DATA = CURRICULUM_DATA;
 }
 if (typeof module !== 'undefined' && module.exports) {
-  module.exports = CURRICULUM_DATA;
+  module.exports = { CURRICULUM_DATA };
 }

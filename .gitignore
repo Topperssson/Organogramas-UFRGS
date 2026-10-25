@@ -36,3 +36,6 @@ $RECYCLE.BIN/
 *.bak
 dist/*.zip
 
+
+*.code-workspace
+

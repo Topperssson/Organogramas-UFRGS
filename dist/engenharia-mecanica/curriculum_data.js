@@ -22,7 +22,7 @@ var CURRICULUM_DATA = {
   "disciplinas": {
     "MAT01353": {
       "codigo": "MAT01353",
-      "nome": "CÁLCULO E GEOMETRIA ANALÍTICA I - A",
+      "nome": "Cálculo E Geometria Analítica I - A",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -30,11 +30,12 @@ var CURRICULUM_DATA = {
       "tipo": "obrigatoria",
       "prerequisitos": [],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 1
     },
     "FIS01181": {
       "codigo": "FIS01181",
-      "nome": "FÍSICA I - C",
+      "nome": "Física I - C",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -42,11 +43,12 @@ var CURRICULUM_DATA = {
       "tipo": "obrigatoria",
       "prerequisitos": [],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 1
     },
     "INF01040": {
       "codigo": "INF01040",
-      "nome": "INTRODUÇÃO À PROGRAMAÇÃO",
+      "nome": "Introdução à Programação",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -54,11 +56,12 @@ var CURRICULUM_DATA = {
       "tipo": "obrigatoria",
       "prerequisitos": [],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 1
     },
     "ARQ03318": {
       "codigo": "ARQ03318",
-      "nome": "DESENHO TÉCNICO I - A",
+      "nome": "Desenho Técnico I - A",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -66,11 +69,12 @@ var CURRICULUM_DATA = {
       "tipo": "obrigatoria",
       "prerequisitos": [],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 1
     },
     "ARQ03317": {
       "codigo": "ARQ03317",
-      "nome": "GEOMETRIA DESCRITIVA II - A",
+      "nome": "Geometria Descritiva II - A",
       "creditos": 2,
       "carga_horaria": 30,
       "horas_extensao": 0,
@@ -78,11 +82,12 @@ var CURRICULUM_DATA = {
       "tipo": "obrigatoria",
       "prerequisitos": [],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 1
     },
     "ENG03363": {
       "codigo": "ENG03363",
-      "nome": "INTRODUÇÃO À ENGENHARIA MECÂNICA",
+      "nome": "Introdução à Engenharia Mecnica",
       "creditos": 2,
       "carga_horaria": 30,
       "horas_extensao": 0,
@@ -90,11 +95,12 @@ var CURRICULUM_DATA = {
       "tipo": "obrigatoria",
       "prerequisitos": [],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 1
     },
     "MAT01354": {
       "codigo": "MAT01354",
-      "nome": "CÁLCULO E GEOMETRIA ANALÍTICA II - A",
+      "nome": "Cálculo E Geometria Analítica II - A",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -104,11 +110,12 @@ var CURRICULUM_DATA = {
         "MAT01353"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 2
     },
     "MAT01355": {
       "codigo": "MAT01355",
-      "nome": "ÁLGEBRA LINEAR I - A",
+      "nome": "Álgebra Linear I - A",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -118,11 +125,12 @@ var CURRICULUM_DATA = {
         "MAT01353"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 2
     },
     "FIS01182": {
       "codigo": "FIS01182",
-      "nome": "FÍSICA II - C",
+      "nome": "Física II - C",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -133,11 +141,12 @@ var CURRICULUM_DATA = {
         "MAT01353"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 2
     },
     "ARQ03323": {
       "codigo": "ARQ03323",
-      "nome": "DESENHO TÉCNICO II",
+      "nome": "Desenho Técnico II",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -148,11 +157,12 @@ var CURRICULUM_DATA = {
         "ARQ03317"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 2
     },
     "ARQ03320": {
       "codigo": "ARQ03320",
-      "nome": "GEOMETRIA DESCRITIVA III",
+      "nome": "Geometria Descritiva III",
       "creditos": 2,
       "carga_horaria": 30,
       "horas_extensao": 0,
@@ -162,11 +172,12 @@ var CURRICULUM_DATA = {
         "ARQ03317"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 2
     },
     "ENG03041": {
       "codigo": "ENG03041",
-      "nome": "MECÂNICA APLICADA I",
+      "nome": "Mecnica Aplicada I",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -178,11 +189,12 @@ var CURRICULUM_DATA = {
         "ENG03363"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 2
     },
     "MAT01167": {
       "codigo": "MAT01167",
-      "nome": "EQUAÇÕES DIFERENCIAIS II",
+      "nome": "Equações Diferenciais II",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -193,11 +205,12 @@ var CURRICULUM_DATA = {
         "MAT01355"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 3
     },
     "FIS01044": {
       "codigo": "FIS01044",
-      "nome": "FÍSICA III - D",
+      "nome": "Física III - D",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -208,11 +221,12 @@ var CURRICULUM_DATA = {
         "MAT01354"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 3
     },
     "ENG04453": {
       "codigo": "ENG04453",
-      "nome": "FÍSICA GERAL - ELETROMAGNETISMO",
+      "nome": "Física Geral - Eletromagnetismo",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -223,11 +237,12 @@ var CURRICULUM_DATA = {
         "FIS01182"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 3
     },
     "ENG03042": {
       "codigo": "ENG03042",
-      "nome": "MECÂNICA APLICADA II",
+      "nome": "Mecnica Aplicada II",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -237,11 +252,12 @@ var CURRICULUM_DATA = {
         "ENG03041"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 3
     },
     "QUI01009": {
       "codigo": "QUI01009",
-      "nome": "QUÍMICA FUNDAMENTAL A",
+      "nome": "Química Fundamental A",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -249,11 +265,12 @@ var CURRICULUM_DATA = {
       "tipo": "obrigatoria",
       "prerequisitos": [],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 3
     },
     "MAT01169": {
       "codigo": "MAT01169",
-      "nome": "CÁLCULO NUMÉRICO",
+      "nome": "Cálculo Numérico",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -264,11 +281,12 @@ var CURRICULUM_DATA = {
         "INF01040"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 4
     },
     "MAT01168": {
       "codigo": "MAT01168",
-      "nome": "MATEMÁTICA APLICADA II",
+      "nome": "Matemática Aplicada II",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -278,11 +296,12 @@ var CURRICULUM_DATA = {
         "MAT01167"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 4
     },
     "ENG02001": {
       "codigo": "ENG02001",
-      "nome": "CIÊNCIA DOS MATERIAIS - B",
+      "nome": "Ciência dos Materiais - B",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -293,11 +312,12 @@ var CURRICULUM_DATA = {
         "FIS01182"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 4
     },
     "ENG03003": {
       "codigo": "ENG03003",
-      "nome": "MECÂNICA DOS SÓLIDOS I",
+      "nome": "Mecnica dos Sólidos I",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -308,11 +328,12 @@ var CURRICULUM_DATA = {
         "MAT01354"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 4
     },
     "ENG03367": {
       "codigo": "ENG03367",
-      "nome": "TERMODINÂMICA A",
+      "nome": "Termodinmica A",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -323,11 +344,12 @@ var CURRICULUM_DATA = {
         "MAT01167"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 4
     },
     "ENG03352": {
       "codigo": "ENG03352",
-      "nome": "MECÂNICA DOS FLUIDOS A",
+      "nome": "Mecnica dos Fluidos A",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -338,11 +360,12 @@ var CURRICULUM_DATA = {
         "MAT01168"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 5
     },
     "ENG03004": {
       "codigo": "ENG03004",
-      "nome": "MECÂNICA DOS SÓLIDOS II",
+      "nome": "Mecnica dos Sólidos II",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -353,11 +376,12 @@ var CURRICULUM_DATA = {
         "MAT01169"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 5
     },
     "ENG02002": {
       "codigo": "ENG02002",
-      "nome": "MATERIAIS DE CONSTRUÇÃO MECÂNICA I - B",
+      "nome": "Materiais de Construção Mecnica I - B",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -367,11 +391,12 @@ var CURRICULUM_DATA = {
         "ENG02001"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 5
     },
     "ENG03316": {
       "codigo": "ENG03316",
-      "nome": "MECANISMOS I",
+      "nome": "Mecanismos I",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -381,11 +406,12 @@ var CURRICULUM_DATA = {
         "ENG03042"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 5
     },
     "MAT02219": {
       "codigo": "MAT02219",
-      "nome": "PROBABILIDADE E ESTATÍSTICA",
+      "nome": "Probabilidade E Estatística",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -395,11 +421,12 @@ var CURRICULUM_DATA = {
         "MAT01354"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 5
     },
     "ENG03006": {
       "codigo": "ENG03006",
-      "nome": "TRANSFERÊNCIA DE CALOR E MASSA",
+      "nome": "Transferência de Calor E Massa",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -410,11 +437,12 @@ var CURRICULUM_DATA = {
         "MAT01168"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 6
     },
     "ENG03332": {
       "codigo": "ENG03332",
-      "nome": "MÁQUINAS DE FLUXO I",
+      "nome": "Máquinas de Fluxo I",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -424,11 +452,12 @@ var CURRICULUM_DATA = {
         "ENG03352"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 6
     },
     "ENG02003": {
       "codigo": "ENG02003",
-      "nome": "MATERIAIS DE CONSTRUÇÃO MECÂNICA II - B",
+      "nome": "Materiais de Construção Mecnica II - B",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -438,11 +467,12 @@ var CURRICULUM_DATA = {
         "ENG02002"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 6
     },
     "ENG03353": {
       "codigo": "ENG03353",
-      "nome": "MEDIÇÕES MECÂNICAS",
+      "nome": "Medições Mecnicas",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -453,11 +483,12 @@ var CURRICULUM_DATA = {
         "ENG03042"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 6
     },
     "ENG03374": {
       "codigo": "ENG03374",
-      "nome": "VIBRAÇÕES I",
+      "nome": "Vibrações I",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -468,11 +499,12 @@ var CURRICULUM_DATA = {
         "MAT01167"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 6
     },
     "ENG03350": {
       "codigo": "ENG03350",
-      "nome": "PRÁTICA DE OFICINA A",
+      "nome": "Prática de Oficina A",
       "creditos": 3,
       "carga_horaria": 45,
       "horas_extensao": 0,
@@ -483,11 +515,12 @@ var CURRICULUM_DATA = {
         "ARQ03323"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 6
     },
     "ENG03331": {
       "codigo": "ENG03331",
-      "nome": "CONTROLES FLUIDO-MECÂNICOS",
+      "nome": "Controles Fluido-Mecnicos",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -498,11 +531,12 @@ var CURRICULUM_DATA = {
         "ENG03352"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 7
     },
     "ENG03343": {
       "codigo": "ENG03343",
-      "nome": "PROCESSOS DE FABRICAÇÃO POR USINAGEM",
+      "nome": "Processos de Fabricação por Usinagem",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -513,11 +547,12 @@ var CURRICULUM_DATA = {
         "ENG03350"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 7
     },
     "ENG06101": {
       "codigo": "ENG06101",
-      "nome": "PROCESSOS DE FABRICAÇÃO POR FUNDIÇÃO",
+      "nome": "Processos de Fabricação por Fundição",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -527,11 +562,12 @@ var CURRICULUM_DATA = {
         "ENG02002"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 7
     },
     "ENG06648": {
       "codigo": "ENG06648",
-      "nome": "CONFORMAÇÃO MECÂNICA",
+      "nome": "Conformação Mecnica",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -542,11 +578,12 @@ var CURRICULUM_DATA = {
         "ENG02002"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 7
     },
     "ENG03324": {
       "codigo": "ENG03324",
-      "nome": "COMPONENTES MECÂNICOS I",
+      "nome": "Componentes Mecnicos I",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -557,11 +594,12 @@ var CURRICULUM_DATA = {
         "ENG03316"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 7
     },
     "ENG03325": {
       "codigo": "ENG03325",
-      "nome": "COMPONENTES MECÂNICOS II",
+      "nome": "Componentes Mecnicos II",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -571,11 +609,12 @@ var CURRICULUM_DATA = {
         "ENG03324"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 8
     },
     "ENG03108": {
       "codigo": "ENG03108",
-      "nome": "MEDIÇÕES TÉRMICAS",
+      "nome": "Medições Térmicas",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -586,11 +625,12 @@ var CURRICULUM_DATA = {
         "ENG03353"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 8
     },
     "ENG03112": {
       "codigo": "ENG03112",
-      "nome": "CLIMATIZAÇÃO II",
+      "nome": "Climatização II",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -600,11 +640,15 @@ var CURRICULUM_DATA = {
         "ENG03006"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "is_alternative": true,
+      "alternativeGroup": "Sistemas de Climatização",
+      "alternativeOf": "ENG03111",
+      "originalSemester": 8
     },
     "ADM01134": {
       "codigo": "ADM01134",
-      "nome": "ADMINISTRAÇÃO E FINANÇAS",
+      "nome": "Administração E Finanças",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -614,11 +658,12 @@ var CURRICULUM_DATA = {
         "MAT02219"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 8
     },
     "ENG03044": {
       "codigo": "ENG03044",
-      "nome": "DINÂMICA DE SISTEMAS E CONTROLE",
+      "nome": "Dinmica de Sistemas E Controle",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -628,11 +673,12 @@ var CURRICULUM_DATA = {
         "ENG03374"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 8
     },
     "ECO02254": {
       "codigo": "ECO02254",
-      "nome": "ECONOMIA A",
+      "nome": "Economia A",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -640,11 +686,12 @@ var CURRICULUM_DATA = {
       "tipo": "obrigatoria",
       "prerequisitos": [],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 9
     },
     "ADM01135": {
       "codigo": "ADM01135",
-      "nome": "ENGENHARIA ECONÔMICA E AVALIAÇÕES",
+      "nome": "Engenharia Econômica E Avaliações",
       "creditos": 2,
       "carga_horaria": 30,
       "horas_extensao": 0,
@@ -654,11 +701,12 @@ var CURRICULUM_DATA = {
         "ADM01134"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 9
     },
     "ENG03010": {
       "codigo": "ENG03010",
-      "nome": "CIÊNCIA, TECNOLOGIA E AMBIENTE",
+      "nome": "Ciência, Tecnologia E Ambiente",
       "creditos": 3,
       "carga_horaria": 45,
       "horas_extensao": 0,
@@ -666,11 +714,12 @@ var CURRICULUM_DATA = {
       "tipo": "obrigatoria",
       "prerequisitos": [],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 9
     },
     "ENG03046": {
       "codigo": "ENG03046",
-      "nome": "PROJETO MECÂNICO INTEGRADO",
+      "nome": "Projeto Mecnico Integrado",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -680,11 +729,12 @@ var CURRICULUM_DATA = {
         "ENG03325"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 9
     },
     "ENG03381": {
       "codigo": "ENG03381",
-      "nome": "TRABALHO DE DIPLOMAÇÃO - MEC",
+      "nome": "Trabalho de Diplomação - MEC",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -694,11 +744,12 @@ var CURRICULUM_DATA = {
         "ENG03325"
       ],
       "min_credits": 180,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 10
     },
     "ENG03399": {
       "codigo": "ENG03399",
-      "nome": "ESTÁGIO SUPERVISIONADO II",
+      "nome": "Estágio Supervisionado II",
       "creditos": 4,
       "carga_horaria": 200,
       "horas_extensao": 0,
@@ -706,11 +757,12 @@ var CURRICULUM_DATA = {
       "tipo": "obrigatoria",
       "prerequisitos": [],
       "min_credits": 150,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 10
     },
     "MED05011": {
       "codigo": "MED05011",
-      "nome": "HIGIENE E SEGURANÇA DO TRABALHO - A",
+      "nome": "Higiene E Segurança do Trabalho - A",
       "creditos": 2,
       "carga_horaria": 30,
       "horas_extensao": 0,
@@ -718,11 +770,12 @@ var CURRICULUM_DATA = {
       "tipo": "obrigatoria",
       "prerequisitos": [],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": 10
     },
     "ENG03111": {
       "codigo": "ENG03111",
-      "nome": "CLIMATIZAÇÃO I",
+      "nome": "Climatização I",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -732,11 +785,15 @@ var CURRICULUM_DATA = {
         "ENG03006"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "is_alternative": true,
+      "alternativeGroup": "Sistemas de Climatização",
+      "alternativeOf": "ENG03112",
+      "originalSemester": null
     },
     "ENG03021": {
       "codigo": "ENG03021",
-      "nome": "AUTOMAÇÃO DA MANUFATURA",
+      "nome": "Automação da Manufatura",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -746,11 +803,12 @@ var CURRICULUM_DATA = {
         "ENG03044"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": null
     },
     "ENG03027": {
       "codigo": "ENG03027",
-      "nome": "INTRODUÇÃO À ROBÓTICA INDUSTRIAL",
+      "nome": "Introdução à Robótica Industrial",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -760,11 +818,12 @@ var CURRICULUM_DATA = {
         "ENG03316"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": null
     },
     "ENG03348": {
       "codigo": "ENG03348",
-      "nome": "MOTORES DE COMBUSTÃO INTERNA",
+      "nome": "Motores de Combustão Interna",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -775,11 +834,15 @@ var CURRICULUM_DATA = {
         "ENG03352"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "is_alternative": true,
+      "alternativeGroup": "Sistemas Térmicos e Máquinas Térmicas",
+      "alternativeOf": "ENG03349",
+      "originalSemester": null
     },
     "ENG03349": {
       "codigo": "ENG03349",
-      "nome": "GERAÇÃO E UTILIZAÇÃO DO VAPOR",
+      "nome": "Geração E Utilização do Vapor",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -789,11 +852,15 @@ var CURRICULUM_DATA = {
         "ENG03006"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "is_alternative": true,
+      "alternativeGroup": "Sistemas Térmicos e Máquinas Térmicas",
+      "alternativeOf": "ENG03348",
+      "originalSemester": null
     },
     "ENG03358": {
       "codigo": "ENG03358",
-      "nome": "DINÂMICA DE VEÍCULOS",
+      "nome": "Dinmica de Veículos",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -803,11 +870,12 @@ var CURRICULUM_DATA = {
         "ENG03374"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": null
     },
     "ENG03362": {
       "codigo": "ENG03362",
-      "nome": "ENERGIAS ALTERNATIVAS",
+      "nome": "Energias Alternativas",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -817,11 +885,12 @@ var CURRICULUM_DATA = {
         "ENG03352"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": null
     },
     "ENG03364": {
       "codigo": "ENG03364",
-      "nome": "MECATRÔNICA",
+      "nome": "Mecatrônica",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -832,11 +901,12 @@ var CURRICULUM_DATA = {
         "ENG04453"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": null
     },
     "ENG03365": {
       "codigo": "ENG03365",
-      "nome": "INTRODUÇÃO À MECÂNICA DA FRATURA",
+      "nome": "Introdução à Mecnica da Fratura",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -846,11 +916,12 @@ var CURRICULUM_DATA = {
         "ENG03004"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": null
     },
     "ENG03366": {
       "codigo": "ENG03366",
-      "nome": "CONFIABILIDADE NA ENGENHARIA",
+      "nome": "Confiabilidade na Engenharia",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -860,11 +931,12 @@ var CURRICULUM_DATA = {
         "MAT02219"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": null
     },
     "ENG03370": {
       "codigo": "ENG03370",
-      "nome": "MÉTODOS GERENCIAIS EM MANUTENÇÃO",
+      "nome": "Métodos Gerenciais em Manutenção",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -874,11 +946,12 @@ var CURRICULUM_DATA = {
         "ADM01134"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": null
     },
     "ENG03372": {
       "codigo": "ENG03372",
-      "nome": "TRIBOLOGIA",
+      "nome": "Tribologia",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -889,11 +962,12 @@ var CURRICULUM_DATA = {
         "ENG03352"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": null
     },
     "ENG03376": {
       "codigo": "ENG03376",
-      "nome": "VIBRAÇÕES II",
+      "nome": "Vibrações II",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -903,11 +977,12 @@ var CURRICULUM_DATA = {
         "ENG03374"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": null
     },
     "ENG03378": {
       "codigo": "ENG03378",
-      "nome": "MÁQUINAS DE FLUXO II",
+      "nome": "Máquinas de Fluxo II",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -917,11 +992,12 @@ var CURRICULUM_DATA = {
         "ENG03332"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": null
     },
     "ENG06103": {
       "codigo": "ENG06103",
-      "nome": "METALURGIA DA SOLDAGEM",
+      "nome": "Metalurgia da Soldagem",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -931,11 +1007,12 @@ var CURRICULUM_DATA = {
         "ENG02002"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": null
     },
     "ENG06104": {
       "codigo": "ENG06104",
-      "nome": "ENSAIOS NÃO DESTRUTIVOS",
+      "nome": "Ensaios Não Destrutivos",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -945,11 +1022,12 @@ var CURRICULUM_DATA = {
         "ENG02002"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": null
     },
     "ENG06105": {
       "codigo": "ENG06105",
-      "nome": "PROCESSOS AUXILIADOS POR COMPUTADOR - CAM",
+      "nome": "Processos Auxiliados por Computador - CAM",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -959,11 +1037,12 @@ var CURRICULUM_DATA = {
         "ENG03343"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": null
     },
     "ENG03045": {
       "codigo": "ENG03045",
-      "nome": "MÁQUINAS AGRÍCOLAS",
+      "nome": "Máquinas Agrícolas",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -973,11 +1052,12 @@ var CURRICULUM_DATA = {
         "ENG03324"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": null
     },
     "ENG03092": {
       "codigo": "ENG03092",
-      "nome": "MECÂNICA DOS SÓLIDOS III",
+      "nome": "Mecnica dos Sólidos III",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -987,11 +1067,12 @@ var CURRICULUM_DATA = {
         "ENG03004"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": null
     },
     "INF01017": {
       "codigo": "INF01017",
-      "nome": "APRENDIZADO DE MÁQUINA",
+      "nome": "Aprendizado de Máquina",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1002,11 +1083,12 @@ var CURRICULUM_DATA = {
         "INF01040"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": null
     },
     "INF01036": {
       "codigo": "INF01036",
-      "nome": "REDES NEURAIS ARTIFICIAIS",
+      "nome": "Redes Neurais Artificiais",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1017,7 +1099,14 @@ var CURRICULUM_DATA = {
         "INF01040"
       ],
       "min_credits": 0,
-      "periodicidade": "ambos"
+      "periodicidade": "ambos",
+      "originalSemester": null
     }
   }
 };
+if (typeof globalThis !== 'undefined') {
+  globalThis.CURRICULUM_DATA = CURRICULUM_DATA;
+}
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = { CURRICULUM_DATA };
+}

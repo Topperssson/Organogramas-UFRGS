@@ -22,7 +22,7 @@ var CURRICULUM_DATA = {
   "disciplinas": {
     "INF01202": {
       "codigo": "INF01202",
-      "nome": "ALGORï¿½TMOS E PROGRAMAï¿½ï¿½O - CIC",
+      "nome": "Algorï¿½tmos E Programaï¿½ï¿½o - CIC",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -35,7 +35,7 @@ var CURRICULUM_DATA = {
     },
     "MAT01353": {
       "codigo": "MAT01353",
-      "nome": "Cï¿½LCULO E GEOMETRIA ANALï¿½TICA I - A",
+      "nome": "Cï¿½lculo E Geometria Analï¿½tica I - A",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -48,7 +48,7 @@ var CURRICULUM_DATA = {
     },
     "FIS01181": {
       "codigo": "FIS01181",
-      "nome": "Fï¿½SICA I-C",
+      "nome": "Fï¿½sica I-C",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -61,7 +61,7 @@ var CURRICULUM_DATA = {
     },
     "ECP99002": {
       "codigo": "ECP99002",
-      "nome": "INTRODUï¿½ï¿½O ï¿½ ENGENHARIA DE COMPUTAï¿½ï¿½O",
+      "nome": "Introduï¿½ï¿½o Ï¿½ Engenharia de Computaï¿½ï¿½o",
       "creditos": 2,
       "carga_horaria": 30,
       "horas_extensao": 0,
@@ -74,7 +74,7 @@ var CURRICULUM_DATA = {
     },
     "INF05508": {
       "codigo": "INF05508",
-      "nome": "Lï¿½GICA PARA COMPUTAï¿½ï¿½O",
+      "nome": "Lï¿½gica para Computaï¿½ï¿½o",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -87,7 +87,7 @@ var CURRICULUM_DATA = {
     },
     "MAT01355": {
       "codigo": "MAT01355",
-      "nome": "ï¿½LGEBRA LINEAR I - A",
+      "nome": "Ï¿½lgebra Linear I - A",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -102,7 +102,7 @@ var CURRICULUM_DATA = {
     },
     "INF01075": {
       "codigo": "INF01075",
-      "nome": "ARQUITETURA DE COMPUTADORES",
+      "nome": "Arquitetura de Computadores",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -118,7 +118,7 @@ var CURRICULUM_DATA = {
     },
     "MAT01354": {
       "codigo": "MAT01354",
-      "nome": "Cï¿½LCULO E GEOMETRIA ANALï¿½TICA II - A",
+      "nome": "Cï¿½lculo E Geometria Analï¿½tica II - A",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -133,7 +133,7 @@ var CURRICULUM_DATA = {
     },
     "INF01203": {
       "codigo": "INF01203",
-      "nome": "ESTRUTURAS DE DADOS",
+      "nome": "Estruturas de Dados",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -148,7 +148,7 @@ var CURRICULUM_DATA = {
     },
     "FIS01182": {
       "codigo": "FIS01182",
-      "nome": "Fï¿½SICA GERAL - ELETROMAGNETISMO",
+      "nome": "Fï¿½sica Geral - Eletromagnetismo",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -164,7 +164,7 @@ var CURRICULUM_DATA = {
     },
     "MAT01375": {
       "codigo": "MAT01375",
-      "nome": "MATEMï¿½TICA DISCRETA B",
+      "nome": "Matemï¿½tica Discreta B",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -177,7 +177,7 @@ var CURRICULUM_DATA = {
     },
     "INF01120": {
       "codigo": "INF01120",
-      "nome": "DESENVOLVIMENTO DE SOFTWARE",
+      "nome": "Desenvolvimento de Software",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -192,7 +192,7 @@ var CURRICULUM_DATA = {
     },
     "MAT01167": {
       "codigo": "MAT01167",
-      "nome": "EQUAï¿½ï¿½ES DIFERENCIAIS II",
+      "nome": "Equaï¿½ï¿½es Diferenciais II",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -208,7 +208,7 @@ var CURRICULUM_DATA = {
     },
     "FIS01183": {
       "codigo": "FIS01183",
-      "nome": "Fï¿½SICA III-C",
+      "nome": "Fï¿½sica III-C",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -223,7 +223,7 @@ var CURRICULUM_DATA = {
     },
     "INF01086": {
       "codigo": "INF01086",
-      "nome": "PROJETO DE CIRCUITOS DIGITAIS",
+      "nome": "Projeto de Circuitos Digitais",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -238,7 +238,7 @@ var CURRICULUM_DATA = {
     },
     "INF05027": {
       "codigo": "INF05027",
-      "nome": "PROJETO E ANï¿½LISE DE ALGORITMOS I",
+      "nome": "Projeto E Anï¿½lise de Algoritmos I",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -255,7 +255,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10001": {
       "codigo": "ENG10001",
-      "nome": "CIRCUITOS ELï¿½TRICOS I - C",
+      "nome": "Circuitos Elï¿½tricos I - C",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -271,7 +271,7 @@ var CURRICULUM_DATA = {
     },
     "MAT01168": {
       "codigo": "MAT01168",
-      "nome": "MATEMï¿½TICA APLICADA II",
+      "nome": "Matemï¿½tica Aplicada II",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -286,7 +286,7 @@ var CURRICULUM_DATA = {
     },
     "INF01113": {
       "codigo": "INF01113",
-      "nome": "ORGANIZAï¿½ï¿½O DE COMPUTADORES",
+      "nome": "Organizaï¿½ï¿½o de Computadores",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -301,7 +301,7 @@ var CURRICULUM_DATA = {
     },
     "INF05035": {
       "codigo": "INF05035",
-      "nome": "TEORIA DA COMPUTAï¿½ï¿½O",
+      "nome": "Teoria da Computaï¿½ï¿½o",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -317,7 +317,7 @@ var CURRICULUM_DATA = {
     },
     "MAT02219": {
       "codigo": "MAT02219",
-      "nome": "PROBABILIDADE E ESTATï¿½STICA",
+      "nome": "Probabilidade E Estatï¿½stica",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -332,12 +332,12 @@ var CURRICULUM_DATA = {
     },
     "MAT02050": {
       "codigo": "MAT02050",
-      "nome": "PROBABILIDADE E ESTATï¿½STICA - EAD",
+      "nome": "Probabilidade E Estatï¿½stica - EAD",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
       "etapa_sugerida": null,
-      "tipo": "alternativa",
+      "tipo": "Alternativa",
       "prerequisitos": [
         "MAT01353"
       ],
@@ -347,7 +347,7 @@ var CURRICULUM_DATA = {
     },
     "INF01146": {
       "codigo": "INF01146",
-      "nome": "AVALIAï¿½ï¿½O DE DESEMPENHO",
+      "nome": "Avaliaï¿½ï¿½o de Desempenho",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -363,7 +363,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10002": {
       "codigo": "ENG10002",
-      "nome": "CIRCUITOS ELï¿½TRICOS II - C",
+      "nome": "Circuitos Elï¿½tricos II - C",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -379,7 +379,7 @@ var CURRICULUM_DATA = {
     },
     "INF01127": {
       "codigo": "INF01127",
-      "nome": "ENGENHARIA DE SOFTWARE N",
+      "nome": "Engenharia de Software N",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -394,7 +394,7 @@ var CURRICULUM_DATA = {
     },
     "INF01049": {
       "codigo": "INF01049",
-      "nome": "INTRODUï¿½ï¿½O ï¿½ PESQUISA EM INFORMï¿½TICA",
+      "nome": "Introduï¿½ï¿½o Ï¿½ Pesquisa em Informï¿½tica",
       "creditos": 2,
       "carga_horaria": 30,
       "horas_extensao": 0,
@@ -407,7 +407,7 @@ var CURRICULUM_DATA = {
     },
     "INF01175": {
       "codigo": "INF01175",
-      "nome": "SISTEMAS DIGITAIS PARA COMPUTADORES A",
+      "nome": "Sistemas Digitais para Computadores A",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -422,7 +422,7 @@ var CURRICULUM_DATA = {
     },
     "INF01142": {
       "codigo": "INF01142",
-      "nome": "SISTEMAS OPERACIONAIS I N",
+      "nome": "Sistemas Operacionais I N",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -438,7 +438,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04010": {
       "codigo": "ENG04010",
-      "nome": "TEORIA ELETROMAGNï¿½TICA E ONDAS",
+      "nome": "Teoria Eletromagnï¿½tica E Ondas",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -454,7 +454,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04077": {
       "codigo": "ENG04077",
-      "nome": "CIRCUITOS ELETRï¿½NICOS I",
+      "nome": "Circuitos Eletrï¿½nicos I",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -469,7 +469,7 @@ var CURRICULUM_DATA = {
     },
     "INF01185": {
       "codigo": "INF01185",
-      "nome": "CONCEPï¿½ï¿½O DE CIRCUITOS INTEGRADOS I",
+      "nome": "Concepï¿½ï¿½o de Circuitos Integrados I",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -485,7 +485,7 @@ var CURRICULUM_DATA = {
     },
     "INF01048": {
       "codigo": "INF01048",
-      "nome": "INTELIGï¿½NCIA ARTIFICIAL",
+      "nome": "Inteligï¿½ncia Artificial",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -502,7 +502,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10003": {
       "codigo": "ENG10003",
-      "nome": "LABORATï¿½RIO DE CIRCUITOS ELï¿½TRICOS",
+      "nome": "Laboratï¿½rio de Circuitos Elï¿½tricos",
       "creditos": 2,
       "carga_horaria": 30,
       "horas_extensao": 0,
@@ -517,7 +517,7 @@ var CURRICULUM_DATA = {
     },
     "INF01082": {
       "codigo": "INF01082",
-      "nome": "LABORATï¿½RIO DE REDES DE COMPUTADORES",
+      "nome": "Laboratï¿½rio de Redes de Computadores",
       "creditos": 2,
       "carga_horaria": 30,
       "horas_extensao": 0,
@@ -532,7 +532,7 @@ var CURRICULUM_DATA = {
     },
     "INF01084": {
       "codigo": "INF01084",
-      "nome": "REDES DE COMPUTADORES E INTERNET",
+      "nome": "Redes de Computadores E Internet",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -547,7 +547,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10017": {
       "codigo": "ENG10017",
-      "nome": "SISTEMAS E SINAIS",
+      "nome": "Sistemas E Sinais",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -562,7 +562,7 @@ var CURRICULUM_DATA = {
     },
     "INF01191": {
       "codigo": "INF01191",
-      "nome": "ARQUITETURAS AVANï¿½ADAS DE COMPUTADORES",
+      "nome": "Arquiteturas Avanï¿½adas de Computadores",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -577,7 +577,7 @@ var CURRICULUM_DATA = {
     },
     "MAT01169": {
       "codigo": "MAT01169",
-      "nome": "Cï¿½LCULO NUMï¿½RICO",
+      "nome": "Cï¿½lculo Numï¿½rico",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -593,7 +593,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04078": {
       "codigo": "ENG04078",
-      "nome": "CIRCUITOS ELETRï¿½NICOS II",
+      "nome": "Circuitos Eletrï¿½nicos II",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -609,7 +609,7 @@ var CURRICULUM_DATA = {
     },
     "INF01047": {
       "codigo": "INF01047",
-      "nome": "COMPUTAï¿½ï¿½O GRï¿½FICA E VISUALIZAï¿½ï¿½O I",
+      "nome": "Computaï¿½ï¿½o Grï¿½fica E Visualizaï¿½ï¿½o I",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -626,7 +626,7 @@ var CURRICULUM_DATA = {
     },
     "INF01194": {
       "codigo": "INF01194",
-      "nome": "CONCEPï¿½ï¿½O DE CIRCUITOS INTEGRADOS II",
+      "nome": "Concepï¿½ï¿½o de Circuitos Integrados II",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -642,7 +642,7 @@ var CURRICULUM_DATA = {
     },
     "INF01001": {
       "codigo": "INF01001",
-      "nome": "ESPECIFICAï¿½ï¿½O FORMAL N",
+      "nome": "Especificaï¿½ï¿½o Formal N",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -657,7 +657,7 @@ var CURRICULUM_DATA = {
     },
     "INF01209": {
       "codigo": "INF01209",
-      "nome": "FUNDAMENTOS DE TOLERï¿½NCIA A FALHAS",
+      "nome": "Fundamentos de Tolerï¿½ncia A Falhas",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -672,7 +672,7 @@ var CURRICULUM_DATA = {
     },
     "INF05029": {
       "codigo": "INF05029",
-      "nome": "LINGUAGENS DE PROGRAMAï¿½ï¿½O I",
+      "nome": "Linguagens de Programaï¿½ï¿½o I",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -688,7 +688,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10032": {
       "codigo": "ENG10032",
-      "nome": "MICROCONTROLADORES",
+      "nome": "Microcontroladores",
       "creditos": 2,
       "carga_horaria": 30,
       "horas_extensao": 0,
@@ -704,7 +704,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10004": {
       "codigo": "ENG10004",
-      "nome": "SISTEMAS DE CONTROLE I - B",
+      "nome": "Sistemas de Controle I - B",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -719,7 +719,7 @@ var CURRICULUM_DATA = {
     },
     "INF01085": {
       "codigo": "INF01085",
-      "nome": "SISTEMAS DISTRIBUï¿½DOS E TOLERANTES A FALHAS",
+      "nome": "Sistemas Distribuï¿½dos E Tolerantes A Falhas",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -734,7 +734,7 @@ var CURRICULUM_DATA = {
     },
     "INF01017": {
       "codigo": "INF01017",
-      "nome": "APRENDIZADO DE Mï¿½QUINA",
+      "nome": "Aprendizado de Mï¿½quina",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -753,7 +753,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04061": {
       "codigo": "ENG04061",
-      "nome": "CIRCUITOS ELETRï¿½NICOS INTEGRADOS",
+      "nome": "Circuitos Eletrï¿½nicos Integrados",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -769,7 +769,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04055": {
       "codigo": "ENG04055",
-      "nome": "CIRCUITOS INTEGRADOS ANALï¿½GICOS",
+      "nome": "Circuitos Integrados Analï¿½gicos",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -784,7 +784,7 @@ var CURRICULUM_DATA = {
     },
     "ECO02254": {
       "codigo": "ECO02254",
-      "nome": "ECONOMIA A",
+      "nome": "Economia A",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -797,7 +797,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10005": {
       "codigo": "ENG10005",
-      "nome": "LABORATï¿½RIO DE CONTROLE",
+      "nome": "Laboratï¿½rio de Controle",
       "creditos": 2,
       "carga_horaria": 30,
       "horas_extensao": 0,
@@ -812,7 +812,7 @@ var CURRICULUM_DATA = {
     },
     "INF01083": {
       "codigo": "INF01083",
-      "nome": "LINGUAGENS DE PROGRAMAï¿½ï¿½O II",
+      "nome": "Linguagens de Programaï¿½ï¿½o II",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -828,7 +828,7 @@ var CURRICULUM_DATA = {
     },
     "INF01046": {
       "codigo": "INF01046",
-      "nome": "PROCESSAMENTO DE IMAGENS E VISï¿½O COMPUTACIONAL I",
+      "nome": "Processamento de Imagens E Visï¿½o Computacional I",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -845,7 +845,7 @@ var CURRICULUM_DATA = {
     },
     "INF01008": {
       "codigo": "INF01008",
-      "nome": "PROGRAMAï¿½ï¿½O PARALELA",
+      "nome": "Programaï¿½ï¿½o Paralela",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -860,7 +860,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10026": {
       "codigo": "ENG10026",
-      "nome": "ROBï¿½TICA A",
+      "nome": "Robï¿½tica A",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -876,7 +876,7 @@ var CURRICULUM_DATA = {
     },
     "INF01002": {
       "codigo": "INF01002",
-      "nome": "SERVIï¿½OS AVANï¿½ADOS EM REDES DE COMPUTADORES",
+      "nome": "Serviï¿½os Avanï¿½ados em Redes de Computadores",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -891,7 +891,7 @@ var CURRICULUM_DATA = {
     },
     "INF01050": {
       "codigo": "INF01050",
-      "nome": "Tï¿½PICOS ESPECIAIS EM ENGENHARIA DE COMPUTAï¿½ï¿½O I",
+      "nome": "Tï¿½picos Especiais em Engenharia de Computaï¿½ï¿½o I",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -904,7 +904,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04041": {
       "codigo": "ENG04041",
-      "nome": "Tï¿½PICOS ESPECIAIS EM ENGENHARIA DE COMPUTAï¿½ï¿½O III",
+      "nome": "Tï¿½picos Especiais em Engenharia de Computaï¿½ï¿½o III",
       "creditos": 2,
       "carga_horaria": 30,
       "horas_extensao": 0,
@@ -917,7 +917,7 @@ var CURRICULUM_DATA = {
     },
     "INF05024": {
       "codigo": "INF05024",
-      "nome": "Tï¿½PICOS ESPECIAIS EM ENGENHARIA DE COMPUTAï¿½ï¿½O V",
+      "nome": "Tï¿½picos Especiais em Engenharia de Computaï¿½ï¿½o V",
       "creditos": 2,
       "carga_horaria": 30,
       "horas_extensao": 0,
@@ -930,7 +930,7 @@ var CURRICULUM_DATA = {
     },
     "ADM01134": {
       "codigo": "ADM01134",
-      "nome": "ADMINISTRAï¿½ï¿½O E FINANï¿½AS",
+      "nome": "Administraï¿½ï¿½o E Finanï¿½as",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -943,7 +943,7 @@ var CURRICULUM_DATA = {
     },
     "INF01205": {
       "codigo": "INF01205",
-      "nome": "CAD PARA SISTEMAS DIGITAIS",
+      "nome": "Cad para Sistemas Digitais",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -959,7 +959,7 @@ var CURRICULUM_DATA = {
     },
     "INF01045": {
       "codigo": "INF01045",
-      "nome": "CIBERSEGURANï¿½A",
+      "nome": "Ciberseguranï¿½a",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -976,7 +976,7 @@ var CURRICULUM_DATA = {
     },
     "INF01005": {
       "codigo": "INF01005",
-      "nome": "COMUNICAï¿½ï¿½O DE DADOS E TECNOLOGIAS DE REDES EMERGENTES",
+      "nome": "Comunicaï¿½ï¿½o de Dados E Tecnologias de Redes Emergentes",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -991,7 +991,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10051": {
       "codigo": "ENG10051",
-      "nome": "DINï¿½MICA E CONTROLE DE ROBï¿½S",
+      "nome": "Dinï¿½mica E Controle de Robï¿½s",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1007,7 +1007,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04457": {
       "codigo": "ENG04457",
-      "nome": "INSTRUMENTAï¿½ï¿½O A",
+      "nome": "Instrumentaï¿½ï¿½o A",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1024,7 +1024,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10052": {
       "codigo": "ENG10052",
-      "nome": "LABORATï¿½RIO DE ROBï¿½TICA",
+      "nome": "Laboratï¿½rio de Robï¿½tica",
       "creditos": 2,
       "carga_horaria": 30,
       "horas_extensao": 0,
@@ -1039,7 +1039,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04476": {
       "codigo": "ENG04476",
-      "nome": "MICROPROCESSADORES II",
+      "nome": "Microprocessadores II",
       "creditos": 5,
       "carga_horaria": 75,
       "horas_extensao": 0,
@@ -1054,20 +1054,20 @@ var CURRICULUM_DATA = {
     },
     "ECP99001": {
       "codigo": "ECP99001",
-      "nome": "PROJETO DE FINAL DE CURSO DE ENGENHARIA DE COMPUTAï¿½ï¿½O",
+      "nome": "Projeto de Final de Curso de Engenharia de Computaï¿½ï¿½o",
       "creditos": 2,
       "carga_horaria": 30,
       "horas_extensao": 0,
       "etapa_sugerida": 9,
       "tipo": "obrigatoria",
       "prerequisitos": [],
-      "min_credits": 0,
+      "min_credits": 150,
       "periodicidade": "ambos",
       "alternativeOf": null
     },
     "INF01034": {
       "codigo": "INF01034",
-      "nome": "ROBï¿½TICA Mï¿½VEL INTELIGENTE",
+      "nome": "Robï¿½tica Mï¿½vel Inteligente",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1085,7 +1085,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10019": {
       "codigo": "ENG10019",
-      "nome": "SISTEMAS DE CONTROLE DIGITAIS",
+      "nome": "Sistemas de Controle Digitais",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1100,7 +1100,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10018": {
       "codigo": "ENG10018",
-      "nome": "SISTEMAS DE CONTROLE II",
+      "nome": "Sistemas de Controle II",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1115,7 +1115,7 @@ var CURRICULUM_DATA = {
     },
     "HUM04020": {
       "codigo": "HUM04020",
-      "nome": "SOCIEDADE DA INFORMAï¿½ï¿½O",
+      "nome": "Sociedade da Informaï¿½ï¿½o",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1128,7 +1128,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04034": {
       "codigo": "ENG04034",
-      "nome": "Tï¿½PICOS ESPECIAIS EM ENGENHARIA DE COMPUTAï¿½ï¿½O II",
+      "nome": "Tï¿½picos Especiais em Engenharia de Computaï¿½ï¿½o II",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1141,7 +1141,7 @@ var CURRICULUM_DATA = {
     },
     "INF01053": {
       "codigo": "INF01053",
-      "nome": "Tï¿½PICOS ESPECIAIS EM ENGENHARIA DE COMPUTAï¿½ï¿½O IV",
+      "nome": "Tï¿½picos Especiais em Engenharia de Computaï¿½ï¿½o IV",
       "creditos": 2,
       "carga_horaria": 30,
       "horas_extensao": 0,
@@ -1154,7 +1154,7 @@ var CURRICULUM_DATA = {
     },
     "INF05025": {
       "codigo": "INF05025",
-      "nome": "Tï¿½PICOS ESPECIAIS EM ENGENHARIA DE COMPUTAï¿½ï¿½O VI",
+      "nome": "Tï¿½picos Especiais em Engenharia de Computaï¿½ï¿½o VI",
       "creditos": 2,
       "carga_horaria": 30,
       "horas_extensao": 0,
@@ -1167,7 +1167,7 @@ var CURRICULUM_DATA = {
     },
     "INF01145": {
       "codigo": "INF01145",
-      "nome": "BANCOS DE DADOS",
+      "nome": "Bancos de Dados",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1182,7 +1182,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04063": {
       "codigo": "ENG04063",
-      "nome": "DISPOSITIVOS SEMICONDUTORES",
+      "nome": "Dispositivos Semicondutores",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1198,7 +1198,7 @@ var CURRICULUM_DATA = {
     },
     "INF01032": {
       "codigo": "INF01032",
-      "nome": "EMPREENDIMENTO EM INFORMï¿½TICA",
+      "nome": "Empreendimento em Informï¿½tica",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1211,7 +1211,7 @@ var CURRICULUM_DATA = {
     },
     "INF01213": {
       "codigo": "INF01213",
-      "nome": "FOTOGRAFIA COMPUTACIONAL",
+      "nome": "Fotografia Computacional",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1226,7 +1226,7 @@ var CURRICULUM_DATA = {
     },
     "EDU03071": {
       "codigo": "EDU03071",
-      "nome": "Lï¿½NGUA BRASILEIRA DE SINAIS (LIBRAS)",
+      "nome": "Lï¿½ngua Brasileira de Sinais (libras)",
       "creditos": 2,
       "carga_horaria": 30,
       "horas_extensao": 0,
@@ -1239,7 +1239,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04434": {
       "codigo": "ENG04434",
-      "nome": "PRINCï¿½PIOS DE COMUNICAï¿½ï¿½O",
+      "nome": "Princï¿½pios de Comunicaï¿½ï¿½o",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1256,7 +1256,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04477": {
       "codigo": "ENG04477",
-      "nome": "PROCESSAMENTO DIGITAL DE SINAIS",
+      "nome": "Processamento Digital de Sinais",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1272,7 +1272,7 @@ var CURRICULUM_DATA = {
     },
     "INF01059": {
       "codigo": "INF01059",
-      "nome": "SISTEMAS EMBARCADOS: FUNDAMENTOS E ARQUITETURAS",
+      "nome": "Sistemas Embarcados: Fundamentos E Arquiteturas",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1288,7 +1288,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04057": {
       "codigo": "ENG04057",
-      "nome": "TESTE DE SISTEMAS ELETRï¿½NICOS",
+      "nome": "Teste de Sistemas Eletrï¿½nicos",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1304,7 +1304,7 @@ var CURRICULUM_DATA = {
     },
     "INF05026": {
       "codigo": "INF05026",
-      "nome": "Tï¿½PICOS ESPECIAIS EM ENGENHARIA DE COMPUTAï¿½ï¿½O VII",
+      "nome": "Tï¿½picos Especiais em Engenharia de Computaï¿½ï¿½o VII",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1317,7 +1317,7 @@ var CURRICULUM_DATA = {
     },
     "INF01081": {
       "codigo": "INF01081",
-      "nome": "APRENDIZADO PROFUNDO PARA COMPUTAï¿½ï¿½O VISUAL",
+      "nome": "Aprendizado Profundo para Computaï¿½ï¿½o Visual",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1336,7 +1336,7 @@ var CURRICULUM_DATA = {
     },
     "INF01112": {
       "codigo": "INF01112",
-      "nome": "ARQUITETURA E ORGANIZAï¿½ï¿½O DE COMPUTADORES II",
+      "nome": "Arquitetura E Organizaï¿½ï¿½o de Computadores II",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1351,7 +1351,7 @@ var CURRICULUM_DATA = {
     },
     "INF05515": {
       "codigo": "INF05515",
-      "nome": "COMPLEXIDADE DE ALGORITMOS - B",
+      "nome": "Complexidade de Algoritmos - B",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1367,7 +1367,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04038": {
       "codigo": "ENG04038",
-      "nome": "ELETRï¿½NICA III",
+      "nome": "Eletrï¿½nica III",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -1383,7 +1383,7 @@ var CURRICULUM_DATA = {
     },
     "INF01015": {
       "codigo": "INF01015",
-      "nome": "GERï¿½NCIA E APLICAï¿½ï¿½ES EM REDES",
+      "nome": "Gerï¿½ncia E Aplicaï¿½ï¿½es em Redes",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1398,7 +1398,7 @@ var CURRICULUM_DATA = {
     },
     "INF01107": {
       "codigo": "INF01107",
-      "nome": "INTRODUï¿½ï¿½O ï¿½ ARQUITETURA DE COMPUTADORES",
+      "nome": "Introduï¿½ï¿½o Ï¿½ Arquitetura de Computadores",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1411,7 +1411,7 @@ var CURRICULUM_DATA = {
     },
     "INF01216": {
       "codigo": "INF01216",
-      "nome": "MODELAGEM E GERENCIAMENTO DE PROCESSOS DE NEGï¿½CIO",
+      "nome": "Modelagem E Gerenciamento de Processos de Negï¿½cio",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1426,7 +1426,7 @@ var CURRICULUM_DATA = {
     },
     "INF01121": {
       "codigo": "INF01121",
-      "nome": "MODELOS DE LINGUAGEM DE PROGRAMAï¿½ï¿½O",
+      "nome": "Modelos de Linguagem de Programaï¿½ï¿½o",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1441,7 +1441,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04065": {
       "codigo": "ENG04065",
-      "nome": "PROJETO DE SISTEMAS ANALï¿½GICOS E MISTOS INTEGRADOS",
+      "nome": "Projeto de Sistemas Analï¿½gicos E Mistos Integrados",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1458,7 +1458,7 @@ var CURRICULUM_DATA = {
     },
     "ENG04064": {
       "codigo": "ENG04064",
-      "nome": "PROJETO DE SISTEMAS DE RF INTEGRADOS",
+      "nome": "Projeto de Sistemas de RF Integrados",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1476,7 +1476,7 @@ var CURRICULUM_DATA = {
     },
     "INF05028": {
       "codigo": "INF05028",
-      "nome": "PROJETO E ANï¿½LISE DE ALGORITMOS II",
+      "nome": "Projeto E Anï¿½lise de Algoritmos II",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1491,7 +1491,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10054": {
       "codigo": "ENG10054",
-      "nome": "ROBï¿½TICA Mï¿½VEL",
+      "nome": "Robï¿½tica Mï¿½vel",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1509,7 +1509,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10055": {
       "codigo": "ENG10055",
-      "nome": "SISTEMAS DE TEMPO REAL - I",
+      "nome": "Sistemas de Tempo Real - I",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1524,7 +1524,7 @@ var CURRICULUM_DATA = {
     },
     "INF01018": {
       "codigo": "INF01018",
-      "nome": "SISTEMAS OPERACIONAIS DISTRIBUï¿½DOS E DE REDES",
+      "nome": "Sistemas Operacionais Distribuï¿½dos E de Redes",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1539,7 +1539,7 @@ var CURRICULUM_DATA = {
     },
     "INF05512": {
       "codigo": "INF05512",
-      "nome": "TEORIA DOS GRAFOS E ANï¿½LISE COMBINATï¿½RIA",
+      "nome": "Teoria dos Grafos E Anï¿½lise Combinatï¿½ria",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1554,7 +1554,7 @@ var CURRICULUM_DATA = {
     },
     "INF05009": {
       "codigo": "INF05009",
-      "nome": "Tï¿½PICOS ESPECIAIS EM COMPUTAï¿½ï¿½O IX",
+      "nome": "Tï¿½picos Especiais em Computaï¿½ï¿½o IX",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1567,7 +1567,7 @@ var CURRICULUM_DATA = {
     },
     "INF01054": {
       "codigo": "INF01054",
-      "nome": "Tï¿½PICOS ESPECIAIS EM COMPUTAï¿½ï¿½O VII",
+      "nome": "Tï¿½picos Especiais em Computaï¿½ï¿½o VII",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1580,7 +1580,7 @@ var CURRICULUM_DATA = {
     },
     "INF01055": {
       "codigo": "INF01055",
-      "nome": "Tï¿½PICOS ESPECIAIS EM COMPUTAï¿½ï¿½O VIII",
+      "nome": "Tï¿½picos Especiais em Computaï¿½ï¿½o VIII",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1593,7 +1593,7 @@ var CURRICULUM_DATA = {
     },
     "INF01063": {
       "codigo": "INF01063",
-      "nome": "Tï¿½PICOS ESPECIAIS EM COMPUTAï¿½ï¿½O XII",
+      "nome": "Tï¿½picos Especiais em Computaï¿½ï¿½o Xii",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1606,7 +1606,7 @@ var CURRICULUM_DATA = {
     },
     "INF01079": {
       "codigo": "INF01079",
-      "nome": "Tï¿½PICOS ESPECIAIS EM COMPUTAï¿½ï¿½O XL",
+      "nome": "Tï¿½picos Especiais em Computaï¿½ï¿½o Xl",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1619,7 +1619,7 @@ var CURRICULUM_DATA = {
     },
     "INF01080": {
       "codigo": "INF01080",
-      "nome": "Tï¿½PICOS ESPECIAIS EM COMPUTAï¿½ï¿½O XLI",
+      "nome": "Tï¿½picos Especiais em Computaï¿½ï¿½o Xli",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1632,7 +1632,7 @@ var CURRICULUM_DATA = {
     },
     "INF05030": {
       "codigo": "INF05030",
-      "nome": "Tï¿½PICOS ESPECIAIS EM COMPUTAï¿½ï¿½O XLII",
+      "nome": "Tï¿½picos Especiais em Computaï¿½ï¿½o Xlii",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1645,7 +1645,7 @@ var CURRICULUM_DATA = {
     },
     "INF05031": {
       "codigo": "INF05031",
-      "nome": "Tï¿½PICOS ESPECIAIS EM COMPUTAï¿½ï¿½O XLIII",
+      "nome": "Tï¿½picos Especiais em Computaï¿½ï¿½o Xliii",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1658,7 +1658,7 @@ var CURRICULUM_DATA = {
     },
     "INF05032": {
       "codigo": "INF05032",
-      "nome": "Tï¿½PICOS ESPECIAIS EM COMPUTAï¿½ï¿½O XLIV",
+      "nome": "Tï¿½picos Especiais em Computaï¿½ï¿½o Xliv",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1671,7 +1671,7 @@ var CURRICULUM_DATA = {
     },
     "INF05033": {
       "codigo": "INF05033",
-      "nome": "Tï¿½PICOS ESPECIAIS EM COMPUTAï¿½ï¿½O XLV",
+      "nome": "Tï¿½picos Especiais em Computaï¿½ï¿½o Xlv",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1684,7 +1684,7 @@ var CURRICULUM_DATA = {
     },
     "INF05034": {
       "codigo": "INF05034",
-      "nome": "Tï¿½PICOS ESPECIAIS EM COMPUTAï¿½ï¿½O XLVI",
+      "nome": "Tï¿½picos Especiais em Computaï¿½ï¿½o Xlvi",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1697,7 +1697,7 @@ var CURRICULUM_DATA = {
     },
     "INF05013": {
       "codigo": "INF05013",
-      "nome": "Tï¿½PICOS ESPECIAIS EM COMPUTAï¿½ï¿½O XV",
+      "nome": "Tï¿½picos Especiais em Computaï¿½ï¿½o Xv",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1710,7 +1710,7 @@ var CURRICULUM_DATA = {
     },
     "INF01078": {
       "codigo": "INF01078",
-      "nome": "Tï¿½PICOS ESPECIAIS EM COMPUTAï¿½ï¿½O XXXIX",
+      "nome": "Tï¿½picos Especiais em Computaï¿½ï¿½o Xxxix",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1723,7 +1723,7 @@ var CURRICULUM_DATA = {
     },
     "INF01076": {
       "codigo": "INF01076",
-      "nome": "Tï¿½PICOS ESPECIAIS EM COMPUTAï¿½ï¿½O XXXVII",
+      "nome": "Tï¿½picos Especiais em Computaï¿½ï¿½o Xxxvii",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1736,7 +1736,7 @@ var CURRICULUM_DATA = {
     },
     "INF01077": {
       "codigo": "INF01077",
-      "nome": "Tï¿½PICOS ESPECIAIS EM COMPUTAï¿½ï¿½O XXXVIII",
+      "nome": "Tï¿½picos Especiais em Computaï¿½ï¿½o Xxxviii",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1749,7 +1749,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10057": {
       "codigo": "ENG10057",
-      "nome": "Tï¿½PICOS ESPECIAIS EM ENGENHARIA DE COMPUTAï¿½ï¿½O IX",
+      "nome": "Tï¿½picos Especiais em Engenharia de Computaï¿½ï¿½o IX",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1762,7 +1762,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10056": {
       "codigo": "ENG10056",
-      "nome": "Tï¿½PICOS ESPECIAIS EM ENGENHARIA DE COMPUTAï¿½ï¿½O VIII",
+      "nome": "Tï¿½picos Especiais em Engenharia de Computaï¿½ï¿½o VIII",
       "creditos": 2,
       "carga_horaria": 30,
       "horas_extensao": 0,
@@ -1775,7 +1775,7 @@ var CURRICULUM_DATA = {
     },
     "ENG10058": {
       "codigo": "ENG10058",
-      "nome": "Tï¿½PICOS ESPECIAIS EM ENGENHARIA DE COMPUTAï¿½ï¿½O X",
+      "nome": "Tï¿½picos Especiais em Engenharia de Computaï¿½ï¿½o X",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -1788,7 +1788,7 @@ var CURRICULUM_DATA = {
     },
     "INF01030": {
       "codigo": "INF01030",
-      "nome": "VISï¿½O COMPUTACIONAL II",
+      "nome": "Visï¿½o Computacional II",
       "creditos": 4,
       "carga_horaria": 60,
       "horas_extensao": 0,
@@ -1803,7 +1803,7 @@ var CURRICULUM_DATA = {
     },
     "ECP99003": {
       "codigo": "ECP99003",
-      "nome": "TRABALHO DE GRADUAÇÃO I - ECP",
+      "nome": "Trabalho de Graduação I - ECP",
       "creditos": 6,
       "carga_horaria": 90,
       "horas_extensao": 0,
@@ -1812,11 +1812,12 @@ var CURRICULUM_DATA = {
       "prerequisitos": [],
       "min_credits": 150,
       "periodicidade": "ambos",
-      "alternativeOf": null
+      "alternativeOf": null,
+      "originalSemester": 9
     },
     "ECP99004": {
       "codigo": "ECP99004",
-      "nome": "TRABALHO DE GRADUAÇÃO II - ECP",
+      "nome": "Trabalho de Graduação II - ECP",
       "creditos": 10,
       "carga_horaria": 150,
       "horas_extensao": 0,
@@ -1826,13 +1827,16 @@ var CURRICULUM_DATA = {
         "ECP99001",
         "ECP99003"
       ],
-      "min_credits": 0,
+      "min_credits": 180,
       "periodicidade": "ambos",
-      "alternativeOf": null
+      "alternativeOf": null,
+      "originalSemester": 10
     }
   }
 };
-
+if (typeof globalThis !== 'undefined') {
+  globalThis.CURRICULUM_DATA = CURRICULUM_DATA;
+}
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = { CURRICULUM_DATA };
 }

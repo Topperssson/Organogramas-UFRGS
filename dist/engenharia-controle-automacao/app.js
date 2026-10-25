@@ -331,6 +331,7 @@
   }
 
   function resetToDefaultCurriculum() {
+    pushHistoryState();
     state.allocations = {};
     state.altChoice = {};
     Object.keys(state.courses).forEach(code => {
@@ -442,6 +443,7 @@
    * Se a alternativa ja foi cursada, permanece na grade contabilizada como Eletiva.
    */
   function swapAlternative(code, targetSemester = null, triggerNotify = true) {
+    pushHistoryState();
     const course = state.courses[code];
     const otherCode = course && course.alternativeOf;
     if (!otherCode || !state.courses[otherCode]) return false;
@@ -529,7 +531,90 @@
   /**
    * Move uma disciplina para um semestre alvo com propagação estrita em cascata e restrição de periodicidade.
    */
+
+  // =========================================================================
+  // SISTEMA DE HISTÓRICO REATIVO (UNDO / REDO)
+  // =========================================================================
+  const MAX_HISTORY = 30;
+  const undoStack = [];
+  const redoStack = [];
+
+  function captureStateSnapshot() {
+    const allocationsCopy = {};
+    if (state && state.allocations) {
+      for (const [code, alloc] of Object.entries(state.allocations)) {
+        allocationsCopy[code] = {
+          semester: alloc.semester,
+          completed: Boolean(alloc.completed),
+          hasOverflow: Boolean(alloc.hasOverflow)
+        };
+      }
+    }
+    const altChoiceCopy = state && state.altChoice ? { ...state.altChoice } : {};
+    return {
+      allocations: allocationsCopy,
+      altChoice: altChoiceCopy,
+      currentFdc: state ? state.currentFdc : null
+    };
+  }
+
+  function pushHistoryState() {
+    if (undoStack.length >= MAX_HISTORY) undoStack.shift();
+    undoStack.push(captureStateSnapshot());
+    redoStack.length = 0;
+    updateHistoryButtons();
+  }
+
+  function updateHistoryButtons() {
+    const btnUndo = document.getElementById('btn-undo');
+    const btnRedo = document.getElementById('btn-redo');
+    if (btnUndo) btnUndo.disabled = undoStack.length === 0;
+    if (btnRedo) btnRedo.disabled = redoStack.length === 0;
+  }
+
+  function applyStateSnapshot(snapshot) {
+    if (!snapshot || !snapshot.allocations) return;
+    if (snapshot.altChoice) {
+      state.altChoice = { ...snapshot.altChoice };
+    }
+    if (snapshot.currentFdc !== undefined) {
+      state.currentFdc = snapshot.currentFdc;
+    }
+    for (const [code, saved] of Object.entries(snapshot.allocations)) {
+      if (state.allocations[code]) {
+        state.allocations[code].semester = saved.semester;
+        state.allocations[code].completed = saved.completed;
+        state.allocations[code].hasOverflow = saved.hasOverflow;
+      } else {
+        state.allocations[code] = { ...saved };
+      }
+    }
+    renderAllCards();
+    updateDashboardMetrics();
+    scheduleConnectionRedraw();
+    saveToLocalStorage(false);
+  }
+
+  window.undoAction = function() {
+    if (undoStack.length === 0) return;
+    redoStack.push(captureStateSnapshot());
+    const previousState = undoStack.pop();
+    applyStateSnapshot(previousState);
+    updateHistoryButtons();
+    showToast('Ação desfeita (Ctrl+Z)', 'info');
+  };
+
+  window.redoAction = function() {
+    if (redoStack.length === 0) return;
+    undoStack.push(captureStateSnapshot());
+    const nextState = redoStack.pop();
+    applyStateSnapshot(nextState);
+    updateHistoryButtons();
+    showToast('Ação refeita (Ctrl+Y)', 'info');
+  };
+
   function moveCourse(courseCode, targetSemester, triggerNotify = true) {
+    pushHistoryState();
     if (!state.courses[courseCode]) return;
 
     // Se alvo for nulo, move para o drawer (desaloca)
@@ -1053,6 +1138,7 @@
    * Marca ou desmarca todas as disciplinas de uma determinada coluna de semestre como concluídas
    */
   function toggleSemesterColumnCompletion(sem, isChecked) {
+    pushHistoryState();
     let affected = 0;
     Object.keys(state.allocations).forEach(code => {
       const alloc = state.allocations[code];
@@ -1204,9 +1290,11 @@
     const prereqCount = (course.prerequisitos || []).length;
     const prereqLabel = prereqCount > 0 ? `${prereqCount} pré-req${prereqCount > 1 ? 's' : ''}` : 'Sem pré-req';
 
+    const isAlternative = Boolean(course.is_alternative || course.alternativeOf);
     const altCourse = course.alternativeOf ? state.courses[course.alternativeOf] : null;
+    const altBadgeHtml = isAlternative ? `<span class="badge badge-alternative" title="Disciplina com opção alternativa no currículo">ALTERNATIVA</span>` : '';
     const altSwapHtml = altCourse
-      ? `<button type="button" class="card-swap-alt" title="Alternar com ${altCourse.nome} (exclusão mútua)">⇄ Alternar com ${altCourse.nome}</button>`
+      ? `<button type="button" class="card-swap-alt" title="Alternar com ${altCourse.nome} (exclusão mútua)">⇄ Alternar disciplina</button>`
       : '';
 
     card.innerHTML = `
@@ -1223,6 +1311,7 @@
       <div class="card-meta-row">
         <div class="card-badges">
           <span class="badge ${badgeClass}">${badgeText}</span>
+          ${altBadgeHtml}
           ${periodBadgeHtml}
           ${creditBadgeHtml}
           ${isOverflow ? `<span class="badge badge-overflow">${getColumnTitle(alloc.semester)} (20+)</span>` : ''}
@@ -1297,6 +1386,7 @@
 
   function toggleCourseCompletion(code) {
     if (!state.allocations[code]) return;
+    pushHistoryState();
     const isNowCompleted = !state.allocations[code].completed;
     state.allocations[code].completed = isNowCompleted;
     renderAllCards();
@@ -2767,6 +2857,25 @@
   // SETUP DOS EVENT LISTENERS
   // =========================================================================
   function setupEventListeners() {
+    // Event Listeners para Desfazer / Refazer (Undo / Redo)
+    const btnUndo = document.getElementById('btn-undo');
+    const btnRedo = document.getElementById('btn-redo');
+    if (btnUndo) btnUndo.addEventListener('click', window.undoAction);
+    if (btnRedo) btnRedo.addEventListener('click', window.redoAction);
+
+    window.addEventListener('keydown', (e) => {
+      if (e.target && (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA' || e.target.isContentEditable)) return;
+      const isCtrl = e.ctrlKey || e.metaKey;
+      if (isCtrl && e.key.toLowerCase() === 'z') {
+        e.preventDefault();
+        if (e.shiftKey) window.redoAction();
+        else window.undoAction();
+      } else if (isCtrl && e.key.toLowerCase() === 'y') {
+        e.preventDefault();
+        window.redoAction();
+      }
+    });
+
     // 0. Toggle Left Sidebar (Recolher / Expandir Menu Lateral)
     if (dom.btnToggleSidebar) {
       dom.btnToggleSidebar.addEventListener('click', () => {

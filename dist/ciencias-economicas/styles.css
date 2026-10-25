@@ -1079,14 +1079,16 @@ ul, ol, li {
 }
 
 .semester-column {
-  width: var(--col-width);
-  min-width: var(--col-width);
+  width: 270px;
+  min-width: 270px;
+  flex-shrink: 0;
   background: rgba(15, 23, 42, 0.75);
   backdrop-filter: blur(8px);
   border: 1px solid var(--border-subtle);
   border-radius: 10px;
   display: flex;
   flex-direction: column;
+  min-height: 100%;
   transition: border-color 0.2s, box-shadow 0.2s;
 }
 
@@ -1217,10 +1219,9 @@ ul, ol, li {
   flex-direction: column;
   justify-content: flex-start;
   align-items: stretch;
-  gap: 8px;
-  min-height: 480px;
-  min-height: 100%;
-  flex: 1;
+  gap: 10px;
+  flex-grow: 1;
+  min-height: 200px;
 }
 
 .cards-container:has(.course-card) .cards-placeholder {
@@ -2062,3 +2063,46 @@ ul, ol, li {
   border: 1px solid rgba(192, 132, 252, 0.28);
 }
 
+
+/* Badge e Ação Rápida para Disciplinas Alternativas */
+.badge-alternative {
+  background: rgba(168, 85, 247, 0.2) !important;
+  color: #c084fc !important;
+  border: 1px solid rgba(168, 85, 247, 0.4) !important;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.card-swap-alt {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  width: 100%;
+  margin-top: 6px;
+  padding: 4px 8px;
+  font-size: 11px;
+  font-weight: 600;
+  color: #c084fc;
+  background: rgba(168, 85, 247, 0.12);
+  border: 1px solid rgba(168, 85, 247, 0.35);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+}
+
+.card-swap-alt:hover {
+  background: rgba(168, 85, 247, 0.25);
+  border-color: rgba(168, 85, 247, 0.6);
+  color: #f3e8ff;
+  transform: translateY(-1px);
+}
+
+/* Controles Undo / Redo */
+.control-btn:disabled,
+#btn-undo:disabled,
+#btn-redo:disabled {
+  opacity: 0.4 !important;
+  cursor: not-allowed !important;
+  pointer-events: none;
+}
