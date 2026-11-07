@@ -13,7 +13,7 @@
 
 ## 🏛️ Cursos Contemplados (`dist/`)
 
-Cada curso possui um pacote de distribuição 100% independente e *standalone* em `dist/<curso>/`, contendo **estritamente 5 arquivos de produção**:
+Cada curso possui um pacote de distribuição 100% independente e *standalone* em `dist/<curso>/`, contendo **estritamente 6 arquivos de produção**:
 
 | Curso | Diretório | Disciplinas | Créditos | Particularidades | Execução Direta (`file://`) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -107,7 +107,7 @@ O repositório conta com suítes de validação automatizadas em Node.js e Pytho
 ```powershell
 node dev_tests/validate_all_projects.js
 ```
-*Executa validação sintática JS (`node --check`), integridade referencial dos DAGs, aciclicidade topológica, unicidade de chaves `localStorage`, ausência de contaminação cruzada e presença exata de 5/5 arquivos de produção em cada pacote `dist/`.*
+*Executa validação sintática JS (`node --check`), integridade referencial dos DAGs, aciclicidade topológica, unicidade de chaves `localStorage`, ausência de contaminação cruzada e presença exata de 6/6 arquivos de produção em cada pacote `dist/`.*
 
 ### 2. Validações Específicas por Curso
 ```powershell
@@ -151,36 +151,42 @@ organogramas-ufrgs/
 │   │   ├── curriculum_data.js
 │   │   ├── curriculum_data.json
 │   │   ├── organograma.html
+│   │   ├── README.md
 │   │   └── styles.css
 │   ├── engenharia-computacao/                # 122 disciplinas (148 cr)
 │   │   ├── app.js
 │   │   ├── curriculum_data.js
 │   │   ├── curriculum_data.json
 │   │   ├── organograma.html
+│   │   ├── README.md
 │   │   └── styles.css
 │   ├── engenharia-controle-automacao/        # 83 disciplinas (222 cr, 4 FDCs)
 │   │   ├── app.js
 │   │   ├── curriculum_data.js
 │   │   ├── curriculum_data.json
 │   │   ├── organograma.html
+│   │   ├── README.md
 │   │   └── styles.css
 │   ├── engenharia-eletrica/                  # 128 disciplinas (246 cr)
 │   │   ├── app.js
 │   │   ├── curriculum_data.js
 │   │   ├── curriculum_data.json
 │   │   ├── organograma.html
+│   │   ├── README.md
 │   │   └── styles.css
 │   ├── engenharia-mecanica/                  # 80 disciplinas (223 cr)
 │   │   ├── app.js
 │   │   ├── curriculum_data.js
 │   │   ├── curriculum_data.json
 │   │   ├── organograma.html
+│   │   ├── README.md
 │   │   └── styles.css
 │   └── engenharia-producao/                  # 65 disciplinas (210 cr)
 │       ├── app.js
 │       ├── curriculum_data.js
 │       ├── curriculum_data.json
 │       ├── organograma.html
+│       ├── README.md
 │       └── styles.css
 ├── dev_tests/                                 # Suítes de validação, geradores e parsers curriculares
 │   ├── validate_all_projects.js              # Auditoria completa multi-curso

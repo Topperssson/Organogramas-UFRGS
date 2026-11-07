@@ -21,15 +21,16 @@ Agradecemos o interesse em contribuir com o **Organogramas UFRGS**! Este projeto
 
 ## 2. Arquitetura Obrigatória de um Curso (`dist/<novo-curso>/`)
 
-Cada graduação deve residir em sua própria pasta sob `dist/<nome-do-curso>/` (em kebab-case) e conter **estritamente 5 arquivos de produção**:
+Cada graduação deve residir em sua própria pasta sob `dist/<nome-do-curso>/` (em kebab-case) e conter **estritamente 6 arquivos de produção**:
 
 ```text
 dist/<nome-do-curso>/
-├── organograma.html              # Interface do canvas com sidebar e viewport estilo Miro
+├── organograma.html        # Interface do canvas com sidebar e viewport estilo Miro
 ├── styles.css              # Design system dark (#0B0F19, #161F30) e estilização de cards
 ├── app.js                  # Engine DAG, drag-and-drop, conexões SVG, filtros e exportações
 ├── curriculum_data.json    # Matriz curricular canônica em JSON puro
-└── curriculum_data.js      # Fallback offline via script global (window.CURRICULUM_DATA)
+├── curriculum_data.js      # Fallback offline via script global (window.CURRICULUM_DATA)
+└── README.md               # Guia de utilização e especificidades curriculares do curso
 ```
 
 ### Regras de Ouro da Arquitetura
