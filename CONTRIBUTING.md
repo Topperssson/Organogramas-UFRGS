@@ -25,7 +25,7 @@ Cada graduação deve residir em sua própria pasta sob `dist/<nome-do-curso>/` 
 
 ```text
 dist/<nome-do-curso>/
-├── index.html              # Interface do canvas com sidebar e viewport estilo Miro
+├── organograma.html              # Interface do canvas com sidebar e viewport estilo Miro
 ├── styles.css              # Design system dark (#0B0F19, #161F30) e estilização de cards
 ├── app.js                  # Engine DAG, drag-and-drop, conexões SVG, filtros e exportações
 ├── curriculum_data.json    # Matriz curricular canônica em JSON puro
@@ -35,7 +35,7 @@ dist/<nome-do-curso>/
 ### Regras de Ouro da Arquitetura
 
 1. **Execução Standalone via `file://` (Zero Servidores):**
-   - O simulador deve funcionar perfeitamente com duplo clique no `index.html` em qualquer sistema operacional, sem depender de Node.js em tempo de execução, Python HTTP server ou empacotadores (Webpack, Vite, Rollup).
+   - O simulador deve funcionar perfeitamente com duplo clique no `organograma.html` em qualquer sistema operacional, sem depender de Node.js em tempo de execução, Python HTTP server ou empacotadores (Webpack, Vite, Rollup).
    - O `app.js` carrega assincronamente o `curriculum_data.json` e, caso ocorra restrição de CORS em `file://`, utiliza imediatamente `window.CURRICULUM_DATA` fornecido por `curriculum_data.js`.
 2. **Isolamento Total de Persistência (`localStorage`):**
    - A constante `STORAGE_KEY` no `app.js` deve ser única para evitar colisões entre cursos:
@@ -101,6 +101,6 @@ Antes de submeter o seu Pull Request, execute as seguintes verificações locais
    node dev_tests/validate_all_projects.js
    ```
 4. **Verificação Funcional Manual (`file://`):**
-   - Abra `dist/<novo-curso>/index.html` diretamente no navegador.
+   - Abra `dist/<novo-curso>/organograma.html` diretamente no navegador.
    - Teste zoom, pan do canvas, arrastar/soltar disciplinas entre semestres e o recálculo automático de pré-requisitos.
    - Verifique se os botões de Desfazer/Refazer, exportação para PNG/PDF e download/carregamento de JSON funcionam normalmente.

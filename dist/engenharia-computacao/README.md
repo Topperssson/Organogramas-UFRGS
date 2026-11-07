@@ -15,9 +15,9 @@ Simulador curricular interativo *standalone* para estudantes de **Engenharia de 
 ## 🚀 Como Executar
 
 ### Execução Imediata (`file://` — Sem Servidor)
-Dê duplo clique no arquivo [`index.html`](index.html) ou execute via terminal:
+Dê duplo clique no arquivo [`organograma.html`](organograma.html) ou execute via terminal:
 ```powershell
-Start-Process "dist\engenharia-computacao\index.html"
+Start-Process "dist\engenharia-computacao\organograma.html"
 ```
 Funciona instantaneamente no seu navegador sem Node.js, compilação ou internet.
 
@@ -32,12 +32,17 @@ A matriz de Engenharia de Computação da UFRGS integra profundamente computaç�
 - **Eixo de Redes e Sistemas Distribuídos:** Sistemas Operacionais, Redes de Computadores e Sistemas Distribuídos.
 - **Eixo de Fundamentos Matemáticos e Físicos:** Cálculo, Álgebra Linear, Matemática Discreta, Física e Sinais & Sistemas.
 
-### 2. Recursos do Canvas Interativo
+### 2. Barreiras de Créditos Mínimos e Culminação de Curso
+- **`ECP99001` (Projeto de Final de Curso de Engenharia de Computação):** requer 150 créditos acumulados.
+- **`ECP99003` (Trabalho de Graduação I - ECP):** requer 150 créditos acumulados.
+- **`ECP99004` (Trabalho de Graduação II - ECP):** requer 180 créditos acumulados.
+
+### 3. Recursos do Canvas Interativo e Motor DAG
 - **Grafo Acíclico Dirigido (DAG):** Explore o mapa completo de pré-requisitos com curvas de Bézier dinâmicas que acendem os pré-requisitos necessários (azul) e as matérias destravadas (verde).
-- **Ajuste em Cascata (BFS):** Ao alterar a alocação de semestres, o motor algorítmico reorganiza em tempo real as matérias dependentes para garantir que nenhuma restrição de precedência seja violada.
+- **Ajuste em Cascata (BFS):** Ao alterar a alocação de semestres, o motor algorítmico reorganiza em tempo real as matérias dependentes para garantir que nenhuma restrição de precedência temporal ou barreira de créditos seja violada.
 - **Gaveta Lateral de Eletivas:** Painel retrátil à direita com matérias eletivas do INF e da Engenharia Elétrica prontas para inclusão na grade.
 
-### 3. Acompanhamento e Exportação
+### 4. Acompanhamento e Exportação
 - **Marcação de Conclusão:** Dê duplo clique no card da matéria para marcá-la como concluída (borda verde destacada).
 - **Métricas em Tempo Real:** Acompanhe a soma de créditos concluídos e créditos planejados na barra lateral.
 - **Exportação PNG / PDF:** Gere relatórios visuais nítidos para planejamento de matrícula e controle de estágio/TCC.

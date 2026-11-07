@@ -147,10 +147,30 @@ def sanitize_course(course_dir: str):
     # 4. ENGENHARIA DE CONTROLE E AUTOMACAO
     elif course_id == "engenharia-controle-automacao":
         discs = data.get("disciplinas", {})
+        if "ENG10042" in discs:
+            discs["ENG10042"]["min_credits"] = 44
+        if "ENG03010" in discs:
+            discs["ENG03010"]["min_credits"] = 180
+        if "ENG03048" in discs:
+            discs["ENG03048"]["min_credits"] = 180
+        if "CCA99004" in discs:
+            discs["CCA99004"]["min_credits"] = 190
+        if "INF01017" in discs:
+            discs["INF01017"]["min_credits"] = 100
+        if "INF01037" in discs:
+            discs["INF01037"]["min_credits"] = 100
         if "CCA99002" in discs:
             discs["CCA99002"]["min_credits"] = 160
         if "CCA99003" in discs:
             discs["CCA99003"]["min_credits"] = 180
+        if "CCA99008" in discs:
+            discs["CCA99008"]["min_credits"] = 120
+        if "CCA99009" in discs:
+            discs["CCA99009"]["min_credits"] = 150
+        if "ENG10051" in discs:
+            discs["ENG10051"]["prerequisitos"] = ["ENG03026", "ENG10004"]
+        if "ENG10052" in discs:
+            discs["ENG10052"]["prerequisitos"] = ["ENG03026"]
 
     # 5. ENGENHARIA DE PRODUCAO
     elif course_id == "engenharia-producao":

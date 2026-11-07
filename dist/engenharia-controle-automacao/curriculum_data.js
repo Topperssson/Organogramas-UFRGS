@@ -837,7 +837,7 @@ var CURRICULUM_DATA = {
         }
       },
       "periodicidade": "1",
-      "min_credits": 0,
+      "min_credits": 44,
       "oferta": "1"
     },
     "MAT01169": {
@@ -1655,7 +1655,7 @@ var CURRICULUM_DATA = {
         }
       },
       "periodicidade": "ambos",
-      "min_credits": 0,
+      "min_credits": 100,
       "oferta": "ambos"
     },
     "INF01037": {
@@ -1686,7 +1686,7 @@ var CURRICULUM_DATA = {
         }
       },
       "periodicidade": "ambos",
-      "min_credits": 0,
+      "min_credits": 100,
       "oferta": "ambos"
     },
     "ENG10051": {
@@ -1698,9 +1698,8 @@ var CURRICULUM_DATA = {
       "etapa_sugerida": null,
       "tipo_padrao": "eletiva",
       "prerequisitos": [
-        "ENG10004",
         "ENG03026",
-        "ENG03026"
+        "ENG10004"
       ],
       "corequisitos": [],
       "fdc_especifica": null,
@@ -1825,7 +1824,6 @@ var CURRICULUM_DATA = {
       "etapa_sugerida": null,
       "tipo_padrao": "eletiva",
       "prerequisitos": [
-        "ENG03026",
         "ENG03026"
       ],
       "corequisitos": [],
@@ -2475,7 +2473,7 @@ var CURRICULUM_DATA = {
         }
       },
       "periodicidade": "ambos",
-      "min_credits": 150,
+      "min_credits": 190,
       "oferta": "ambos"
     },
     "ENG10050": {
@@ -2663,7 +2661,7 @@ var CURRICULUM_DATA = {
         }
       },
       "periodicidade": "ambos",
-      "min_credits": 0,
+      "min_credits": 180,
       "oferta": "ambos"
     },
     "ENG03048": {
@@ -2692,7 +2690,7 @@ var CURRICULUM_DATA = {
         }
       },
       "periodicidade": "ambos",
-      "min_credits": 0,
+      "min_credits": 180,
       "oferta": "ambos"
     },
     "CCA99003": {

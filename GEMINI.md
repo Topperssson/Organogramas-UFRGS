@@ -6,7 +6,7 @@
 
 ## 1. Domain Scopes & Repository Structure
 - **`dist/<curso>/`**: Standalone production simulator bundles. Each supported course lives in its dedicated distribution folder containing **strictly 6 production files**:
-  - `index.html`: Clean semantic DOM, header controls, credit sidebar, and interactive canvas board.
+  - `organograma.html`: Clean semantic DOM, header controls, credit sidebar, and interactive canvas board.
   - `styles.css`: Dark-themed design system (`#0B0F19`, `#161F30`), Miro canvas, pastel badges, and responsive controls.
   - `app.js`: State management, DAG solver, pan/zoom engine, drag-and-drop, `localStorage` persistence, and native Canvas 2D export.
   - `curriculum_data.js`: Vanilla JS fallback enabling zero-server `file://` execution.

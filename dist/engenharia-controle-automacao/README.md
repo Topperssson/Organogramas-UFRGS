@@ -15,9 +15,9 @@ Simulador curricular interativo *standalone* para estudantes de **Engenharia de 
 ## 🚀 Como Executar
 
 ### Execução Imediata (`file://` — Sem Servidor)
-Abra diretamente o arquivo [`index.html`](index.html) com duplo clique no Windows Explorer ou execute no terminal:
+Abra diretamente o arquivo [`organograma.html`](organograma.html) com duplo clique no Windows Explorer ou execute no terminal:
 ```powershell
-Start-Process "dist\engenharia-controle-automacao\index.html"
+Start-Process "dist\engenharia-controle-automacao\organograma.html"
 ```
 O arquivo [`curriculum_data.js`](curriculum_data.js) carrega automaticamente o catálogo de disciplinas mesmo com as políticas restritivas de CORS locais do navegador.
 
@@ -45,10 +45,14 @@ No seletor de trilha do cabeçalho, comute dinamicamente entre as 4 opções ofi
   - As disciplinas liberadas a jusante acendem em **verde esmeralda** (`#34d399`).
 - **Resolução Automática (BFS):** Arrastar uma matéria para um semestre anterior aos seus pré-requisitos empurra a matéria e todas as suas dependentes automaticamente para semestres posteriores válidos.
 - **Barreiras de Créditos Mínimos:**
-  - `CCA99004` (Estágio Supervisionado): requer 150 créditos acumulados.
+  - `ENG10042` (Sistemas Digitais - A): requer 44 créditos acumulados.
+  - `ENG03010` (Ciência, Tecnologia e Ambiente): requer 180 créditos acumulados.
+  - `ENG03048` (Gerência e Administração de Projetos): requer 180 créditos acumulados.
+  - `CCA99004` (Estágio Supervisionado): requer 190 créditos acumulados.
   - `CCA99008` (Projeto Integrado I): requer 120 créditos acumulados.
   - `CCA99009` (Projeto Integrado II): requer 150 créditos acumulados.
   - `CCA99002` / `CCA99003` (TCC I e II): requerem 160 e 180 créditos.
+  - `INF01017` / `INF01037` (Eletivas de IA): requerem 100 créditos acumulados.
 
 ### 4. Salvar, Carregar e Exportar
 - **Concluir Disciplinas:** Clique duas vezes no card para marcá-la como concluída (borda verde `#10B981` e computação imediata na barra de progresso).

@@ -15,9 +15,9 @@ Simulador curricular interativo *standalone* para estudantes de **Engenharia de 
 ## 🚀 Como Executar
 
 ### Execução Imediata (`file://` — Sem Servidor)
-Abra diretamente o arquivo [`index.html`](index.html) no seu navegador:
+Abra diretamente o arquivo [`organograma.html`](organograma.html) no seu navegador:
 ```powershell
-Start-Process "dist\engenharia-producao\index.html"
+Start-Process "dist\engenharia-producao\organograma.html"
 ```
 Funciona 100% offline e sem necessidade de conexão com a internet ou servidor local.
 
@@ -31,12 +31,17 @@ A grade de Engenharia de Produção da UFRGS integra três eixos fundamentais:
 - **Pesquisa Operacional & Métodos Quantitativos:** Estatística, Simulação, Programação Matemática e Modelagem Estocástica.
 - **Gestão da Produção & Economia:** Engenharia Econômica, Custos, Gestão da Qualidade, Logística e Estratégia de Operações.
 
-### 2. Recursos do Canvas Interativo
+### 2. Barreiras de Créditos Mínimos e Culminação de Curso
+- **`ENG09022` (Estágio Supervisionado em Engenharia de Produção):** requer 150 créditos acumulados.
+- **`ENG09091` (Trabalho de Conclusão de Curso I):** requer 160 créditos acumulados.
+- **`ENG09092` (Trabalho de Conclusão de Curso II):** requer 180 créditos acumulados.
+
+### 3. Recursos do Canvas Interativo e Solver DAG
 - **Pan e Zoom Infinito:** Segure <kbd>Espaço</kbd> e arraste para explorar o organograma; use a roda do mouse para aproximar ou afastar.
 - **Realce Bézier SVG:** Passe o mouse sobre matérias como *Pesquisa Operacional* ou *Engenharia Econômica* para visualizar instantaneamente seus pré-requisitos necessários e dependências destravadas.
-- **Resolução Topológica de Grade:** Ao reagendar uma matéria, o solver DAG ajusta todas as disciplinas que dependem dela em cascata.
+- **Resolução Topológica de Grade:** Ao reagendar uma matéria, o solver DAG ajusta todas as disciplinas que dependem dela em cascata, garantindo também a observância dos pisos de créditos mínimos.
 
-### 3. Acompanhamento de Metas de Graduação
+### 4. Acompanhamento de Metas de Graduação
 - **Barra de Progresso na Lateral Esquerda:** Visualize em tempo real o total de créditos já integralizados (disciplinas verdes) versus créditos alocados para semestres futuros.
 - **Persistência Segura:** O simulador salva todas as alterações automaticamente no navegador (`localStorage`), garantindo que o seu plano seja restaurado quando a página for reaberta.
 - **Exportação Institucional:** Gere arquivos PNG (2x) ou PDF (A3 Paisagem) para anexar em planejamentos semestrais.

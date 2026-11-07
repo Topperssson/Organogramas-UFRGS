@@ -77,7 +77,7 @@ const projects = [
   }
 ];
 
-const allowedFiles = new Set(['index.html', 'styles.css', 'app.js', 'curriculum_data.js', 'curriculum_data.json', 'README.md']);
+const allowedFiles = new Set(['organograma.html', 'styles.css', 'app.js', 'curriculum_data.js', 'curriculum_data.json', 'README.md']);
 const foundKeys = new Set();
 
 // -----------------------------------------------------------------------------
@@ -171,7 +171,7 @@ projects.forEach(p => {
 // -----------------------------------------------------------------------------
 console.log('\n--- Teste 4: Auditoria de Interface HTML & FDCs ---');
 projects.forEach(p => {
-  const pHtml = fs.readFileSync(path.join(baseDir, 'dist', p.folder, 'index.html'), 'utf-8');
+  const pHtml = fs.readFileSync(path.join(baseDir, 'dist', p.folder, 'organograma.html'), 'utf-8');
   if (p.hasFdc) {
     assert(pHtml.includes('id="fdc-chips-group"'), `[${p.name}] Contém seletor de FDC (específico de ECA)`);
   } else {

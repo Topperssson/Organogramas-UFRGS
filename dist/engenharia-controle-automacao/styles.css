@@ -1254,6 +1254,9 @@ ul, ol, li {
   border: 1px solid rgba(245, 158, 11, 0.35);
   font-size: 10px;
   font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
 }
 
 .badge-credit-warning {

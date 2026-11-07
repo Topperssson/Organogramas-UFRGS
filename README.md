@@ -17,12 +17,12 @@ Cada curso possui um pacote de distribuição 100% independente e *standalone* e
 
 | Curso | Diretório | Disciplinas | Créditos | Particularidades | Execução Direta (`file://`) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Engenharia de Controle e Automação** | [`dist/engenharia-controle-automacao/`](dist/engenharia-controle-automacao/) | 83 | 222 cr | 4 FDCs dinâmicas, estágio (150 cr), TCCs e projetos integrados | `Start-Process "dist/engenharia-controle-automacao/index.html"` |
-| **Engenharia Mecânica** | [`dist/engenharia-mecanica/`](dist/engenharia-mecanica/) | 80 | 223 cr | Grade com forte encadeamento térmico e mecânico, estágio e TCC | `Start-Process "dist/engenharia-mecanica/index.html"` |
-| **Engenharia de Produção** | [`dist/engenharia-producao/`](dist/engenharia-producao/) | 65 | 210 cr | Núcleo de engenharia, gestão da produção, pesquisa operacional e economia | `Start-Process "dist/engenharia-producao/index.html"` |
-| **Ciências Econômicas** | [`dist/ciencias-economicas/`](dist/ciencias-economicas/) | 166 | 172 cr | Suporte unificado aos turnos **Diurno** e **Noturno** no mesmo simulador | `Start-Process "dist/ciencias-economicas/index.html"` |
-| **Engenharia Elétrica** | [`dist/engenharia-eletrica/`](dist/engenharia-eletrica/) | 128 | 246 cr | Grade abrangente de eletrônica, potência, sistemas e telecomunicações | `Start-Process "dist/engenharia-eletrica/index.html"` |
-| **Engenharia de Computação** | [`dist/engenharia-computacao/`](dist/engenharia-computacao/) | 122 | 148 cr | Integração hardware/software, sistemas embarcados, redes e computação | `Start-Process "dist/engenharia-computacao/index.html"` |
+| **Engenharia de Controle e Automação** | [`dist/engenharia-controle-automacao/`](dist/engenharia-controle-automacao/) | 83 | 222 cr | 4 FDCs dinâmicas, estágio (150 cr), TCCs e projetos integrados | `Start-Process "dist/engenharia-controle-automacao/organograma.html"` |
+| **Engenharia Mecânica** | [`dist/engenharia-mecanica/`](dist/engenharia-mecanica/) | 80 | 223 cr | Grade com forte encadeamento térmico e mecânico, estágio e TCC | `Start-Process "dist/engenharia-mecanica/organograma.html"` |
+| **Engenharia de Produção** | [`dist/engenharia-producao/`](dist/engenharia-producao/) | 65 | 210 cr | Núcleo de engenharia, gestão da produção, pesquisa operacional e economia | `Start-Process "dist/engenharia-producao/organograma.html"` |
+| **Ciências Econômicas** | [`dist/ciencias-economicas/`](dist/ciencias-economicas/) | 166 | 172 cr | Suporte unificado aos turnos **Diurno** e **Noturno** no mesmo simulador | `Start-Process "dist/ciencias-economicas/organograma.html"` |
+| **Engenharia Elétrica** | [`dist/engenharia-eletrica/`](dist/engenharia-eletrica/) | 128 | 246 cr | Grade abrangente de eletrônica, potência, sistemas e telecomunicações | `Start-Process "dist/engenharia-eletrica/organograma.html"` |
+| **Engenharia de Computação** | [`dist/engenharia-computacao/`](dist/engenharia-computacao/) | 122 | 148 cr | Integração hardware/software, sistemas embarcados, redes e computação | `Start-Process "dist/engenharia-computacao/organograma.html"` |
 
 > 📋 Para o roadmap completo com o status de todas as graduações da UFRGS, consulte o [**Checklist Completo de Cursos**](docs/checklist-cursos.md).
 
@@ -33,16 +33,16 @@ Cada curso possui um pacote de distribuição 100% independente e *standalone* e
 A arquitetura foi concebida em **Vanilla HTML5 / CSS3 / JavaScript ES2022 puro**, sem necessidade de compilação, *bundlers* (`vite`, `webpack`) ou servidores de backend.
 
 ### Opção 1: Abertura Direta (`file://` — Zero Config)
-Basta abrir diretamente o arquivo `index.html` de qualquer curso com um duplo clique no Windows Explorer ou pelo terminal PowerShell:
+Basta abrir diretamente o arquivo `organograma.html` de qualquer curso com um duplo clique no Windows Explorer ou pelo terminal PowerShell:
 ```powershell
 # Exemplo: Abrir Simulador de Controle e Automação
-Start-Process ".\dist\engenharia-controle-automacao\index.html"
+Start-Process ".\dist\engenharia-controle-automacao\organograma.html"
 
 # Exemplo: Abrir Simulador de Engenharia Mecânica
-Start-Process ".\dist\engenharia-mecanica\index.html"
+Start-Process ".\dist\engenharia-mecanica\organograma.html"
 
 # Exemplo: Abrir Simulador de Ciências Econômicas
-Start-Process ".\dist\ciencias-economicas\index.html"
+Start-Process ".\dist\ciencias-economicas\organograma.html"
 ```
 *(O script `curriculum_data.js` provê fallback automático de carregamento de dados na ausência de permissão para `fetch()` local).*
 
@@ -150,37 +150,37 @@ organogramas-ufrgs/
 │   │   ├── app.js
 │   │   ├── curriculum_data.js
 │   │   ├── curriculum_data.json
-│   │   ├── index.html
+│   │   ├── organograma.html
 │   │   └── styles.css
 │   ├── engenharia-computacao/                # 122 disciplinas (148 cr)
 │   │   ├── app.js
 │   │   ├── curriculum_data.js
 │   │   ├── curriculum_data.json
-│   │   ├── index.html
+│   │   ├── organograma.html
 │   │   └── styles.css
 │   ├── engenharia-controle-automacao/        # 83 disciplinas (222 cr, 4 FDCs)
 │   │   ├── app.js
 │   │   ├── curriculum_data.js
 │   │   ├── curriculum_data.json
-│   │   ├── index.html
+│   │   ├── organograma.html
 │   │   └── styles.css
 │   ├── engenharia-eletrica/                  # 128 disciplinas (246 cr)
 │   │   ├── app.js
 │   │   ├── curriculum_data.js
 │   │   ├── curriculum_data.json
-│   │   ├── index.html
+│   │   ├── organograma.html
 │   │   └── styles.css
 │   ├── engenharia-mecanica/                  # 80 disciplinas (223 cr)
 │   │   ├── app.js
 │   │   ├── curriculum_data.js
 │   │   ├── curriculum_data.json
-│   │   ├── index.html
+│   │   ├── organograma.html
 │   │   └── styles.css
 │   └── engenharia-producao/                  # 65 disciplinas (210 cr)
 │       ├── app.js
 │       ├── curriculum_data.js
 │       ├── curriculum_data.json
-│       ├── index.html
+│       ├── organograma.html
 │       └── styles.css
 ├── dev_tests/                                 # Suítes de validação, geradores e parsers curriculares
 │   ├── validate_all_projects.js              # Auditoria completa multi-curso

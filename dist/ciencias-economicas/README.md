@@ -20,9 +20,9 @@ Simulador curricular interativo *standalone* para estudantes de **Ciências Econ
 ## 🚀 Como Executar
 
 ### Execução Imediata (`file://` — Sem Servidor)
-Abra diretamente o arquivo [`index.html`](index.html) no navegador:
+Abra diretamente o arquivo [`organograma.html`](organograma.html) no navegador:
 ```powershell
-Start-Process "dist\ciencias-economicas\index.html"
+Start-Process "dist\ciencias-economicas\organograma.html"
 ```
 A base unificada de dados é carregada automaticamente a partir de [`curriculum_data.js`](curriculum_data.js).
 
@@ -41,8 +41,14 @@ No cabeçalho superior direito, utilize o seletor **Turno** para alternar entre 
 - **Eixo Quantitativo:** Matemática I a III, Estatística Econômica I e II, Introdução à Econometria e Econometria.
 - **Navegação SVG:** Curvas de Bézier destacam a precedência matemática rigorosa necessária para avançar nas matérias avançadas de teoria e econometria.
 
-### 3. Recursos de Produtividade
-- <kbd>Espaço</kbd> + Arrastar: Pan fluido em 60 FPS.
+### 3. Barreiras de Créditos Mínimos e Pré-requisitos
+- **Trabalho de Conclusão / Monografia (`TRABALHO`):** requer 140 créditos acumulados.
+- **Eletivas Avançadas e Seminários Temáticos:** disciplinas com requisitos específicos de 50 a 100 créditos acumulados, garantindo maturidade teórica prévia.
+- **Resolução Automática (BFS):** O motor algorítmico reorganiza dependentes e respeita o piso de créditos acumulados ao reagendar semestres.
+
+### 4. Recursos de Produtividade e Exportação
+- <kbd>Espaço</kbd> + Arrastar: Pan fluido em 60 FPS no canvas Miro.
 - <kbd>Scroll do Mouse</kbd>: Zoom focalizado.
 - **Duplo Clique no Card:** Marca a matéria como cursada/concluída, acendendo o card em verde e somando os créditos no painel esquerdo.
+- **Exportação PNG / PDF:** Relatórios visuais em alta resolução via Canvas 2D nativo.
 - **Salvar / Restaurar JSON:** Exporte o snapshot completo com o turno ativo gravado para restaurar em qualquer máquina.

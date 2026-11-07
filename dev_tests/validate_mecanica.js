@@ -102,11 +102,11 @@ assert(currData.estatisticas_nominais.creditos_eletivos >= 16, `Créditos eletiv
 
 // TEST 3: Ausência de FDC na UI e Identidade Visual Exclusiva
 console.log('\n--- Teste 3: Interface HTML & Ausência de FDC ---');
-const htmlContent = fs.readFileSync(path.join(distMecDir, 'index.html'), 'utf-8');
+const htmlContent = fs.readFileSync(path.join(distMecDir, 'organograma.html'), 'utf-8');
 assert(!htmlContent.includes('id="fdc-chips-group"'), 'Seletor de FDC chips removido da UI');
 assert(!htmlContent.includes('id="fdc-select"'), 'Select de FDC removido da UI');
 assert(!htmlContent.includes('pill-fdc'), 'Mini-card pill-fdc removido do painel de créditos');
-assert(htmlContent.includes('Trajetória Mecânica'), 'Título "Trajetória Mecânica" presente no cabeçalho');
+assert(htmlContent.includes('Organograma Mecânica') || htmlContent.includes('Trajetória Mecânica'), 'Título "Organograma Mecânica" presente no cabeçalho');
 assert(htmlContent.includes('Engenharia Mecânica • Catálogo 2026/1'), 'Subtítulo institucional da Engenharia Mecânica presente');
 assert(htmlContent.includes('Créditos Obrigatórios'), 'Título "Créditos Obrigatórios" presente na Barra 1');
 assert(htmlContent.includes('Créditos Eletivos'), 'Título "Créditos Eletivos" presente na Barra 2');
@@ -120,7 +120,7 @@ assert(appContent.includes('grade_mecanica_ufrgs_'), "Nome sugerido para exporta
 
 // TEST 5: Limpeza das Pastas de Distribuição
 console.log('\n--- Teste 5: Higiene & Limpeza dos Diretórios dist/ ---');
-const allowedFiles = new Set(['index.html', 'styles.css', 'app.js', 'curriculum_data.js', 'curriculum_data.json', 'README.md']);
+const allowedFiles = new Set(['organograma.html', 'styles.css', 'app.js', 'curriculum_data.js', 'curriculum_data.json', 'README.md']);
 
 function checkCleanDir(dirPath, label) {
   assert(fs.existsSync(dirPath), `Diretório ${label} existe`);

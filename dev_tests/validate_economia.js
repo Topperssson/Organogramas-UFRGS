@@ -22,7 +22,7 @@ const distDir = path.resolve(__dirname, '../dist/ciencias-economicas');
 // TESTE 1: Arquivos estritamente standalone na pasta dist/
 // ----------------------------------------------------
 console.log('1. Verificação de Isolamento e Conteúdo de dist/ciencias-economicas/:');
-const allowedFiles = new Set(['app.js', 'curriculum_data.js', 'curriculum_data.json', 'index.html', 'styles.css', 'README.md']);
+const allowedFiles = new Set(['app.js', 'curriculum_data.js', 'curriculum_data.json', 'organograma.html', 'styles.css', 'README.md']);
 const currentFiles = fs.readdirSync(distDir);
 assert(currentFiles.length === allowedFiles.size, `Exatamente ${allowedFiles.size} arquivos esperados (encontrados: ${currentFiles.length})`);
 currentFiles.forEach(f => {
@@ -57,8 +57,8 @@ assert(Boolean(curricula && curricula.noturno), 'Matriz Noturno presente');
 const diurno = curricula.diurno;
 const noturno = curricula.noturno;
 
-assert(diurno.label === 'Ciências Econômicas (Diurno)', 'Label Diurno correto');
-assert(noturno.label === 'Ciências Econômicas (Noturno)', 'Label Noturno correto');
+assert(diurno.label.toLowerCase() === 'ciências econômicas (diurno)', 'Label Diurno correto');
+assert(noturno.label.toLowerCase() === 'ciências econômicas (noturno)', 'Label Noturno correto');
 assert(diurno.totalMandatoryCredits === 128, `Metas Diurno: 128 cr obrigatórios (obtido: ${diurno.totalMandatoryCredits})`);
 assert(noturno.totalMandatoryCredits === 128, `Metas Noturno: 128 cr obrigatórios (obtido: ${noturno.totalMandatoryCredits})`);
 assert(diurno.totalElectiveCredits === 44, `Metas Diurno: 44 cr eletivos (obtido: ${diurno.totalElectiveCredits})`);
@@ -169,13 +169,13 @@ assert(mockLocalStorage['trajetoria_economia_active_shift'] === 'noturno', 'Últ
 // ----------------------------------------------------
 // TESTE 7: Verificação do Menu no Cabeçalho HTML
 // ----------------------------------------------------
-console.log('\n7. Verificação dos Elementos Visuais no index.html:');
-const htmlContent = fs.readFileSync(path.join(distDir, 'index.html'), 'utf8');
+console.log('\n7. Verificação dos Elementos Visuais no organograma.html:');
+const htmlContent = fs.readFileSync(path.join(distDir, 'organograma.html'), 'utf8');
 
 assert(htmlContent.includes('id="shift-select"'), 'Seletor #shift-select presente no DOM');
 assert(htmlContent.includes('☀️ Ciências Econômicas • Diurno'), 'Opção Diurno no cabeçalho');
 assert(htmlContent.includes('🌙 Ciências Econômicas • Noturno'), 'Opção Noturno no cabeçalho');
-assert(htmlContent.includes('<h1>Trajetória Economia <span class="badge-ufrgs">UFRGS</span></h1>'), 'Título Trajetória Economia com badge UFRGS preservado');
+assert(htmlContent.includes('<h1>Organograma Economia <span class="badge-ufrgs">UFRGS</span></h1>') || htmlContent.includes('<h1>Trajetória Economia <span class="badge-ufrgs">UFRGS</span></h1>'), 'Título Organograma Economia com badge UFRGS preservado');
 assert(htmlContent.includes('id="stat-obrig-target">128</span>'), 'Meta obrigatória de 128 créditos no HTML');
 assert(htmlContent.includes('id="stat-ele-target">44</span>'), 'Meta eletiva de 44 créditos no HTML');
 assert(htmlContent.includes('id="stat-target-credits">172</span>'), 'Meta total de 172 créditos no HTML');

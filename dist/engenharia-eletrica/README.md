@@ -15,9 +15,9 @@ Simulador curricular interativo *standalone* para estudantes de **Engenharia El�
 ## 🚀 Como Executar
 
 ### Execução Imediata (`file://` — Sem Servidor)
-Abra diretamente o arquivo [`index.html`](index.html) no navegador:
+Abra diretamente o arquivo [`organograma.html`](organograma.html) no navegador:
 ```powershell
-Start-Process "dist\engenharia-eletrica\index.html"
+Start-Process "dist\engenharia-eletrica\organograma.html"
 ```
 Compatibilidade nativa total sem servidor, bundlers ou dependências externas.
 
@@ -32,12 +32,18 @@ A matriz curricular abrange os principais ramos da eletrotécnica e eletrônica 
 - **Eletrônica e Sinais:** Eletrônica Analógica, Eletrônica de Potência, Sinais e Sistemas e Processamento Digital de Sinais (DSP).
 - **Controle e Automação:** Sistemas de Controle Linear, Acionamentos Elétricos e Instrumentação.
 
-### 2. Navegação Interativa e Resolução de Dependências
+### 2. Barreiras de Créditos Mínimos e Projeto de Diplomação
+- **`ELE99001` (Seminário de Acompanhamento e Prática Extensionista de PD I):** requer 180 créditos acumulados.
+- **`ELE99003` (Projeto de Diplomação I - ELE):** requer 180 créditos acumulados.
+- **`ELE99002` (Seminário de Acompanhamento e Prática Extensionista de PD II):** requer 180 créditos acumulados.
+- **`ELE99004` (Projeto de Diplomação II - ELE):** requer 180 créditos acumulados.
+
+### 3. Navegação Interativa e Resolução de Dependências (DAG)
 - **Inspeção de Pré-requisitos:** Passe o mouse sobre disciplinas-chave (como *Sistemas de Potência* ou *Eletrônica de Potência*) para identificar a cadeia upstream de circuitos, cálculo e eletromagnetismo.
 - **Arrastar e Soltar Reativo:** Mover matérias básicas propaga restrições temporais automaticamente, empurrando as matérias profissionais para semestres compatíveis.
 - **Marcar Conclusão:** Duplo clique no card para marcar a disciplina como concluída e atualizar o velocímetro de créditos.
 
-### 3. Persistência e Exportação
+### 4. Persistência e Exportação
 - **Armazenamento Automático:** Estado salvo no `localStorage` sob a chave exclusiva `trajetoria_eng_eletrica_ufrgs_v1`.
 - **Exportação PNG / PDF:** Relatórios em alta resolução com conexões vetoriais preservadas para orientação acadêmica e pedidos de quebra de pré-requisito na COMGRAD.
 - **Backup JSON:** Exporte seu planejamento acadêmico via download direto de arquivo `.json`.
