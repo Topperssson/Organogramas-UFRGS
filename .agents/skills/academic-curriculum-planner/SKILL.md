@@ -3,7 +3,7 @@ name: academic-curriculum-planner
 description: Automates end-to-end creation, scraping, validation, and maintenance of standalone interactive Miro-style academic curriculum DAG simulators for UFRGS undergraduate programs (file:// compatible, BFS cascade DAG solver, /1 and /2 semester parity, minimum credits, pastel original-semester badges, showSaveFilePicker, and native Canvas 2D PNG/PDF export). Use when generating or updating curriculum simulators (e.g., create-academic-curriculum-sim, academic-curriculum-planner, trajetoria-academica, course catalog migrations).
 ---
 
-# Academic Curriculum DAG Simulator Builder (UFRGS Trajetória Acadêmica)
+# Academic Curriculum DAG Simulator Builder (UFRGS Organogramas Curriculares)
 
 This skill operationalizes the complete engineering pipeline to generate, configure, and validate production-grade, 100% standalone, zero-server academic curriculum simulators for UFRGS courses.
 
@@ -15,22 +15,24 @@ Simulators run directly over the `file://` protocol without Node, Python, or HTT
 
 ### 1. Zero-Server Standalone Hygiene
 Every simulator lives in its own isolated distribution folder: `dist/<curso>/`.
-It must contain **strictly 5 production files** and no build artifacts, temporary dumps, or testing scripts:
+It must contain **strictly 6 production files** and no build artifacts, temporary dumps, or testing scripts:
 ```text
 dist/<curso>/
-├── index.html              # Clean semantic DOM with header, sidebar, and canvas board
+├── organograma.html        # Clean semantic DOM with header, credit sidebar, and interactive canvas board
 ├── styles.css              # Dark theme (#0B0F19, #161F30), Miro canvas, and pastel badges
 ├── app.js                  # State engine, DAG solver, drag & drop, localStorage, Canvas 2D exporter
 ├── curriculum_data.js      # JS fallback for zero-server file:// protocol execution
-└── curriculum_data.json    # JSON master format for schema validation and programmatic imports
+├── curriculum_data.json    # JSON master format for schema validation and programmatic imports
+└── README.md               # User guide and course-specific curriculum reference
 ```
 
 ### 2. Token Economy & Boilerplate Reuse (The Ladder Rule)
 **Never rewrite HTML, CSS, or the canvas engine from scratch.**
 Always clone from the closest architectural benchmark in `dist/`:
-- **Single-Track Curriculum (No FDC, No Shift)**: Clone from `dist/engenharia-producao/`.
+- **Single-Track Curriculum (No FDC, No Shift)**: Clone from `dist/engenharia-producao/` or `dist/engenharia-mecanica/`.
 - **Multi-Shift Curriculum (Diurno vs. Noturno)**: Clone from `dist/ciencias-economicas/`.
-- **Elective Track Specialization (Formação Complementar / FDC)**: Clone from `dist/engenharia-controle-automacao/`.
+- **Elective Track Specialization (Formação Diversificada Complementar / FDC)**: Clone from `dist/engenharia-controle-automacao/`.
+- **Cross-Institute Joint Curriculum (Hardware + Software)**: Clone from `dist/engenharia-computacao/`.
 
 ---
 
@@ -38,12 +40,12 @@ Always clone from the closest architectural benchmark in `dist/`:
 
 ```mermaid
 flowchart TD
-    A["1. Data Acquisition (UFRGS Scraping & APIs)"] --> B["2. Dataset Harmonization (JSON Schema)"]
+    A["1. Data Acquisition (UFRGS Scraping & plone.php)"] --> B["2. Dataset Harmonization (JSON Schema)"]
     B --> C["3. Benchmark Cloning (dist/curso/)"]
     C --> D["4. DAG & Constraint Solver Wiring"]
-    D --> E["5. UI Customization & Header Selector"]
+    D --> E["5. UI Customization & Header Rebranding"]
     E --> F["6. Automated Validation Suite (dev_tests/)"]
-    F --> G["7. Multi-Course Regression Gate"]
+    F --> G["7. Multi-Course Regression Gate (validate_all_projects.js)"]
 ```
 
 ---
@@ -53,38 +55,45 @@ flowchart TD
 Acquire official curriculum structures from UFRGS systems (COMGRAD, Portal de Graduação, or FCE/Escola de Engenharia).
 
 1. **Scraping Sources:**
-   - Official undergraduate catalog URL: `https://www.ufrgs.br/site/ensino/graduacao/<curso>/`
-   - UFRGS AJAX activity catalog endpoint:
-     `https://www1.ufrgs.br/graduacao/informacoescadastrais/consultaDadosAtividade_Plone.php?cod=<CURRICULO>&hab=<HABILITACAO>`
+   - Official undergraduate degree catalog URL: `https://www.ufrgs.br/site/ensino/graduacao/<curso>/`
+   - Official UFRGS public curriculum iframe endpoints (`plone.php`):
+     - Complete Curricular Report:
+       `https://www1.ufrgs.br/PortalEnsino/GraduacaoCurriculos/plone.php?r=relatorio&curso=<CURSO>&habilitacao=<HABILITACAO>&curriculo=<CURRICULO>`
+     - Visual Grid Matrix:
+       `https://www1.ufrgs.br/PortalEnsino/GraduacaoCurriculos/plone.php?r=grade&curso=<CURSO>&habilitacao=<HABILITACAO>&curriculo=<CURRICULO>`
+   > [!IMPORTANT]
+   > Notice that `curriculo` is typically `1` (the curriculum edition/version), while `curso` is the 3-digit institutional ID (e.g. `curso=714`, `habilitacao=144`, `curriculo=1` for ECA). Querying with `curriculo=curso` causes a redirect to empty pages.
+
 2. **Schema Standardization:**
    Each course item must conform strictly to the standard schema:
    ```json
    {
-     "code": "ECO02001",
-     "name": "Introdução à Economia",
+     "code": "ENG10042",
+     "name": "Sistemas Digitais - A",
      "credits": 4,
-     "originalSemester": 1,
+     "originalSemester": 4,
      "type": "obrigatoria",
-     "prereqs": [],
-     "min_credits": 0,
+     "prereqs": ["ENG10051", "INF01004"],
+     "min_credits": 44,
      "periodicity": null,
      "alternativeOf": null,
      "altChoice": false
    }
    ```
 3. **Field Specifications:**
-   - `code`: Official alphanumeric UFRGS subject code (e.g., `MAT01109`, `ENG01001`).
-   - `credits`: Number of academic credits (typically 2, 4, or 6 credits; 1 cr = 15h).
-   - `originalSemester`: Recommended semester in the official pedagogical plan (`1` to `8` or `10`).
+   - `code`: Official alphanumeric UFRGS subject code (e.g., `MAT01353`, `ENG10042`).
+   - `name`: Official course name in the curricular matrix.
+   - `credits`: Number of academic credits (1 credit = 15 teaching hours).
+   - `originalSemester`: Recommended nominal semester in the official pedagogical plan (`1` to `8` or `10`).
    - `type`: `"obrigatoria"` for core mandatory subjects, `"eletiva"` for elective bank subjects, or `"fdc"` for track-specific subjects.
-   - `prereqs`: Array of direct prerequisite course codes (e.g. `["MAT01109", "MAT01353"]`).
-   - `min_credits`: Credit barrier threshold required to enroll (e.g. `100`, `140`).
+   - `prereqs`: Array of direct prerequisite course codes (e.g. `["ENG10051", "INF01004"]`).
+   - `min_credits`: Credit barrier threshold required to enroll (e.g. `44`, `120`, `150`, `180`, `190`).
    - `periodicity`: `"/1"` if offered only in odd semesters, `"/2"` if offered only in even semesters, or `null` if offered every semester.
-   - `alternativeOf` & `altChoice`: Used when students must choose between pairs (e.g., in-person vs. EAD alternatives).
+   - `alternativeOf` & `altChoice`: Used when students must choose between mutually exclusive pairs (e.g., in-person vs. EAD alternatives).
 
 ---
 
-### Step 2: Multi-Curriculum & Shift Structures
+### Step 2: Multi-Curriculum, Shift & FDC Structures
 
 When courses have shifts (Diurno and Noturno) or multiple specializations (FDCs), structure `curriculum_data.js` and `curriculum_data.json` as a unified container:
 
@@ -114,6 +123,10 @@ if (typeof module !== 'undefined' && module.exports) {
 }
 ```
 
+For FDC-enabled curricula (such as Engenharia de Controle e Automação):
+- Embed `fdc_tracks` metadata mapping each FDC (1 to 4) to its specific track subjects.
+- When switching FDCs, non-shared track courses are safely demoted to the Elective Bank (`semester: null`), while new track courses are allocated without breaking completed history.
+
 ---
 
 ### Step 3: Miro-Style Infinite Canvas & Dynamic Columns
@@ -123,7 +136,7 @@ The canvas board displays drag-and-drop columns representing academic semesters:
 1. **Dynamic Semester Columns:**
    - Render columns dynamically from Semester 1 up to $S_{\max}$.
    - **Dynamic $S_{\max} + 1$ Empty Buffer:** Always render at least one empty column beyond the highest occupied semester to enable smooth forward drag-and-drop.
-   - **Semester 20+ Alert Styling:** Any column with index $\ge 20$ represents an extended graduation buffer. Style the column header and drop area with subtle crimson accents (`#3B1822`, border `#7F1D1D`, badge text `#FCA5A5`) to visually flag prolonged trajectories without hard limits.
+   - **Semester 20+ Alert Styling:** Any column with index $\ge 20$ represents an extended graduation buffer. Style the column header and drop area with subtle crimson accents (`#3B1822`, border `#7F1D1D`, badge text `#FCA5A5`) to visually flag prolonged trajectories without hard limits or crashes.
 2. **Original Semester Pastel Palette (10 Classes):**
    Courses carry badges indicating their official curriculum semester. Use the high-contrast 10-color pastel system:
    ```css
@@ -173,34 +186,34 @@ function cascadeMove(courseCode, targetSemester, visited = new Set()) {
    - If a course has `periodicity: "/1"` and is placed in an even semester, or `periodicity: "/2"` in an odd semester, flag a visual warning badge (`⚠️ Oferta Semestral Desalinhada`) and provide one-click correction to the nearest valid parity semester.
 2. **Minimum Credits Barrier (`min_credits`):**
    - When calculating status for course $B$, sum all credits allocated to strictly earlier semesters ($< \text{Semestre}(B)$).
-   - If $\sum \text{Credits} < B.\text{min\_credits}$, show a barrier tag (e.g. `Requer 120 cr (acumulados: 96 cr)`).
+   - If $\sum \text{Credits} < B.\text{min\_credits}$, show a barrier tag (e.g. `🔒 Requer 180 cr; Atual: 164`) and add `.card-credit-warning` styling to the card border.
 
 ---
 
-### Step 5: Sidebar Counters, Shifts & Persistence
+### Step 5: Sidebar Counters, Persistence & Native Export
 
-1. **Header Shift / Track Selector:**
-   In `.brand-header`, render the title `Trajetória <Curso>` with `<span class="badge-ufrgs">UFRGS</span>` and a compact `<select class="shift-select">` with custom dark styling:
+1. **Header Rebranding & Selector:**
+   In `.brand-header`, render the title `Organograma <Curso>` with `<span class="badge-ufrgs">UFRGS</span>`:
    ```html
-   <div class="shift-selector-wrapper">
-     <select id="shift-select" class="shift-select">
-       <option value="diurno">☀️ Ciências Econômicas • Diurno</option>
-       <option value="noturno">🌙 Ciências Econômicas • Noturno</option>
-     </select>
-   </div>
+   <header class="top-bar">
+     <div class="brand">
+       <h1>Organograma <Curso> <span class="badge-ufrgs">UFRGS</span></h1>
+       <div class="subtitle"><Curso> • Catálogo 2026/1</div>
+     </div>
+     <!-- Shift or FDC selector if applicable -->
+   </header>
    ```
 2. **Independent LocalStorage Isolation:**
-   - Key format: `'trajetoria_<curso>_<turno>_ufrgs_v1'`
-   - Active shift key: `'trajetoria_<curso>_active_shift'`
-   - On shift switch: save state of current shift $\rightarrow$ update active shift $\rightarrow$ load state of new shift $\rightarrow$ re-render canvas.
+   - Key format: `'trajetoria_<curso>_ufrgs_v1'` (or per shift: `'trajetoria_<curso>_<turno>_ufrgs_v1'`)
+   - Export prefix: `'grade_<curso>_ufrgs'`
+   - Zero cross-contamination between courses or shifts.
 3. **Dual Credit Progress Bars:**
-   - Mandatory Credits Bar: tracks core required credits (e.g., 128 / 128 cr).
-   - Elective Credits Bar: tracks elective credits added to the trajectory (e.g., 24 / 44 cr).
+   - Mandatory Credits Bar: tracks core required credits.
+   - Elective Credits Bar: tracks elective credits added to the trajectory.
    - Total Counter: tracks complete graduation progress towards the degree target.
 4. **File System Access API & Native Canvas 2D Export:**
-   - **JSON Save/Load:** Use `window.showSaveFilePicker()` with fallback to `<a download>`. Always embed metadata:
-     `{ "course": "<curso>", "shift": "diurno"|"noturno", "allocations": {...}, "completed": [...] }`.
-   - **Canvas 2D Export:** Draw the grid, cards, pastel badges, and SVG-like bezier connection lines directly onto an offscreen HTML5 `<canvas>` scaled with `devicePixelRatio * 2`. Export as high-res PNG (`canvas.toBlob()`) and trigger native PDF vector printing via `@media print` rules without bundling heavy third-party libraries.
+   - **JSON Save/Load:** Use `window.showSaveFilePicker()` with fallback to `<a download>`. Always embed metadata.
+   - **Canvas 2D Export:** Draw the grid, cards, pastel badges, and SVG-like bezier connection lines directly onto an offscreen HTML5 `<canvas>` scaled with `devicePixelRatio * 2`. Export as high-res PNG (`canvas.toBlob()`) and PDF via native Canvas 2D / `jsPDF` fallback without bundling heavy third-party server tools.
 
 ---
 
@@ -209,13 +222,14 @@ function cascadeMove(courseCode, targetSemester, visited = new Set()) {
 Every simulator must be verified by a dedicated test script (`dev_tests/validate_<curso>.js`) and registered in `dev_tests/validate_all_projects.js`.
 
 The test suite must verify:
-1. **File Hygiene**: Strictly 5 permitted files in `dist/<curso>/`.
+1. **File Hygiene**: Strictly 6 permitted files in `dist/<curso>/`:
+   `['organograma.html', 'styles.css', 'app.js', 'curriculum_data.js', 'curriculum_data.json', 'README.md']`.
 2. **Syntax Validation**: `node --check app.js` and `node --check curriculum_data.js` exit 0.
 3. **Curriculum Completeness**: All required credit goals match official pedagogical guidelines.
 4. **Referential Integrity**: 100% of codes listed in `prereqs` exist in the course catalog.
 5. **DAG Acyclicity**: Kahn's topological sort confirms zero dependency cycles.
 6. **Persistence Isolation**: Turn/course keys do not collide with other simulators.
-7. **JSON Export/Import**: Exported payloads carry the required shift/course schema tags.
+7. **JSON Export/Import**: Exported payloads carry the required schema tags.
 
 ```powershell
 # Run course-specific test suite
@@ -229,13 +243,14 @@ node dev_tests/validate_all_projects.js
 
 ## Quick Reference Checklist for New Simulators
 
-- [ ] Ingest curriculum from official UFRGS portal or AJAX API.
+- [ ] Ingest curriculum from official UFRGS portal or `plone.php` iframe.
 - [ ] Determine shift requirements (Single-track, Diurno/Noturno, or FDC specialization).
-- [ ] Clone files from `dist/engenharia-producao/` or `dist/ciencias-economicas/`.
+- [ ] Clone 6 distribution files from benchmark (`dist/engenharia-producao/`, `dist/ciencias-economicas/`, etc.).
 - [ ] Inject `curriculum_data.js` and `curriculum_data.json`.
-- [ ] Ensure `localStorage` key names are unique and prefixed with the course name.
-- [ ] Configure header titles, badges, and shift selectors.
+- [ ] Ensure `localStorage` key names and export prefixes are unique.
+- [ ] Configure header titles with `Organograma <Curso>` and badge `UFRGS`.
 - [ ] Verify 10-color pastel classes and filter chips.
+- [ ] Verify `min_credits` barriers and badges (`badge-credit-req`).
 - [ ] Write and execute `dev_tests/validate_<curso>.js`.
 - [ ] Register new course in `dev_tests/validate_all_projects.js`.
 - [ ] Validate zero-server `file://` execution in a browser.
