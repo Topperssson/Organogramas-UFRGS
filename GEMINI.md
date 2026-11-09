@@ -54,6 +54,11 @@
 
 ---
 
+### 6. Modern Web Standards & Frontend Quality
+- All production simulator frontends in `dist/` adhere to modern HTML5 semantic landmarks, CSS Grid/Flexbox architecture, ES2022+ vanilla JavaScript, and WCAG accessibility standards as defined in [`.agents/skills/modern-web-guidance/`](file:///C:/dev/organogramas-ufrgs/.agents/skills/modern-web-guidance/SKILL.md).
+
+---
+
 ## 3. Validation Gates & Pre-Commit Quality
 Before committing any changes to this repository, run and pass the full validation suite:
 ```powershell
