@@ -1,4 +1,4 @@
-/* ==========================================================================
+﻿/* ==========================================================================
    Trajetória ECA UFRGS - Miro Board Styles
    ========================================================================== */
 
@@ -12,12 +12,12 @@
   --border-active: #3b82f6;
   --text-main: #f8fafc;
   --text-muted: #94a3b8;
-  --text-dim: #64748b;
+  --text-dim: #8190a5;
   
-  --accent-blue: #38bdf8;
+  --accent-blue: #7aa2c7;
   --accent-cyan: #06b6d4;
   --accent-green: #34d399;
-  --accent-amber: #f59e0b;
+  --accent-amber: #c9a96a;
   --accent-rose: #f43f5e;
   --accent-indigo: #818cf8;
   --accent-purple: #c084fc;
@@ -251,7 +251,7 @@ ul, ol, li {
 .badge-ufrgs {
   font-size: 10px;
   font-weight: 800;
-  background: #2563eb;
+  background: #3d5a80;
   color: #fff;
   padding: 1px 5px;
   border-radius: 4px;
@@ -333,7 +333,7 @@ ul, ol, li {
 }
 
 .tracker-pct-ele {
-  color: #ec4899;
+  color: #c98aa8;
 }
 
 .progress-bar-container {
@@ -355,11 +355,11 @@ ul, ol, li {
 }
 
 .progress-bar-obrig {
-  background: linear-gradient(90deg, #38bdf8, #10b981);
+  background: linear-gradient(90deg, #7aa2c7, #6fa88a);
 }
 
 .progress-bar-ele {
-  background: linear-gradient(90deg, #f59e0b, #ec4899);
+  background: linear-gradient(90deg, #c9a96a, #c98aa8);
 }
 
 .credits-summary-box {
@@ -409,7 +409,7 @@ ul, ol, li {
   display: inline-block;
   margin-bottom: 2px;
 }
-.dot-obr { background: #38bdf8; }
+.dot-obr { background: #7aa2c7; }
 .dot-fdc { background: #c084fc; }
 .dot-ele { background: #fbbf24; }
 
@@ -501,7 +501,7 @@ ul, ol, li {
 
 .fdc-chip.active {
   background: rgba(56, 189, 248, 0.14);
-  color: #38bdf8;
+  color: #7aa2c7;
   border-color: rgba(56, 189, 248, 0.4);
   font-weight: 600;
 }
@@ -517,7 +517,7 @@ ul, ol, li {
 
 .fdc-chip.active .fdc-chip-badge {
   background: rgba(56, 189, 248, 0.25);
-  color: #38bdf8;
+  color: #7aa2c7;
 }
 
 .label-cycle {
@@ -695,7 +695,7 @@ ul, ol, li {
 
 .stage-chip.active {
   background: rgba(56, 189, 248, 0.16);
-  border-color: #38bdf8;
+  border-color: #7aa2c7;
   color: #fff;
   font-weight: 700;
   box-shadow: 0 0 6px rgba(56, 189, 248, 0.3);
@@ -917,7 +917,7 @@ ul, ol, li {
 }
 
 .btn-primary {
-  background: #2563eb;
+  background: #3d5a80;
   border: 1px solid #3b82f6;
   color: #fff;
   box-shadow: 0 2px 8px rgba(37, 99, 235, 0.3);
@@ -1098,8 +1098,8 @@ ul, ol, li {
 }
 
 .col-complete-check:checked {
-  background: #10b981;
-  border-color: #10b981;
+  background: #6fa88a;
+  border-color: #6fa88a;
 }
 
 .col-complete-check:checked::after {
@@ -1244,7 +1244,7 @@ ul, ol, li {
 
 /* Badges e Alertas de Créditos Mínimos */
 .course-card.card-credit-warning {
-  border-color: #f59e0b;
+  border-color: #c9a96a;
   box-shadow: 0 0 10px rgba(245, 158, 11, 0.3);
 }
 
@@ -1324,7 +1324,7 @@ ul, ol, li {
 .course-card.card-completed,
 .course-card.course-completed,
 .course-card[data-completed="true"] {
-  border: 2px solid #10B981 !important;
+  border: 2px solid #6fa88a !important;
   box-shadow: 0 0 10px rgba(16, 185, 129, 0.25) !important;
   background: rgba(16, 36, 35, 0.6) !important;
 }
@@ -1356,7 +1356,7 @@ ul, ol, li {
 }
 
 .course-card.card-type-fdc.fdc-1 { background: #271E14 !important; border-color: #D97706 !important; box-shadow: 0 2px 8px rgba(217, 119, 6, 0.18); }
-.course-card.card-type-fdc.fdc-2 { background: #112622 !important; border-color: #10B981 !important; box-shadow: 0 2px 8px rgba(16, 185, 129, 0.18); }
+.course-card.card-type-fdc.fdc-2 { background: #112622 !important; border-color: #6fa88a !important; box-shadow: 0 2px 8px rgba(16, 185, 129, 0.18); }
 .course-card.card-type-fdc.fdc-3 { background: #1E1630 !important; border-color: #8B5CF6 !important; box-shadow: 0 2px 8px rgba(139, 92, 246, 0.18); }
 .course-card.card-type-fdc.fdc-1:hover { box-shadow: 0 4px 14px rgba(217, 119, 6, 0.35); }
 .course-card.card-type-fdc.fdc-2:hover { box-shadow: 0 4px 14px rgba(16, 185, 129, 0.35); }
@@ -1364,7 +1364,7 @@ ul, ol, li {
 
 .course-card.card-type-eletiva {
   background: #251529 !important;
-  border-color: #EC4899 !important;
+  border-color: #c98aa8 !important;
   border-style: dashed !important;
   box-shadow: 0 2px 8px rgba(236, 72, 153, 0.15);
 }
@@ -1376,7 +1376,7 @@ ul, ol, li {
 .course-card.card-completed,
 .course-card.course-completed,
 .course-card[data-completed="true"] {
-  border: 2px solid #10B981 !important;
+  border: 2px solid #6fa88a !important;
   border-style: solid !important;
   box-shadow: 0 0 10px rgba(16, 185, 129, 0.25) !important;
   background: rgba(16, 36, 35, 0.6) !important;
@@ -1548,7 +1548,7 @@ ul, ol, li {
   border: 1px solid rgba(217, 119, 6, 0.55);
 }
 .badge-fdc.badge-fdc-1 { background: rgba(217, 119, 6, 0.2); color: #FBBF24; border-color: #D97706; }
-.badge-fdc.badge-fdc-2 { background: rgba(16, 185, 129, 0.2); color: #34D399; border-color: #10B981; }
+.badge-fdc.badge-fdc-2 { background: rgba(16, 185, 129, 0.2); color: #34D399; border-color: #6fa88a; }
 .badge-fdc.badge-fdc-3 { background: rgba(139, 92, 246, 0.2); color: #A78BFA; border-color: #8B5CF6; }
 
 .badge-compl {
@@ -1993,7 +1993,7 @@ ul, ol, li {
 
 .period-pill.period-1 {
   background: rgba(56, 189, 248, 0.16);
-  color: #38bdf8;
+  color: #7aa2c7;
   border: 1px solid rgba(56, 189, 248, 0.3);
 }
 
@@ -2005,7 +2005,7 @@ ul, ol, li {
 
 .badge-p1 {
   background: rgba(56, 189, 248, 0.14);
-  color: #38bdf8;
+  color: #7aa2c7;
   border: 1px solid rgba(56, 189, 248, 0.28);
 }
 
@@ -2058,3 +2058,110 @@ ul, ol, li {
   cursor: not-allowed !important;
   pointer-events: none;
 }
+
+/* Craftsmanship: focus ring, tactile feedback, disabled state, reduced motion */
+button:focus-visible, [role="button"]:focus-visible, select:focus-visible, input:focus-visible, textarea:focus-visible, a:focus-visible {
+  outline: 2px solid var(--accent-blue, #7aa2c7);
+  outline-offset: 2px;
+}
+button:not(:disabled):active, [class^="btn-"]:not(:disabled):active, [class*=" btn-"]:not(:disabled):active {
+  transform: scale(0.985) translateY(1px);
+}
+button:disabled { opacity: 0.45; cursor: not-allowed; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
+
+/* Redesign: dark luxury sidebar, modern brand header, precision-corner cards */
+:root { --lux-gold: #c9a96a; --lux-line: rgba(201, 169, 106, 0.28); }
+.left-sidebar {
+  background: linear-gradient(180deg, #0c111d 0%, #090d16 100%);
+  border-right: 1px solid var(--lux-line);
+  box-shadow: 8px 0 32px rgba(0, 0, 0, 0.45);
+}
+.brand {
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--lux-line);
+}
+.brand-logo {
+  border-radius: 4px;
+  background: #0f172a;
+  border: 1px solid var(--lux-gold);
+  color: var(--lux-gold);
+  box-shadow: none;
+}
+.brand-text h1 { letter-spacing: 0.04em; font-weight: 600; }
+.sidebar-block {
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.02);
+}
+.sidebar-label {
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--lux-gold);
+}
+.course-card {
+  border-radius: 3px;
+  border-width: 1px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.04) inset, 0 2px 6px rgba(0, 0, 0, 0.35);
+}
+.course-card::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  pointer-events: none;
+  --c: var(--lux-gold);
+  background:
+    linear-gradient(var(--c), var(--c)) top left / 8px 1.5px,
+    linear-gradient(var(--c), var(--c)) top left / 1.5px 8px,
+    linear-gradient(var(--c), var(--c)) top right / 8px 1.5px,
+    linear-gradient(var(--c), var(--c)) top right / 1.5px 8px,
+    linear-gradient(var(--c), var(--c)) bottom left / 8px 1.5px,
+    linear-gradient(var(--c), var(--c)) bottom left / 1.5px 8px,
+    linear-gradient(var(--c), var(--c)) bottom right / 8px 1.5px,
+    linear-gradient(var(--c), var(--c)) bottom right / 1.5px 8px;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  transition: opacity 0.15s;
+}
+.course-card:hover::before, .course-card.selected-card::before { opacity: 1; }
+.course-card.dimmed::before { opacity: 0.2; }
+
+/* Palette refinement: muted, desaturated accents (edges keep their neon) */
+:root {
+  --bg-card: #161d2b; --bg-card-hover: #1c2638; --bg-card-selected: #232d40;
+  --border-subtle: #2a3345; --border-active: #c9a96a;
+  --text-muted: #9aa3b2; --text-dim: #6b7485;
+  --accent-blue: #7aa2c7; --accent-cyan: #6fa8a8; --accent-green: #7fb08f;
+  --accent-amber: #c9a96a; --accent-rose: #c97b84; --accent-indigo: #8f9bc4; --accent-purple: #a893c4;
+  --pastel-sem-1: #e3b5b5; --pastel-sem-1-bd: #c98a8a;
+  --pastel-sem-2: #e6c9a3; --pastel-sem-2-bd: #c9a06b;
+  --pastel-sem-3: #e3dba6; --pastel-sem-3-bd: #c2b568;
+  --pastel-sem-4: #c8dcaa; --pastel-sem-4-bd: #92b56b;
+  --pastel-sem-5: #a9d9c4; --pastel-sem-5-bd: #6bb596;
+  --pastel-sem-6: #a9d3de; --pastel-sem-6-bd: #6baabd;
+  --pastel-sem-7: #b5c4e0; --pastel-sem-7-bd: #7b93c2;
+  --pastel-sem-8: #cbbbe0; --pastel-sem-8-bd: #9a82bf;
+  --pastel-sem-9: #e0b9d2; --pastel-sem-9-bd: #bf82a8;
+}
+.brand-logo { background: #0f172a; }
+.course-card.selected-card, .course-card.highlight-upstream, .course-card.highlight-downstream,
+.course-card[data-completed="true"], .course-card.card-type-fdc, .course-card.card-type-eletiva {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4) !important;
+}
+.course-card.selected-card { border-color: var(--lux-gold) !important; }
+.course-card.highlight-upstream { border-color: #7aa2c7 !important; }
+.course-card.highlight-downstream { border-color: #7fb08f !important; }
+.course-card.card-type-fdc.fdc-1 { border-color: #b8894a !important; }
+.course-card.card-type-fdc.fdc-2 { border-color: #6b9c85 !important; }
+.course-card.card-type-fdc.fdc-3 { border-color: #8c7ba8 !important; }
+
+/* Review fixes: calmer accents, contrast, compact sidebar */
+.brand-logo ~ * .badge-ufrgs, .badge-ufrgs { background: #2b3a55; color: #c9d6ea; }
+.credits-progress-fill, [class*="progress-fill"] { background: linear-gradient(90deg, #6f95b8, #7fb08f) !important; }
+input::placeholder { color: #8892a3; opacity: 1; }
+button:disabled { opacity: 0.6; border-style: dashed; }
+.course-card::before { background-size: 10px 2px, 2px 10px, 10px 2px, 2px 10px, 10px 2px, 2px 10px, 10px 2px, 2px 10px; opacity: 0.9; }
+.left-sidebar { gap: 8px; padding: 12px; }
+.sidebar-block { padding-block: 8px; }
