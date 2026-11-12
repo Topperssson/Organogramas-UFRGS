@@ -60,7 +60,9 @@
 ---
 
 ## 3. Validation Gates & Pre-Commit Quality
-Before committing any changes to this repository, run and pass the full validation suite:
+- **Scoped Conventional Commits**: `feat(eca): ...`, `feat(mecanica): ...`, `feat(producao): ...`, `feat(economia): ...`, `feat(eletrica): ...`, `feat(computacao): ...`, `fix(dag): ...`, `test: ...`, `docs: ...`, `chore: ...`.
+- **Quick Check (per slice)**: `node --check dist/<curso>/app.js` or targeted validator: `node dev_tests/validate_<curso>.js`.
+- **Final Gate (pre-push)**:
 ```powershell
 node dev_tests/validate_all_projects.js
 ```
