@@ -1,4 +1,4 @@
-<#
+﻿<#
 .SYNOPSIS
     Script de backup incremental e aditivo para o Google Drive via Rclone para o Organogramas UFRGS.
 .DESCRIPTION
@@ -57,9 +57,7 @@ $rcloneArgs = @(
     "--filter-from", $FilterFile,
     "--fast-list",
     "--transfers", "4",
-    "--checkers", "8",
-    "-P",
-    "-v"
+    "--checkers", "8"
 )
 
 if ($DryRun) {
