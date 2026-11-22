@@ -1,6 +1,6 @@
 # Organogramas UFRGS Contract: `organogramas-ufrgs`
 
-> **Inheritance**: Inherits all universal behavioral, security, token economy, and Git standards from [`~/.gemini/GEMINI.md`](file:///C:/Users/LAMECC%20Gabriel%20Rossa/.gemini/GEMINI.md). This contract defines the domain rules, mathematical invariants, and zero-server standalone architecture of the Organogramas UFRGS Curriculum Simulators.
+> **Inheritance**: Inherits all universal behavioral, security, token economy, and Git standards from `~/.gemini/GEMINI.md`. This contract defines the domain rules, mathematical invariants, and zero-server standalone architecture of the Organogramas UFRGS Curriculum Simulators.
 
 ---
 
@@ -55,7 +55,7 @@
 ---
 
 ### 6. Modern Web Standards & Frontend Quality
-- All production simulator frontends in `dist/` adhere to modern HTML5 semantic landmarks, CSS Grid/Flexbox architecture, ES2022+ vanilla JavaScript, and WCAG accessibility standards as defined in [`.agents/skills/modern-web-guidance/`](file:///C:/dev/organogramas-ufrgs/.agents/skills/modern-web-guidance/SKILL.md).
+- All production simulator frontends in `dist/` adhere to modern HTML5 semantic landmarks, CSS Grid/Flexbox architecture, ES2022+ vanilla JavaScript, and WCAG accessibility standards as defined in [`.agents/skills/modern-web-guidance/SKILL.md`](.agents/skills/modern-web-guidance/SKILL.md).
 
 ---
 
@@ -66,4 +66,4 @@
 ```powershell
 node dev_tests/validate_all_projects.js
 ```
-All 6 curriculum simulators must achieve 100% PASS across syntax, DAG acyclicity, `localStorage` uniqueness, HTML interface cleanliness, and 5/5 distribution file hygiene.
+All 6 curriculum simulators must achieve 100% PASS across syntax, DAG acyclicity, `localStorage` uniqueness, HTML interface cleanliness, and 6/6 distribution file hygiene.
