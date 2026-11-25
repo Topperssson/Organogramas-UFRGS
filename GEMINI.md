@@ -33,9 +33,19 @@
   - **Engenharia de Controle e Automação**: `trajetoria_eca_ufrgs` (prefix: `grade_eca_ufrgs`)
   - **Engenharia Mecânica**: `trajetoria_eng_mecanica_ufrgs_v1` (prefix: `grade_mecanica_ufrgs`)
   - **Engenharia de Produção**: `trajetoria_eng_producao_ufrgs_v1` (prefix: `grade_producao_ufrgs`)
-  - **Ciências Econômicas**: `trajetoria_economia_diurno_ufrgs_v1` / `trajetoria_economia_noturno_ufrgs_v1` (prefix: `grade_economia`)
+  - **Ciências Econômicas**: `trajetoria_economia_diurno_ufrgs_v1` / `trajetoria_economia_noturno_ufrgs_v1` / `trajetoria_economia_active_shift` (prefix: `grade_economia`)
   - **Engenharia Elétrica**: `trajetoria_eng_eletrica_ufrgs_v1` (prefix: `grade_eletrica_ufrgs`)
   - **Engenharia de Computação**: `trajetoria_eng_computacao_ufrgs_v1` (prefix: `grade_computacao_ufrgs`)
+  - **Ciência da Computação**: `trajetoria_ciencia_computacao_ufrgs_v1` (prefix: `grade_ciencia_computacao_ufrgs`)
+  - **Engenharia Civil**: `trajetoria_eng_civil_ufrgs_v1` (prefix: `grade_civil_ufrgs`)
+  - **Engenharia Química**: `trajetoria_eng_quimica_ufrgs_v1` (prefix: `grade_quimica_ufrgs`)
+  - **Engenharia de Materiais**: `trajetoria_eng_materiais_ufrgs_v1` (prefix: `grade_materiais_ufrgs`)
+  - **Engenharia Ambiental**: `trajetoria_eng_ambiental_ufrgs_v1` (prefix: `grade_ambiental_ufrgs`)
+  - **Engenharia Metalúrgica**: `trajetoria_eng_metalurgica_ufrgs_v1` (prefix: `grade_metalurgica_ufrgs`)
+  - **Engenharia de Minas**: `trajetoria_eng_minas_ufrgs_v1` (prefix: `grade_minas_ufrgs`)
+  - **Engenharia Física**: `trajetoria_eng_fisica_ufrgs_v1` (prefix: `grade_fisica_ufrgs`)
+  - **Engenharia Cartográfica e de Agrimensura**: `trajetoria_eng_cartografica_ufrgs_v1` (prefix: `grade_cartografica_ufrgs`)
+  - **Matemática**: `trajetoria_matematica_lic_diurno_ufrgs_v1` / `trajetoria_matematica_lic_noturno_ufrgs_v1` / `trajetoria_matematica_bach_pura_ufrgs_v1` / `trajetoria_matematica_bach_aplicada_ufrgs_v1` / `trajetoria_matematica_active_shift` (prefix: `grade_matematica`)
 
 ### 4. Mathematical DAG Constraint Solver Invariants
 - **Strict Temporal Dependency**: $\forall A \in \text{Prereqs}(B), \; \text{Semestre}(B) > \text{Semestre}(A)$.
@@ -60,10 +70,10 @@
 ---
 
 ## 3. Validation Gates & Pre-Commit Quality
-- **Scoped Conventional Commits**: `feat(eca): ...`, `feat(mecanica): ...`, `feat(producao): ...`, `feat(economia): ...`, `feat(eletrica): ...`, `feat(computacao): ...`, `fix(dag): ...`, `test: ...`, `docs: ...`, `chore: ...`.
+- **Scoped Conventional Commits**: `feat(eca): ...`, `feat(mecanica): ...`, `feat(producao): ...`, `feat(economia): ...`, `feat(eletrica): ...`, `feat(computacao): ...`, `feat(cic): ...`, `feat(civil): ...`, `feat(quimica): ...`, `feat(materiais): ...`, `feat(ambiental): ...`, `feat(metalurgica): ...`, `feat(minas): ...`, `feat(fisica): ...`, `feat(cartografica): ...`, `feat(matematica): ...`, `feat(scripts): ...`, `fix(dag): ...`, `test: ...`, `docs: ...`, `chore: ...`.
 - **Quick Check (per slice)**: `node --check dist/<curso>/app.js` or targeted validator: `node dev_tests/validate_<curso>.js`.
 - **Final Gate (pre-push)**:
 ```powershell
 node dev_tests/validate_all_projects.js
 ```
-All 6 curriculum simulators must achieve 100% PASS across syntax, DAG acyclicity, `localStorage` uniqueness, HTML interface cleanliness, and 6/6 distribution file hygiene.
+All 16 curriculum simulators must achieve 100% PASS across syntax, DAG acyclicity, `localStorage` uniqueness, HTML interface cleanliness, and 6/6 distribution file hygiene.

@@ -16,6 +16,16 @@ Cada subdiretório em `dist/<curso>/` é um pacote completo e autônomo, execut�
 | **Ciências Econômicas** | [`ciencias-economicas/`](ciencias-economicas/) | 166 | 172 cr | [`README.md`](ciencias-economicas/README.md) | `Start-Process "dist/ciencias-economicas/organograma.html"` |
 | **Engenharia Elétrica** | [`engenharia-eletrica/`](engenharia-eletrica/) | 128 | 246 cr | [`README.md`](engenharia-eletrica/README.md) | `Start-Process "dist/engenharia-eletrica/organograma.html"` |
 | **Engenharia de Computação** | [`engenharia-computacao/`](engenharia-computacao/) | 122 | 148 cr | [`README.md`](engenharia-computacao/README.md) | `Start-Process "dist/engenharia-computacao/organograma.html"` |
+| **Ciência da Computação** | [`ciencia-computacao/`](ciencia-computacao/) | 144 | 204 cr (166 ob) | [`README.md`](ciencia-computacao/README.md) | `Start-Process "dist/ciencia-computacao/organograma.html"` |
+| **Engenharia Civil** | [`engenharia-civil/`](engenharia-civil/) | 161 | 291 cr (234 ob) | [`README.md`](engenharia-civil/README.md) | `Start-Process "dist/engenharia-civil/organograma.html"` |
+| **Engenharia Química** | [`engenharia-quimica/`](engenharia-quimica/) | 171 | 239 cr (208 ob) | [`README.md`](engenharia-quimica/README.md) | `Start-Process "dist/engenharia-quimica/organograma.html"` |
+| **Engenharia de Materiais** | [`engenharia-materiais/`](engenharia-materiais/) | 126 | 262 cr (178 ob) | [`README.md`](engenharia-materiais/README.md) | `Start-Process "dist/engenharia-materiais/organograma.html"` |
+| **Engenharia Ambiental** | [`engenharia-ambiental/`](engenharia-ambiental/) | 148 | 279 cr (236 ob) | [`README.md`](engenharia-ambiental/README.md) | `Start-Process "dist/engenharia-ambiental/organograma.html"` |
+| **Engenharia Metalúrgica** | [`engenharia-metalurgica/`](engenharia-metalurgica/) | 104 | 260 cr (216 ob) | [`README.md`](engenharia-metalurgica/README.md) | `Start-Process "dist/engenharia-metalurgica/organograma.html"` |
+| **Engenharia de Minas** | [`engenharia-minas/`](engenharia-minas/) | 96 | 281 cr (254 ob) | [`README.md`](engenharia-minas/README.md) | `Start-Process "dist/engenharia-minas/organograma.html"` |
+| **Engenharia Física** | [`engenharia-fisica/`](engenharia-fisica/) | 81 | 238 cr (189 ob) | [`README.md`](engenharia-fisica/README.md) | `Start-Process "dist/engenharia-fisica/organograma.html"` |
+| **Engenharia Cartográfica e de Agrimensura** | [`engenharia-cartografica-agrimensura/`](engenharia-cartografica-agrimensura/) | 105 | 240 cr (206 ob) | [`README.md`](engenharia-cartografica-agrimensura/README.md) | `Start-Process "dist/engenharia-cartografica-agrimensura/organograma.html"` |
+| **Matemática** | [`matematica/`](matematica/) | 191 únicas (4 trilhas) | 148–222 cr | [`README.md`](matematica/README.md) | `Start-Process "dist/matematica/organograma.html"` |
 
 ---
 

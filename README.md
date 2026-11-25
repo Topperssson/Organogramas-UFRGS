@@ -6,7 +6,7 @@
 [![Status](https://img.shields.io/badge/status-active-brightgreen.svg)](#)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![UFRGS](https://img.shields.io/badge/UFRGS-Catálogo%202026%2F1-blue.svg)](https://www.ufrgs.br/)
-[![Validation](https://img.shields.io/badge/tests-100%25%20passed%20(6%20cursos)-brightgreen.svg)](#-suíte-de-testes-automatizados)
+[![Validation](https://img.shields.io/badge/tests-100%25%20passed%20(16%20cursos)-brightgreen.svg)](#-suíte-de-testes-automatizados)
 [![Zero-Server](https://img.shields.io/badge/zero--server-file%3A%2F%2F%20ready-purple.svg)](#-como-executar)
 
 ---
@@ -23,6 +23,16 @@ Cada curso possui um pacote de distribuição 100% independente e *standalone* e
 | **Ciências Econômicas** | [`dist/ciencias-economicas/`](dist/ciencias-economicas/) | 166 | 172 cr | Suporte unificado aos turnos **Diurno** e **Noturno** no mesmo simulador | `Start-Process "dist/ciencias-economicas/organograma.html"` |
 | **Engenharia Elétrica** | [`dist/engenharia-eletrica/`](dist/engenharia-eletrica/) | 128 | 246 cr | Grade abrangente de eletrônica, potência, sistemas e telecomunicações | `Start-Process "dist/engenharia-eletrica/organograma.html"` |
 | **Engenharia de Computação** | [`dist/engenharia-computacao/`](dist/engenharia-computacao/) | 122 | 148 cr | Integração hardware/software, sistemas embarcados, redes e computação | `Start-Process "dist/engenharia-computacao/organograma.html"` |
+| **Ciência da Computação** | [`dist/ciencia-computacao/`](dist/ciencia-computacao/) | 144 | 204 cr (166 ob) | 9 etapas, núcleo de computação, sistemas, teoria e TCC | `Start-Process "dist/ciencia-computacao/organograma.html"` |
+| **Engenharia Civil** | [`dist/engenharia-civil/`](dist/engenharia-civil/) | 161 | 291 cr (234 ob) | Estruturas, geotecnia, hidráulica, transportes, estágio e TCC | `Start-Process "dist/engenharia-civil/organograma.html"` |
+| **Engenharia Química** | [`dist/engenharia-quimica/`](dist/engenharia-quimica/) | 171 | 239 cr (208 ob) | Termodinâmica, fenômenos de transporte, processos químicos, estágio e TCC | `Start-Process "dist/engenharia-quimica/organograma.html"` |
+| **Engenharia de Materiais** | [`dist/engenharia-materiais/`](dist/engenharia-materiais/) | 126 | 262 cr (178 ob) | Metais, polímeros, cerâmicas, caracterização, estágio e TCC | `Start-Process "dist/engenharia-materiais/organograma.html"` |
+| **Engenharia Ambiental** | [`dist/engenharia-ambiental/`](dist/engenharia-ambiental/) | 148 | 279 cr (236 ob) | Recursos hídricos, saneamento, gestão ambiental, estágio e TCC | `Start-Process "dist/engenharia-ambiental/organograma.html"` |
+| **Engenharia Metalúrgica** | [`dist/engenharia-metalurgica/`](dist/engenharia-metalurgica/) | 104 | 260 cr (216 ob) | Metalurgia extrativa e física, siderurgia, conformação, estágio e TCC | `Start-Process "dist/engenharia-metalurgica/organograma.html"` |
+| **Engenharia de Minas** | [`dist/engenharia-minas/`](dist/engenharia-minas/) | 96 | 281 cr (254 ob) | Lavra, tratamento de minérios, geomecânica, estágio e TCC | `Start-Process "dist/engenharia-minas/organograma.html"` |
+| **Engenharia Física** | [`dist/engenharia-fisica/`](dist/engenharia-fisica/) | 81 | 238 cr (189 ob) | Física aplicada, instrumentação, fotônica, materiais, estágio e TCC | `Start-Process "dist/engenharia-fisica/organograma.html"` |
+| **Engenharia Cartográfica e de Agrimensura** | [`dist/engenharia-cartografica-agrimensura/`](dist/engenharia-cartografica-agrimensura/) | 105 | 240 cr (206 ob) | 11 etapas, geodésia, fotogrametria, sensoriamento remoto, estágio e TCC | `Start-Process "dist/engenharia-cartografica-agrimensura/organograma.html"` |
+| **Matemática** | [`dist/matematica/`](dist/matematica/) | 191 únicas (4 trilhas) | 148–222 cr | Seletor unificado (Lic. Diurno/Noturno, Bach. Pura e Aplicada + 3 FDCs) | `Start-Process "dist/matematica/organograma.html"` |
 
 > 📋 Para o roadmap completo com o status de todas as graduações da UFRGS, consulte o [**Checklist Completo de Cursos**](docs/checklist-cursos.md).
 
@@ -58,6 +68,16 @@ Em seguida, acesse no navegador:
 - [http://localhost:8000/dist/ciencias-economicas/](http://localhost:8000/dist/ciencias-economicas/)
 - [http://localhost:8000/dist/engenharia-eletrica/](http://localhost:8000/dist/engenharia-eletrica/)
 - [http://localhost:8000/dist/engenharia-computacao/](http://localhost:8000/dist/engenharia-computacao/)
+- [http://localhost:8000/dist/ciencia-computacao/](http://localhost:8000/dist/ciencia-computacao/)
+- [http://localhost:8000/dist/engenharia-civil/](http://localhost:8000/dist/engenharia-civil/)
+- [http://localhost:8000/dist/engenharia-quimica/](http://localhost:8000/dist/engenharia-quimica/)
+- [http://localhost:8000/dist/engenharia-materiais/](http://localhost:8000/dist/engenharia-materiais/)
+- [http://localhost:8000/dist/engenharia-ambiental/](http://localhost:8000/dist/engenharia-ambiental/)
+- [http://localhost:8000/dist/engenharia-metalurgica/](http://localhost:8000/dist/engenharia-metalurgica/)
+- [http://localhost:8000/dist/engenharia-minas/](http://localhost:8000/dist/engenharia-minas/)
+- [http://localhost:8000/dist/engenharia-fisica/](http://localhost:8000/dist/engenharia-fisica/)
+- [http://localhost:8000/dist/engenharia-cartografica-agrimensura/](http://localhost:8000/dist/engenharia-cartografica-agrimensura/)
+- [http://localhost:8000/dist/matematica/](http://localhost:8000/dist/matematica/)
 
 ---
 
@@ -85,12 +105,22 @@ Em seguida, acesse no navegador:
 
 ### 4. Isolamento Estrito de Persistência (`localStorage`)
 Cada curso opera em um namespace isolado no `localStorage` do navegador para evitar que o planejamento de um curso interfira no outro:
-- `trajetoria_eca_ufrgs`
-- `trajetoria_eng_mecanica_ufrgs_v1`
-- `trajetoria_eng_producao_ufrgs_v1`
-- `trajetoria_economia_diurno_ufrgs_v1`
-- `trajetoria_eng_eletrica_ufrgs_v1`
-- `trajetoria_eng_computacao_ufrgs_v1`
+- `trajetoria_eca_ufrgs` *(Engenharia de Controle e Automação)*
+- `trajetoria_eng_mecanica_ufrgs_v1` *(Engenharia Mecânica)*
+- `trajetoria_eng_producao_ufrgs_v1` *(Engenharia de Produção)*
+- `trajetoria_economia_diurno_ufrgs_v1`, `trajetoria_economia_noturno_ufrgs_v1`, `trajetoria_economia_active_shift` *(Ciências Econômicas)*
+- `trajetoria_eng_eletrica_ufrgs_v1` *(Engenharia Elétrica)*
+- `trajetoria_eng_computacao_ufrgs_v1` *(Engenharia de Computação)*
+- `trajetoria_ciencia_computacao_ufrgs_v1` *(Ciência da Computação)*
+- `trajetoria_eng_civil_ufrgs_v1` *(Engenharia Civil)*
+- `trajetoria_eng_quimica_ufrgs_v1` *(Engenharia Química)*
+- `trajetoria_eng_materiais_ufrgs_v1` *(Engenharia de Materiais)*
+- `trajetoria_eng_ambiental_ufrgs_v1` *(Engenharia Ambiental)*
+- `trajetoria_eng_metalurgica_ufrgs_v1` *(Engenharia Metalúrgica)*
+- `trajetoria_eng_minas_ufrgs_v1` *(Engenharia de Minas)*
+- `trajetoria_eng_fisica_ufrgs_v1` *(Engenharia Física)*
+- `trajetoria_eng_cartografica_ufrgs_v1` *(Engenharia Cartográfica e de Agrimensura)*
+- `trajetoria_matematica_lic_diurno_ufrgs_v1`, `trajetoria_matematica_lic_noturno_ufrgs_v1`, `trajetoria_matematica_bach_pura_ufrgs_v1`, `trajetoria_matematica_bach_aplicada_ufrgs_v1`, `trajetoria_matematica_active_shift` *(Matemática)*
 
 ### 5. Exportação e Portabilidade
 - **Exportação PNG em Alta Definição (Escala 2x):** Captura integral do canvas e conexões SVG.
@@ -122,6 +152,36 @@ node dev_tests/validate_computacao.js
 
 # Ciências Econômicas
 node dev_tests/validate_economia.js
+
+# Ciência da Computação
+node dev_tests/validate_ciencia_computacao.js
+
+# Engenharia Civil
+node dev_tests/validate_civil.js
+
+# Engenharia Química
+node dev_tests/validate_quimica.js
+
+# Engenharia de Materiais
+node dev_tests/validate_materiais.js
+
+# Engenharia Ambiental
+node dev_tests/validate_ambiental.js
+
+# Engenharia Metalúrgica
+node dev_tests/validate_metalurgica.js
+
+# Engenharia de Minas
+node dev_tests/validate_minas.js
+
+# Engenharia Física
+node dev_tests/validate_fisica.js
+
+# Engenharia Cartográfica e de Agrimensura
+node dev_tests/validate_cartografica.js
+
+# Matemática
+node dev_tests/validate_matematica.js
 ```
 
 ### 3. Validação de Componentes de UI e Recursos
@@ -145,7 +205,14 @@ organogramas-ufrgs/
 ├── .agents/                                   # Skills e guias agênticos especializados
 │   └── skills/
 │       └── academic-curriculum-planner/      # Skill com especificações de scraping e DAG solver
-├── dist/                                      # Pacotes Standalone de Produção (file://)
+├── dist/                                      # Pacotes Standalone de Produção (file:// — 6 arquivos cada)
+│   ├── ciencia-computacao/                   # 144 disciplinas (204 cr, 9 etapas)
+│   │   ├── app.js
+│   │   ├── curriculum_data.js
+│   │   ├── curriculum_data.json
+│   │   ├── organograma.html
+│   │   ├── README.md
+│   │   └── styles.css
 │   ├── ciencias-economicas/                  # 166 disciplinas (Diurno e Noturno)
 │   │   ├── app.js
 │   │   ├── curriculum_data.js
@@ -153,6 +220,12 @@ organogramas-ufrgs/
 │   │   ├── organograma.html
 │   │   ├── README.md
 │   │   └── styles.css
+│   ├── engenharia-ambiental/                 # 148 disciplinas (279 cr)
+│   │   └── (app.js, curriculum_data.{js,json}, organograma.html, README.md, styles.css)
+│   ├── engenharia-cartografica-agrimensura/  # 105 disciplinas (240 cr, 11 etapas)
+│   │   └── (app.js, curriculum_data.{js,json}, organograma.html, README.md, styles.css)
+│   ├── engenharia-civil/                     # 161 disciplinas (291 cr)
+│   │   └── (app.js, curriculum_data.{js,json}, organograma.html, README.md, styles.css)
 │   ├── engenharia-computacao/                # 122 disciplinas (148 cr)
 │   │   ├── app.js
 │   │   ├── curriculum_data.js
@@ -174,6 +247,10 @@ organogramas-ufrgs/
 │   │   ├── organograma.html
 │   │   ├── README.md
 │   │   └── styles.css
+│   ├── engenharia-fisica/                    # 81 disciplinas (238 cr)
+│   │   └── (app.js, curriculum_data.{js,json}, organograma.html, README.md, styles.css)
+│   ├── engenharia-materiais/                 # 126 disciplinas (262 cr)
+│   │   └── (app.js, curriculum_data.{js,json}, organograma.html, README.md, styles.css)
 │   ├── engenharia-mecanica/                  # 80 disciplinas (223 cr)
 │   │   ├── app.js
 │   │   ├── curriculum_data.js
@@ -181,21 +258,40 @@ organogramas-ufrgs/
 │   │   ├── organograma.html
 │   │   ├── README.md
 │   │   └── styles.css
-│   └── engenharia-producao/                  # 65 disciplinas (210 cr)
-│       ├── app.js
-│       ├── curriculum_data.js
-│       ├── curriculum_data.json
-│       ├── organograma.html
-│       ├── README.md
-│       └── styles.css
+│   ├── engenharia-metalurgica/               # 104 disciplinas (260 cr)
+│   │   └── (app.js, curriculum_data.{js,json}, organograma.html, README.md, styles.css)
+│   ├── engenharia-minas/                     # 96 disciplinas (281 cr)
+│   │   └── (app.js, curriculum_data.{js,json}, organograma.html, README.md, styles.css)
+│   ├── engenharia-producao/                  # 65 disciplinas (210 cr)
+│   │   ├── app.js
+│   │   ├── curriculum_data.js
+│   │   ├── curriculum_data.json
+│   │   ├── organograma.html
+│   │   ├── README.md
+│   │   └── styles.css
+│   ├── engenharia-quimica/                   # 171 disciplinas (239 cr)
+│   │   └── (app.js, curriculum_data.{js,json}, organograma.html, README.md, styles.css)
+│   └── matematica/                           # 191 únicas (4 habilitações/turnos + 3 FDCs)
+│       └── (app.js, curriculum_data.{js,json}, organograma.html, README.md, styles.css)
 ├── dev_tests/                                 # Suítes de validação, geradores e parsers curriculares
-│   ├── validate_all_projects.js              # Auditoria completa multi-curso
+│   ├── validate_all_projects.js              # Auditoria completa dos 16 simuladores
+│   ├── validate_ambiental.js
+│   ├── validate_cartografica.js
+│   ├── validate_ciencia_computacao.js
+│   ├── validate_civil.js
 │   ├── validate_computacao.js
-│   ├── validate_eletrica.js
-│   ├── validate_mecanica.js
 │   ├── validate_economia.js
+│   ├── validate_eletrica.js
+│   ├── validate_fisica.js
+│   ├── validate_matematica.js
+│   ├── validate_materiais.js
+│   ├── validate_mecanica.js
+│   ├── validate_metalurgica.js
+│   ├── validate_minas.js
+│   ├── validate_quimica.js
 │   ├── test_ceeca_integration.js
 │   ├── generate_all_new_simulators.py
+│   ├── generate_batch2_curricula.py
 │   ├── generate_mecanica_curriculum.py
 ├── docs/                                      # Governança de backup e documentação de cursos
 │   ├── backup_gdrive.ps1                      # Script de backup aditivo para Google Drive

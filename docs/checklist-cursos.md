@@ -10,12 +10,12 @@
 ## 📈 Progresso Geral
 
 - **Total de Graduações Oficiais Mapeadas**: 87
-- **Concluídos**: 6
-- **Pendentes**: 81
-- **Taxa de Conclusão**: ~6.9%
+- **Concluídos**: 16
+- **Pendentes**: 71
+- **Taxa de Conclusão**: ~18.4%
 
 ```
-[██░░░░░░░░░░░░░░░░░░░░░░░░] 6 / 87 Concluídos
+[█████░░░░░░░░░░░░░░░░░░░░░] 16 / 87 Concluídos
 ```
 
 ---
@@ -27,31 +27,31 @@
 - [x] **Engenharia de Produção** — [`dist/engenharia-producao/`](file:///C:/dev/organogramas-ufrgs/dist/engenharia-producao/) (65 disc., 210 cr)
 - [x] **Engenharia Elétrica** — [`dist/engenharia-eletrica/`](file:///C:/dev/organogramas-ufrgs/dist/engenharia-eletrica/) (128 disc., 246 cr)
 - [x] **Engenharia de Computação** — [`dist/engenharia-computacao/`](file:///C:/dev/organogramas-ufrgs/dist/engenharia-computacao/) (122 disc., 148 cr)
-- [ ] Engenharia Ambiental
-- [ ] Engenharia Cartográfica e de Agrimensura
-- [ ] Engenharia Civil
+- [x] **Engenharia Ambiental** — [`dist/engenharia-ambiental/`](file:///C:/dev/organogramas-ufrgs/dist/engenharia-ambiental/) (148 disc., 279 cr)
+- [x] **Engenharia Cartográfica e de Agrimensura** — [`dist/engenharia-cartografica-agrimensura/`](file:///C:/dev/organogramas-ufrgs/dist/engenharia-cartografica-agrimensura/) (105 disc., 240 cr, 11 etapas)
+- [x] **Engenharia Civil** — [`dist/engenharia-civil/`](file:///C:/dev/organogramas-ufrgs/dist/engenharia-civil/) (161 disc., 291 cr)
 - [ ] Engenharia de Alimentos
 - [ ] Engenharia de Energia
 - [ ] Engenharia de Gestão de Energia – Litoral Norte
-- [ ] Engenharia de Materiais
-- [ ] Engenharia de Minas
+- [x] **Engenharia de Materiais** — [`dist/engenharia-materiais/`](file:///C:/dev/organogramas-ufrgs/dist/engenharia-materiais/) (126 disc., 262 cr)
+- [x] **Engenharia de Minas** — [`dist/engenharia-minas/`](file:///C:/dev/organogramas-ufrgs/dist/engenharia-minas/) (96 disc., 281 cr)
 - [ ] Engenharia de Serviços – Litoral Norte
-- [ ] Engenharia Física
+- [x] **Engenharia Física** — [`dist/engenharia-fisica/`](file:///C:/dev/organogramas-ufrgs/dist/engenharia-fisica/) (81 disc., 238 cr)
 - [ ] Engenharia Hídrica
-- [ ] Engenharia Metalúrgica
-- [ ] Engenharia Química
+- [x] **Engenharia Metalúrgica** — [`dist/engenharia-metalurgica/`](file:///C:/dev/organogramas-ufrgs/dist/engenharia-metalurgica/) (104 disc., 260 cr)
+- [x] **Engenharia Química** — [`dist/engenharia-quimica/`](file:///C:/dev/organogramas-ufrgs/dist/engenharia-quimica/) (171 disc., 239 cr)
 - [ ] Interdisciplinar em Ciência e Tecnologia – Litoral Norte
 
 ---
 
 ## 2. 💻 Ciências Exatas e da Natureza
 
-- [ ] Ciência da Computação
+- [x] **Ciência da Computação** — [`dist/ciencia-computacao/`](file:///C:/dev/organogramas-ufrgs/dist/ciencia-computacao/) (144 disc., 204 cr, 9 etapas)
 - [ ] Estatística
 - [ ] Física – Bacharelado
 - [ ] Física – Licenciatura
 - [ ] Geologia
-- [ ] Matemática – Bacharelado / Licenciatura
+- [x] **Matemática – Bacharelado / Licenciatura** — [`dist/matematica/`](file:///C:/dev/organogramas-ufrgs/dist/matematica/) (191 disc. únicas, 4 habilitações/turnos + 3 FDCs)
 - [ ] Química – Bacharelado / Licenciatura / Tecnológica
 - [ ] Computação e Robótica Educativa – EaD
 
@@ -139,11 +139,12 @@
 
 ## 🛠️ Padrão Arquitetural por Curso (`dist/<curso>/`)
 
-Conforme especificado no [`academic-curriculum-planner`](file:///C:/Users/LAMECC%20Gabriel%20Rossa/.gemini/config/skills/academic-curriculum-planner/SKILL.md), cada novo curso deve conter rigorosamente **5 arquivos de produção**:
-1. `index.html` — Layout semântico Miro-style.
+Conforme especificado no [`academic-curriculum-planner`](file:///C:/Users/LAMECC%20Gabriel%20Rossa/.gemini/config/skills/academic-curriculum-planner/SKILL.md), cada novo curso deve conter rigorosamente **6 arquivos de produção**:
+1. `organograma.html` — Layout semântico Miro-style.
 2. `styles.css` — Tema dark e badges pastéis de semestre original.
 3. `app.js` — Motor reativo DAG, BFS topological cascade, exportador Canvas 2D PNG/PDF.
 4. `curriculum_data.js` — Fallback de execução zero-server (`file://`).
 5. `curriculum_data.json` — Master schema JSON para importações e testes de regressão.
+6. `README.md` — Guia de utilização, particularidades curriculares e persistência do curso.
 
 *Validação obrigatória pré-conclusão*: `node dev_tests/validate_all_projects.js`.
