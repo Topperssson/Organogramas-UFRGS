@@ -1,0 +1,2523 @@
+{
+  "curso": "Engenharia Ambiental",
+  "codigo": 526,
+  "habilitacao": 135,
+  "curriculo": 1,
+  "habilitacao_nome": "Engenharia Ambiental",
+  "instituicao": "UFRGS",
+  "versao_catalogo": "2026/1",
+  "estatisticas_nominais": {
+    "creditos_obrigatorios": 236,
+    "creditos_eletivos": 22,
+    "creditos_complementares": 6,
+    "creditos_convertidos": 15,
+    "creditos_totais_diplomacao": 279,
+    "carga_horaria_obrigatoria": 3760,
+    "carga_horaria_eletiva": 330,
+    "carga_horaria_total": 4480,
+    "horas_extensao_diplomacao": 300
+  },
+  "disciplinas": {
+    "MAT01353": {
+      "codigo": "MAT01353",
+      "nome": "Cálculo e Geometria Analítica I - A",
+      "creditos": 6,
+      "carga_horaria": 90,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 1,
+      "tipo": "obrigatoria",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ARQ03318": {
+      "codigo": "ARQ03318",
+      "nome": "Desenho Técnico I-A",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 1,
+      "tipo": "obrigatoria",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "FIS01181": {
+      "codigo": "FIS01181",
+      "nome": "Física I-C",
+      "creditos": 6,
+      "carga_horaria": 90,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 1,
+      "tipo": "obrigatoria",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05022": {
+      "codigo": "ENG05022",
+      "nome": "Introdução à Engenharia Ambiental I",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 1,
+      "tipo": "obrigatoria",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH02222": {
+      "codigo": "IPH02222",
+      "nome": "Introdução à Programação em Engenharia Ambiental e Hídrica",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 1,
+      "tipo": "obrigatoria",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "QUI01161": {
+      "codigo": "QUI01161",
+      "nome": "Química Geral Experimental B",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 1,
+      "tipo": "obrigatoria",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "QUI01049": {
+      "codigo": "QUI01049",
+      "nome": "Química Geral Teórica B",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 1,
+      "tipo": "obrigatoria",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "MAT01355": {
+      "codigo": "MAT01355",
+      "nome": "Álgebra Linear I - A",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 2,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "MAT01353"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "MAT01354": {
+      "codigo": "MAT01354",
+      "nome": "Cálculo e Geometria Analítica II - A",
+      "creditos": 6,
+      "carga_horaria": 90,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 2,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "MAT01353"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "GEO05013": {
+      "codigo": "GEO05013",
+      "nome": "Cartografia Geral I",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 60,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "FIS01182": {
+      "codigo": "FIS01182",
+      "nome": "Física Geral - Eletromagnetismo",
+      "creditos": 6,
+      "carga_horaria": 90,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 2,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "FIS01181",
+        "MAT01353"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05101": {
+      "codigo": "ENG05101",
+      "nome": "Geologia de Engenharia I",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 2,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ENG05022"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ARQ03317": {
+      "codigo": "ARQ03317",
+      "nome": "Geometria Descritiva II-A",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 2,
+      "tipo": "obrigatoria",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "QUI02009": {
+      "codigo": "QUI02009",
+      "nome": "Introdução à Química Orgânica e Espectroscopia para Engenharia Ambiental",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 2,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "QUI01049",
+        "QUI01161"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "GEO05501": {
+      "codigo": "GEO05501",
+      "nome": "Topografia I",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 2,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ENG05022"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH02022": {
+      "codigo": "IPH02022",
+      "nome": "Ecologia Aplicada à Engenharia",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 3,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ENG05022"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "MAT01167": {
+      "codigo": "MAT01167",
+      "nome": "Equações Diferenciais II",
+      "creditos": 6,
+      "carga_horaria": 90,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 3,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "MAT01354",
+        "MAT01355"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH02054": {
+      "codigo": "IPH02054",
+      "nome": "Estatística Aplicada aos Recursos Hídricos",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 3,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "MAT01353"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "QUI03309": {
+      "codigo": "QUI03309",
+      "nome": "Físico-Química I - B",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 3,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "MAT01354",
+        "QUI01049",
+        "QUI01161"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05023": {
+      "codigo": "ENG05023",
+      "nome": "Geologia de Engenharia Ambiental I",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 3,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ENG05022",
+        "ENG05101"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG01156": {
+      "codigo": "ENG01156",
+      "nome": "Mecânica",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 3,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "FIS01181",
+        "MAT01354"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH02223": {
+      "codigo": "IPH02223",
+      "nome": "Sistema de Informações Geográficas e Meio Ambiente",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 3,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "GEO05501"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "MAT01169": {
+      "codigo": "MAT01169",
+      "nome": "Cálculo Numérico",
+      "creditos": 6,
+      "carga_horaria": 90,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 4,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "MAT01167",
+        "MAT01355"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG02035": {
+      "codigo": "ENG02035",
+      "nome": "Ciências dos Materiais e Meio Ambiente",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 4,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ENG05101",
+        "FIS01182",
+        "QUI01049",
+        "QUI01161"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH01107": {
+      "codigo": "IPH01107",
+      "nome": "Mecânica dos Fluídos II",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 4,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ENG01156",
+        "MAT01167"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH02021": {
+      "codigo": "IPH02021",
+      "nome": "Microbiologia Ambiental Aplicada",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 4,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "IPH02022"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "QUI01039": {
+      "codigo": "QUI01039",
+      "nome": "Química Analítica Quantitativa e Instrumental - A",
+      "creditos": 5,
+      "carga_horaria": 75,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 4,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "QUI02009",
+        "QUI03309"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG01140": {
+      "codigo": "ENG01140",
+      "nome": "Resistência dos Materiais A",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 4,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ENG01156"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "GEO05038": {
+      "codigo": "GEO05038",
+      "nome": "Sensoriamento Remoto Aplicado à Engenharia",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 4,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "IPH02223"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH01017": {
+      "codigo": "IPH01017",
+      "nome": "Climatologia Ambiental I",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 5,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ENG01156"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG10030": {
+      "codigo": "ENG10030",
+      "nome": "Eletricidade e Instrumentação",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 5,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "FIS01182",
+        "MAT01354"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ADM01135": {
+      "codigo": "ADM01135",
+      "nome": "Engenharia Econômica e Avaliações",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 5,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "IPH02054"
+      ],
+      "corequisitos": [],
+      "min_credits": 70,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG07031": {
+      "codigo": "ENG07031",
+      "nome": "Fenômenos de Transporte",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 5,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "IPH01107"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "QUI03313": {
+      "codigo": "QUI03313",
+      "nome": "Físico-Química II-A",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 5,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "QUI03309"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "BIO11432": {
+      "codigo": "BIO11432",
+      "nome": "Instrumentação em Ecologia",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 5,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "IPH02021"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH01102": {
+      "codigo": "IPH01102",
+      "nome": "Mecânica dos Fluídos e Hidráulica II",
+      "creditos": 5,
+      "carga_horaria": 75,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 5,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "IPH01107"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG01113": {
+      "codigo": "ENG01113",
+      "nome": "Mecânica dos Solos I",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 5,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ENG01140",
+        "ENG05023"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ADM01134": {
+      "codigo": "ADM01134",
+      "nome": "Administração e Finanças",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 6,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "IPH02054"
+      ],
+      "corequisitos": [],
+      "min_credits": 80,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH02066": {
+      "codigo": "IPH02066",
+      "nome": "Avaliação de Parâmetros da Qualidade Ambiental",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 6,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "IPH02021",
+        "QUI01039"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "BIO11020": {
+      "codigo": "BIO11020",
+      "nome": "Educação Ambiental",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 6,
+      "tipo": "obrigatoria",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 80,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG03055": {
+      "codigo": "ENG03055",
+      "nome": "Fundamentos de Engenharia de Segurança do Trabalho - ELE",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 6,
+      "tipo": "obrigatoria",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 80,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH01019": {
+      "codigo": "IPH01019",
+      "nome": "Hidrologia I",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 6,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "IPH01102",
+        "IPH02054"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05026": {
+      "codigo": "ENG05026",
+      "nome": "Monitoramento de Poluição no Solo e Subsolo",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 6,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ENG05023",
+        "ENG10030"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05025": {
+      "codigo": "ENG05025",
+      "nome": "Operações Unitárias I - A",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 6,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ENG07031"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG07032": {
+      "codigo": "ENG07032",
+      "nome": "Operações Unitárias II - A",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 6,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ENG07031",
+        "QUI03313"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "CBS06037": {
+      "codigo": "CBS06037",
+      "nome": "Parasitologia Ambiental de Interesse em Saúde",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 6,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "IPH02021"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH02220": {
+      "codigo": "IPH02220",
+      "nome": "Diagnóstico, Avaliação e Controle de Impactos Ambientais",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 7,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ENG05026",
+        "IPH01019"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "BIO11434": {
+      "codigo": "BIO11434",
+      "nome": "Ecotoxicologia e Bioindicação",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "horas_extensao": 8,
+      "carga_horaria_extensao": 8,
+      "etapa_sugerida": 7,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "BIO11432"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05033": {
+      "codigo": "ENG05033",
+      "nome": "Geoestatística Ambiental",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 7,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ENG05026",
+        "IPH02054",
+        "MAT01169"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG01030": {
+      "codigo": "ENG01030",
+      "nome": "Geotecnologia Ambiental - A",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 7,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ENG01113",
+        "ENG05026"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH01021": {
+      "codigo": "IPH01021",
+      "nome": "Hidrogeologia Geral",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 7,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ENG05023",
+        "IPH01019",
+        "QUI01049",
+        "QUI01161"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH01020": {
+      "codigo": "IPH01020",
+      "nome": "Hidrologia II",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 7,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "IPH01019",
+        "MAT01169"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH02024": {
+      "codigo": "IPH02024",
+      "nome": "Processos Unitários Microbiológicos",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 7,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ENG07032",
+        "IPH02021"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "AMB99001": {
+      "codigo": "AMB99001",
+      "nome": "Projeto Integrado I - Amb",
+      "creditos": 6,
+      "carga_horaria": 90,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 7,
+      "tipo": "obrigatoria",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 165,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "GEO05009": {
+      "codigo": "GEO05009",
+      "nome": "Sistema Geográfico de Informações",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "GEO05038"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH02067": {
+      "codigo": "IPH02067",
+      "nome": "Tratamento de Água",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 7,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ENG05025",
+        "ENG07032",
+        "IPH02066"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH01008": {
+      "codigo": "IPH01008",
+      "nome": "Água Subterrânea: Contaminação e Controle",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 8,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "IPH01021"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "BIO02054": {
+      "codigo": "BIO02054",
+      "nome": "Conservação e Manejo da Biodiversidade Vegetal Brasileira",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "BIO11434",
+        "IPH02022"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH02026": {
+      "codigo": "IPH02026",
+      "nome": "Gerenciamento de Resíduos Sólidos - A",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 8,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ENG05025",
+        "IPH02024"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05027": {
+      "codigo": "ENG05027",
+      "nome": "Manejo, Aproveitamento e Gestão de Recursos Minerais",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ENG05026",
+        "IPH01019"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH02027": {
+      "codigo": "IPH02027",
+      "nome": "Manejo, Controle e Gestão de Recursos Hídricos",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ENG05026",
+        "IPH01019"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG02038": {
+      "codigo": "ENG02038",
+      "nome": "Processos de Reciclagem",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ENG05025"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH02212": {
+      "codigo": "IPH02212",
+      "nome": "Sistemas de Água e Esgotos",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 8,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "IPH01019"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH02025": {
+      "codigo": "IPH02025",
+      "nome": "Tratamento de Efluentes",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 8,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "IPH02024",
+        "IPH02066",
+        "IPH02067"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "EAM99001": {
+      "codigo": "EAM99001",
+      "nome": "Estágio Supervisionado em Engenharia Ambiental I",
+      "creditos": 0,
+      "carga_horaria": 165,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 8,
+      "tipo": "obrigatoria",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 185,
+      "periodicidade": "ambos",
+      "alternativeOf": "EAM99002"
+    },
+    "EAM99002": {
+      "codigo": "EAM99002",
+      "nome": "Estágio Supervisionado em Engenharia Ambiental II",
+      "creditos": 0,
+      "carga_horaria": 165,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 185,
+      "periodicidade": "ambos",
+      "alternativeOf": "EAM99001"
+    },
+    "ENG03059": {
+      "codigo": "ENG03059",
+      "nome": "Análise de Riscos Industriais e Ambientais",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "FIS01182",
+        "MAT01354"
+      ],
+      "corequisitos": [],
+      "min_credits": 135,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH01029": {
+      "codigo": "IPH01029",
+      "nome": "Avaliação e Controle da Poluição Atmosférica",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 9,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ENG07031",
+        "IPH01017"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "DIR01014": {
+      "codigo": "DIR01014",
+      "nome": "Elementos de Direito Ambiental",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 9,
+      "tipo": "obrigatoria",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 160,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH02028": {
+      "codigo": "IPH02028",
+      "nome": "Gerenciamento Ambiental na Indústria",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 9,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "IPH02025",
+        "IPH02026"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH01035": {
+      "codigo": "IPH01035",
+      "nome": "Modelagem Física",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "IPH01102"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH02049": {
+      "codigo": "IPH02049",
+      "nome": "Planejamento Ambiental",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 9,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "IPH02026"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH02029": {
+      "codigo": "IPH02029",
+      "nome": "Recuperação e Manejo Sustentado de Áreas Degradadas",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "IPH02220"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG01031": {
+      "codigo": "ENG01031",
+      "nome": "Remediação de Sítios Contaminados",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ENG01113",
+        "ENG05026"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "AMB99002": {
+      "codigo": "AMB99002",
+      "nome": "Projeto Integrado II - Amb",
+      "creditos": 6,
+      "carga_horaria": 90,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 10,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "AMB99001",
+        "IPH02049"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "EAM99003": {
+      "codigo": "EAM99003",
+      "nome": "Projeto Ambiental de Conclusão I",
+      "creditos": 0,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 10,
+      "tipo": "obrigatoria",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 185,
+      "periodicidade": "ambos",
+      "alternativeOf": "EAM99004"
+    },
+    "EAM99004": {
+      "codigo": "EAM99004",
+      "nome": "Projeto Ambiental de Conclusão II",
+      "creditos": 0,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 185,
+      "periodicidade": "ambos",
+      "alternativeOf": "EAM99003"
+    },
+    "IPH02221": {
+      "codigo": "IPH02221",
+      "nome": "Algoritmos Evolucionários Aplicados na Engenharia Hídrica e Ambiental",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ADM01135",
+        "IPH01020"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG01129": {
+      "codigo": "ENG01129",
+      "nome": "Análise dos Sistemas Estruturais",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ENG01140"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05030": {
+      "codigo": "ENG05030",
+      "nome": "Análise Multi-Variada",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 120,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "HUM05006": {
+      "codigo": "HUM05006",
+      "nome": "Antropologia - Introdução",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ENG05022"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH02009": {
+      "codigo": "IPH02009",
+      "nome": "Aproveitamentos Hidroelétricos",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "IPH01019"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05032": {
+      "codigo": "ENG05032",
+      "nome": "Cartografia Geológico-Geotécnica",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "GEO05013"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH01018": {
+      "codigo": "IPH01018",
+      "nome": "Climatologia Ambiental II",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "IPH01017"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ARQ03319": {
+      "codigo": "ARQ03319",
+      "nome": "Desenho Técnico II-A",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH02031": {
+      "codigo": "IPH02031",
+      "nome": "Dimensionamento e Operação de Reservatórios - A",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "IPH01019"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG02040": {
+      "codigo": "ENG02040",
+      "nome": "Ecodesign",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "horas_extensao": 10,
+      "carga_horaria_extensao": 10,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 150,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "BIO11007": {
+      "codigo": "BIO11007",
+      "nome": "Ecologia da Poluição",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "BIO11432"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "BIO11019": {
+      "codigo": "BIO11019",
+      "nome": "Ecologia Humana e Etnobiologia",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "IPH02022"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ECO02289": {
+      "codigo": "ECO02289",
+      "nome": "Economia e Meio Ambiente",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ADM01134",
+        "ADM01135"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH02008": {
+      "codigo": "IPH02008",
+      "nome": "Ecotecnologia",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "IPH02021",
+        "IPH02022"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG01013": {
+      "codigo": "ENG01013",
+      "nome": "Edificações I",
+      "creditos": 6,
+      "carga_horaria": 90,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ARQ03318",
+        "ENG02035"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG03074": {
+      "codigo": "ENG03074",
+      "nome": "Energia Solar Fotovoltaica",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ENG10030"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG03072": {
+      "codigo": "ENG03072",
+      "nome": "Energia Solar Térmica",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ENG07031"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG03371": {
+      "codigo": "ENG03371",
+      "nome": "Energias Alternativas",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 180,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH02033": {
+      "codigo": "IPH02033",
+      "nome": "Engenharia Costeira Ambiental",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "IPH01020"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH02034": {
+      "codigo": "IPH02034",
+      "nome": "Erosão e Conservação do Solo e da Água",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ENG01113",
+        "IPH01019"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH02061": {
+      "codigo": "IPH02061",
+      "nome": "Fluxo de Água em Meios Porosos",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ENG01113",
+        "IPH01021"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH02057": {
+      "codigo": "IPH02057",
+      "nome": "Fundamentos da Física do Solo",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ENG01113"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "GEO03030": {
+      "codigo": "GEO03030",
+      "nome": "Fundamentos de Geologia Marinha e Costeira",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ENG05101"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05031": {
+      "codigo": "ENG05031",
+      "nome": "Geologia de Engenharia Ambiental II",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ENG01113",
+        "ENG05023"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH01014": {
+      "codigo": "IPH01014",
+      "nome": "Gerenciamento da Drenagem Urbana",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 150,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH01041": {
+      "codigo": "IPH01041",
+      "nome": "Gerenciamento de Aquíferos",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "IPH01008"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH02068": {
+      "codigo": "IPH02068",
+      "nome": "Gerenciamento de Desastres Naturais",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "IPH01019"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG07055": {
+      "codigo": "ENG07055",
+      "nome": "Gerenciamento de Efluentes Líquidos Industriais",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ENG07032",
+        "IPH02024"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG09028": {
+      "codigo": "ENG09028",
+      "nome": "Gestão Ambiental",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 170,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG03033": {
+      "codigo": "ENG03033",
+      "nome": "Gestão Ambiental para Engenharia",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 150,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG01003": {
+      "codigo": "ENG01003",
+      "nome": "Habitabilidade I",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ENG01140",
+        "ENG07031"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH01001": {
+      "codigo": "IPH01001",
+      "nome": "Hidráulica à Superfície Livre",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "IPH01102"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH01039": {
+      "codigo": "IPH01039",
+      "nome": "Hidráulica Computacional",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "IPH01020",
+        "MAT01169"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH01006": {
+      "codigo": "IPH01006",
+      "nome": "Hidraulica de Canais a Fundo Móvel",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "IPH01019"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH02070": {
+      "codigo": "IPH02070",
+      "nome": "Hidrogeomorfologia",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "IPH01019"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH02044": {
+      "codigo": "IPH02044",
+      "nome": "Hidrossedimentologia para Pequenas Bacias",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "IPH01019"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG06025": {
+      "codigo": "ENG06025",
+      "nome": "Indústrias de Fundição e Meio Ambiente",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ENG02035",
+        "ENG07032"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH02069": {
+      "codigo": "IPH02069",
+      "nome": "Inspeção e Segurança de Barragens",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ENG01030",
+        "IPH01020"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH02209": {
+      "codigo": "IPH02209",
+      "nome": "Instalações Hidro-Sanitárias",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "IPH01102"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH01032": {
+      "codigo": "IPH01032",
+      "nome": "Instrumentação e Hidrometria",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "IPH01019"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "INF01040": {
+      "codigo": "INF01040",
+      "nome": "Introdução à Programação",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH02010": {
+      "codigo": "IPH02010",
+      "nome": "Irrigação e Drenagem para Engenheiros",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "horas_extensao": 15,
+      "carga_horaria_extensao": 15,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "IPH01019"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH02056": {
+      "codigo": "IPH02056",
+      "nome": "Limnologia",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "IPH02022"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "EDU03071": {
+      "codigo": "EDU03071",
+      "nome": "Língua Brasileira de Sinais (Libras)",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG01114": {
+      "codigo": "ENG01114",
+      "nome": "Mecânica dos Solos II",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ENG01113"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "GEO05055": {
+      "codigo": "GEO05055",
+      "nome": "Meteorologia Aplicada",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "IPH01017"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH01004": {
+      "codigo": "IPH01004",
+      "nome": "Metodologia de Projeto - B",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 90,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05533": {
+      "codigo": "ENG05533",
+      "nome": "Mineração e Meio Ambiente",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "horas_extensao": 15,
+      "carga_horaria_extensao": 15,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ENG05025"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG07036": {
+      "codigo": "ENG07036",
+      "nome": "Minimização de Rejeitos Industriais",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ENG07032"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH02036": {
+      "codigo": "IPH02036",
+      "nome": "Modelagem Numérica do Meio Fluvial",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "IPH01019",
+        "MAT01169"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH02072": {
+      "codigo": "IPH02072",
+      "nome": "Modelos Lineares Gerais com Aplicações na Área Hidroambiental",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05034": {
+      "codigo": "ENG05034",
+      "nome": "Novas Tecnologias para Tratamento de Efluentes",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "IPH02025"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH02004": {
+      "codigo": "IPH02004",
+      "nome": "Obras Hidráulicas",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "IPH01102"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "BIO11006": {
+      "codigo": "BIO11006",
+      "nome": "Oceanografia e Limnologia",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 10,
+      "carga_horaria_extensao": 10,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "IPH01019"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "BIO02010": {
+      "codigo": "BIO02010",
+      "nome": "Princípios de Conservação da Natureza I",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 150,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG06027": {
+      "codigo": "ENG06027",
+      "nome": "Processos Siderúrgicos e Meio Ambiente",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ENG02038"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH02037": {
+      "codigo": "IPH02037",
+      "nome": "Produção e Controle de Sedimentos",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ENG05023",
+        "IPH01019"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH01023": {
+      "codigo": "IPH01023",
+      "nome": "Recursos Naturais e Energias Renováveis",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ENG10030",
+        "IPH01019"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH02038": {
+      "codigo": "IPH02038",
+      "nome": "Relações Solo/Água/Planta/Atmosfera",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "GEO05009",
+        "IPH01019"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH02013": {
+      "codigo": "IPH02013",
+      "nome": "Sistemas de Apoio à Gestão de Água e Solo",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "IPH01019"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG01032": {
+      "codigo": "ENG01032",
+      "nome": "Tópicos Especiais em Engenharia Ambiental I",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 180,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG02039": {
+      "codigo": "ENG02039",
+      "nome": "Tópicos Especiais em Engenharia Ambiental III",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 180,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05029": {
+      "codigo": "ENG05029",
+      "nome": "Tópicos Especiais em Engenharia Ambiental V",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 180,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG06024": {
+      "codigo": "ENG06024",
+      "nome": "Tópicos Especiais em Engenharia Ambiental VII",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 180,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG07033": {
+      "codigo": "ENG07033",
+      "nome": "Tópicos Especiais em Engenharia Ambiental VIII",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 180,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG03060": {
+      "codigo": "ENG03060",
+      "nome": "Tópicos Especiais em Engenharia Ambiental X",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 180,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH01022": {
+      "codigo": "IPH01022",
+      "nome": "Tópicos Especiais em Engenharia Ambiental Xi",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 180,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH02039": {
+      "codigo": "IPH02039",
+      "nome": "Tópicos Especiais em Engenharia Ambiental Xiii",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 180,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05038": {
+      "codigo": "ENG05038",
+      "nome": "Tratamento de Efluentes da Mineração",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ENG05025",
+        "ENG07032",
+        "IPH02024"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG06026": {
+      "codigo": "ENG06026",
+      "nome": "Tratamentos Térmicos e Termoquímicos e Meio Ambiente",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ENG07032"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH02040": {
+      "codigo": "IPH02040",
+      "nome": "Valoração do Ambiente",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "IPH02022"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    }
+  }
+}
