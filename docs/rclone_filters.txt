@@ -13,9 +13,10 @@
 - **/*.py[cod]
 - /.pytest_cache/**
 - **/.pytest_cache/**
-- /.pytest_temp/**
-- **/.pytest_temp/**
-- **/.agents/**
+- /.pytest_temp*/**
+- **/.pytest_temp*/**
+- **/.ruff_cache/**
+- **/.mypy_cache/**
 - **/.agents/**
 - **/node_modules/**
 

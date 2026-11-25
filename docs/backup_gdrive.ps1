@@ -22,7 +22,10 @@ if ([string]::IsNullOrWhiteSpace($FilterFile)) {
 }
 
 # Garantir Path com o Rclone caso rodado fora de um terminal padrão
-$env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
+$env:Path = (@(
+    [System.Environment]::GetEnvironmentVariable("Path", "Machine"),
+    [System.Environment]::GetEnvironmentVariable("Path", "User")
+) | Where-Object { $_ }) -join ";"
 
 if (-not (Get-Command rclone -ErrorAction SilentlyContinue)) {
     Write-Error "Rclone não foi encontrado no PATH. Verifique a instalação."
@@ -65,9 +68,11 @@ if ($DryRun) {
 }
 
 & rclone @rcloneArgs
+$exitCode = $LASTEXITCODE
 
-if ($LASTEXITCODE -eq 0) {
+if ($exitCode -eq 0) {
     Write-Host "`nBackup do Organogramas UFRGS concluído com sucesso!" -ForegroundColor Green
 } else {
-    Write-Host "`nErro durante o processo de backup. Código: $LASTEXITCODE" -ForegroundColor Red
+    Write-Host "`nErro durante o processo de backup. Código: $exitCode" -ForegroundColor Red
 }
+exit $exitCode
