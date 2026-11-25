@@ -1,0 +1,7645 @@
+var MATEMATICA_CURRICULA = {
+  "lic_diurno": {
+    "label": "Licenciatura em Matemática (Diurno)",
+    "shift": "lic_diurno",
+    "curso": "Matemática",
+    "codigo": 335,
+    "habilitacao": 110,
+    "curriculo": 306,
+    "instituicao": "UFRGS",
+    "versao_catalogo": "2026/1",
+    "totalMandatoryCredits": 204,
+    "totalElectiveCredits": 8,
+    "totalTargetCredits": 222,
+    "maxStage": 8,
+    "hasFdc": false,
+    "estatisticas_nominais": {
+      "creditos_obrigatorios": 204,
+      "creditos_eletivos": 8,
+      "creditos_complementares": 6,
+      "creditos_convertidos": 4,
+      "creditos_totais_diplomacao": 222,
+      "carga_horaria_obrigatoria": 3120,
+      "carga_horaria_eletiva": 120,
+      "carga_horaria_total": 3363,
+      "horas_extensao_diplomacao": 337
+    },
+    "disciplinas": {
+      "EDU01010": {
+        "codigo": "EDU01010",
+        "nome": "Filosofia da Educação I",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 1,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01341": {
+        "codigo": "MAT01341",
+        "nome": "Geometria I - MAT",
+        "creditos": 5,
+        "carga_horaria": 75,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 1,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU01004": {
+        "codigo": "EDU01004",
+        "nome": "História da Educação: Hist. da Escolarização Bras. e Proc Pedagógicos",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 1,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01207": {
+        "codigo": "MAT01207",
+        "nome": "Introdução aos Numeros Racionais",
+        "creditos": 3,
+        "carga_horaria": 45,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 1,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01206": {
+        "codigo": "MAT01206",
+        "nome": "Introdução às Funções Algébricas",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 1,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01343": {
+        "codigo": "MAT01343",
+        "nome": "Programação na Matemática Elementar",
+        "creditos": 5,
+        "carga_horaria": 75,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 1,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU01011": {
+        "codigo": "EDU01011",
+        "nome": "Psicologia da Educação I - A",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 1,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01211": {
+        "codigo": "MAT01211",
+        "nome": "Educação Matemática e Docência I",
+        "creditos": 3,
+        "carga_horaria": 45,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 2,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01063": {
+        "codigo": "MAT01063",
+        "nome": "Fundamentos de Aritmética",
+        "creditos": 5,
+        "carga_horaria": 75,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 2,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01345": {
+        "codigo": "MAT01345",
+        "nome": "Geometria II - MAT",
+        "creditos": 5,
+        "carga_horaria": 75,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 2,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01341"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01208": {
+        "codigo": "MAT01208",
+        "nome": "Introdução aos Números Reais e Complexos",
+        "creditos": 5,
+        "carga_horaria": 75,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 2,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU01012": {
+        "codigo": "EDU01012",
+        "nome": "Psicologia da Educação II",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 2,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "EDU01011"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01191": {
+        "codigo": "MAT01191",
+        "nome": "Vetores e Geometria Analítica",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 2,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01064": {
+        "codigo": "MAT01064",
+        "nome": "Álgebra I",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 3,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01063",
+          "MAT01207",
+          "MAT01208"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01199": {
+        "codigo": "MAT01199",
+        "nome": "Cálculo - A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 3,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01206",
+          "MAT01208"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01212": {
+        "codigo": "MAT01212",
+        "nome": "Educação Matemática e Docência II",
+        "creditos": 5,
+        "carga_horaria": 75,
+        "horas_extensao": 30,
+        "carga_horaria_extensao": 30,
+        "etapa_sugerida": 3,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01211"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01209": {
+        "codigo": "MAT01209",
+        "nome": "Introdução as Funções Transcendentes",
+        "creditos": 5,
+        "carga_horaria": 75,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 3,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01206"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01070": {
+        "codigo": "MAT01070",
+        "nome": "Laboratório de Prática de Ensino-Aprendizagem em Matemática I",
+        "creditos": 8,
+        "carga_horaria": 120,
+        "horas_extensao": 90,
+        "carga_horaria_extensao": 90,
+        "etapa_sugerida": 3,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01063",
+          "MAT01207",
+          "MAT01208"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01355": {
+        "codigo": "MAT01355",
+        "nome": "Álgebra Linear I - A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 3,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01191"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": "MAT01214"
+      },
+      "MAT01214": {
+        "codigo": "MAT01214",
+        "nome": "Álgebra Linear I - A - EAD",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT01191"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": "MAT01355"
+      },
+      "MAT01204": {
+        "codigo": "MAT01204",
+        "nome": "Cálculo - B",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 4,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01191",
+          "MAT01199"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01066": {
+        "codigo": "MAT01066",
+        "nome": "Combinatória I",
+        "creditos": 5,
+        "carga_horaria": 75,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 4,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01063",
+          "MAT01341"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU02134": {
+        "codigo": "EDU02134",
+        "nome": "Educação Matemática e Docência III",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 4,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01212"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "FIS01066": {
+        "codigo": "FIS01066",
+        "nome": "Física I",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 4,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01199"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01071": {
+        "codigo": "MAT01071",
+        "nome": "Laboratório de Prática de Ensino-Aprendizagem em Matemática II",
+        "creditos": 8,
+        "carga_horaria": 120,
+        "horas_extensao": 90,
+        "carga_horaria_extensao": 90,
+        "etapa_sugerida": 4,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01191",
+          "MAT01211",
+          "MAT01345"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU03097": {
+        "codigo": "EDU03097",
+        "nome": "Política e Organização da Educação Básica",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 4,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01065": {
+        "codigo": "MAT01065",
+        "nome": "Álgebra II",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 5,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01064"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU02084": {
+        "codigo": "EDU02084",
+        "nome": "Educação Contemporânea: Currículo, Didática, Planejamento",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 5,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "EDU03097"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU02192": {
+        "codigo": "EDU02192",
+        "nome": "Estágio de Docência em Educação Matemática I",
+        "creditos": 8,
+        "carga_horaria": 120,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 5,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "EDU02134",
+          "MAT01070",
+          "MAT01071"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "FIS01067": {
+        "codigo": "FIS01067",
+        "nome": "Física II",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 5,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "FIS01066"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01072": {
+        "codigo": "MAT01072",
+        "nome": "Laboratório de Prática de Ensino-Aprendizagem em Matemática III",
+        "creditos": 8,
+        "carga_horaria": 120,
+        "horas_extensao": 90,
+        "carga_horaria_extensao": 90,
+        "etapa_sugerida": 5,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01066",
+          "MAT01199",
+          "MAT01209"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01073": {
+        "codigo": "MAT01073",
+        "nome": "Aplicações da Matemática - A",
+        "creditos": 5,
+        "carga_horaria": 75,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 6,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01204"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01067": {
+        "codigo": "MAT01067",
+        "nome": "Combinatória II",
+        "creditos": 5,
+        "carga_horaria": 75,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 6,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01066",
+          "MAT01204"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01074": {
+        "codigo": "MAT01074",
+        "nome": "Educação Matemática e Tecnologia",
+        "creditos": 5,
+        "carga_horaria": 75,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 6,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01064",
+          "MAT01204",
+          "MAT01345"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01351": {
+        "codigo": "MAT01351",
+        "nome": "História da Matemática",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 6,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 100,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU01013": {
+        "codigo": "EDU01013",
+        "nome": "Intervenção Pedagógica e Necessidades Educativas Especiais",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 6,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT02219": {
+        "codigo": "MAT02219",
+        "nome": "Probabilidade e Estatística",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 6,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01199"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": "MAT02050"
+      },
+      "MAT02050": {
+        "codigo": "MAT02050",
+        "nome": "Probabilidade e Estatística - EAD",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT01199"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": "MAT02219"
+      },
+      "MAT01068": {
+        "codigo": "MAT01068",
+        "nome": "Análise Real I",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 7,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01204"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU02193": {
+        "codigo": "EDU02193",
+        "nome": "Estágio de Docência em Educação Matemática II",
+        "creditos": 10,
+        "carga_horaria": 150,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 7,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "EDU02192",
+          "MAT01072"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01210": {
+        "codigo": "MAT01210",
+        "nome": "História da Educação Matemática",
+        "creditos": 3,
+        "carga_horaria": 45,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 7,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 100,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU03071": {
+        "codigo": "EDU03071",
+        "nome": "Língua Brasileira de Sinais (Libras)",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 7,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 100,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01048": {
+        "codigo": "MAT01048",
+        "nome": "Pesquisa em Educação Matemática",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 7,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 100,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01069": {
+        "codigo": "MAT01069",
+        "nome": "Análise Real II",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 8,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01068"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU03107": {
+        "codigo": "EDU03107",
+        "nome": "Educação e Relações Étnico-Raciais",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 4,
+        "carga_horaria_extensao": 4,
+        "etapa_sugerida": 8,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 100,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT02043": {
+        "codigo": "MAT02043",
+        "nome": "Ensino e Aprendizagem de Estatística",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 8,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT02219"
+        ],
+        "corequisitos": [],
+        "min_credits": 100,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU02194": {
+        "codigo": "EDU02194",
+        "nome": "Estágio de Docência em Educação Matemática III",
+        "creditos": 10,
+        "carga_horaria": 150,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 8,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "EDU02193"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT99001": {
+        "codigo": "MAT99001",
+        "nome": "Trabalho de Conclusão de Curso - MAT",
+        "creditos": 0,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 8,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "EDU02193",
+          "MAT01048"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01077": {
+        "codigo": "MAT01077",
+        "nome": "Álgebra III - A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 8,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01065"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01156": {
+        "codigo": "MAT01156",
+        "nome": "Álgebra Linear II",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT01355"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01205": {
+        "codigo": "MAT01205",
+        "nome": "Cálculo - C",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT01204"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01032": {
+        "codigo": "MAT01032",
+        "nome": "Cálculo Numérico A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT01355"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01217": {
+        "codigo": "MAT01217",
+        "nome": "Cálculo Numérico a - EAD",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT01355"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01031": {
+        "codigo": "MAT01031",
+        "nome": "Matemática Financeira - EAD",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "FIS01056": {
+        "codigo": "FIS01056",
+        "nome": "A Física do Século Xx - A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "FIS01067",
+          "MAT01073",
+          "MAT01205"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU03085": {
+        "codigo": "EDU03085",
+        "nome": "Acessibilidade e Tecnologia Assistiva na Educação Inclusiva",
+        "creditos": 3,
+        "carga_horaria": 45,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "EDU01013"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU03148": {
+        "codigo": "EDU03148",
+        "nome": "Branquitude e Relações Étnico-Raciais",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU02147": {
+        "codigo": "EDU02147",
+        "nome": "Docência Matemática: Pensamento, Linguagem e Mundo",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "EDU01011",
+          "EDU01012"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU03070": {
+        "codigo": "EDU03070",
+        "nome": "Educação de Surdos",
+        "creditos": 3,
+        "carga_horaria": 45,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ART03971": {
+        "codigo": "ART03971",
+        "nome": "Educação em Espaços Culturais",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU02804": {
+        "codigo": "EDU02804",
+        "nome": "Educação Matemática e Cinema: A Criação de Planos de Aula Sob a Perspectiva dos Estudos Culturais",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "FIS02218": {
+        "codigo": "FIS02218",
+        "nome": "Educação, Pesquisa e Divulgação de Ciências para as Relações Étnico-Raciais e de Gênero",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 100,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU03396": {
+        "codigo": "EDU03396",
+        "nome": "Educação: A Criança e o Adolescente Excluídos da Escola",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "INT00002": {
+        "codigo": "INT00002",
+        "nome": "Encontro de Saberes",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "FIS02009": {
+        "codigo": "FIS02009",
+        "nome": "Explorando o Universo: Dos Quarks aos Quasares",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU03108": {
+        "codigo": "EDU03108",
+        "nome": "Gênero e Sexualidade na Educação",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 8,
+        "carga_horaria_extensao": 8,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU03149": {
+        "codigo": "EDU03149",
+        "nome": "Intelectualidades Negras e Educação",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU03076": {
+        "codigo": "EDU03076",
+        "nome": "Libras 2",
+        "creditos": 3,
+        "carga_horaria": 45,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "EDU03071"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01121": {
+        "codigo": "MAT01121",
+        "nome": "Matemática e Inovação",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 50,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU03102": {
+        "codigo": "EDU03102",
+        "nome": "Mídias, Tecnologias Digitais e Educação: Processos e Métodos da Aprendizagem",
+        "creditos": 3,
+        "carga_horaria": 45,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU01090": {
+        "codigo": "EDU01090",
+        "nome": "Mulheres na História da Educação",
+        "creditos": 3,
+        "carga_horaria": 45,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU03147": {
+        "codigo": "EDU03147",
+        "nome": "Pesquisas em Psicopedagogia",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU01057": {
+        "codigo": "EDU01057",
+        "nome": "Povos Indígenas, Educação e Escola",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ART03970": {
+        "codigo": "ART03970",
+        "nome": "Práticas Pedagógicas Interdisciplinares na Escola",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU01016": {
+        "codigo": "EDU01016",
+        "nome": "Projetos de Aprendizagem em Ambientes Digitais",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU01022": {
+        "codigo": "EDU01022",
+        "nome": "Psicologia da Educação: A Educação e Suas Instituições",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU01018": {
+        "codigo": "EDU01018",
+        "nome": "Psicologia da Educação: O Jogo II",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU03031": {
+        "codigo": "EDU03031",
+        "nome": "Seminário: Educação e Movimentos Sociais",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU03030": {
+        "codigo": "EDU03030",
+        "nome": "Seminário: Educação, Trabalho e Profissão",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU01005": {
+        "codigo": "EDU01005",
+        "nome": "Sociologia da Educação I - A",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU01027": {
+        "codigo": "EDU01027",
+        "nome": "Software Livre na Educação",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      }
+    }
+  },
+  "lic_noturno": {
+    "label": "Licenciatura em Matemática (Noturno)",
+    "shift": "lic_noturno",
+    "curso": "Matemática",
+    "codigo": 335,
+    "habilitacao": 111,
+    "curriculo": 307,
+    "instituicao": "UFRGS",
+    "versao_catalogo": "2026/1",
+    "totalMandatoryCredits": 204,
+    "totalElectiveCredits": 8,
+    "totalTargetCredits": 222,
+    "maxStage": 10,
+    "hasFdc": false,
+    "estatisticas_nominais": {
+      "creditos_obrigatorios": 204,
+      "creditos_eletivos": 8,
+      "creditos_complementares": 6,
+      "creditos_convertidos": 4,
+      "creditos_totais_diplomacao": 222,
+      "carga_horaria_obrigatoria": 3120,
+      "carga_horaria_eletiva": 120,
+      "carga_horaria_total": 3363,
+      "horas_extensao_diplomacao": 337
+    },
+    "disciplinas": {
+      "MAT01341": {
+        "codigo": "MAT01341",
+        "nome": "Geometria I - MAT",
+        "creditos": 5,
+        "carga_horaria": 75,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 1,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU01004": {
+        "codigo": "EDU01004",
+        "nome": "História da Educação: Hist. da Escolarização Bras. e Proc Pedagógicos",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 1,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01207": {
+        "codigo": "MAT01207",
+        "nome": "Introdução aos Numeros Racionais",
+        "creditos": 3,
+        "carga_horaria": 45,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 1,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01206": {
+        "codigo": "MAT01206",
+        "nome": "Introdução às Funções Algébricas",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 1,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01343": {
+        "codigo": "MAT01343",
+        "nome": "Programação na Matemática Elementar",
+        "creditos": 5,
+        "carga_horaria": 75,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 1,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU01011": {
+        "codigo": "EDU01011",
+        "nome": "Psicologia da Educação I - A",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 1,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01211": {
+        "codigo": "MAT01211",
+        "nome": "Educação Matemática e Docência I",
+        "creditos": 3,
+        "carga_horaria": 45,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 2,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU01010": {
+        "codigo": "EDU01010",
+        "nome": "Filosofia da Educação I",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 2,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01063": {
+        "codigo": "MAT01063",
+        "nome": "Fundamentos de Aritmética",
+        "creditos": 5,
+        "carga_horaria": 75,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 2,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01345": {
+        "codigo": "MAT01345",
+        "nome": "Geometria II - MAT",
+        "creditos": 5,
+        "carga_horaria": 75,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 2,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01341"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01208": {
+        "codigo": "MAT01208",
+        "nome": "Introdução aos Números Reais e Complexos",
+        "creditos": 5,
+        "carga_horaria": 75,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 2,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU01012": {
+        "codigo": "EDU01012",
+        "nome": "Psicologia da Educação II",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 2,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01064": {
+        "codigo": "MAT01064",
+        "nome": "Álgebra I",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 3,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01063",
+          "MAT01207",
+          "MAT01208"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01199": {
+        "codigo": "MAT01199",
+        "nome": "Cálculo - A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 3,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01206",
+          "MAT01208"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01212": {
+        "codigo": "MAT01212",
+        "nome": "Educação Matemática e Docência II",
+        "creditos": 5,
+        "carga_horaria": 75,
+        "horas_extensao": 30,
+        "carga_horaria_extensao": 30,
+        "etapa_sugerida": 3,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01211"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01209": {
+        "codigo": "MAT01209",
+        "nome": "Introdução as Funções Transcendentes",
+        "creditos": 5,
+        "carga_horaria": 75,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 3,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01206"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01191": {
+        "codigo": "MAT01191",
+        "nome": "Vetores e Geometria Analítica",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 3,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01204": {
+        "codigo": "MAT01204",
+        "nome": "Cálculo - B",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 4,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01191",
+          "MAT01199"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01066": {
+        "codigo": "MAT01066",
+        "nome": "Combinatória I",
+        "creditos": 5,
+        "carga_horaria": 75,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 4,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01063",
+          "MAT01341"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU02134": {
+        "codigo": "EDU02134",
+        "nome": "Educação Matemática e Docência III",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 4,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01212"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "FIS01066": {
+        "codigo": "FIS01066",
+        "nome": "Física I",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 4,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01199"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01355": {
+        "codigo": "MAT01355",
+        "nome": "Álgebra Linear I - A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 4,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01191"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": "MAT01214"
+      },
+      "MAT01214": {
+        "codigo": "MAT01214",
+        "nome": "Álgebra Linear I - A - EAD",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT01191"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": "MAT01355"
+      },
+      "MAT01065": {
+        "codigo": "MAT01065",
+        "nome": "Álgebra II",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 5,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01064"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "FIS01067": {
+        "codigo": "FIS01067",
+        "nome": "Física II",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 5,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "FIS01066"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01070": {
+        "codigo": "MAT01070",
+        "nome": "Laboratório de Prática de Ensino-Aprendizagem em Matemática I",
+        "creditos": 8,
+        "carga_horaria": 120,
+        "horas_extensao": 90,
+        "carga_horaria_extensao": 90,
+        "etapa_sugerida": 5,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01063",
+          "MAT01207",
+          "MAT01208"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU03097": {
+        "codigo": "EDU03097",
+        "nome": "Política e Organização da Educação Básica",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 5,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01067": {
+        "codigo": "MAT01067",
+        "nome": "Combinatória II",
+        "creditos": 5,
+        "carga_horaria": 75,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 6,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01066",
+          "MAT01204"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU02084": {
+        "codigo": "EDU02084",
+        "nome": "Educação Contemporânea: Currículo, Didática, Planejamento",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 6,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "EDU03097"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01071": {
+        "codigo": "MAT01071",
+        "nome": "Laboratório de Prática de Ensino-Aprendizagem em Matemática II",
+        "creditos": 8,
+        "carga_horaria": 120,
+        "horas_extensao": 90,
+        "carga_horaria_extensao": 90,
+        "etapa_sugerida": 6,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01191",
+          "MAT01345"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT02219": {
+        "codigo": "MAT02219",
+        "nome": "Probabilidade e Estatística",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 6,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01199"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": "MAT02050"
+      },
+      "MAT02050": {
+        "codigo": "MAT02050",
+        "nome": "Probabilidade e Estatística - EAD",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT01199"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": "MAT02219"
+      },
+      "EDU02192": {
+        "codigo": "EDU02192",
+        "nome": "Estágio de Docência em Educação Matemática I",
+        "creditos": 8,
+        "carga_horaria": 120,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 7,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "EDU02134",
+          "MAT01070",
+          "MAT01071"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01210": {
+        "codigo": "MAT01210",
+        "nome": "História da Educação Matemática",
+        "creditos": 3,
+        "carga_horaria": 45,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 7,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 100,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01072": {
+        "codigo": "MAT01072",
+        "nome": "Laboratório de Prática de Ensino-Aprendizagem em Matemática III",
+        "creditos": 8,
+        "carga_horaria": 120,
+        "horas_extensao": 90,
+        "carga_horaria_extensao": 90,
+        "etapa_sugerida": 7,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01066",
+          "MAT01199",
+          "MAT01209"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01073": {
+        "codigo": "MAT01073",
+        "nome": "Aplicações da Matemática - A",
+        "creditos": 5,
+        "carga_horaria": 75,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 8,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01204"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01074": {
+        "codigo": "MAT01074",
+        "nome": "Educação Matemática e Tecnologia",
+        "creditos": 5,
+        "carga_horaria": 75,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 8,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01064",
+          "MAT01204",
+          "MAT01345"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU02193": {
+        "codigo": "EDU02193",
+        "nome": "Estágio de Docência em Educação Matemática II",
+        "creditos": 10,
+        "carga_horaria": 150,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 8,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "EDU02192",
+          "MAT01072"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU01013": {
+        "codigo": "EDU01013",
+        "nome": "Intervenção Pedagógica e Necessidades Educativas Especiais",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 8,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01068": {
+        "codigo": "MAT01068",
+        "nome": "Análise Real I",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 9,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01204"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU02194": {
+        "codigo": "EDU02194",
+        "nome": "Estágio de Docência em Educação Matemática III",
+        "creditos": 10,
+        "carga_horaria": 150,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 9,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "EDU02193"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU03071": {
+        "codigo": "EDU03071",
+        "nome": "Língua Brasileira de Sinais (Libras)",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 9,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 120,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01048": {
+        "codigo": "MAT01048",
+        "nome": "Pesquisa em Educação Matemática",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 9,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 100,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01069": {
+        "codigo": "MAT01069",
+        "nome": "Análise Real II",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 10,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01068"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU03107": {
+        "codigo": "EDU03107",
+        "nome": "Educação e Relações Étnico-Raciais",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 4,
+        "carga_horaria_extensao": 4,
+        "etapa_sugerida": 10,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 100,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT02043": {
+        "codigo": "MAT02043",
+        "nome": "Ensino e Aprendizagem de Estatística",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 10,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT02219"
+        ],
+        "corequisitos": [],
+        "min_credits": 100,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01351": {
+        "codigo": "MAT01351",
+        "nome": "História da Matemática",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 10,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 100,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT99001": {
+        "codigo": "MAT99001",
+        "nome": "Trabalho de Conclusão de Curso - MAT",
+        "creditos": 0,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 10,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "EDU02193",
+          "MAT01048"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01077": {
+        "codigo": "MAT01077",
+        "nome": "Álgebra III - A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 10,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01065"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01156": {
+        "codigo": "MAT01156",
+        "nome": "Álgebra Linear II",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT01355"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01205": {
+        "codigo": "MAT01205",
+        "nome": "Cálculo - C",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT01204"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01032": {
+        "codigo": "MAT01032",
+        "nome": "Cálculo Numérico A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT01355"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01217": {
+        "codigo": "MAT01217",
+        "nome": "Cálculo Numérico a - EAD",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT01355"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01031": {
+        "codigo": "MAT01031",
+        "nome": "Matemática Financeira - EAD",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "FIS01056": {
+        "codigo": "FIS01056",
+        "nome": "A Física do Século Xx - A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "FIS01067",
+          "MAT01073",
+          "MAT01205"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU03085": {
+        "codigo": "EDU03085",
+        "nome": "Acessibilidade e Tecnologia Assistiva na Educação Inclusiva",
+        "creditos": 3,
+        "carga_horaria": 45,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "EDU01013"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU03148": {
+        "codigo": "EDU03148",
+        "nome": "Branquitude e Relações Étnico-Raciais",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU02147": {
+        "codigo": "EDU02147",
+        "nome": "Docência Matemática: Pensamento, Linguagem e Mundo",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "EDU01011",
+          "EDU01012"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU03070": {
+        "codigo": "EDU03070",
+        "nome": "Educação de Surdos",
+        "creditos": 3,
+        "carga_horaria": 45,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ART03971": {
+        "codigo": "ART03971",
+        "nome": "Educação em Espaços Culturais",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU02804": {
+        "codigo": "EDU02804",
+        "nome": "Educação Matemática e Cinema: A Criação de Planos de Aula Sob a Perspectiva dos Estudos Culturais",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "FIS02218": {
+        "codigo": "FIS02218",
+        "nome": "Educação, Pesquisa e Divulgação de Ciências para as Relações Étnico-Raciais e de Gênero",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 100,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU03396": {
+        "codigo": "EDU03396",
+        "nome": "Educação: A Criança e o Adolescente Excluídos da Escola",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "INT00002": {
+        "codigo": "INT00002",
+        "nome": "Encontro de Saberes",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "FIS02009": {
+        "codigo": "FIS02009",
+        "nome": "Explorando o Universo: Dos Quarks aos Quasares",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU03108": {
+        "codigo": "EDU03108",
+        "nome": "Gênero e Sexualidade na Educação",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 8,
+        "carga_horaria_extensao": 8,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU03149": {
+        "codigo": "EDU03149",
+        "nome": "Intelectualidades Negras e Educação",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU03076": {
+        "codigo": "EDU03076",
+        "nome": "Libras 2",
+        "creditos": 3,
+        "carga_horaria": 45,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "EDU03071"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01121": {
+        "codigo": "MAT01121",
+        "nome": "Matemática e Inovação",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 50,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU03102": {
+        "codigo": "EDU03102",
+        "nome": "Mídias, Tecnologias Digitais e Educação: Processos e Métodos da Aprendizagem",
+        "creditos": 3,
+        "carga_horaria": 45,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU01090": {
+        "codigo": "EDU01090",
+        "nome": "Mulheres na História da Educação",
+        "creditos": 3,
+        "carga_horaria": 45,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU03147": {
+        "codigo": "EDU03147",
+        "nome": "Pesquisas em Psicopedagogia",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU01057": {
+        "codigo": "EDU01057",
+        "nome": "Povos Indígenas, Educação e Escola",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ART03970": {
+        "codigo": "ART03970",
+        "nome": "Práticas Pedagógicas Interdisciplinares na Escola",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU01016": {
+        "codigo": "EDU01016",
+        "nome": "Projetos de Aprendizagem em Ambientes Digitais",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU01022": {
+        "codigo": "EDU01022",
+        "nome": "Psicologia da Educação: A Educação e Suas Instituições",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU01018": {
+        "codigo": "EDU01018",
+        "nome": "Psicologia da Educação: O Jogo II",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU03031": {
+        "codigo": "EDU03031",
+        "nome": "Seminário: Educação e Movimentos Sociais",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU03030": {
+        "codigo": "EDU03030",
+        "nome": "Seminário: Educação, Trabalho e Profissão",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU01005": {
+        "codigo": "EDU01005",
+        "nome": "Sociologia da Educação I - A",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU01027": {
+        "codigo": "EDU01027",
+        "nome": "Software Livre na Educação",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      }
+    }
+  },
+  "bach_pura": {
+    "label": "Bacharelado — Matemática Pura",
+    "shift": "bach_pura",
+    "curso": "Matemática",
+    "codigo": 335,
+    "habilitacao": 48,
+    "curriculo": 146,
+    "instituicao": "UFRGS",
+    "versao_catalogo": "2026/1",
+    "totalMandatoryCredits": 136,
+    "totalElectiveCredits": 8,
+    "totalTargetCredits": 150,
+    "maxStage": 8,
+    "hasFdc": false,
+    "estatisticas_nominais": {
+      "creditos_obrigatorios": 136,
+      "creditos_eletivos": 8,
+      "creditos_complementares": 6,
+      "creditos_convertidos": 0,
+      "creditos_totais_diplomacao": 150,
+      "carga_horaria_obrigatoria": 2040,
+      "carga_horaria_eletiva": 120,
+      "carga_horaria_total": 2500,
+      "horas_extensao_diplomacao": 250
+    },
+    "disciplinas": {
+      "MAT01092": {
+        "codigo": "MAT01092",
+        "nome": "Algoritmos e Programação I",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 1,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01199": {
+        "codigo": "MAT01199",
+        "nome": "Cálculo - A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 1,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01123": {
+        "codigo": "MAT01123",
+        "nome": "Matemática Elementar e Aplicações",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 1,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01097": {
+        "codigo": "MAT01097",
+        "nome": "Seminário Integrador I",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 1,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01191": {
+        "codigo": "MAT01191",
+        "nome": "Vetores e Geometria Analítica",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 1,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01075": {
+        "codigo": "MAT01075",
+        "nome": "Álgebra I - A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 2,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01123"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01204": {
+        "codigo": "MAT01204",
+        "nome": "Cálculo - B",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 2,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01191",
+          "MAT01199"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "FIS01181": {
+        "codigo": "FIS01181",
+        "nome": "Física I-C",
+        "creditos": 6,
+        "carga_horaria": 90,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 2,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01098": {
+        "codigo": "MAT01098",
+        "nome": "Seminário Integrador II",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 2,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01123",
+          "MAT01199"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01355": {
+        "codigo": "MAT01355",
+        "nome": "Álgebra Linear I - A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 2,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01191",
+          "MAT01199"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": "MAT01214"
+      },
+      "MAT01214": {
+        "codigo": "MAT01214",
+        "nome": "Álgebra Linear I - A - EAD",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT01191",
+          "MAT01199"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": "MAT01355"
+      },
+      "MAT01057": {
+        "codigo": "MAT01057",
+        "nome": "Análise Matemática A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 3,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01204"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01205": {
+        "codigo": "MAT01205",
+        "nome": "Cálculo - C",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 3,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01204"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "FIS01183": {
+        "codigo": "FIS01183",
+        "nome": "Física III-C",
+        "creditos": 6,
+        "carga_horaria": 90,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 3,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "FIS01181",
+          "MAT01199"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01358": {
+        "codigo": "MAT01358",
+        "nome": "Introdução à Geometria",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 3,
+        "tipo": "obrigatoria",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01009": {
+        "codigo": "MAT01009",
+        "nome": "Métodos Aplicados de Matemática I",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 3,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "FIS01181",
+          "MAT01204",
+          "MAT01355"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01076": {
+        "codigo": "MAT01076",
+        "nome": "Álgebra II - A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 4,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01075"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01156": {
+        "codigo": "MAT01156",
+        "nome": "Álgebra Linear II",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 4,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01355"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01058": {
+        "codigo": "MAT01058",
+        "nome": "Análise Matemática B",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 4,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01057",
+          "MAT01205"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01124": {
+        "codigo": "MAT01124",
+        "nome": "Cálculo Numérico I",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 4,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01204"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01012": {
+        "codigo": "MAT01012",
+        "nome": "Métodos Aplicados de Matemática II",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 4,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01009"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01077": {
+        "codigo": "MAT01077",
+        "nome": "Álgebra III - A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 5,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01075"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01078": {
+        "codigo": "MAT01078",
+        "nome": "Análise Complexa",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 5,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01057",
+          "MAT01205"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01059": {
+        "codigo": "MAT01059",
+        "nome": "Análise Matemática C",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 5,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01058"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "FIS01182": {
+        "codigo": "FIS01182",
+        "nome": "Física Geral - Eletromagnetismo",
+        "creditos": 6,
+        "carga_horaria": 90,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 5,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "FIS01181",
+          "MAT01199"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01028": {
+        "codigo": "MAT01028",
+        "nome": "Equações Diferenciais Ordinárias",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 6,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01058"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "FIS01184": {
+        "codigo": "FIS01184",
+        "nome": "Física IV-C",
+        "creditos": 6,
+        "carga_horaria": 90,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 6,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "FIS01183"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT02022": {
+        "codigo": "MAT02022",
+        "nome": "Probabilidade - A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 6,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01191",
+          "MAT01199"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01079": {
+        "codigo": "MAT01079",
+        "nome": "Topologia dos Espaços Métricos",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 6,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01058"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01027": {
+        "codigo": "MAT01027",
+        "nome": "Equações Diferenciais Parciais",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 7,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01012",
+          "MAT01058"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01153": {
+        "codigo": "MAT01153",
+        "nome": "Geometria Diferencial",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 7,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01059"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT02024": {
+        "codigo": "MAT02024",
+        "nome": "Probabilidade - B",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 7,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT02022"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01080": {
+        "codigo": "MAT01080",
+        "nome": "Introdução à Mecânica Matemática",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 8,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01028"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01302": {
+        "codigo": "MAT01302",
+        "nome": "Medida de Lebesgue na Reta",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 8,
+        "tipo": "obrigatoria",
+        "prerequisitos": [
+          "MAT01058"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ADM01131": {
+        "codigo": "ADM01131",
+        "nome": "Administração de Carteira de Investimentos",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 75,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT02263": {
+        "codigo": "MAT02263",
+        "nome": "Análise de Séries Temporais A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT02027",
+          "MAT02252"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02273": {
+        "codigo": "ECO02273",
+        "nome": "Análise Macroeconômica",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02207"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02207": {
+        "codigo": "ECO02207",
+        "nome": "Análise Microeconômica I",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT01204"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02208": {
+        "codigo": "ECO02208",
+        "nome": "Análise Microeconômica II",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02207"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT02239": {
+        "codigo": "MAT02239",
+        "nome": "Análise Multivariada",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT02026"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "FIS02012": {
+        "codigo": "FIS02012",
+        "nome": "Cosmologia e Relatividade A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "FIS01184",
+          "FIS02010"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01036": {
+        "codigo": "MAT01036",
+        "nome": "Curvas Algébricas Planas",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT01059",
+          "MAT01077",
+          "MAT01078",
+          "MAT01156"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02090": {
+        "codigo": "ECO02090",
+        "nome": "Derivativos e Riscos",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 75,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT02208": {
+        "codigo": "MAT02208",
+        "nome": "Econometria",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT02027"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02001": {
+        "codigo": "ECO02001",
+        "nome": "Economia Matemática A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 75,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02002": {
+        "codigo": "ECO02002",
+        "nome": "Economia Monetária I - A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "ECO02273"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "FIS02218": {
+        "codigo": "FIS02218",
+        "nome": "Educação, Pesquisa e Divulgação de Ciências para as Relações Étnico-Raciais e de Gênero",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 100,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "INT00002": {
+        "codigo": "INT00002",
+        "nome": "Encontro de Saberes",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT02018": {
+        "codigo": "MAT02018",
+        "nome": "Estatística Descritiva",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT02207": {
+        "codigo": "MAT02207",
+        "nome": "Estatística Econômica",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT02021"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "INF01126": {
+        "codigo": "INF01126",
+        "nome": "Estruturas de Dados I",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT01092"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "FIS02009": {
+        "codigo": "FIS02009",
+        "nome": "Explorando o Universo: Dos Quarks aos Quasares",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "FIS02010": {
+        "codigo": "FIS02010",
+        "nome": "Fundamentos de Astronomia e Astrofísica A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "FIS01181"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "FIS01065": {
+        "codigo": "FIS01065",
+        "nome": "Fundamentos de Física Quântica",
+        "creditos": 6,
+        "carga_horaria": 90,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "FIS01268",
+          "MAT01078"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "FIS01061": {
+        "codigo": "FIS01061",
+        "nome": "Fundamentos de Relatividade",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "FIS01184",
+          "MAT01012"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01090": {
+        "codigo": "MAT01090",
+        "nome": "Fundamentos Matemáticos da Mecânica Quântica",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 90,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01081": {
+        "codigo": "MAT01081",
+        "nome": "Geometria Projetiva",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT01077"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01351": {
+        "codigo": "MAT01351",
+        "nome": "História da Matemática",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 100,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT02023": {
+        "codigo": "MAT02023",
+        "nome": "Inferência - A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT02022"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT02026": {
+        "codigo": "MAT02026",
+        "nome": "Inferência - B",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT02023",
+          "MAT02024"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "LET02132": {
+        "codigo": "LET02132",
+        "nome": "Inglês Instrumental EAD",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01303": {
+        "codigo": "MAT01303",
+        "nome": "Introdução à Análise Numérica",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT01124"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "FIS01268": {
+        "codigo": "FIS01268",
+        "nome": "Introdução à Física Quântica C",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "FIS01184",
+          "MAT01012"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT02021": {
+        "codigo": "MAT02021",
+        "nome": "Introdução à Inferência",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT02022"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT02019": {
+        "codigo": "MAT02019",
+        "nome": "Introdução a Pacotes Estatísticos",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT01204"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01304": {
+        "codigo": "MAT01304",
+        "nome": "Introdução à Topologia Algébrica",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT01077",
+          "MAT01079"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01305": {
+        "codigo": "MAT01305",
+        "nome": "Introdução aos Princípios Variacionais",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT01059"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01331": {
+        "codigo": "MAT01331",
+        "nome": "Introdução às Oscilações Não Lineares",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT01028"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU03071": {
+        "codigo": "EDU03071",
+        "nome": "Língua Brasileira de Sinais (Libras)",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01336": {
+        "codigo": "MAT01336",
+        "nome": "Matemática da Caoticidade",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT01079"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01326": {
+        "codigo": "MAT01326",
+        "nome": "Matemática Discreta I",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 70,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01121": {
+        "codigo": "MAT01121",
+        "nome": "Matemática e Inovação",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 50,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01031": {
+        "codigo": "MAT01031",
+        "nome": "Matemática Financeira - EAD",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT02027": {
+        "codigo": "MAT02027",
+        "nome": "Modelos Lineares",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT02021"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT02029": {
+        "codigo": "MAT02029",
+        "nome": "Modelos Lineares Generalizados",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT02027"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01082": {
+        "codigo": "MAT01082",
+        "nome": "Módulos Finitamente Gerados",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT01077"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ADM01120": {
+        "codigo": "ADM01120",
+        "nome": "Pesquisa Operacional I",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 75,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT02252": {
+        "codigo": "MAT02252",
+        "nome": "Processos Estocásticos",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT02024"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "INF01057": {
+        "codigo": "INF01057",
+        "nome": "Programação Orientada a Objeto",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "INF01126"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01182": {
+        "codigo": "MAT01182",
+        "nome": "Seminário Sobre Tópicos de Matemática",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 120,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU03031": {
+        "codigo": "EDU03031",
+        "nome": "Seminário: Educação e Movimentos Sociais",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01129": {
+        "codigo": "MAT01129",
+        "nome": "Sinais e Wavelets",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT01204"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01083": {
+        "codigo": "MAT01083",
+        "nome": "Sistemas Dinâmicos Ergódicos",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT01009",
+          "MAT01028"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01219": {
+        "codigo": "MAT01219",
+        "nome": "Teoria dos Jogos - MAT",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT01204"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01220": {
+        "codigo": "MAT01220",
+        "nome": "Teoria dos Jogos Evolucionários",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT01009"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01006": {
+        "codigo": "MAT01006",
+        "nome": "Tópicos em Teoria dos Números",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "prerequisitos": [
+          "MAT01057",
+          "MAT01075"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      }
+    }
+  },
+  "bach_aplicada": {
+    "label": "Bacharelado — Matemática Aplicada e Computacional",
+    "shift": "bach_aplicada",
+    "curso": "Matemática",
+    "codigo": 335,
+    "habilitacao": 48,
+    "curriculo": 147,
+    "instituicao": "UFRGS",
+    "versao_catalogo": "2026/1",
+    "totalMandatoryCredits": 132,
+    "totalElectiveCredits": 8,
+    "totalTargetCredits": 148,
+    "maxStage": 8,
+    "hasFdc": true,
+    "fdcs": [
+      {
+        "id": 1,
+        "nome": "Acadêmica Aplicada",
+        "descricao": "Ênfase Acadêmica Aplicada",
+        "cor": "#d97706",
+        "fundo": "#271e14"
+      },
+      {
+        "id": 2,
+        "nome": "Acadêmica Computacional",
+        "descricao": "Ênfase Acadêmica Computacional",
+        "cor": "#10b981",
+        "fundo": "#112622"
+      },
+      {
+        "id": 3,
+        "nome": "Profissional",
+        "descricao": "Ênfase Profissional",
+        "cor": "#8b5cf6",
+        "fundo": "#1e1630"
+      }
+    ],
+    "estatisticas_nominais": {
+      "creditos_obrigatorios": 132,
+      "creditos_eletivos": 8,
+      "creditos_complementares": 8,
+      "creditos_convertidos": 0,
+      "creditos_totais_diplomacao": 148,
+      "carga_horaria_obrigatoria": 1980,
+      "carga_horaria_eletiva": 120,
+      "carga_horaria_total": 2470,
+      "horas_extensao_diplomacao": 250
+    },
+    "disciplinas": {
+      "MAT01092": {
+        "codigo": "MAT01092",
+        "nome": "Algoritmos e Programação I",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 1,
+        "tipo": "obrigatoria",
+        "tipo_padrao": "obrigatoria",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "obrigatoria",
+            "etapa": 1
+          },
+          "2": {
+            "tipo": "obrigatoria",
+            "etapa": 1
+          },
+          "3": {
+            "tipo": "obrigatoria",
+            "etapa": 1
+          }
+        },
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01199": {
+        "codigo": "MAT01199",
+        "nome": "Cálculo - A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 1,
+        "tipo": "obrigatoria",
+        "tipo_padrao": "obrigatoria",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "obrigatoria",
+            "etapa": 1
+          },
+          "2": {
+            "tipo": "obrigatoria",
+            "etapa": 1
+          },
+          "3": {
+            "tipo": "obrigatoria",
+            "etapa": 1
+          }
+        },
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01123": {
+        "codigo": "MAT01123",
+        "nome": "Matemática Elementar e Aplicações",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 1,
+        "tipo": "obrigatoria",
+        "tipo_padrao": "obrigatoria",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "obrigatoria",
+            "etapa": 1
+          },
+          "2": {
+            "tipo": "obrigatoria",
+            "etapa": 1
+          },
+          "3": {
+            "tipo": "obrigatoria",
+            "etapa": 1
+          }
+        },
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01097": {
+        "codigo": "MAT01097",
+        "nome": "Seminário Integrador I",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 1,
+        "tipo": "obrigatoria",
+        "tipo_padrao": "obrigatoria",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "obrigatoria",
+            "etapa": 1
+          },
+          "2": {
+            "tipo": "obrigatoria",
+            "etapa": 1
+          },
+          "3": {
+            "tipo": "obrigatoria",
+            "etapa": 1
+          }
+        },
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01191": {
+        "codigo": "MAT01191",
+        "nome": "Vetores e Geometria Analítica",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 1,
+        "tipo": "obrigatoria",
+        "tipo_padrao": "obrigatoria",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "obrigatoria",
+            "etapa": 1
+          },
+          "2": {
+            "tipo": "obrigatoria",
+            "etapa": 1
+          },
+          "3": {
+            "tipo": "obrigatoria",
+            "etapa": 1
+          }
+        },
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01075": {
+        "codigo": "MAT01075",
+        "nome": "Álgebra I - A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 2,
+        "tipo": "obrigatoria",
+        "tipo_padrao": "obrigatoria",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "obrigatoria",
+            "etapa": 2
+          },
+          "2": {
+            "tipo": "obrigatoria",
+            "etapa": 2
+          },
+          "3": {
+            "tipo": "obrigatoria",
+            "etapa": 2
+          }
+        },
+        "prerequisitos": [
+          "MAT01123"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01204": {
+        "codigo": "MAT01204",
+        "nome": "Cálculo - B",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 2,
+        "tipo": "obrigatoria",
+        "tipo_padrao": "obrigatoria",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "obrigatoria",
+            "etapa": 2
+          },
+          "2": {
+            "tipo": "obrigatoria",
+            "etapa": 2
+          },
+          "3": {
+            "tipo": "obrigatoria",
+            "etapa": 2
+          }
+        },
+        "prerequisitos": [
+          "MAT01191",
+          "MAT01199"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "FIS01181": {
+        "codigo": "FIS01181",
+        "nome": "Física I-C",
+        "creditos": 6,
+        "carga_horaria": 90,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 2,
+        "tipo": "obrigatoria",
+        "tipo_padrao": "obrigatoria",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "obrigatoria",
+            "etapa": 2
+          },
+          "2": {
+            "tipo": "obrigatoria",
+            "etapa": 2
+          },
+          "3": {
+            "tipo": "obrigatoria",
+            "etapa": 2
+          }
+        },
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01098": {
+        "codigo": "MAT01098",
+        "nome": "Seminário Integrador II",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 2,
+        "tipo": "obrigatoria",
+        "tipo_padrao": "obrigatoria",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "obrigatoria",
+            "etapa": 2
+          },
+          "2": {
+            "tipo": "obrigatoria",
+            "etapa": 2
+          },
+          "3": {
+            "tipo": "obrigatoria",
+            "etapa": 2
+          }
+        },
+        "prerequisitos": [
+          "MAT01123",
+          "MAT01199"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01355": {
+        "codigo": "MAT01355",
+        "nome": "Álgebra Linear I - A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 2,
+        "tipo": "obrigatoria",
+        "tipo_padrao": "obrigatoria",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "obrigatoria",
+            "etapa": 2
+          },
+          "2": {
+            "tipo": "obrigatoria",
+            "etapa": 2
+          },
+          "3": {
+            "tipo": "obrigatoria",
+            "etapa": 2
+          }
+        },
+        "prerequisitos": [
+          "MAT01191",
+          "MAT01199"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": "MAT01214"
+      },
+      "MAT01214": {
+        "codigo": "MAT01214",
+        "nome": "Álgebra Linear I - A - EAD",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [
+          "MAT01191",
+          "MAT01199"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": "MAT01355"
+      },
+      "MAT01057": {
+        "codigo": "MAT01057",
+        "nome": "Análise Matemática A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 3,
+        "tipo": "obrigatoria",
+        "tipo_padrao": "obrigatoria",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "obrigatoria",
+            "etapa": 3
+          },
+          "2": {
+            "tipo": "obrigatoria",
+            "etapa": 3
+          },
+          "3": {
+            "tipo": "obrigatoria",
+            "etapa": 3
+          }
+        },
+        "prerequisitos": [
+          "MAT01204"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01205": {
+        "codigo": "MAT01205",
+        "nome": "Cálculo - C",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 3,
+        "tipo": "obrigatoria",
+        "tipo_padrao": "obrigatoria",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "obrigatoria",
+            "etapa": 3
+          },
+          "2": {
+            "tipo": "obrigatoria",
+            "etapa": 3
+          },
+          "3": {
+            "tipo": "obrigatoria",
+            "etapa": 3
+          }
+        },
+        "prerequisitos": [
+          "MAT01204"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "FIS01183": {
+        "codigo": "FIS01183",
+        "nome": "Física III-C",
+        "creditos": 6,
+        "carga_horaria": 90,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 3,
+        "tipo": "obrigatoria",
+        "tipo_padrao": "obrigatoria",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "obrigatoria",
+            "etapa": 3
+          },
+          "2": {
+            "tipo": "obrigatoria",
+            "etapa": 3
+          },
+          "3": {
+            "tipo": "obrigatoria",
+            "etapa": 3
+          }
+        },
+        "prerequisitos": [
+          "FIS01181",
+          "MAT01199"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01031": {
+        "codigo": "MAT01031",
+        "nome": "Matemática Financeira - EAD",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 3,
+        "tipo": "obrigatoria",
+        "tipo_padrao": "obrigatoria",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "obrigatoria",
+            "etapa": 3
+          },
+          "2": {
+            "tipo": "obrigatoria",
+            "etapa": 3
+          },
+          "3": {
+            "tipo": "obrigatoria",
+            "etapa": 3
+          }
+        },
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01009": {
+        "codigo": "MAT01009",
+        "nome": "Métodos Aplicados de Matemática I",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 3,
+        "tipo": "obrigatoria",
+        "tipo_padrao": "obrigatoria",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "obrigatoria",
+            "etapa": 3
+          },
+          "2": {
+            "tipo": "obrigatoria",
+            "etapa": 3
+          },
+          "3": {
+            "tipo": "obrigatoria",
+            "etapa": 3
+          }
+        },
+        "prerequisitos": [
+          "FIS01181",
+          "MAT01204",
+          "MAT01355"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01156": {
+        "codigo": "MAT01156",
+        "nome": "Álgebra Linear II",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 4,
+        "tipo": "obrigatoria",
+        "tipo_padrao": "obrigatoria",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "obrigatoria",
+            "etapa": 4
+          },
+          "2": {
+            "tipo": "obrigatoria",
+            "etapa": 4
+          },
+          "3": {
+            "tipo": "obrigatoria",
+            "etapa": 6
+          }
+        },
+        "prerequisitos": [
+          "MAT01355"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01058": {
+        "codigo": "MAT01058",
+        "nome": "Análise Matemática B",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 4,
+        "tipo": "obrigatoria",
+        "tipo_padrao": "obrigatoria",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "obrigatoria",
+            "etapa": 4
+          },
+          "2": {
+            "tipo": "obrigatoria",
+            "etapa": 4
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [
+          "MAT01057",
+          "MAT01205"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01124": {
+        "codigo": "MAT01124",
+        "nome": "Cálculo Numérico I",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 4,
+        "tipo": "obrigatoria",
+        "tipo_padrao": "obrigatoria",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "obrigatoria",
+            "etapa": 4
+          },
+          "2": {
+            "tipo": "obrigatoria",
+            "etapa": 4
+          },
+          "3": {
+            "tipo": "obrigatoria",
+            "etapa": 4
+          }
+        },
+        "prerequisitos": [
+          "MAT01204"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01326": {
+        "codigo": "MAT01326",
+        "nome": "Matemática Discreta I",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 4,
+        "tipo": "obrigatoria",
+        "tipo_padrao": "obrigatoria",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "obrigatoria",
+            "etapa": 4
+          },
+          "2": {
+            "tipo": "obrigatoria",
+            "etapa": 4
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [
+          "MAT01075"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01012": {
+        "codigo": "MAT01012",
+        "nome": "Métodos Aplicados de Matemática II",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 4,
+        "tipo": "obrigatoria",
+        "tipo_padrao": "obrigatoria",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "obrigatoria",
+            "etapa": 4
+          },
+          "2": {
+            "tipo": "obrigatoria",
+            "etapa": 4
+          },
+          "3": {
+            "tipo": "obrigatoria",
+            "etapa": 4
+          }
+        },
+        "prerequisitos": [
+          "MAT01009"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01050": {
+        "codigo": "MAT01050",
+        "nome": "Álgebra Matricial Computacional A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 5,
+        "tipo": "obrigatoria",
+        "tipo_padrao": "obrigatoria",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "obrigatoria",
+            "etapa": 5
+          },
+          "2": {
+            "tipo": "obrigatoria",
+            "etapa": 5
+          },
+          "3": {
+            "tipo": "obrigatoria",
+            "etapa": 5
+          }
+        },
+        "prerequisitos": [
+          "MAT01092",
+          "MAT01204",
+          "MAT01355"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01078": {
+        "codigo": "MAT01078",
+        "nome": "Análise Complexa",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 5,
+        "tipo": "obrigatoria",
+        "tipo_padrao": "obrigatoria",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "obrigatoria",
+            "etapa": 5
+          },
+          "2": {
+            "tipo": "obrigatoria",
+            "etapa": 5
+          },
+          "3": {
+            "tipo": "obrigatoria",
+            "etapa": 7
+          }
+        },
+        "prerequisitos": [
+          "MAT01057",
+          "MAT01205"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01059": {
+        "codigo": "MAT01059",
+        "nome": "Análise Matemática C",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 5,
+        "tipo": "obrigatoria",
+        "tipo_padrao": "obrigatoria",
+        "fdc_especifica": 1,
+        "status_fdc": {
+          "1": {
+            "tipo": "obrigatoria",
+            "etapa": 5
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [
+          "MAT01058"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01125": {
+        "codigo": "MAT01125",
+        "nome": "Cálculo Numérico II",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 5,
+        "tipo": "obrigatoria",
+        "tipo_padrao": "obrigatoria",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "obrigatoria",
+            "etapa": 5
+          },
+          "2": {
+            "tipo": "obrigatoria",
+            "etapa": 5
+          },
+          "3": {
+            "tipo": "obrigatoria",
+            "etapa": 5
+          }
+        },
+        "prerequisitos": [
+          "MAT01124"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "FIS01182": {
+        "codigo": "FIS01182",
+        "nome": "Física Geral - Eletromagnetismo",
+        "creditos": 6,
+        "carga_horaria": 90,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 5,
+        "tipo": "obrigatoria",
+        "tipo_padrao": "obrigatoria",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "obrigatoria",
+            "etapa": 5
+          },
+          "2": {
+            "tipo": "obrigatoria",
+            "etapa": 5
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [
+          "FIS01181",
+          "MAT01199"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01099": {
+        "codigo": "MAT01099",
+        "nome": "Seminário Integrador III",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 5,
+        "tipo": "obrigatoria",
+        "tipo_padrao": "obrigatoria",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "obrigatoria",
+            "etapa": 5
+          },
+          "2": {
+            "tipo": "obrigatoria",
+            "etapa": 5
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [
+          "MAT01009",
+          "MAT01124"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01028": {
+        "codigo": "MAT01028",
+        "nome": "Equações Diferenciais Ordinárias",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 6,
+        "tipo": "obrigatoria",
+        "tipo_padrao": "obrigatoria",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "obrigatoria",
+            "etapa": 6
+          },
+          "2": {
+            "tipo": "obrigatoria",
+            "etapa": 6
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [
+          "MAT01058"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01096": {
+        "codigo": "MAT01096",
+        "nome": "Otimização Combinatória",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 6,
+        "tipo": "obrigatoria",
+        "tipo_padrao": "obrigatoria",
+        "fdc_especifica": 1,
+        "status_fdc": {
+          "1": {
+            "tipo": "obrigatoria",
+            "etapa": 6
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [
+          "MAT01092",
+          "MAT01326"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT02022": {
+        "codigo": "MAT02022",
+        "nome": "Probabilidade - A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 6,
+        "tipo": "obrigatoria",
+        "tipo_padrao": "obrigatoria",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "obrigatoria",
+            "etapa": 6
+          },
+          "2": {
+            "tipo": "obrigatoria",
+            "etapa": 6
+          },
+          "3": {
+            "tipo": "obrigatoria",
+            "etapa": 4
+          }
+        },
+        "prerequisitos": [
+          "MAT01191",
+          "MAT01199"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01076": {
+        "codigo": "MAT01076",
+        "nome": "Álgebra II - A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 6,
+        "tipo": "obrigatoria",
+        "tipo_padrao": "obrigatoria",
+        "fdc_especifica": 1,
+        "status_fdc": {
+          "1": {
+            "tipo": "obrigatoria",
+            "etapa": 6
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [
+          "MAT01075"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01010": {
+        "codigo": "MAT01010",
+        "nome": "Cálculo Vetorial e Tensorial",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 90,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01056": {
+        "codigo": "MAT01056",
+        "nome": "Equações Integrais",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 90,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01219": {
+        "codigo": "MAT01219",
+        "nome": "Teoria dos Jogos - MAT",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": 3,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "obrigatoria",
+            "etapa": 7
+          }
+        },
+        "prerequisitos": [
+          "MAT01204"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01027": {
+        "codigo": "MAT01027",
+        "nome": "Equações Diferenciais Parciais",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 7,
+        "tipo": "obrigatoria",
+        "tipo_padrao": "obrigatoria",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "obrigatoria",
+            "etapa": 7
+          },
+          "2": {
+            "tipo": "obrigatoria",
+            "etapa": 7
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [
+          "MAT01012",
+          "MAT01058"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01077": {
+        "codigo": "MAT01077",
+        "nome": "Álgebra III - A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 7,
+        "tipo": "obrigatoria",
+        "tipo_padrao": "obrigatoria",
+        "fdc_especifica": 1,
+        "status_fdc": {
+          "1": {
+            "tipo": "obrigatoria",
+            "etapa": 7
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [
+          "MAT01075"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01127": {
+        "codigo": "MAT01127",
+        "nome": "Controle",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [
+          "MAT01028"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01087": {
+        "codigo": "MAT01087",
+        "nome": "Introdução à Mecânica dos Fluidos",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": 2,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "obrigatoria",
+            "etapa": 7
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 90,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01088": {
+        "codigo": "MAT01088",
+        "nome": "Introdução à Teoria de Transporte de Partículas Neutras",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 90,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01080": {
+        "codigo": "MAT01080",
+        "nome": "Introdução à Mecânica Matemática",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": 8,
+        "tipo": "obrigatoria",
+        "tipo_padrao": "obrigatoria",
+        "fdc_especifica": 1,
+        "status_fdc": {
+          "1": {
+            "tipo": "obrigatoria",
+            "etapa": 8
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [
+          "MAT01028"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01302": {
+        "codigo": "MAT01302",
+        "nome": "Medida de Lebesgue na Reta",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 90,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ADM01120": {
+        "codigo": "ADM01120",
+        "nome": "Pesquisa Operacional I",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 90,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ADM01131": {
+        "codigo": "ADM01131",
+        "nome": "Administração de Carteira de Investimentos",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": 3,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "obrigatoria",
+            "etapa": 5
+          }
+        },
+        "prerequisitos": [
+          "MAT01031"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ADM01129": {
+        "codigo": "ADM01129",
+        "nome": "Administração Financeira",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": 3,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "obrigatoria",
+            "etapa": 5
+          }
+        },
+        "prerequisitos": [
+          "MAT01031"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01051": {
+        "codigo": "MAT01051",
+        "nome": "Álgebra Matricial Computacional B",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": 2,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "obrigatoria",
+            "etapa": 8
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [
+          "MAT01050"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01126": {
+        "codigo": "MAT01126",
+        "nome": "Algoritmos e Estrutura de Dados",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "obrigatoria",
+            "etapa": 6
+          },
+          "3": {
+            "tipo": "obrigatoria",
+            "etapa": 4
+          }
+        },
+        "prerequisitos": [
+          "MAT01092"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01093": {
+        "codigo": "MAT01093",
+        "nome": "Algoritmos e Programação II",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": 2,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "obrigatoria",
+            "etapa": 6
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [
+          "MAT01092"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT02263": {
+        "codigo": "MAT02263",
+        "nome": "Análise de Séries Temporais A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [
+          "MAT02027",
+          "MAT02252"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02273": {
+        "codigo": "ECO02273",
+        "nome": "Análise Macroeconômica",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": 3,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "obrigatoria",
+            "etapa": 6
+          }
+        },
+        "prerequisitos": [
+          "ECO02207"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02207": {
+        "codigo": "ECO02207",
+        "nome": "Análise Microeconômica I",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": 3,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "obrigatoria",
+            "etapa": 5
+          }
+        },
+        "prerequisitos": [
+          "MAT01204"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02208": {
+        "codigo": "ECO02208",
+        "nome": "Análise Microeconômica II",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": 3,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "obrigatoria",
+            "etapa": 6
+          }
+        },
+        "prerequisitos": [
+          "ECO02207"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT02046": {
+        "codigo": "MAT02046",
+        "nome": "Aprendizado de Máquina e Aprendizagem Estatística",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [
+          "MAT02027"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01017": {
+        "codigo": "MAT01017",
+        "nome": "Biologia Matemática",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 90,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02215": {
+        "codigo": "ECO02215",
+        "nome": "Contabilidade Social",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 90,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02090": {
+        "codigo": "ECO02090",
+        "nome": "Derivativos e Riscos",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": 3,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "obrigatoria",
+            "etapa": 8
+          }
+        },
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 90,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01202": {
+        "codigo": "MAT01202",
+        "nome": "Dinâmica dos Gases Rarefeitos",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [
+          "MAT01028"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT02208": {
+        "codigo": "MAT02208",
+        "nome": "Econometria",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 90,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02289": {
+        "codigo": "ECO02289",
+        "nome": "Economia e Meio Ambiente",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02004": {
+        "codigo": "ECO02004",
+        "nome": "Economia Internacional I - A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [
+          "ECO02208",
+          "ECO02273"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02006": {
+        "codigo": "ECO02006",
+        "nome": "Economia Internacional II - A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [
+          "ECO02004"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02001": {
+        "codigo": "ECO02001",
+        "nome": "Economia Matemática A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 90,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02111": {
+        "codigo": "ECO02111",
+        "nome": "Economia Matemática B",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [
+          "ECO02001"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02002": {
+        "codigo": "ECO02002",
+        "nome": "Economia Monetária I - A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [
+          "ECO02273"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "FIS02218": {
+        "codigo": "FIS02218",
+        "nome": "Educação, Pesquisa e Divulgação de Ciências para as Relações Étnico-Raciais e de Gênero",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "INT00002": {
+        "codigo": "INT00002",
+        "nome": "Encontro de Saberes",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT02207": {
+        "codigo": "MAT02207",
+        "nome": "Estatística Econômica",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [
+          "MAT02021"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "INF01203": {
+        "codigo": "INF01203",
+        "nome": "Estruturas de Dados",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [
+          "MAT01093"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "FIS02009": {
+        "codigo": "FIS02009",
+        "nome": "Explorando o Universo: Dos Quarks aos Quasares",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "FIS01184": {
+        "codigo": "FIS01184",
+        "nome": "Física IV-C",
+        "creditos": 6,
+        "carga_horaria": 90,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [
+          "FIS01183"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01090": {
+        "codigo": "MAT01090",
+        "nome": "Fundamentos Matemáticos da Mecânica Quântica",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 90,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01333": {
+        "codigo": "MAT01333",
+        "nome": "Geometria Computacional",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 90,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01153": {
+        "codigo": "MAT01153",
+        "nome": "Geometria Diferencial",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 90,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01351": {
+        "codigo": "MAT01351",
+        "nome": "História da Matemática",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 90,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT02023": {
+        "codigo": "MAT02023",
+        "nome": "Inferência - A",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [
+          "MAT02021"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "LET02132": {
+        "codigo": "LET02132",
+        "nome": "Inglês Instrumental EAD",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO03020": {
+        "codigo": "ECO03020",
+        "nome": "Introdução à Atuária",
+        "creditos": 6,
+        "carga_horaria": 90,
+        "horas_extensao": 45,
+        "carga_horaria_extensao": 45,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [
+          "MAT01012",
+          "MAT01031"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01203": {
+        "codigo": "MAT01203",
+        "nome": "Introdução a Elementos Finitos",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": 2,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "obrigatoria",
+            "etapa": 6
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 90,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01358": {
+        "codigo": "MAT01358",
+        "nome": "Introdução à Geometria",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01089": {
+        "codigo": "MAT01089",
+        "nome": "Introdução à Geometria e Relatividade",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 90,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT02021": {
+        "codigo": "MAT02021",
+        "nome": "Introdução à Inferência",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": 3,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "obrigatoria",
+            "etapa": 4
+          }
+        },
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01323": {
+        "codigo": "MAT01323",
+        "nome": "Introdução à Otimização",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 90,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01100": {
+        "codigo": "MAT01100",
+        "nome": "Introdução à Teoria dos Grafos",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [
+          "MAT01075",
+          "MAT01326"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "INT00003": {
+        "codigo": "INT00003",
+        "nome": "Introdução ao Empreendedorismo e Inovação",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 30,
+        "carga_horaria_extensao": 30,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 90,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01305": {
+        "codigo": "MAT01305",
+        "nome": "Introdução aos Princípios Variacionais",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 90,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01331": {
+        "codigo": "MAT01331",
+        "nome": "Introdução às Oscilações Não Lineares",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [
+          "MAT01012"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU03071": {
+        "codigo": "EDU03071",
+        "nome": "Língua Brasileira de Sinais (Libras)",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01016": {
+        "codigo": "MAT01016",
+        "nome": "Matemática de Finanças",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 90,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01121": {
+        "codigo": "MAT01121",
+        "nome": "Matemática e Inovação",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 50,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "ECO02284": {
+        "codigo": "ECO02284",
+        "nome": "Mercado de Capitais",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [
+          "ECO02208"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT02028": {
+        "codigo": "MAT02028",
+        "nome": "Métodos Computacionais em Estatística",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 90,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01324": {
+        "codigo": "MAT01324",
+        "nome": "Métodos Computacionais em Mecânica dos Fluídos",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 90,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT02027": {
+        "codigo": "MAT02027",
+        "nome": "Modelos Lineares",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": 3,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "obrigatoria",
+            "etapa": 6
+          }
+        },
+        "prerequisitos": [
+          "MAT02021"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT02029": {
+        "codigo": "MAT02029",
+        "nome": "Modelos Lineares Generalizados",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": 3,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "obrigatoria",
+            "etapa": 7
+          }
+        },
+        "prerequisitos": [
+          "MAT02027"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "INF05008": {
+        "codigo": "INF05008",
+        "nome": "Pensamento Computacional N",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 90,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT02024": {
+        "codigo": "MAT02024",
+        "nome": "Probabilidade - B",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [
+          "MAT02022"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT02252": {
+        "codigo": "MAT02252",
+        "nome": "Processos Estocásticos",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 90,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01201": {
+        "codigo": "MAT01201",
+        "nome": "Programação Linear",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [
+          "MAT01058",
+          "MAT01093"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "INF05027": {
+        "codigo": "INF05027",
+        "nome": "Projeto e Análise de Algoritmos I",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [
+          "INF01203",
+          "MAT01199",
+          "MAT01326"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "INF05028": {
+        "codigo": "INF05028",
+        "nome": "Projeto e Análise de Algoritmos II",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [
+          "INF05027"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT02048": {
+        "codigo": "MAT02048",
+        "nome": "Redes Neurais e Algoritmos de Aprendizado Profundo",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [
+          "MAT02029"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "EDU03031": {
+        "codigo": "EDU03031",
+        "nome": "Seminário: Educação e Movimentos Sociais",
+        "creditos": 2,
+        "carga_horaria": 30,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01129": {
+        "codigo": "MAT01129",
+        "nome": "Sinais e Wavelets",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [
+          "MAT01012"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01220": {
+        "codigo": "MAT01220",
+        "nome": "Teoria dos Jogos Evolucionários",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [
+          "MAT01009"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "FIS01020": {
+        "codigo": "FIS01020",
+        "nome": "Termodinâmica - B",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [
+          "FIS01183",
+          "MAT01012"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01079": {
+        "codigo": "MAT01079",
+        "nome": "Topologia dos Espaços Métricos",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [
+          "MAT01058"
+        ],
+        "corequisitos": [],
+        "min_credits": 0,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      },
+      "MAT01018": {
+        "codigo": "MAT01018",
+        "nome": "Vibrações Lineares",
+        "creditos": 4,
+        "carga_horaria": 60,
+        "horas_extensao": 0,
+        "carga_horaria_extensao": 0,
+        "etapa_sugerida": null,
+        "tipo": "eletiva",
+        "tipo_padrao": "eletiva",
+        "fdc_especifica": null,
+        "status_fdc": {
+          "1": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "2": {
+            "tipo": "eletiva",
+            "etapa": null
+          },
+          "3": {
+            "tipo": "eletiva",
+            "etapa": null
+          }
+        },
+        "prerequisitos": [],
+        "corequisitos": [],
+        "min_credits": 90,
+        "periodicidade": "ambos",
+        "alternativeOf": null
+      }
+    }
+  }
+};
+var CURRICULUM_DATA = MATEMATICA_CURRICULA.lic_diurno;
+
+if (typeof globalThis !== 'undefined') {
+  globalThis.MATEMATICA_CURRICULA = MATEMATICA_CURRICULA;
+  globalThis.CURRICULUM_DATA = CURRICULUM_DATA;
+}
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = { MATEMATICA_CURRICULA, CURRICULUM_DATA };
+}
