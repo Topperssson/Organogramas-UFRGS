@@ -1,0 +1,1686 @@
+var CURRICULUM_DATA = {
+  "curso": "Engenharia de Minas",
+  "codigo": 321,
+  "habilitacao": 74,
+  "curriculo": 209,
+  "habilitacao_nome": "Engenharia de Minas",
+  "instituicao": "UFRGS",
+  "versao_catalogo": "2026/1",
+  "estatisticas_nominais": {
+    "creditos_obrigatorios": 254,
+    "creditos_eletivos": 6,
+    "creditos_complementares": 6,
+    "creditos_convertidos": 15,
+    "creditos_totais_diplomacao": 281,
+    "carga_horaria_obrigatoria": 4040,
+    "carga_horaria_eletiva": 90,
+    "carga_horaria_total": 4220,
+    "horas_extensao_diplomacao": 422
+  },
+  "disciplinas": {
+    "MAT01353": {
+      "codigo": "MAT01353",
+      "nome": "Cálculo e Geometria Analítica I - A",
+      "creditos": 6,
+      "carga_horaria": 90,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 1,
+      "tipo": "obrigatoria",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ARQ03318": {
+      "codigo": "ARQ03318",
+      "nome": "Desenho Técnico I-A",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 1,
+      "tipo": "obrigatoria",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "FIS01181": {
+      "codigo": "FIS01181",
+      "nome": "Física I-C",
+      "creditos": 6,
+      "carga_horaria": 90,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 1,
+      "tipo": "obrigatoria",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05101": {
+      "codigo": "ENG05101",
+      "nome": "Geologia de Engenharia I",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 1,
+      "tipo": "obrigatoria",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ARQ03317": {
+      "codigo": "ARQ03317",
+      "nome": "Geometria Descritiva II-A",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 1,
+      "tipo": "obrigatoria",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05526": {
+      "codigo": "ENG05526",
+      "nome": "Introdução à Engenharia de Minas",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "horas_extensao": 15,
+      "carga_horaria_extensao": 15,
+      "etapa_sugerida": 1,
+      "tipo": "obrigatoria",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "GEO03021": {
+      "codigo": "GEO03021",
+      "nome": "Mineralogia",
+      "creditos": 6,
+      "carga_horaria": 90,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 1,
+      "tipo": "obrigatoria",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "MAT01355": {
+      "codigo": "MAT01355",
+      "nome": "Álgebra Linear I - A",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 2,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "MAT01353"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "MAT01354": {
+      "codigo": "MAT01354",
+      "nome": "Cálculo e Geometria Analítica II - A",
+      "creditos": 6,
+      "carga_horaria": 90,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 2,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "MAT01353"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ARQ03319": {
+      "codigo": "ARQ03319",
+      "nome": "Desenho Técnico II-A",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 2,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ARQ03317",
+        "ARQ03318"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "FIS01183": {
+      "codigo": "FIS01183",
+      "nome": "Física III-C",
+      "creditos": 6,
+      "carga_horaria": 90,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 2,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "FIS01181",
+        "MAT01353"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05102": {
+      "codigo": "ENG05102",
+      "nome": "Geologia de Engenharia II",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ENG05101"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ARQ03320": {
+      "codigo": "ARQ03320",
+      "nome": "Geometria Descritiva III",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 2,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ARQ03317"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "GEO03037": {
+      "codigo": "GEO03037",
+      "nome": "Petrografia Ígnea",
+      "creditos": 6,
+      "carga_horaria": 90,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 2,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "GEO03021"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "MAT01167": {
+      "codigo": "MAT01167",
+      "nome": "Equações Diferenciais II",
+      "creditos": 6,
+      "carga_horaria": 90,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 3,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "MAT01354",
+        "MAT01355"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "FIS01182": {
+      "codigo": "FIS01182",
+      "nome": "Física Geral - Eletromagnetismo",
+      "creditos": 6,
+      "carga_horaria": 90,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 3,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "FIS01181",
+        "MAT01354"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG01156": {
+      "codigo": "ENG01156",
+      "nome": "Mecânica",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 3,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "FIS01181",
+        "MAT01354"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "GEO03307": {
+      "codigo": "GEO03307",
+      "nome": "Petrologia Sedimentar e Metamórfica II",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 3,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "GEO03037"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "QUI01121": {
+      "codigo": "QUI01121",
+      "nome": "Química Fundamental",
+      "creditos": 6,
+      "carga_horaria": 90,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 3,
+      "tipo": "obrigatoria",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "GEO05501": {
+      "codigo": "GEO05501",
+      "nome": "Topografia I",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 3,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ARQ03318"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "INF01040": {
+      "codigo": "INF01040",
+      "nome": "Introdução à Programação",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 3,
+      "tipo": "obrigatoria",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 50,
+      "periodicidade": "ambos",
+      "alternativeOf": "INF01073"
+    },
+    "INF01073": {
+      "codigo": "INF01073",
+      "nome": "Introdução à Programação - EAD",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 50,
+      "periodicidade": "ambos",
+      "alternativeOf": "INF01040"
+    },
+    "GEO02026": {
+      "codigo": "GEO02026",
+      "nome": "Fundamentos da Geologia Estrutural",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 4,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ARQ03319",
+        "ARQ03320",
+        "GEO03037"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "LET02268": {
+      "codigo": "LET02268",
+      "nome": "Inglês Instrumental I",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG01201": {
+      "codigo": "ENG01201",
+      "nome": "Mecânica Estrutural I",
+      "creditos": 6,
+      "carga_horaria": 90,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 4,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ENG01156"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "GEO03022": {
+      "codigo": "GEO03022",
+      "nome": "Minerais e Rochas Industriais I",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 4,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "GEO03021",
+        "GEO03307"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "GEO03331": {
+      "codigo": "GEO03331",
+      "nome": "Mineralogia dos Minérios",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 4,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "GEO03037"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "QUI01045": {
+      "codigo": "QUI01045",
+      "nome": "Química Analítica Aplicada I - A",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 4,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "QUI01121"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "GEO05518": {
+      "codigo": "GEO05518",
+      "nome": "Topografia de Minas",
+      "creditos": 8,
+      "carga_horaria": 120,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 4,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "GEO05501"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "MAT01169": {
+      "codigo": "MAT01169",
+      "nome": "Cálculo Numérico",
+      "creditos": 6,
+      "carga_horaria": 90,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 5,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "INF01040",
+        "MAT01167"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05002": {
+      "codigo": "ENG05002",
+      "nome": "Depósitos Minerais",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 30,
+      "carga_horaria_extensao": 30,
+      "etapa_sugerida": 5,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "GEO02026",
+        "GEO03307",
+        "GEO03331"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05045": {
+      "codigo": "ENG05045",
+      "nome": "Fundamentos de Mecânica de Rochas",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "horas_extensao": 8,
+      "carga_horaria_extensao": 8,
+      "etapa_sugerida": 5,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ARQ03318",
+        "ARQ03320",
+        "ENG01201",
+        "ENG05101"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH01110": {
+      "codigo": "IPH01110",
+      "nome": "Hidráulica e Hidrologia Aplicada I",
+      "creditos": 6,
+      "carga_horaria": 90,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 5,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ENG01156"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "MAT02219": {
+      "codigo": "MAT02219",
+      "nome": "Probabilidade e Estatística",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 5,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "MAT01353"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "QUI01046": {
+      "codigo": "QUI01046",
+      "nome": "Química Analítica Aplicada II - A",
+      "creditos": 5,
+      "carga_horaria": 75,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 5,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "QUI01045"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ADM01134": {
+      "codigo": "ADM01134",
+      "nome": "Administração e Finanças",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 6,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "MAT02219"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05004": {
+      "codigo": "ENG05004",
+      "nome": "Desmonte de Rocha",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 6,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ENG05002"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ADM01135": {
+      "codigo": "ADM01135",
+      "nome": "Engenharia Econômica e Avaliações",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 6,
+      "tipo": "obrigatoria",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 123,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05023": {
+      "codigo": "ENG05023",
+      "nome": "Geologia de Engenharia Ambiental I",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ENG05101",
+        "ENG05526"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05036": {
+      "codigo": "ENG05036",
+      "nome": "Introdução ao Tratamento de Minérios - A",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "horas_extensao": 5,
+      "carga_horaria_extensao": 5,
+      "etapa_sugerida": 6,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "GEO03331",
+        "MAT01355",
+        "MAT02219"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG03301": {
+      "codigo": "ENG03301",
+      "nome": "Mecânica Aplicada",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 6,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ENG01201"
+      ],
+      "corequisitos": [],
+      "min_credits": 70,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05046": {
+      "codigo": "ENG05046",
+      "nome": "Mecânica de Rochas para Escavações Subterrâneas",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "horas_extensao": 8,
+      "carga_horaria_extensao": 8,
+      "etapa_sugerida": 6,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ENG05045"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG01113": {
+      "codigo": "ENG01113",
+      "nome": "Mecânica dos Solos I",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 6,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ENG01201",
+        "GEO03307"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05528": {
+      "codigo": "ENG05528",
+      "nome": "Métodos de Lavra de Minas",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "horas_extensao": 9,
+      "carga_horaria_extensao": 9,
+      "etapa_sugerida": 6,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ENG05002"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05012": {
+      "codigo": "ENG05012",
+      "nome": "Avaliação de Depósitos - B",
+      "creditos": 5,
+      "carga_horaria": 75,
+      "horas_extensao": 15,
+      "carga_horaria_extensao": 15,
+      "etapa_sugerida": 7,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ENG05002",
+        "MAT01169",
+        "MAT01354",
+        "MAT02219"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05005": {
+      "codigo": "ENG05005",
+      "nome": "Cominuição e Classificação",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 10,
+      "carga_horaria_extensao": 10,
+      "etapa_sugerida": 7,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ENG05002",
+        "ENG05036"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG04058": {
+      "codigo": "ENG04058",
+      "nome": "Eletricidade D",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 7,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "FIS01182",
+        "MAT01354"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05039": {
+      "codigo": "ENG05039",
+      "nome": "Explotação de Depósitos de Óleo e Gás",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ENG05528"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05043": {
+      "codigo": "ENG05043",
+      "nome": "Fundamentos de Segurança em Mineração",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ENG05528"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH01105": {
+      "codigo": "IPH01105",
+      "nome": "Hidrogeologia",
+      "creditos": 5,
+      "carga_horaria": 75,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 7,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "GEO03307",
+        "IPH01110",
+        "QUI01121"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05048": {
+      "codigo": "ENG05048",
+      "nome": "Prática em Engenharia de Minas - A",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 60,
+      "carga_horaria_extensao": 60,
+      "etapa_sugerida": 7,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ADM01135",
+        "ENG05002",
+        "ENG05004",
+        "ENG05036",
+        "ENG05045",
+        "ENG05528"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05007": {
+      "codigo": "ENG05007",
+      "nome": "Lavra a Céu Aberto",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 8,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ENG03301",
+        "ENG05012",
+        "ENG05045",
+        "ENG05528",
+        "INF01040"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG01114": {
+      "codigo": "ENG01114",
+      "nome": "Mecânica dos Solos II",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 8,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ENG01113"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05018": {
+      "codigo": "ENG05018",
+      "nome": "Processos Gravimétricos",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 15,
+      "carga_horaria_extensao": 15,
+      "etapa_sugerida": 8,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ENG05005",
+        "INF01040",
+        "IPH01110"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05037": {
+      "codigo": "ENG05037",
+      "nome": "Processos Hidrometalúrgicos - A",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 30,
+      "carga_horaria_extensao": 30,
+      "etapa_sugerida": 8,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ENG05005"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05011": {
+      "codigo": "ENG05011",
+      "nome": "Prospecção",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 30,
+      "carga_horaria_extensao": 30,
+      "etapa_sugerida": 8,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ENG05002"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05008": {
+      "codigo": "ENG05008",
+      "nome": "Prospecção Geoquímica",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "horas_extensao": 15,
+      "carga_horaria_extensao": 15,
+      "etapa_sugerida": 8,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ENG05002",
+        "MAT02219"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "GEO05038": {
+      "codigo": "GEO05038",
+      "nome": "Sensoriamento Remoto Aplicado à Engenharia",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 8,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ENG05002"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05035": {
+      "codigo": "ENG05035",
+      "nome": "Ventilação de Minas - A",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 5,
+      "carga_horaria_extensao": 5,
+      "etapa_sugerida": 8,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ENG05528",
+        "INF01040"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05019": {
+      "codigo": "ENG05019",
+      "nome": "Depósitos de Óleo, Gás e Carvão",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "horas_extensao": 15,
+      "carga_horaria_extensao": 15,
+      "etapa_sugerida": 9,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "GEO02026",
+        "GEO03307",
+        "GEO03331"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05014": {
+      "codigo": "ENG05014",
+      "nome": "Economia Mineral",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 8,
+      "carga_horaria_extensao": 8,
+      "etapa_sugerida": 9,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ADM01135",
+        "ENG05528"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "IPH02069": {
+      "codigo": "IPH02069",
+      "nome": "Inspeção e Segurança de Barragens",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ENG01113",
+        "IPH01110"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05013": {
+      "codigo": "ENG05013",
+      "nome": "Lavra Subterrânea",
+      "creditos": 5,
+      "carga_horaria": 75,
+      "horas_extensao": 15,
+      "carga_horaria_extensao": 15,
+      "etapa_sugerida": 9,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ENG05012",
+        "ENG05046",
+        "ENG05528"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05533": {
+      "codigo": "ENG05533",
+      "nome": "Mineração e Meio Ambiente",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "horas_extensao": 15,
+      "carga_horaria_extensao": 15,
+      "etapa_sugerida": 9,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ENG05005",
+        "ENG05528"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "GEO02033": {
+      "codigo": "GEO02033",
+      "nome": "Modelagem Numérica Geológica",
+      "creditos": 5,
+      "carga_horaria": 75,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ENG05012"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05041": {
+      "codigo": "ENG05041",
+      "nome": "Prática em Geoestatística",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ENG05012"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05017": {
+      "codigo": "ENG05017",
+      "nome": "Processos de Separação Sólido-Líquido",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 9,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ENG05005",
+        "IPH01110"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05010": {
+      "codigo": "ENG05010",
+      "nome": "Processos Físico-Químicos de Beneficiamento",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 9,
+      "carga_horaria_extensao": 9,
+      "etapa_sugerida": 9,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ENG05005",
+        "QUI01045"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05006": {
+      "codigo": "ENG05006",
+      "nome": "Prospecção Geofísica",
+      "creditos": 5,
+      "carga_horaria": 75,
+      "horas_extensao": 30,
+      "carga_horaria_extensao": 30,
+      "etapa_sugerida": 9,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ENG04058",
+        "ENG05002",
+        "FIS01183"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "MIN99001": {
+      "codigo": "MIN99001",
+      "nome": "Estágio Supervisionado em Engenharia de Minas",
+      "creditos": 0,
+      "carga_horaria": 170,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 10,
+      "tipo": "obrigatoria",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 190,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05049": {
+      "codigo": "ENG05049",
+      "nome": "Extensão em Engenharia de Minas - A",
+      "creditos": 5,
+      "carga_horaria": 75,
+      "horas_extensao": 75,
+      "carga_horaria_extensao": 75,
+      "etapa_sugerida": 10,
+      "tipo": "obrigatoria",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "MIN99002": {
+      "codigo": "MIN99002",
+      "nome": "Projeto de Diplomação - MIN",
+      "creditos": 0,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": 10,
+      "tipo": "obrigatoria",
+      "prerequisitos": [
+        "ENG05005",
+        "ENG05007",
+        "ENG05013",
+        "ENG05014"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05044": {
+      "codigo": "ENG05044",
+      "nome": "Projeto de Minas Subterrâneas",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ENG05013"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG06029": {
+      "codigo": "ENG06029",
+      "nome": "Análise de Imagens para a Metalurgia",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ENG05036"
+      ],
+      "corequisitos": [],
+      "min_credits": 233,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG03052": {
+      "codigo": "ENG03052",
+      "nome": "Análise de Riscos Industriais",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "FIS01182",
+        "MAT01354"
+      ],
+      "corequisitos": [],
+      "min_credits": 135,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05016": {
+      "codigo": "ENG05016",
+      "nome": "Avaliação de Reservatórios de Óleo e Gás",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "MAT02219"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05028": {
+      "codigo": "ENG05028",
+      "nome": "Cartografia do Meio Físico: Análise e Monitoramento Ambiental",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ARQ03319"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG03065": {
+      "codigo": "ENG03065",
+      "nome": "Engenharia de Reatores Nucleares",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ENG03062"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "HUM07464": {
+      "codigo": "HUM07464",
+      "nome": "Estudo de Problemas Brasileiros I",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "HUM07468": {
+      "codigo": "HUM07468",
+      "nome": "Estudos de Problemas Brasileiros II - A",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "HUM07464"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "FIS01045": {
+      "codigo": "FIS01045",
+      "nome": "Física IV - D",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "FIS01183"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "FIS02207": {
+      "codigo": "FIS02207",
+      "nome": "Fundamentos de Astronomia",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "FIS01183"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG03062": {
+      "codigo": "ENG03062",
+      "nome": "Fundamentos de Engenharia Nuclear",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "FIS01182",
+        "MAT01354"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG03050": {
+      "codigo": "ENG03050",
+      "nome": "Fundamentos de Proteção Radiológica",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 60,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG03063": {
+      "codigo": "ENG03063",
+      "nome": "Introdução à Engenharia Nuclear II",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ENG03062"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "EDU03071": {
+      "codigo": "EDU03071",
+      "nome": "Língua Brasileira de Sinais (Libras)",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG03049": {
+      "codigo": "ENG03049",
+      "nome": "Linguagem C para Engenharia",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "INF01040"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05027": {
+      "codigo": "ENG05027",
+      "nome": "Manejo, Aproveitamento e Gestão de Recursos Minerais",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ENG05002"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05026": {
+      "codigo": "ENG05026",
+      "nome": "Monitoramento de Poluição no Solo e Subsolo",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ENG04058",
+        "ENG05002"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05047": {
+      "codigo": "ENG05047",
+      "nome": "Projeto e Operação de Túneis",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ENG05045"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05040": {
+      "codigo": "ENG05040",
+      "nome": "Simulação de Sistemas de Escavação e Transporte em Mina a Céu Aberto",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ENG05528"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG03066": {
+      "codigo": "ENG03066",
+      "nome": "Técnicas e Medidas Nucleares",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ENG03062"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG03064": {
+      "codigo": "ENG03064",
+      "nome": "Teoria dos Reatores Nucleares",
+      "creditos": 4,
+      "carga_horaria": 60,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ENG03062"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05042": {
+      "codigo": "ENG05042",
+      "nome": "Tópicos Especiais em Tratamento de Minérios",
+      "creditos": 3,
+      "carga_horaria": 45,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ENG05010",
+        "ENG05017",
+        "ENG05037"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05038": {
+      "codigo": "ENG05038",
+      "nome": "Tratamento de Efluentes da Mineração",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ENG05010"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    },
+    "ENG05020": {
+      "codigo": "ENG05020",
+      "nome": "Tratamento de Efluentes de Petróleo",
+      "creditos": 2,
+      "carga_horaria": 30,
+      "horas_extensao": 0,
+      "carga_horaria_extensao": 0,
+      "etapa_sugerida": null,
+      "tipo": "eletiva",
+      "prerequisitos": [
+        "ENG05010",
+        "IPH01110",
+        "QUI01045"
+      ],
+      "corequisitos": [],
+      "min_credits": 0,
+      "periodicidade": "ambos",
+      "alternativeOf": null
+    }
+  }
+};
+
+if (typeof globalThis !== 'undefined') {
+  globalThis.CURRICULUM_DATA = CURRICULUM_DATA;
+}
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = { CURRICULUM_DATA };
+}
